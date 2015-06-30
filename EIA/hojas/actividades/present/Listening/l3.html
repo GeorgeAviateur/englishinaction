@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        
+        <title>English In Action!</title>
+        <link rel="stylesheet" href="../../tipo.css"/>
+		<script type="application/javascript" src="../../acciones.js"></script>
+		<script type="application/javascript" src="js/act3/actividad3.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="application/javascript" src="js/act3/audio2.js"></script>
+		<link rel="stylesheet" href="css/act3/acti1.css"/>
+		<link rel="stylesheet" href="../../responsiveenglish.css"/>
+        
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        
+		<script type="text/javascript">
+
+ 
+			$(document).ready(function(){
+			$("#menuForAll" ).slideToggle(0);
+				var devuelve=22;
+					$("#clickOnMe").click(function(){
+						$("#menuForAll" ).slideToggle(1000);
+					});
+					
+			});
+		</script>
+
+			
+	</head>
+    
+	<body onload="readme(23000),cerrar()">
+        	<div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+		
+			<section id="activities">
+
+			<nav id="menuForAll">
+			<div id="logoMenu">
+				<a href="../../../../index.html"><img src="../../../imagenes/ingles.png"></a>
+			</div>
+			
+			
+			<ul>
+				<a href="../../../menu/selection/selection.html"><li>Main Menu</li></a>
+				<a href="../../../cont/cont.html"><li>Context Information</li></a>
+				<a href="../../../mmenu/sitemap.html"><li>Site Map</li></a>
+				<a href=""><li>Library</li></a>
+				<a href=""><li>Vocabulary</li></a>
+				<a href="../../../credits/staff.html"><li>Staff</li></a>
+			</ul> 
+		</nav>
+				<header>		
+					<div id="logo"><img  src="../../../imagenes/ingles.png" width="80px" height="80px"/></div>
+					<div id="udec"> <img src="../../../imagenes/logoudec.png"/></div>
+					<div id="title" class="slideDown"><img src="../../../imagenes/avisos/sarahabits.png"/></div>
+				</header>
+			 
+		
+	
+				<div id="informa">
+					<section id="manito">
+							<img id="hand2" class="hand" src="../../../imagenes/avisos/hand.png"/>
+							<img id="hand1" class="hand" src="../../../imagenes/avisos/hand.png"/>
+					</section>
+					
+					<section id="info">
+								<img  style="cursor: pointer" id="alumbraobj" onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob()" src="../../../imagenes/botones/objetivo.png"/>
+								<img  style="cursor: pointer" id="alumbrains" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins()" src="../../../imagenes/botones/instruccion.png"/>
+					</section>
+					
+					<section id="txt"><div id="objetivos"><h5>To help develop listening skills for specific
+						information.</h5></div>
+						<div id="instruccion"><h5>Read and Listen to Sarah talking about her healthy habits. There are some words missing in the text. Choose the correct word according to what you have listened to. 
+						You have only two opportunities to answer</h5></div>
+						
+					</section>
+			
+				</div>	
+							
+					<div id="georgeRules"></div>
+		<div id="advertisment">
+				<img id="plane" src = "../../../imagenes/avisos/listenCarefully.png"/>
+		</div>			
+
+
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~AQUI PONDREMOS EL CONTENIDO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+				
+			<article id="r1">
+				<form id="formita">
+					<section id="blanco">
+					
+					<h2 id="corr2">Your Answers</h2>
+						<div id="fragmento">
+							<h6><p>
+							My healthy habits<br>
+Hi my name is Sarah and I’m 20 years old.  I want to
+								<select id="cid1">
+									<option value="0">--   --</option>
+									<option value="1">Talk</option>
+									<option value="2">Walk</option>
+									<option value="3">Tall</option>        
+								</select>
+								about what I like to do to 
+								<select id="cid2">
+									<option value="0">--   --</option>
+									<option value="1">Stay</option>
+									<option value="2">See</option>
+									<option value="3">Keep</option>        
+								</select> 
+								fit. Every morning I like to go
+								<select id="cid3">
+									<option value="0">--   --</option>
+									<option value="1">Walking</option>
+									<option value="2">Jogging</option>
+									<option value="3">Singing</option>        
+								</select> 
+								for 30 minutes.  After that, I like to do some
+
+								<select id="cid4">
+									<option value="0">--   --</option>
+									<option value="1">Abs</option>
+									<option value="2">Dance</option>
+									<option value="3">Jump</option>        
+								</select>  
+								 and
+								<select id="cid5">
+									<option value="0">--   --</option>
+									<option value="1">Sit Down</option>
+									<option value="2">Stand Up</option>
+									<option value="3">Sit-Ups</option>        
+								</select>
+								 . Then, I  have a
+								<select id="cid6">
+									<option value="0">--   --</option>
+									<option value="1">Unhealthy</option>
+									<option value="2">Healthy</option>
+									<option value="3">Helpful</option>        
+										
+							</select> 
+							breakfast; I like to eat fruits, cereal and diet yogurt.  
+							I don’t like to drink coffee or 
+							<select id="cid7">
+										<option value="0">
+										--   --
+											</option>
+											
+											<option value="1">
+											Dark
+											</option>
+											
+											<option value="2">
+											Light
+											</option>
+											
+											<option value="3">
+											Diet
+											</option>        
+										
+							</select> 
+							drinks because they are bad for my health. For lunch I like to eat
+							<select id="cid8">
+										<option value="0">
+										--   --
+											</option>
+											
+											<option value="1">
+											Potatoes
+											</option>
+											
+											<option value="2">
+											Beverages
+											</option>
+											
+											<option value="3">
+											Vegetables
+											</option>        
+										
+							</select>  
+							and meat or fish. I also like to drink lots of
+							<select id="cid9">
+										<option value="0">
+										--   --
+											</option>
+											
+											<option value="1">
+											Juice	
+											</option>
+											
+											<option value="2">
+											Water
+											</option>
+											
+											<option value="3">
+											Soup
+											</option>        
+										
+							</select> 
+							
+
+								<br>At night I like to eat something light, I take a glass of juice and some crackers and I love
+		
+							<select id="cid10">
+										<option value="0">
+										--   --
+											</option>
+											
+											<option value="1">
+											Swimming
+											</option>
+											
+											<option value="2">
+											Sleeping
+											</option>
+											
+											<option value="3">
+											Seeing
+											</option>        
+										
+							</select>
+							; I sleep for 8 hours, as recommended by doctors.
+							Well that’s all I do to keep fit and healthy.  I hope you find this tips helpful.
+						</p></h6>
+						</div>
+						<img id="imageart" src="../../images/list/17.png" />
+
+					</section>	
+
+
+				
+
+
+				</form>
+<div id="audio1">
+					<img class="tossing" src="../../../imagenes/botones/mini3.png" id="reproducir"/>
+							<img src="../../../imagenes/botones/player2.png" id="reproducir2"/>
+							
+							<audio controls preload="none" id="radio">
+								<source src="../../audios/texto/listening/aprl3_02.mp3" type="audio/mpeg" />
+								<p>Tu navegador no implementa el elemento audio.</p>
+							</audio>
+					</div>
+					
+					<nav id="perendengues1" class="perendengues"  >
+				<input id="primero" class="butuncitus" type="checkbox" name="transporte" value="1"></input>
+				<input id="segundo" class="butuncitus" type="checkbox" name="transporte" value="2"></input>
+				<input id="tercero" class="butuncitus" type="checkbox" name="transporte" value="3"></input>
+				</nav>
+
+
+
+				
+				<section id="blanco" class="sol" style="display:none;">
+				
+					<h2 id="corr">Correct Answer</h2>
+						<div id="correc">
+						<h9 >
+							<p>	Hi my name is Sarah and I’m 20 years old.  I want to  <b>Talk</b> about what I like to do to <b>Stay</b>fit. Every morning I like to go  <b>Jogging</b> for 30 minutes.  After that, I like to do some <b>abs</b> and <b>Sit - ups</b>. Then, I  have a <b>Healthy</b> breakfast; I like to eat fruits, cereal and low fat yogurt.  I don’t like to drink coffee or <b>Dark</b> drinks because they are bad for my health. For lunch I like to eat <b>Vegetables</b> and meat or fish. I also like to drink lots of <b>Water</b>.<br>
+
+							At night I like to eat something light, I drink a glass of juice and some crackers and I love<b>Sleeping</b>; I sleep for 8 hours, as recommended by doctors.
+
+							Well that’s all I do to stay fit and healthy.  I hope you find this tips helpful.
+
+
+							
+							</p>
+						</h9>
+						</div>
+							
+				</section>
+				
+				
+			</article>
+			
+			
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~AQUI PONDREMOS LAS RESPUESTAS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			
+			
+			
+		<audio controls preload="none" id="bien">
+					<source src="../../audios/feedback/well done.mp3" type="audio/mpeg" />
+					
+					<p>Tu navegador no implementa el elemento audio.</p>
+				</audio>
+					
+			
+				<audio controls preload="none" id="mal0">
+					<source src="../../audios/feedback/can%20do%20b.mp3" type="audio/mpeg"  type="audio/mpeg" />
+					<p>Tu navegador no implementa el elemento audio.</p>
+				</audio>
+			
+				
+				<audio controls preload="none" id="instruyeme">
+						<source src="../../audios/instrucciones/listening/instrucciona_acti3.mp3" type="audio/mpeg" />
+						
+					</audio>
+					
+
+			
+			<audio controls preload="none" id="retrowell">
+						<source src="../../audios/feedback/congratulation.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					<audio controls preload="none" id="retrobad">
+						<source src="../../audios/feedback/can%20do%20b.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+			
+			
+					
+							
+	
+				<div id="review">
+				
+										<label for="cuatro">		FINAL SCORE	</label>
+										<span>
+										<img  id="right" src="../../../imagenes/right.png" />
+										
+										</span>
+										<span>
+										<img  id="wrong" src="../../../imagenes/wrong.png" />
+										</span>
+										
+										
+										<h5><p id="result"> </p></h5>
+				</div>
+			
+	
+					
+		
+			<footer>
+			
+	<nav id="navegacion">
+
+
+
+			<nav class="sig" id="sig" onClick="revisar()" style="cursor: pointer"><img src="../../../imagenes/botones/check.png"/></nav>
+			<nav class="prev" style="cursor: pointer" onClick="volver(3)"><img src="../../../imagenes/botones/prev.png"/></nav>
+			<nav class="sig2" onClick="siguiente()" style="cursor: pointer"><img src="../../../imagenes/botones/nex.png"/></nav>
+			
+			<a href="l4.html" ><nav class="final"><img src="../../../imagenes/botones/continue.png"/></nav></a>
+	
+	</nav>
+	
+	
+	
+			<span id="references">Likes and Dislikes: Listening - Activity 3
+										
+			<nav id="clickOnMe" class="nav-esquina" role="navigation">
+			<!-- Right Control -->
+			<i class="fa fa-th fa-2x"></i>
+		</nav>
+				</span>
+			
+			
+			</footer>
+			</section>
+    
+	</body>
+	
+</html>

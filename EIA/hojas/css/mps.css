@@ -1,0 +1,224 @@
+/* _lcid="3082" _version="14.0.4762"
+_LocalBinding */
+body,form{
+margin:0;
+}
+
+
+html{
+min-height:100%;
+}
+body{
+font-family:Verdana,Arial,sans-serif;
+font-size:9pt;
+/* [ReplaceColor(themeColor:"Dark2-Darker")] */ color:#676767;
+/* [ReplaceColor(themeColor:"Light1")] */ background-color:#fff;
+margin:0px;
+padding:0px;
+}
+
+
+ 
+
+a:link{
+    font-size:11pt;
+    padding: 1px 3px;
+    text-decoration: none;
+    border-radius: 3px;
+
+}
+
+
+ a:hover { background: #ccc; 
+ text-shadow: 2px 2px 2px #aaa;
+ font-size:12pt;
+}
+
+html body
+{
+  background-color:#fff;
+  /* [ReplaceFont(themeFont: "MinorFont")] */
+  font-family: "Trebuchet MS","Times New Roman", Times, serif; 
+}
+.separacionColor
+{
+    width: 100%;
+}
+
+.separacionColor .gris
+{
+    border-top: 1px solid rgb(120,120,120); /* padding-bottom:10px; */
+}
+
+.separacionColor .azul
+{
+    width: 40px;
+    height: 5px;
+    border-top: 4px solid rgb(70,130,180);
+}
+
+.separacionColor .gris2
+{
+    width: 0%;
+    text-align: left;
+    border-top: 1px solid rgb(33,33,33);
+    padding-bottom: 15px;
+}
+
+
+.s4-wpcell .s4-wpTopTable{
+border:1px solid transparent;
+}
+.s4-wpcell-plain .s4-wpTopTable{
+border:none;
+}
+
+.mapaSecundaria
+{
+    color: rgb(70,130,180);
+    
+    list-style-type:none;
+    list-style-image:none;
+    margin-bottom:5px;
+    margin-top:5px;
+    
+    line-height: 15px;
+}
+
+#nivel1
+{
+ 
+    
+    line-height: 15px;
+}
+
+
+#nivel2
+{
+    
+    line-height: 16px;
+}
+#nivel3
+{
+    
+    line-height: 9px;
+}
+
+#nivel4
+{
+   
+    line-height: 9px;
+}
+
+.nivel5
+{
+   
+    line-height: 9px;
+}
+#nivel5
+{
+   
+    line-height: 16px;
+}
+#nivel6
+{
+    text-decoration: none;
+    line-height: 16px;
+}
+#abi{
+  color: blue;
+  text-decoration: underline;
+}
+#par{
+ 
+  text-decoration: underline;
+  
+    
+    line-height: 0px;
+}
+
+
+#boton1{
+
+    text-align: center;
+    position:absolute;
+        top: 55px;
+        left: 155px;
+        width:15px;
+        border: 0px;
+        background-color: white;
+
+}
+
+#boton2{
+    
+    text-align: center;
+    position:absolute;
+        top: 70px;
+        left: 280px;
+        width:15px;
+        border: 0px;
+        background-color: white;
+
+}
+#boton2{
+    
+    text-align: center;
+    position:absolute;
+        top: 70px;
+        left: 290px;
+        width:15px;
+        border: 0px;
+        background-color: white;
+
+}
+
+#boton3{
+    
+    text-align: center;
+    position:absolute;
+        top: 88px;
+        left: 290px;
+        width:15px;
+        border: 0px;
+        background-color: white;
+
+}
+
+
+.p{
+   
+    line-height: 2px;
+}
+
+
+
+
+.ul
+{
+    color: rgb(70,130,180);
+    
+    list-style-type:none;
+    list-style-image:none;
+    margin-bottom:5px;
+    margin-top:5px;
+    
+    line-height: 8px;
+}
+
+.mapaSecundaria a:link, .mapaSecundaria a:visited
+{  
+     color: rgb(70,130,180);
+}
+
+.titulo{
+
+}
+
+
+
+
+
+
+
+

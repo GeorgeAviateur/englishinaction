@@ -1,0 +1,179 @@
+html{width:100%;
+height:100%;
+margin:0;}
+body{
+    background: rgb(66,170,125); 
+    background: #2d7656;
+    text-align:center;
+    width:100%;
+    height:100%;
+    margin:0;
+}
+
+
+audio{display:none;}
+section{
+
+
+  margin:0 auto;
+  
+	
+	width:100%;
+	height:100%;
+}
+
+
+
+#loadMe{cursor:pointer;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;box-shadow:inset yellow 0px 0px 14px;background-position:center;background-size:100%;background-color:#111111;width:100%;color:#fff;text-align:center;height:100%;z-index:100;position: fixed;top:0;left:0;
+}
+#loadMe h1{top:50%;}
+
+
+@keyframes titulo {
+from {
+background-position: 0%;
+}
+
+to {
+background-position: 120.1% 0%;
+}
+}
+
+@-ms-keyframes titulo {
+from {
+background-position: 0%;
+}
+
+to {
+background-position: 120.1% 0%;
+}
+}
+
+@-o-keyframes titulo {
+from {
+background-position: 0%;
+}
+
+to {
+background-position: 120.1% 0%;
+}
+}
+
+@-webkit-keyframes titulo {
+from {
+background-position: 0%;
+}
+
+to {
+background-position: 120.1% 0%;
+}
+}
+
+@-moz-keyframes titulo {
+from {
+background-position: 0%;
+}
+
+to {
+background-position: 120.1% 0%;
+}
+}
+
+.recorte {
+	width: 538px;
+	height:515px;
+	background: url("../animate.jpg")no-repeat;
+	background-position: 100% 0%;
+	background-size: cover;
+	
+	-ms-animation: titulo 1.2s steps(6, end);
+	-webkit-animation: titulo 1.2s steps(6, end);
+	-moz-animation: titulo 1.2s steps(6, end);
+	-o-animation: titulo 1.2s steps(6, end);
+	animation: titulo 1.2s steps(6, end);
+	
+	
+	margin:0 auto;
+	text-align:center;
+	
+	position:relative;
+	}
+@media only screen and (max-width: 530px)and (min-width:250px) {
+.recorte {
+	width: 220px;
+	height:200px;
+	margin-bottom:20px;
+    
+	}
+body{overflow:hidden;}
+
+}
+
+@media only screen and (max-width: 250px) {
+.recorte {
+	width: 150px;
+	height:150px;
+	margin-bottom:20px;
+    
+	}
+body{overflow:hidden;}
+
+}
+
+@media only screen and (max-height: 520px) {
+.recorte {
+	width: 220px;
+	height:200px;
+	margin-bottom:20px;
+    
+	}
+body{overflow:hidden;}
+
+.classname img {
+	display:inline-block;
+	width:90px;
+	min-width:90px;
+	position:relative;
+	margin:-50px 0 0 0;
+}
+    
+}
+
+
+
+
+
+
+
+div{
+	text-align:center;
+	margin:0 auto;
+	position:relative;
+	}
+
+.classname {
+	display:inline-block;
+	width:24%;
+	min-width:90px;
+	position:relative;
+	margin:-50px 0 0 0;
+}
+
+.classname img{
+	max-width:100%;
+    
+	height: auto;
+	width: auto\9;
+    
+	}
+
+
+.classname:hover {
+	
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+
+
+

@@ -1,0 +1,132 @@
+/*html {
+   -webkit-text-size-adjust: none;
+}
+
+
+@media only screen and (min-width: 268px) and (max-width: 459px) {
+	header, footer, .featured, input[value="Qualify"], input[value=""] {
+		width:460px;
+	}
+}
+
+@media only screen and (max-width: 467px) {
+	header, footer, .featured, input[value="Qualify"], input[value=""]{
+		width:100%;
+	}
+	header {
+		margin-top: 0px;
+		height:30px;
+	}
+	
+	#content{background-color:#ffffff;
+	}
+	header nav {
+		top:5px; right: 5px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 479px) {
+	header{height: 30px;
+	}
+	
+
+input[value="Qualify"] {
+		
+		 top:32px; 
+		bottom: 7px; 
+		left:7px; 
+	}
+}*/
+
+
+
+html {
+   -webkit-text-size-adjust: none;
+}
+
+
+@media only screen and (min-width: 268px) and (max-width: 659px) {
+	header, footer, .featured, input[value="Qualify"], input[value=""] {
+		width:460px;
+	}
+	input[value=""]{
+		width:60%;
+	}
+	input[value="Qualify"]{
+		width:20%;
+	}
+
+}
+
+@media only screen and (max-width: 667px) {
+	header, footer, .featured, input[value="Qualify"], input[value=""]{
+		width:100%;
+	}
+input[value=""]{
+		width:60%;
+	}
+	input[value="Qualify"]{
+		width:20%;
+	}
+
+
+	header {
+		margin-top: 15px;
+		height:30px;
+	}
+	
+	#content{background-color:#ffffff;
+	}
+	header nav {
+		top:5px; right: 5px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+input[value=""]{
+		width:60%;
+	}
+	input[value="Qualify"]{
+		width:20%;
+	}
+
+
+}
+
+@media only screen and (max-width: 479px) {
+	header{
+		margin-top: 15px;
+		height: 30px;
+	}
+	
+	input[value=""]{
+		width:60%;
+	}
+	input[value="Qualify"]{
+		width:20%;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+.container {
+margin: 0 auto;
+position: relative;
+/*width: 1000px;*/
+font-size:.8125em;
+}
+
+#myRoundabout{
+
+		
+list-style-type: none;
+}
+#gallery {
+
+overflow:hidden;
+
+}
+
+	
+.container img{
+background-color:gray;
+}
+
+
+/*===== gallery =====*/
+.roundabout-holder  { 
+width:303px;
+height:200px;
+margin:0 auto;
+}
+.roundabout-moveable-item {
+width: 303px; /*346*/
+height: 181px;/*216*/
+cursor: pointer;
+border:3px solid #ccc;
+border:3px solid rgba(0, 0, 0, 0.08);
+border-radius:4px;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+}
+.roundabout-moveable-item img{
+width:100%;
+}
+.roundabout-in-focus {
+border:3px solid rgba(0, 0, 0, 0.2);
+}
+
+
+	

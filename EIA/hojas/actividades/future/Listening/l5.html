@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <!--[if lte IE 8]><meta http-equiv="X-UA-Compatible" content="chrome=1"/><![endif]-->
+        <title>English In Action!</title>
+        <!-- Llamamos nuestro archivo JavaScript -->
+        <script type="application/javascript" src="../../../js/jquery.min.js"></script>
+		<script type="application/javascript" src="../../acciones.js"></script>
+        <link rel="stylesheet" type="text/css" href="../../../css/default.css">
+        <link rel="stylesheet" href="../../tipo.css"/>
+		
+		
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		 
+  
+  
+    
+		<script type="application/javascript" src="js/act5/actividad5.js"></script>
+		<script type="application/javascript" src="js/act5/audio.js"></script>
+		<link rel="stylesheet" href="../../present/Listening/css/act5/acti5.css"/>
+		<link rel="stylesheet" href="../../present/Listening/css/styleperen.css"/>
+
+		
+		
+		<script type="text/javascript">
+			// IE Evitar seleccion de texto
+			document.onselectstart=function(){
+			if (event.srcElement.type != "text" && event.srcElement.type != "textarea" && event.srcElement.type != "password")
+			return false
+			else return true;
+			};
+			// FIREFOX Evitar seleccion de texto
+			if (window.sidebar){
+			document.onmousedown=function(e){
+			var obj=e.target;
+			if (obj.tagName.toUpperCase() == "INPUT" || obj.tagName.toUpperCase() == "TEXTAREA" || obj.tagName.toUpperCase() == "PASSWORD")
+			return true;
+			/*else if (obj.tagName=="BUTTON"){
+			return true;
+			}*/
+			else
+				return false;
+				}
+			}
+		
+    
+ function closebuscador(){
+                  $("#buscador").hide("slow");
+                  $(".modal-window").css('left','45%');
+                  $(".modal-window").css('top','45%');
+                  $(".modal-window").css('right','45%');
+                  $(".modal-window").css('bottom','45%');
+              }
+            
+		</script>		
+		
+	</head>
+    <body onload="readme(28700),cerrar()">
+        <div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+		<div id="buscador">
+              <iframe scrolling='no' id="buscadorsino" src="../../../cosino/" name="buscadorsino" height="100%" width="100%" frameborder="0">
+              </iframe>
+        </div>
+		<section id="activities">
+		
+			<nav id="menuForAll">
+			<div id="logoMenu">
+				<a href="../../../../index.html"><img src="../../../imagenes/ingles.png"></a>
+			</div>
+			
+			
+			<ul>
+				<a href="../../../menu/selection/selection.html"><li>Main Menu</li></a>
+				<a href="../../../cont/cont.html"><li>Context Information</li></a>
+				<a href="../../../mmenu/sitemap.html"><li>Site Map</li></a>
+				<a href="../../../biblioteca/biblioteca.html"><li>Library</li></a>
+				<li><a  id="bucadorito" href="#Vocabulary">Vocabulary</a></li>
+				<a href="../../../references/refe.html"><li>References</li></a>
+                <a href="../../../credits/staff.html"><li>Staff</li></a>
+			</ul> 
+		</nav>
+		<header>
+			<div id="logo"><img  src="../../../imagenes/ingles.png" width="80px" height="80px"/></div>
+			<div id="title" class="slideDown" class="slideDown"><img src="../../../imagenes/avisos/teenagers.png"/></div>
+			<div id="udec"> <img src="../../../imagenes/logoudec.png"/></div>
+		</header>
+		
+		<div id="informa">
+					<section id="manito">
+							<img id="hand2" class="hand" src="../../../imagenes/avisos/hand.png"/>
+							<img id="hand1" class="hand" src="../../../imagenes/avisos/hand.png"/>
+					</section>
+					
+					<section id="info">
+								<img class="alumbraobj" id="alumbraobj" style="cursor: pointer"onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob()" src="../../../imagenes/botones/objetivo.png"/>
+								<img class="alumbrains" id="alumbraobj"  style="cursor: pointer" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins()" src="../../../imagenes/botones/instruccion.png"/>
+					</section>
+					
+					<section id="txt">
+					<div id="objetivos"><h5>To help develop listening skills for specific
+						information.</h5></div>
+						<div id="instruccion">	<h5>Listen to the conversation. Then answer the questions; Choose a, b or c and press “NEXT” to continue. You can listen to the audio three times but you have just one opportunity to answer. You should take notes.
+												</h5>
+						</div>
+						
+					</section>
+					
+					
+					<div id="georgeRules"></div>
+			
+		</div>
+			<div id="advertisment">
+				<img id="plane" src = "../../../imagenes/avisos/listenCarefully.png"/>
+		</div>
+
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~AQUI PONDREMOS EL CONTENIDO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+				
+		<article id="r1">
+			<section id="blanco">
+				<div id="audio1">
+					<img class="tossing" src="../../../imagenes/botones/3.png" id="reproducir"/>
+					<img src="../../../imagenes/botones/31.png" id="reproducir2"/>
+					
+					<audio controls preload="none" id="radio">
+						<source src="audios/a5/dialogo.mp3" type="audio/mpeg" />
+						<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+				</div>
+					
+						<div class="cb-styles clearfix">
+	
+			
+			<table class="perendengues">
+				<tr>
+				<input type="checkbox" id="primero" class="css-checkbox" checked="checked"/>
+				<label for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+					
+				</tr>
+				<tr>
+				<input type="checkbox" class="css-checkbox" id="segundo" checked="checked" />
+				<label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+					
+				</tr>
+				<tr>
+				<input type="checkbox" id="tercero" class="css-checkbox" checked="checked"/>
+				<label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>	
+				</tr>
+			</table>
+			
+			
+</div>
+			
+			</section>
+		</article>
+			
+			
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~AQUI PONDREMOS LAS PREGUNTAS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<section id="void">
+		<div id="q1">
+			
+			<label for="uno">		1.	Who is Nancy going to the bar with?				</label>
+			<div id="esto" class="negar" onClick="erronea(0)" style="cursor: pointer"><h2 class="ans">A.	She was at the market</h2></div>
+			<div id="es" class="acertar" onClick="correcta(0)" style="cursor: pointer"><h2 class="ans">B.	She is going to the cinema with Charlie and Thomas</h2></div>
+			<div id="udec1" class="negar" onClick="erronea(0)" style="cursor: pointer"><h2 class="ans">C.	She was at home.</h2></div>
+		</div>
+					
+		<div id="q2">
+			<label for="dos">		2.	When are they going to the bar?</label>
+			<div id="esto2" class="negar" onClick="erronea(1)" style="cursor: pointer"><h2 class="ans">A.	They are going on Friday night.</h2></div>
+			<div id="es2" class="negar" onClick="erronea(1)" style="cursor: pointer"><h2 class="ans">B.	They are going on Thursday night.</h2></div>
+			<div id="udec2" class="acertar" onClick="correcta(1)" style="cursor: pointer"><h2 class="ans">C.	They are going on Saturday night.</h2></div>	
+		</div>
+					
+					
+		<div id="q3">
+			<label for="tres">		3.	What time are they going to meet?	</label>
+			<div id="esto3" class="acertar" onClick="correcta(2)" style="cursor: pointer"><h2 class="ans">A.	They are going to meet at 8:30 p.m.</h2></div>
+			<div id="es3" class="negar"  onClick="erronea(2)" style="cursor: pointer"><h2 class="ans">B.	They are going to meet at 7:30 p.m</h2></div>
+			<div id="udec3" class="negar"  onClick="erronea(2)" style="cursor: pointer"><h2 class="ans">C.	They are going to meet at 9:30 p.m.</h2></div>
+		</div>
+			<div id="q4">
+			<label for="cuatro">		4.	What’s the bar's name?	</label>
+			<div id="esto4" class="acertar" onClick="correcta(3)" style="cursor: pointer"><h2 class="ans">A.	Bahia bar.</h2></div>
+			<div id="es4" class="negar"  onClick="erronea(3)" style="cursor: pointer"><h2 class="ans">B.  Toni's</h2></div>
+			<div id="udec4" class="negar"  onClick="erronea(3)" style="cursor: pointer"><h2 class="ans">C.	“Charlie's.</h2></div>
+		</div>
+			
+
+		</section>
+					
+		<div id="review">
+				<label for="seis">		FINAL SCORE	</label>	
+				<span>	<img  id="right" src="../../../imagenes/right.png" />	</span>
+				<span>	<img  id="wrong" src="../../../imagenes/wrong.png" />	</span>
+										<h5><p id="result"> </p></h5>
+		</div>
+					
+		
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~AQUI PONDREMOS LAS RESPUESTAS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			
+			
+			<audio src="audios/a5/p1.mp3" id="au1"></audio>
+			<audio src="audios/a5/p2.mp3" id="au2"></audio>
+			<audio src="audios/a5/p3.mp3" id="au3"></audio>
+			<audio src="audios/a5/p4.mp3" id="au4"></audio>
+			<audio src="audios/a5/p5.mp3" id="au5"></audio>
+		
+			
+					<audio controls preload="none" id="bien">
+						<source src="../../audios/feedback/well done.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+
+
+					<audio controls preload="none" id="mal0">
+					<source src="../../audios/respuestas/listening/act5/p1.mp3" type="audio/mpeg" />
+						
+						<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+						
+					<audio controls preload="none" id="mal1">
+						<source src="../../audios/respuestas/listening/act5/p2.mp3" type="audio/mpeg" />
+						
+						<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+						
+					<audio controls preload="none" id="mal2">
+						<source src="../../audios/respuestas/listening/act5/p3.mp3" type="audio/mpeg" />
+						<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+
+					<audio controls preload="none" id="mal3">
+						<source src="../../audios/respuestas/listening/act5/p4.mp3" type="audio/mpeg" />
+						<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+
+					<audio controls preload="none" id="mal4">
+						<source src="../../audios/respuestas/listening/act5/p5.mp3" type="audio/mpeg" />
+						<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>	
+
+					
+
+			
+									
+					<audio controls preload="none" id="instruyeme">
+						<source src="audios/a5/instruccion5.mp3" type="audio/mpeg" />
+					
+					</audio>
+					
+
+					
+					<audio controls preload="none" id="retrowell">
+						<source src="../../audios/feedback/congratulation.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					<audio controls preload="none" id="retrobad">
+						<source src="../../audios/feedback/can%20do%20b.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					
+					<audio controls preload="none" id="thecorrect">
+						<source src="../../audios/feedback/the%20correct.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+
+			
+			
+			
+			
+			<footer>
+			<nav id="navegacion">
+				<nav class="sig" id="sig" onClick="pregunta()" style="cursor: pointer"><img src="../../../imagenes/botones/nex.png"/></nav>
+				<nav class="prev" style="cursor: pointer" onClick="volver(0)"><img src="../../../imagenes/botones/prev.png"/></nav>
+			
+				
+			
+				<nav class="final"><a href="l6.html" ><img src="../../../imagenes/botones/continue.png"/></a></nav>
+			</nav>
+			
+			
+			<span id="references">Making plans and Predictions: Listening - Activity 5
+										
+		<nav id="clickOnMe" class="nav-esquina" role="navigation">
+			<!-- Right Control -->
+			<i class="fa fa-th fa-2x"></i>
+		</nav>
+				</span>
+			
+			</footer>
+	</section>
+			
+		
+				
+	
+	
+	
+	
+			
+			
+			
+			
+
+    </body>
+</html>

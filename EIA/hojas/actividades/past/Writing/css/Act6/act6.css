@@ -1,0 +1,24 @@
+#blanco1,#blanco2{
+background-size:75% 100%;
+}
+#manitu{
+top:20%;
+left: 22%;
+z-index: 4;
+position: absolute;
+width: 10%;
+}
+#entrada5,#entrada6,#entrada2,#entrada3{
+width: 83%;
+}
+#contenedor{
+margin-top:30px;
+/*top: 25px;*/
+left: 1%;
+width: 50%;
+}
+@media only screen and (max-width: 1350px) {
+	#manitu{
+	display: none;
+	}
+}

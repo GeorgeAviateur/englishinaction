@@ -1,0 +1,169 @@
+.slideshow {
+	height: 181px;
+	max-width: 303px;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	}
+
+#r1{
+	visibility: hidden;
+}
+
+
+#paraMostrar{display:none;}
+#paraMostrar img{display:none;}
+
+#labelito{width:100%;}
+
+#reproducir{
+visibility:hidden;
+position: relative;
+}
+
+#reproducir2{
+visibility:hidden;
+position: relative;
+
+
+}
+
+
+#Aimagen1, #Aimagen2, #Aimagen3, #Aimagen4, #Aimagen5, #Aimagen6, #Aimagen7{
+		
+
+	margin-top:20px;
+	 border:6px solid green;
+	 border-radius: 9px;
+	  box-shadow:4px 4px 4px black;
+
+}
+
+#collage{
+	display:inline-block;
+	width:60%;
+	position:relative;
+	margin-top:2%;
+	}
+
+
+
+
+.slideshow img {
+    cursor: pointer;
+	border: 4px solid #eee;
+	display:inline-block;
+	background-color: #eee;
+
+	margin:0 auto;
+	text-align:center;
+	}
+
+.nav{
+	height:100%;
+	width:5%;
+	
+	display:inline-block;
+	margin: 0;
+	vertical-align:top;
+	}
+.nav a{
+	background:#eee;
+	vertical-align:center;
+	top:30%;
+	display:inline-block;
+	position:relative;
+	width:100%;
+	height:40%;
+	border-radius:12px;
+	}
+.nav a:hover{
+	background:rgba(0,0,0,.2);
+	
+	}
+.nav img{
+	vertical-align:center;
+	display:inline-block;
+	position:relative;
+	top:40%;
+}
+#previous img {
+transform:rotate(180deg);
+margin-top: 40%;
+}
+
+#previous {
+
+margin-top: 80%;
+}
+
+#next img {
+
+margin-top: 40%;
+}
+#next {
+
+margin-top: 80%;
+}
+
+
+#contenedorContadores{
+	margin: 1% 0 0 48%;
+	}
+
+.contadores{
+	display: block;
+	margin-left: 1%;
+	}
+
+#contadorMal{
+	margin: -3% 0 0 7%;
+	}
+
+.peren1, .peren2{
+	display: none;
+}
+
+#perendengues1,#perendengues2, #perendengues3, #perendengues4, #perendengues5, #perendengues6, #perendengues7{
+	display: none;
+	
+	text-align: center;
+}
+
+
+.perendengues{
+	
+	position: relative;
+	
+	
+	text-align: center; 
+	display:block;
+}
+#rep{
+	width: 100%;
+	height: 72%;
+	
+	margin: 0 auto; 
+	text-align: center; 
+	display:block;
+}
+#audiesillos{
+width:40%;
+height:100%;
+display:block;
+margin: 0 auto; 
+}
+
+
+
+
+.bigbang1{
+animation-name: crece;
+-webkit-animation-name: crece;	
+animation-delay:0s;
+-webkit-animation-delay:0s;
+animation-duration: 1s;	
+-webkit-animation-duration: 1s;
+animation-iteration-count: infinite;
+-webkit-animation-iteration-count: infinite;
+}

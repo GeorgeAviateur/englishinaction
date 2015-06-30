@@ -1,0 +1,9 @@
+#cuadro3 input{
+	width:2em;
+	display:inline;
+	}
+	
+#sig2{display:none;}
+#firstRta,#cuadro3 .noSeVe {display:none; position:absolute;left:-80px;}
+li{text-indent: -40px;}
+p{display:inline;margin:0;}

@@ -1,0 +1,105 @@
+
+@media only screen and (min-width: 268px) and (max-width: 659px) {
+
+	/*.featured{
+	background: yellow;
+	top: 5px;
+	min-height: 100%;
+
+	}*/
+
+
+
+	h2{
+	text-align:center;
+	font-family:Humnst777 Blk BT;
+	font-size:1.25em;
+	/*color:#ff8540;*/
+	
+	}
+
+	.connected{
+margin: auto;
+padding: 0;
+text-align : left;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+width: 80%;
+height:48px;
+background: green;
+
+border-color:#666666; 
+border-style:solid; 
+border-width:2px;
+border-radius: 15px;
+}
+
+
+
+}
+
+@media only screen and (max-width: 667px) {
+	.featured,.connected ,.connected.no2 {
+	width:100%;
+	/*min-height: 90px;*/
+	}
+	/*.connected ,.connected.no2 {
+	min-height: 145px;
+	}*/
+	
+
+	#content{
+	background-color:#ffffff;
+	}
+
+
+	#peso,#peso1{
+	width: 50px;
+	}
+
+	#peso1{
+	width: 80%;
+	}	
+}
+
+@media only screen and (min-width: 580px) and (max-width: 867px) {
+	/*.featured{
+		background: green;
+		top: 10%;
+		}*/
+
+	#peso,#peso1{
+	width: 50px;
+	}
+
+	#peso1{
+	width: 80%;
+	}
+
+}
+
+@media only screen and (max-width: 479px) {
+	
+
+
+	#peso,#peso1{
+	width: 50px;
+	}
+
+	#peso1{
+	width: 80%;
+	}
+}
+
+
+
+
+
+
+
+
+

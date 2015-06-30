@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<meta charset="utf-8">
+<title>English In Action - Writing</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../../tipo.css"/>
+<link rel="stylesheet" href="../../responsiveenglish.css"/>
+<link rel="stylesheet" href="css/todo.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/Act4/style.css">
+<link rel="stylesheet" href="css/Act4/responsive.css">
+<link rel="stylesheet" href="css/todoresponsiveslides.css" />
+<link rel="stylesheet" href="css/Act2/responsiveslides.css" />
+<script type="application/javascript" src="../../acciones.js"></script>
+<script type="text/javascript" src="js/Act2/jquery.min.js" ></script>
+<script src="js/Act4/principal.js"></script>
+<script src="js/Act4/responsiveslides.js"></script>
+	<script type="text/javascript">
+		function closebuscador(){
+        $("#buscador").hide("slow");
+        $(".modal-window").css('left','45%');
+        $(".modal-window").css('top','45%');
+        $(".modal-window").css('right','45%');
+        $(".modal-window").css('bottom','45%');
+        }
+        $(document).ready(function(){
+        $("#buscador").hide();   
+      	$("#bucadorito").click(function(){
+    	$("#buscador").show("slow");
+    	}); 
+	    document.oncontextmenu = function() {
+	    return false
+	    }
+		$("#menuForAll" ).slideToggle(0);
+		$("#clickOnMe").click(function(){
+		$("#menuForAll" ).slideToggle(1000);
+		});			
+		});
+	</script>
+	<script>
+		$(function () {
+		$("#slider").responsiveSlides({
+		auto: true,
+		pager: false,
+		nav: true,
+		speed: 500,
+		maxwidth: 962,
+		namespace: "centered-btns"
+		});
+		});
+	</script> 
+</head>
+
+<body onload="readme(24000), bichin(),cerrar()">
+    <div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+    <div id="buscador">
+  		<iframe scrolling='no' id="buscadorsino" src="../../../cosino/" name="buscadorsino" height="100%" width="100%" frameborder="0"  ></iframe>  
+  	</div>
+	<section id="activities">
+
+		<nav id="menuForAll">
+			<div id="logoMenu">
+				<a href="../../../../index.html"><img src="../../../imagenes/ingles.png"></a>
+			</div>
+			
+			<ul>
+				<a href="../../../menu/selection/selection.html"><li>Main Menu</li></a>
+				<a href="../../../cont/cont.html"><li>Context Information</li></a>
+				<a href="../../../mmenu/sitemap.html"><li>Site Map</li></a>
+				<a href="../../../biblioteca/biblioteca.html"><li>Library</li></a>
+				<a  id="bucadorito" href="#Vocabulary"><li>Vocabulary</li></a><a href="../../../references/refe.html"><li>References</li></a>
+				<a href="../../../credits/staff.html"><li>Staff</li></a>
+			</ul> 
+		</nav>
+
+		<header>
+			<div id="logo"><img  src="../../../imagenes/ingles.png" width="80px" height="80px"/></div>
+			<div id="title"><img src="../../../imagenes/avisos/rita.png"/></div>
+			<div id="udec"> <img src="../../../imagenes/logoudec.png"/></div>
+		</header>
+		
+		<div id="informa">
+			<section id="manito">
+				<img id="hand2" class="hand" src="../../../imagenes/avisos/hand.png"/>
+				<img id="hand1" class="hand" src="../../../imagenes/avisos/hand.png"/>
+			</section>
+			
+			<section id="info">
+				<img  style="cursor: pointer" id="alumbraobj" class="alumbraobj" onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob()" src="../../../imagenes/botones/objetivo.png"/>
+				<img  style="cursor: pointer" class="alumbraobj" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins()" src="../../../imagenes/botones/instruccion.png"/>
+			</section>
+					
+			<section class="peso1" id="peso1">
+				<img id="muestrame1" src="../../../imagenes/avisos/listen.png">
+			</section>		
+
+			<section id="txt">
+				<div id="objetivos"><h5>To strengthen the writing ability of the student by writing short texts.</h5></div>
+				<div id="instruccion"><h5>Read the text and correct the statements based on the reading. Click on the box to type your answer. Then, click on  "NEXT" to continue. You have two opportunities to answer each exercise.</h5></div>
+				
+			</section>			
+		</div>
+		<div id="georgeRules"></div>
+		
+			<article id="r1">
+				<section id="blanco">
+		
+					<section id="emergent">
+						<section id="blanco1">
+							<div id="cuadroPreguntas">
+								<p id="textico" >
+								Hi! My name is Rita.
+								I'm eighteen years old and I live in Israel. I love dancing. It's my favorite hobby.<br>
+
+								I don't like ballet, but I like salsa. I go to salsa lessons after school. The teacher is really good!<br>
+
+								At the end of the year, we have a salsa show. We have a lot of fun, and everyone says we were very good. We make a lot of money from the tickets. The money is to help sick children.<br>
+								
+								Dancing takes lots of time. Sometimes I don't have time for my homework. And I want to watch television, but I don't have time.
+
+								That's is my biggest problem.
+								</p>
+							</div>
+							<div id="rita">
+								<img id="rita1" class="fotico" src="../../images/writing/15.jpg"/>
+							</div>
+						</section>
+					</section>
+
+		
+					<section id="blanco2">
+						<section class="featured" id="featured1">
+							<div class="rslides_container" id="rslides_container" >
+								<form id="form2" > 
+									<ul class="rslides" id="slider">
+										<li id="l1">   
+											<h3 id="mostra1" class='viki'><b>Answer: Rita is eighteen years old.</b></h3>
+											<div class="velk" id='velk1'><input id="campiño1" class="bi" value="1."/> <input class="elinp" type="text" value="" id="rita_is_eighteen_years_old" onkeypress="return validarn(event)" placeholder="write here 1 ..." onpaste="return false" oncut="return false" oncopy="return false" /></div>
+											<h3>Rita is nineteen years old.</h3>
+										</li>
+										<li>  
+											<h3 id="mostra2" class='viki'><b>Answer: Rita lives in Israel.</b></h3>
+											<div class="velk" id='velk2'><input id="campiño2" class="bi" value="2."/> <input class="elinp" type="text" value="" id="rita_lives_in_israel" onkeypress="return validarn(event)" placeholder="write here 2 ..." onpaste="return false" oncut="return false" oncopy="return false"/></div>
+											<h3>Rita doesn't live in Israel. </h3>
+										</li>
+										<li>	
+											<h3 id="mostra3" class='viki'><b>Answer: She likes to dance salsa.</b></h3>
+											<div class="velk" id='velk3'><input id="campiño3" class="bi" value="3."/> <input class="elinp" type="text" value="" id="she_likes_to_dance_salsa" onkeypress="return validarn(event)" placeholder="write here 3 ..." onpaste="return false" oncut="return false" oncopy="return false"/></div>
+											<h3>She doesn't like to dance salsa.</h3>
+										</li>
+										<li>				
+											<h3 label id="mostra4" class='viki'><b>Answer: She doesn't like ballet.</b></h3>
+											<div class="velk" id='velk4'><input id="campiño4" class="bi" value="4."/> <input class="elinp" type="text" value="" id="she_doesnt_like_ballet" onkeypress="return validarn(event)" placeholder="write here 4 ..." onpaste="return false" oncut="return false" oncopy="return false"/></div>
+											<h3>She likes ballet.</h3>
+										</li>
+										<li>
+		 									<h3 id="mostra5" class='viki'><b>Answer: Rita doesn't have time to do her homework.</b></h3>
+											<div class="velk" id='velk5'><input id="campiño5" class="bi" value="5."/> <input class="elinp" type="text" value="" id="rita_doesnt_have_time_to_do_her_homework" onkeypress="return validarn(event)" placeholder="write here 5 ..." onpaste="return false" oncut="return false" oncopy="return false"/></div>
+											<h3>Rita has lots of time to do her homework</h3>
+										</li>
+										<li>
+		    								<h3 id="mostra6" class='viki'><b>Answer: The money they collect from the salsa show is to help sick children. </b></h3>
+											<div class="velk" id='velk6'><input id="campiño6" class="bi" value="6."/> <input class="elinp" type="text" value="" id="the_money_they_collect_from_the_salsa_show_is_to_help_sick_children" onkeypress="return validarn(event)" placeholder="write here 6  ..." onpaste="return false" oncut="return false" oncopy="return false"/></div>
+											<h3>The money they collect from the salsa show is to help rich people.</h3>
+										</li>
+		     
+									</ul>
+								</form>   
+							</div>
+						</section>
+						<section class="peso" id="peso">
+					 		<nav  class="elnav2" id="escuchar" onClick="automatico1();"><img id="k" src="../../../imagenes/botones/31.png"/></nav>
+						</section>
+
+					</section>
+				</section>
+			</article>	
+			<div id="review">
+				<label for="cuatro">		FINAL SCORE	</label>	
+				<span>	<img  id="right" src="../../../imagenes/right.png" />	</span>
+				<span>	<img  id="wrong" src="../../../imagenes/wrong.png" />	</span>
+										<h5><p id="result"> </p></h5>
+			</div>
+				
+			<audio controls preload="none" id="sorry" >
+				<source src="../../audios/feedback/try%20again.mp3" type="audio/mpeg" />
+			</audio>
+				
+			<audio controls preload="none" id="t1" >
+				<source src="../../audios/feedback/the%20correct.mp3" type="audio/mpeg" />
+			</audio>
+				
+			<audio controls preload="none" id="a1">
+				<source src="../../audios/respuestas/writing/d1.mp3" type="audio/mp3" />
+			</audio>
+				
+			<audio controls preload="none" id="a2">
+				<source src="../../audios/respuestas/writing/d2.mp3" type="audio/mp3" />
+			</audio>
+				
+			<audio controls preload="none" id="a3">
+				<source src="../../audios/respuestas/writing/d3.mp3" type="audio/mp3" />
+			</audio>
+				
+			<audio controls preload="none" id="a4">
+				<source src="../../audios/respuestas/writing/d4.mp3" type="audio/mp3" />
+			</audio>
+				
+			<audio controls preload="none" id="a5">
+				<source src="../../audios/respuestas/writing/d5.mp3" type="audio/mp3" />
+			</audio>
+
+			<audio controls preload="none" id="a6">
+				<source src="../../audios/respuestas/writing/d6.mp3" type="audio/mp3" />
+			</audio>
+			
+			<audio controls preload="none" id="audiotexto">
+				<source src="../../audios/respuestas/writing/audio.wav" type="audio/mp3" />
+			</audio>
+
+			<audio controls preload="none" id="L">
+				<source src="../../audios/feedback/feedback.mp3" type="audio/mpeg" />
+			</audio>
+			
+			<audio controls preload="none" id="bien">
+				<source src="../../audios/feedback/well done.mp3" type="audio/mpeg" />
+			</audio>
+
+			<audio controls preload="none" id="mal0">
+				<source src="../../audios/feedback/can%20do%20b.mp3" type="audio/mpeg" />	
+			</audio>
+							
+			<audio controls preload="none" id="mal1">
+				<source src="../../audios/AUDIOS_PESO_BAJO/aprr1-2.mp3" type="audio/mpeg" />	
+			</audio>
+							
+			<audio controls preload="none" id="mal2">
+				<source src="../../audios/AUDIOS_PESO_BAJO/aprr1-3.mp3" type="audio/mpeg" />
+			</audio>	
+
+			<audio controls preload="none" id="retrowell">
+				<source src="../../audios/feedback/congratulation.mp3" type="audio/mpeg" />
+			</audio>
+			<audio controls preload="none" id="retrobad">
+				<source src="../../audios/feedback/can%20do%20b.mp3" type="audio/mpeg" />
+			</audio>
+
+			<audio controls preload="none" id="instruyeme">
+				<source src="../../audios/instrucciones/writing/instrucciond.mp3" type="audio/mpeg" />				
+			</audio>	
+
+			<footer>
+				<nav id="navegacion">	
+					<nav id="continuar" class="sig"  onClick="finalizaw4()" style="cursor: pointer"><img src="../../../imagenes/botones/nex.png"/></nav>
+				
+					<span id="bigbang1" ><nav id="continuar1" class="sig"  onClick="inicio()" style="cursor: pointer"><img src="../../../imagenes/botones/nex.png"/></nav></span>
+
+					<form class="form5">
+						<span id="bigbang11" class="bigbang"><nav name="e1" id="e1" onclick="capturar('e1')" class="sig2"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+						<span id="bigbang22" class="bigbang"><nav name="e2" id="e2" onclick="capturar('e2')" class="sig2"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+						<span id="bigbang33" class="bigbang"><nav name="e3" id="e3" onclick="capturar('e3')" class="sig2"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+						<span id="bigbang44" class="bigbang"><nav name="e4" id="e4" onclick="capturar('e4')" class="sig2"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+						<span id="bigbang55" class="bigbang"><nav name="e5" id="e5" onclick="capturar('e5')" class="sig2"><img src="../../../imagenes/botones/check.png"/></nav></span>
+						
+						<span id="bigbang66" class="bigbang"><nav name="e6" id="e6" onclick="capturar('e6')" class="sig2"><img src="../../../imagenes/botones/check.png"/></nav></span>
+		            </form>
+
+		
+
+					<nav  id="prev" class="prev" style="cursor: pointer"><a href="w3.html" ><img src="../../../imagenes/botones/prev.png"/></a></nav>
+
+					<nav id="prev1" class="prev" style="cursor: pointer" onClick="volverarita()"><img src="../../../imagenes/botones/prev.png"/></nav>
+
+					<nav id="prev2" class="prev" style="cursor: pointer" ><a href="w3.html" ><img src="../../../imagenes/botones/prev.png"/></a></nav>
+
+					<nav id="next" class="final"><a href="w5.html" ><img src="../../../imagenes/botones/continue.png"/></a></nav>
+
+					<section class="fuckencio" id="fuckencio1">
+						<div class="continuar1" id="listeniando1">
+							<form class="form5">
+								<div id="fito">
+									<nav class="elnav1" id="reproduce00" onClick="activaaudio1()"><img src="../../../imagenes/botones/mini3.png"/></nav>
+									<nav class="elnav1" id="reproduce11" onClick="activaaudio1()"><img src="../../../imagenes/botones/mini3.png"/></nav>
+									<nav class="elnav1" id="reproduce22" onClick="activaaudio1()"><img src="../../../imagenes/botones/mini3.png"/></nav>
+									<nav class="elnav1" id="reproduce33" onClick="activaaudio1()"><img src="../../../imagenes/botones/mini3.png"/></nav>
+									<nav class="elnav1" id="reproduce44" onClick="activaaudio1()"><img src="../../../imagenes/botones/mini3.png"/></nav>
+									<nav class="elnav1" id="reproduce55" onClick="activaaudio1()"><img src="../../../imagenes/botones/mini3.png"/></nav>
+								</div>
+
+								<nav class="elnav1" id="reproduce66" onClick="activaaudio1(id)"><img src="../../../imagenes/botones/mini3.png"/></nav>
+								<img class="elnav1" id="pause1" onClick="activaaudio1()"  src="../../../imagenes/botones/mini31.png"/>
+							</form>
+						</div>
+					</section>
+				   
+					<section class="fuckencio" id="fuckencio2">				
+						<nav id="perendengues1" class="perendengues" >
+					        <tr>
+					        <input type="checkbox" id="primero" class="css-checkbox" />
+					        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+					        </tr>
+					        <tr>
+					        <input type="checkbox" class="css-checkbox" id="segundo"  />
+					        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+					        </tr>
+					        <tr>
+					        <input type="checkbox" id="tercero" class="css-checkbox" />
+					        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+					        </tr>
+					    </nav>
+						<nav id="perendengues2" class="perendengues" >
+					        <tr>
+					        <input type="checkbox" id="primero1" class="css-checkbox" />
+					        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+					        </tr>
+					        <tr>
+					        <input type="checkbox" class="css-checkbox" id="segundo1" />
+					        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+					        </tr>
+					        <tr>
+					        <input type="checkbox" id="tercero1" class="css-checkbox" />
+					        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+					        </tr>
+					    </nav>
+					    <nav id="perendengues3" class="perendengues" >
+					        <tr>
+					        <input type="checkbox" id="primero2" class="css-checkbox" />
+					        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+					        </tr>
+					        <tr>
+					        <input type="checkbox" class="css-checkbox" id="segundo2"  />
+					        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+					        </tr>
+					        <tr>
+					        <input type="checkbox" id="tercero2" class="css-checkbox" />
+					        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+					        </tr>
+					    </nav>
+					    <nav id="perendengues4" class="perendengues" >
+					        <tr>
+					        <input type="checkbox" id="primero3" class="css-checkbox" />
+					        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+					        </tr>
+					        <tr>
+					        <input type="checkbox" class="css-checkbox" id="segundo3" />
+					        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+					        </tr>
+					        <tr>
+					        <input type="checkbox" id="tercero3" class="css-checkbox" />
+					        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+					        </tr>
+					    </nav>
+					    <nav id="perendengues5" class="perendengues" >
+					        <tr>
+					        <input type="checkbox" id="primero4" class="css-checkbox" />
+					        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+					        </tr>
+					        <tr>
+					        <input type="checkbox" class="css-checkbox" id="segundo4" />
+					        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+					        </tr>
+					        <tr>
+					        <input type="checkbox" id="tercero4" class="css-checkbox" />
+					        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+					        </tr>
+					    </nav>
+					    <nav id="perendengues6" class="perendengues"  >
+					        <tr>
+					        <input type="checkbox" id="primero5" class="css-checkbox" />
+					        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+					        </tr>
+					        <tr>
+					        <input type="checkbox" class="css-checkbox" id="segundo5"  />
+					        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+					        </tr>
+					        <tr>
+					        <input type="checkbox" id="tercero5" class="css-checkbox" />
+					        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+					        </tr>
+					    </nav>
+						<nav id="perendengues7" class="perendengues" >
+					        <tr>
+					        <input type="checkbox" id="primero6" class="css-checkbox" />
+					        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+					        </tr>
+					        <tr>
+					        <input type="checkbox" class="css-checkbox" id="segundo6"  />
+					        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+					        </tr>
+					        <tr>
+					        <input type="checkbox" id="tercero6" class="css-checkbox" />
+					        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+					        </tr>
+					    </nav>
+					</section>	
+				</nav>
+				<span id='references'>Likes and Dislikes: Writing - Activity 4
+					<nav id="clickOnMe" class="nav-esquina" role="navigation">
+						<i class="fa fa-th fa-2x"></i>
+					</nav>
+				</span>
+			</footer>
+	</section>
+</body>
+</html>
+
+<!--<footer>
+	<p>ONLY SLIDER</P>
+	<p>Copyright © 2012 - <a href="http://www.zerotheme.com/432/free-responsive-html5-css3-website-templates.html" target="_blank">Free Responsive Html5 Templates</a> by <a href="http://www.zerotheme.com" target="_blank">Zerotheme.com</a></p>
+	</div>
+</footer>-->

@@ -1,0 +1,228 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+<title>English In Action - Writing</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<meta charset="utf-8"/>
+	<script type="application/javascript" src="../../acciones.js"></script>
+	<link rel="stylesheet" href="../../tipo.css" type="text/css"/>
+	<link rel="stylesheet" href="../../responsiveenglish.css"/>	
+	<script type="application/javascript" src="../../../js/jquery.min.js"></script>
+	<link rel="stylesheet" href="../../present/Writing/css/todo.css" type="text/css" media="all">    
+	<script type="application/javascript" src="js/Act6/activity6.js"/></script>
+	<link rel="stylesheet" href="../../present/Writing/css/Act6/act6.css" type="text/css"/>
+		<link rel="stylesheet" href="css/Act6/act6.css" type="text/css"/>
+	<link rel="stylesheet" href="../../present/Writing/css/Act6/responsiveact6.css" type="text/css"/>	
+	<script type="text/javascript">
+		function closebuscador(){
+        $("#buscador").hide("slow");
+        $(".modal-window").css('left','45%');
+        $(".modal-window").css('top','45%');
+        $(".modal-window").css('right','45%');
+        $(".modal-window").css('bottom','45%');
+        }
+      	$(document).ready(function(){
+        $("#buscador").hide();   
+      	$("#bucadorito").click(function(){
+    	$("#buscador").show("slow");
+    	}); 
+    	document.oncontextmenu = function() {
+      	return false
+    	}
+		$("#menuForAll" ).slideToggle(0);
+		$("#clickOnMe").click(function(){
+		$("#menuForAll" ).slideToggle(1000);
+		});			
+		});
+	</script>
+</head>
+<!--<body onload="carga()">-->
+<body onload="readme(23000),cerrar()">
+    <div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+	<div id="buscador">
+  		<iframe scrolling='no' id="buscadorsino" src="../../../cosino/" name="buscadorsino" height="100%" width="100%" frameborder="0"  ></iframe>  
+  	</div>
+	<section id="activities">
+		<nav id="menuForAll">
+			<div id="logoMenu">
+				<a href="../../../../index.html"><img src="../../../imagenes/ingles.png"></a>
+			</div>
+			<ul>
+				<a href="../../../menu/selection/selection.html"><li>Main Menu</li></a>
+				<a href="../../../cont/cont.html"><li>Context Information</li></a>
+				<a href="../../../mmenu/sitemap.html"><li>Site Map</li></a>
+				<a href="../../../biblioteca/biblioteca.html"><li>Library</li></a>
+				<a  id="bucadorito" href="#Vocabulary"><li>Vocabulary</li></a><a href="../../../references/refe.html"><li>References</li></a>
+				<a href="../../../credits/staff.html"><li>Staff</li></a>
+			</ul> 
+		</nav>
+		<header>
+			<div id="logo"><img  src="../../../imagenes/ingles.png"/></div>
+			<div id="title"><img src="../../../imagenes/avisos/leisuretime.png"/></div>
+			<div id="udec"> <img src="../../../imagenes/logoudec.png"/></div>
+		</header>
+		<div id="informa">
+			<section id="manito">
+				<img id="hand2" class="hand" src="../../../imagenes/avisos/hand.png"/>
+				<img id="hand1" class="hand" src="../../../imagenes/avisos/hand.png"/>
+			</section>	
+			<section id="info">
+				<img  style="cursor: pointer" id="alumbraobj" onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob()" src="../../../imagenes/botones/objetivo.png"/>
+				<img  style="cursor: pointer" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins()" src="../../../imagenes/botones/instruccion.png"/>
+			</section>	
+			<section id="txt">
+				<div id="objetivos"><h5 style="text-align:center">To strengthen the writing ability of the student by writing short texts.</h5></div>
+				<div id="instruccion"><h5 style="text-align:center">Write a paragraph using the information given. Click on the letter to start typing.  There are some hints to help you. When you finish press "DONE" to check your answers. You have two opportunities to answer.</h5></div>
+			</section>
+		</div>
+		<div id="georgeRules"></div>
+		<article id="r1">	
+			<section id="eme">
+				<section id="blanco1">
+					<div id="cuadroPreguntas">
+						<p id="textico" ><br><br>
+							<h5><b>Name:</b> Susan.<br></h5>
+							<h5><b>Last name:</b> Lohan.<br></h5>
+							<h5><b>Born:</b> New York – on December 12th, 1990.<br></h5>
+							<h5><b>Primary:</b> St. Bartolome School.<br></h5>
+							<h5><b>Secondary:</b> St. Martha School.<br></h5>
+							<h5><b>At age:</b> 7.<br></h5>
+							<h5><b>Favorite toy:</b> dolls.<br></h5>
+							<h5><b>Favorite food:</b> pasta.<br></h5>
+							<h5><b>Teenager:</b> spend time with  her friends.<br></h5>
+							<br>
+						</p>
+					</div>
+				</section>
+			</section>
+			<section id="blanco2">
+				<section id="contenedor2" > 
+					<h2>Your Answers</h2><br>
+	                    <section id="hh" onclick="enfocar('hh')">
+	                        <p id="esctitura2_src">Her name is </p>      
+	                    </section>
+	                    <section id="h1" onclick="enfocar('h1')">
+	                        <p id='esctitura2_src1'>She </p>
+	                    </section>
+	                    <section id="h2" onclick="enfocar('h2')">
+	                        <p id='esctitura2_src2' >She </p>
+	                    </section>
+	                    <section id="h3" onclick="enfocar('h3')" >
+	                        <p id='esctitura2_src3' >When she </p>
+	                    </section>
+	                    <section id="h4" onclick="enfocar('h4')">
+	                        <p id='esctitura2_src4' >When she </p>
+	                    </section>
+				</section>
+				<section id="contenedor"> 
+					<img src='../../present/Writing/images/writing.png' id="manitu" class="floating"/>
+	                  	<h2>Correct Answers</h2><br>
+	                        <section id="hh" onclick="enfocar('hh')">
+	                              <p id='escritura_src'><span  id="mira">•</span><b>Her name is </b><input class="text" style="font-size:15px;" id="entrada1" onkeyup="userSubmit(event,'entrada1')"  onkeypress="return validarn(event)"  placeholder="click here" autofocus onpaste="return false" oncut="return false" oncopy="return false"></input><b class='comas'>,</b></p>     
+	                        </section> <!--maxlength="11"-->
+	                        <section id="h1" onclick="enfocar('h1')">
+	                              <p id='escritura_src1'><span  id="mira">•</span><b>she </b><input class="text" style="font-size:15px;" id="entrada2" onkeyup="userSubmit(event,'entrada2')"  onkeypress="return validarn(event)" placeholder="click here" onpaste="return false" oncut="return false" oncopy="return false"></input><b class='comas'>,</b></p>
+	                        </section>
+	                        <section id="h2" onclick="enfocar('h2')">
+	                              <p id='escritura_src2' ><span  id="mira">•</span><b>she </b><input class="text" style="font-size:15px;" id="entrada3" onkeyup="userSubmit(event,'entrada3')"  onkeypress="return validarn(event)" placeholder="click here" onpaste="return false" oncut="return false" oncopy="return false"></input><b class='comas'>,</b></p>
+	                        </section>
+	                        <section id="h3" onclick="enfocar('h3')" >
+	                              <p id='escritura_src3' ><span  id="mira">•</span><b>when she </b><input class="text" style="font-size:15px;" id="entrada4" onkeyup="userSubmit(event,'entrada4')"  onkeypress="return validarn(event)" placeholder="click here" onpaste="return false" oncut="return false" oncopy="return false"></input><b class='comas'>,</b></p>
+	                        </section>
+	                        <section id="h4" onclick="enfocar('h4')">
+	                              <p id='escritura_src4' ><span  id="mira">•</span><b>when she </b><input class="text" style="font-size:15px;" id="entrada5" onkeyup="userSubmit(event,'entrada5')"  onkeypress="return validarn(event)" placeholder="click here" onpaste="return false" oncut="return false" oncopy="return false"></input><b class='comas'>.</b></p>
+	                        </section>
+				</section>
+			
+			</section>
+		</article>
+		<audio controls preload="none" id="bien">
+			<source src="../../audios/feedback/well done.mp3" type="audio/mpeg" />
+		</audio>
+		<audio controls preload="none" id="bien1">
+			<source src="../../audios/feedback/congratulation.mp3" type="audio/mpeg" />
+		</audio>
+		<audio controls preload="none" id="mal0">
+			<source src="../../audios/feedback/can%20do%20b.mp3" type="audio/mpeg" />
+		</audio>
+		<audio controls preload="none" id="L">
+			<source src="../../audios/feedback/feedback.mp3" type="audio/mpeg" />
+		</audio>
+		</audio>
+			<audio controls preload="none" id="sorry" >
+			<source src="../../audios/feedback/try%20again.mp3" type="audio/mpeg" />
+		</audio>
+		<audio controls preload="none" id="t1" >
+			<source src="../../audios/feedback/the%20correct.mp3" type="audio/mpeg" />			
+		</audio>
+		<audio controls preload="none" id="t" style="display: none;">
+			<source src="../../audios/respuestas/writing/pasado/ff.mp3" type="audio/mpeg" />
+		</audio>
+		<audio controls preload="none" id="retrowell">
+			<source src="../../audios/feedback/congratulation.mp3" type="audio/mpeg" />
+		</audio>
+		<audio controls preload="none" id="retrobad">
+			<source src="../../audios/feedback/can%20do%20b.mp3" type="audio/mpeg" />
+		</audio>
+		<audio controls preload="none" id="instruyeme">
+			<source src="../../audios/instrucciones/writing/instruccionfff.mp3" type="audio/mpeg" />				
+		</audio>
+		
+				<div id="review">
+				<label for="cuatro">		FINAL SCORE	</label>	<br>
+				<span>	<img  id="right" src="../../../imagenes/right.png" />	</span>
+				<span>	<img  id="wrong" src="../../../imagenes/wrong.png" />	</span>
+										<h5><p id="result"> </p></h5>
+				</div>
+
+		<footer>		
+			<nav id="navegacion">
+				<nav  id="prev" class="prev" style="cursor: pointer"><a href="w5.html"><img src="../../../imagenes/botones/prev.png"/></a></nav>
+
+				<nav id="prev1" class="prev" style="cursor: pointer" onClick="volverlin()"><img src="../../../imagenes/botones/prev.png"/></nav>
+
+				<nav id="prev2" class="prev" style="cursor: pointer" ><a href="w5.html" ><img src="../../../imagenes/botones/prev.png"/></a></nav>
+
+				<label id="bigbang11" class="bigbang"><nav id='done' class="sig"><img id="button1"  src="../../../imagenes/botones/done.png" class="sig2" name="e2" onclick="capturar()" > </nav></label>
+
+				<nav id="continuar4" class="sig"  onClick="volver(0)" style="cursor: pointer"><img src="../../../imagenes/botones/nex.png"/></nav>
+						
+				<label id="bigbang22" ><nav id="continuar1" class="sig"  onClick="inicio()" style="cursor: pointer"><img src="../../../imagenes/botones/nex.png"/></nav></label>
+
+				<nav id="continuar3" class="sig"  onClick="finalizaw6()" style="cursor: pointer"><img src="../../../imagenes/botones/nex.png"/></nav>
+
+				<section class="fuckencio" id="fuckencio1">
+					<div class="continuar1" id="listeniando1">
+						<form class="form5">
+
+							<nav class="elnav1" id="reproduce66" onClick="activaaudio1(id)"><img src="../../../imagenes/botones/mini3.png"/></nav>
+							<img class="elnav1" id="pause1" onClick="activaaudio1()"  src="../../../imagenes/botones/mini31.png"/></form>
+					</div>
+				</section>
+				<section class="fuckencio" id="fuckencio2">				
+					<nav id="perendengues1" class="perendengues" >
+				        <tr>
+					        <input type="checkbox" id="primero" class="css-checkbox" />
+					        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+				        </tr>
+				        <tr>
+					        <input type="checkbox" class="css-checkbox" id="segundo"  />
+					        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label> 
+				        </tr>
+				        <tr>
+					        <input type="checkbox" id="tercero" class="css-checkbox" />
+					        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+				        </tr>
+			    	</nav>
+				</section>
+			</nav>
+			<span id='references'>Memories: Writing - Activity 6
+				<nav id="clickOnMe" class="nav-esquina" role="navigation">
+					<i class="fa fa-th fa-2x"></i>
+				</nav>
+			</span>
+		</footer>
+	</section>
+</body>
+</html>

@@ -1,0 +1,322 @@
+html, body {
+}
+#loguito{
+margin: auto;
+text-align: center;	
+}
+.navbar{
+}
+
+
+#sb-site, .sb-site-container{min-height:0px;}
+
+#sb-toggle{z-index:20000px;}
+/*#sb-site {
+	box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.3);
+	padding: 50px 0 30px 0;
+}*/
+
+/*#adverts {
+	margin-top: 20px;
+}*/
+
+/*.advert {
+	border-radius: 3px;
+	border: 1px solid #727272;
+	margin-bottom: 10px;
+	padding: 3px;
+}*/
+
+/*.navbar {
+	box-shadow: 
+	
+		0 5px 0 0 rgba(0, 0, 0, 0.01),
+		0 4px 0 0 rgba(0, 0, 0, 0.02),
+		0 3px 0 0 rgba(0, 0, 0, 0.04),
+		0 2px 0 0 rgba(0, 0, 0, 0.06),
+		0 1px 0 0 rgba(0, 0, 0, 0.08),
+		0 1px 0 0 rgba(255, 255, 255, 0.1) inset,
+		1px 0 0 0 rgba(255, 255, 255, 0.1) inset,
+		-1px 0 0 0 rgba(255, 255, 255, 0.1) inset,
+		0 -1px 0 0 rgba(0, 0, 0, 0.1) inset;
+		
+
+	
+
+	border: none;
+	width: 100%;
+	left: auto;
+	right: auto;
+}*/
+
+/*#logo {
+	margin-top: 4px;
+	text-align: center;
+}*/
+
+/*#top-arrow {
+	padding-top: 17px;
+	padding-bottom: 13px;
+}*/
+
+/*.navbar .sb-toggle-left {
+	width: 58px;
+	float: left;
+	padding: 14px;
+}*/
+
+
+
+#menuPrincipal{/* height:100%; */}
+
+.navbar .sb-toggle-right {
+	width: 58px;
+	float: right;
+	padding: 14px;
+}
+
+.sb-toggle-right, .sb-open-left,.sb-close,#logoingles {
+	cursor: pointer;
+}
+
+/*.sb-right {
+	margin-top: 50px;
+}*/
+
+.navicon-line {
+	width: 24px;
+	height: 4px;
+	border-radius: 1px;
+	margin-bottom: 3px;
+	background-color: #fff;
+}
+
+/*ul.navbar-nav {
+	display: none;
+}*/
+
+/*footer {
+	margin-top: 30px;
+}*/
+
+
+
+/*.sb-slidebar {
+	background-color: #222222;
+}*/
+
+
+/*.sb-slidebar {
+	background-color: #222222;
+	color: #e8e8e8; 
+}*/
+
+/*.sb-slidebar a {
+	color: #FF3971;
+	text-decoration: none;
+}*/
+
+.sb-slidebar a:hover {
+	color: #cfd984; 
+	text-decoration: underline;
+}
+
+
+.sb-menu { 
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.sb-menu li {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border-top: 1px solid rgba(255, 255, 255, 0.1); 
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+}
+
+.sb-menu > li:first-child {
+	border-top: none; 
+}
+
+.sb-menu > li:last-child {
+	border-bottom: none; 
+}
+
+.sb-menu li a {
+	width: 100%; 
+	display: inline-block;
+	padding: 1em; 
+	color: #f2f2f2;
+}
+
+.sb-menu li a:hover {
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0.05); 
+}
+
+
+/*.sb-left .sb-menu li a {
+	border-left: 3px solid transparent;
+}*/
+
+/*.sb-left .sb-menu li a:hover {
+	border-left: 3px solid; 
+}*/
+
+/*.sb-right .sb-menu li a {
+	border-right: 3px solid transparent;
+}*/
+
+.sb-right .sb-menu li a:hover {
+	border-right: 3px solid; 
+}
+
+
+
+
+/*.sb-menu li .sb-open-right, .sb-menu li small {
+	display: inline-block;
+	padding: 14px;
+}*/
+
+.sb-menu li img {
+	margin: 14px;
+}
+
+/* Right */
+aside#about-me {
+	padding: 14px 14px 14px 14px;
+}
+
+img.img-me {
+	margin: 14px auto;
+	border: 4px solid #fff;
+}
+
+
+
+/*.sb-slidebar, .sb-slidebar h3 {
+	color: #F0F0F0;
+}*/
+
+/*.sb-slidebar ul.sb-nav li a {
+	color: #DEDEDE;
+}*/
+
+/*.sb-slidebar ul.sb-nav li a:hover {
+	color: #C7C7C7;
+	text-decoration: none;
+}*/
+
+/*.sb-slidebar ul.sb-nav li span:hover {
+	color: #C7C7C7;
+}*/
+
+
+/*#download, #api, #options, #helper-classes {
+	margin-top: -50px;
+	padding-top: 50px;
+}*/
+
+
+/*.add-bottom-margin {
+	margin-bottom: 15px;
+}*/
+
+/*.no-bottom-margin {
+	margin-bottom: 0;
+}*/
+
+/*.add-top-margin {
+	margin-top: 15px;
+}*/
+
+/*.no-top-margin {
+	margin-top: 0;
+}*/
+
+/*.push-down {
+	position: relative;
+	top: 2px;
+}*/
+
+@media (min-width: 768px) {
+	ul.navbar-nav {
+		display: block;
+	}
+	
+	/*#logo {
+		text-align: left;
+	}*/
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+/*#bisma {
+	display: none;
+	text-align: center;
+	margin-bottom: 50px;
+}*/
+
+/*#bisma h2 {
+	font-weight: 300;
+	color: #f71756;
+}*/
+
+/*.bisma-cont {
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}*/
+
+/*#bisma p {
+	font-weight: 300;
+	font-size: 15px;
+	color: #646a73;
+}*/
+
+/*#bisma p.lead {
+	font-size: 24px;
+	color: #646a73;
+}
+*/
+.img-responsive-stretch {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+
+
+/*#manhattan a {
+	text-decoration: none;
+}
+
+#manhattan a:hover {
+	text-decoration: none;
+}
+
+#manhattan #mhtn-img {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 20px;
+	background-image: url('images/manhattan-banner.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#manhattan p.lead {
+	color: #d57597;
+	text-align: center;
+}*/

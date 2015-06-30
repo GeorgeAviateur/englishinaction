@@ -1,0 +1,166 @@
+@import url(http://weloveiconfonts.com/api/?family=iconicfill);
+
+/* iconicfill */
+[class*="iconicfill-"]:before {
+  font-family: 'IconicFill', sans-serif;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ACTIVIDAD 2 COMPLETAR TABLA*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+label{
+
+color:#ff8540;
+text-align:center;
+font-family:Humnst777 BT;
+font-size:1.4em;
+text-shadow: 0.7px 0.7px 1px rgba(0,0,0,0.7);
+}
+.orden{ width:100%;}
+
+input{ 
+color:white;
+background:rgba(0,0,0,0);
+border:0px solid rgba(0,0,0,0);
+font-size:1.1em;
+width:100%;
+
+text-shadow: 0.7px 0.7px 1px rgba(0,0,0,0.7);
+}
+ 
+input:focus {
+	border: 2px solid #000;
+	background: #F3F3F3; 
+}
+
+
+
+#blanco div{
+	display:inline-block;
+}
+#blanco{height:241px;}
+
+
+.prev2{display:none;}
+
+
+  #cuadro2,#cuadro3,#cuadro4,#cuadro5,#cuadro6,#cuadro7,#cuadro8,#cuadro9,#cuadro10{
+	display:none;
+  }
+ #showtab{display:inline;}
+
+#ir2{
+
+	float:right;
+	}
+#ir,#ir2{
+margin-top:12%;
+	height:51px;
+	width:10%;
+	padding:2px;
+	}	
+#ir{
+	float:left;
+	}
+
+
+
+
+.movertablai{
+
+border-radius:9px;
+background:rgba(0,0,0,0.1);
+border:2px solid black;
+width:50px;
+padding:0px 0px 0px 2px;
+text-align:right;
+cursor:pointer;
+
+}
+.movertablad{
+cursor:pointer;
+border-radius:9px;
+background:rgba(0,0,0,0.1);
+border:2px solid black;
+width:50px;
+padding:0px 2px 0px 0px;
+text-align:left;
+}
+
+
+.movertablai:hover{
+
+border-radius:9px;
+background:rgba(0,0,0,0.2);
+border:2px solid gray;
+}
+
+.movertablad:hover{
+border-radius:9px;
+background:rgba(0,0,0,0.2);
+border:2px solid gray;
+}
+
+.movertablad:hover >.iconicfill-arrow-right:first-child{
+
+-webkit-animation: run 1s infinite; /* Chrome, Safari, Opera */
+    animation: run 1s infinite;
+	-moz-animation: run 1s infinite;
+	
+	}
+.movertablai:hover >.iconicfill-arrow-left:first-child{
+
+-webkit-animation: run2 1s infinite; /* Chrome, Safari, Opera */
+    animation: run2 1s infinite;
+	-moz-animation: run2 1s infinite;
+	
+	}
+
+
+
+
+
+@-moz-keyframes run{
+from{left:0%;}
+to{left:80%;}
+}
+@-webkit-keyframes run{
+from{left:0%;}
+to{left:80%;}
+}
+@-o-keyframes run{
+from{left:0%;}
+to{left:80%;}
+}
+@keyframes run{
+from{left:0%;}
+to{left:80%;}
+}
+
+
+
+@moz-keyframes run2{
+from{right:0%;}
+to{right:80%;}
+}
+@-webkit-keyframes run2{
+from{right:0%;}
+to{right:80%;}
+}
+@-o-keyframes run2{
+from{right:0%;}
+to{right:80%;}
+}
+@keyframes run2{
+from{right:0%;}
+to{right:80%;}
+}
+
+
+
+
+

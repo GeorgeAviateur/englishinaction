@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8"/>
+	<head>
+		<title>English In Action - Speaking</title>
+		<script type="application/javascript" src="../../../js/jquery.min.js"></script>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/javascript" src="../../acciones.js"></script>
+		<link rel="stylesheet" href="../../tipo.css"/>
+		<link rel="stylesheet" href="../../present/Speaking/css/act1.css"/>
+		<link rel="stylesheet" href="../../present/Speaking/css/responsive.css">
+		<link rel="stylesheet" href="../../present/Speaking/css/responsiveslides.css" />
+		<script src="js/responsiveslides.js"></script>
+	<link rel="stylesheet" href="../../responsiveenglish.css"/>
+	<script type="text/javascript">
+			// IE Evitar seleccion de texto
+			document.onselectstart=function(){
+			if (event.srcElement.type != "text" && event.srcElement.type != "textarea" && event.srcElement.type != "password")
+			return false
+			else return true;
+			};
+			// FIREFOX Evitar seleccion de texto
+			if (window.sidebar){
+			document.onmousedown=function(e){
+			var obj=e.target;
+			if (obj.tagName.toUpperCase() == "INPUT" || obj.tagName.toUpperCase() == "TEXTAREA" || obj.tagName.toUpperCase() == "PASSWORD")
+			return true;
+			/*else if (obj.tagName=="BUTTON"){
+			return true;
+			}*/
+			else
+				return false;
+				}
+			}
+		// End 	
+		</script>
+		<script type="text/javascript">
+			 function closebuscador(){
+            $("#buscador").hide("slow");
+            $(".modal-window").css('left','45%');
+            $(".modal-window").css('top','45%');
+            $(".modal-window").css('right','45%');
+            $(".modal-window").css('bottom','45%');
+          
+          }
+      $(document).ready(function(){
+         
+              $("#buscador").hide();   
+      $("#bucadorito").click(function(){
+    $("#buscador").show("slow");
+    }); 
+    document.oncontextmenu = function() {
+      return false
+    }
+			$("#menuForAll" ).slideToggle(0);
+			$("#clickOnMe").click(function(){
+			$("#menuForAll" ).slideToggle(1000);
+			});			
+			});
+
+		</script>
+		
+  </script> 
+	</head>
+	
+	
+
+<body onLoad="readme(33000),cerrar()">
+    <div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+    <div id="buscador">
+  <iframe scrolling='no' id="buscadorsino" src="../../../cosino/" name="buscadorsino" height="100%" width="100%" frameborder="0"  ></iframe>  
+  </div>
+	
+	<section id="activities">
+		<nav id="menuForAll">
+			<div id="logoMenu">
+				<a href="../../../../index.html"><img src="../../../imagenes/ingles.png"></a>
+			</div>
+			
+			<ul>
+				<a href="../../../menu/selection/selection.html"><li>Main Menu</li></a>
+				<a href="../../../cont/cont.html"><li>Context Information</li></a>
+				<a href="../../../mmenu/sitemap.html"><li>Site Map</li></a>
+				<a href="../../../biblioteca/biblioteca.html"><li>Library</li></a>
+				<li><a  id="bucadorito" href="#Vocabulary">Vocabulary</a></li>
+                <a href="../../../references/refe.html"><li>References</li></a>
+				<a href="../../../credits/staff.html"><li>Staff</li></a>
+			</ul> 
+		</nav>
+		<header>
+			<div id="logo"><img  src="../../../imagenes/ingles.png" width="80px" height="80px"/></div>
+			<div id="title"><img src="../../../imagenes/avisos/tonys.png"/></div>
+			<div id="udec"> <img src="../../../imagenes/logoudec.png"/></div>
+		</header>
+		
+		<div id="informa">
+					<section id="manito">
+							<img id="hand2" class="hand" src="../../../imagenes/avisos/hand.png"/>
+							<img id="hand1" class="hand" src="../../../imagenes/avisos/hand.png"/>
+					</section>
+					
+					<section id="info">
+								<img  style="cursor: pointer"onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob()" src="../../../imagenes/botones/objetivo.png"/>
+								<img  style="cursor: pointer" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins()" src="../../../imagenes/botones/instruccion.png"/>
+					</section>
+					
+					<section id="txt">
+						<div id="objetivos"><h5>To encourage the oral ability by means of communication.</h5></div>
+						<div id="instruccion">	<h5> Read and Listen to the text. Say 5 things Sam is going to do on her next vacation. You can read and listen to the text twice and You have two opportunities to record. Click on the microphone icon to record your answers. Finally click on "NEXT" to continue. You should take notes.
+
+												</h5>
+						</div>
+						
+					</section>
+			
+		</div>
+		
+		<div id="georgeRules"></div>
+		
+		
+		<article id="r1">
+			<section id="blanco">
+				<section class="featured" id="featured1">
+					<div class="rslides_container">					
+							<div id="fragmento">
+					<h6>
+						<p>Hi everyone! My name is Sam and I'm going to tell you about my plans for vacation.
+
+My boyfriend and I are going to go on a two-week trip. We are going to travel to Brazil. 
+
+In Brazil we are going to visit many places.  First we are going to arrive to Sao Paulo. There we will take a tour around the city.
+
+Then, we are going to see Iguazu falls.  We have to travel for over 12 hours. We are going to stay for two days there.  
+Finally we are going to travel to Rio de Janeiro.  There are many interesting places to visit in Rio. We will visit “pao de azucar“, and the “Corcovado”. We will also go to a zamba show at night; and of course we will go to the famous beaches in Rio: Ipanema and Copacabana.
+
+I'm looking forward to my vacation! They will be great!
+</p>
+					</h6>
+					</div>
+
+					</div>
+				</section>
+
+				
+				<div id="information">
+					<p id="info_start">Click on the microphone icon to record your answers. Say likes and dislikes<br>For Example: Sam is going to listen to music.</p>
+					<p id="info_speak_now">Speak now.</p>
+					<p id="info_no_speech">No speech was detected. You may need to adjust your<a href="http://support.google.com/chrome/bin/answer.py?hl=en&amp;answer=1407892">microphone settings</a>.</p>
+					<p id="info_no_microphone" style="display:none">No microphone was found. Ensure that a microphone is installed and that<a href="http://support.google.com/chrome/bin/answer.py?hl=en&amp;answer=1407892">microphone settings</a> are configured correctly.</p>
+					<p id="info_allow">Click the "Allow" button above to enable your microphone.</p>
+					<p id="info_denied">Permission to use microphone was denied.</p>
+					<p id="info_blocked">Permission to use microphone is blocked. To change,go to <a href="chrome://settings/contentExceptions#media-stream">chrome://settings/contentExceptions#media-stream</a></p>
+					<p id="info_upgrade">Web Speech API is not supported by this browser.Upgrade to <a href="http://www.google.com/chrome">Chrome</a>version 25 or later.</p>
+				</div>
+		
+		<!-- QUITË EL #RESULTS EN ACT1.CSS-->
+				
+				<div class="right tossing">
+					<button id="start_button" onclick="startButton(event)">
+						<img id="start_img" src="../../../imagenes/botones/mic12.png" alt="Start"/>
+					</button>
+				</div>	
+		
+				
+	
+				<div id="results">
+					<span id="final_span" class="final"></span>
+					<span id="interim_span" class="interim"></span>
+					<p>
+				</div>
+				
+				
+				<div class="center">
+						<div id="div_language">
+							<select id="select_language"></select>
+							&nbsp;&nbsp;
+							<select id="select_dialect"></select>
+						</div>
+				</div>
+
+
+			
+			</section>
+		</article>
+		<div id="review">
+			<label for="cuatro">		FINAL SCORE	</label><br>
+				<span>
+				<img  id="right" src="../../../imagenes/right.png" />
+				</span>
+				<span>
+				<img  id="wrong" src="../../../imagenes/wrong.png" />
+			</span>
+			<h5><p id="result"> </p></h5>
+		</div>
+			
+		<audio controls preload="none" id="instruyeme">
+		<source src="../../audios/instrucciones/speaking/instruccion_afs6.mp3" type="audio/mpeg" />"
+		</audio>
+		<audio controls preload="none" id="hablame">
+		<source src="../../audios/texto/speaking/afs61.mp3" type="audio/mpeg" />"
+		</audio>
+		
+
+			
+					<audio controls preload="none" id="retrowell">
+						<source src="../../audios/feedback/congratulation.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					<audio controls preload="none" id="retrobad">
+						<source src="../../audios/feedback/can%20do%20b.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					
+					<audio controls preload="none" id="bien">
+						<source src="../../audios/feedback/well done.mp3" type="audio/mpeg" />
+					</audio>
+					<audio controls preload="none" id="mal0">
+						<source src="../../audios/feedback/try%20again.mp3" type="audio/mpeg" />
+					</audio>
+					<audio controls preload="none" id="thecorrect">
+						<source src="../../audios/feedback/the%20correct.mp3" type="audio/mpeg" />
+					</audio>
+					
+			
+				
+					
+			<footer>
+			
+			<nav id="navegacion">
+				
+				<nav id="siguiente" class="sig"onClick="next()" style="cursor: pointer"><img src="../../../imagenes/botones/continue.png"/></nav>
+				<nav id="continuar" class="sig"onClick="resul()" style="cursor: pointer"><img src="../../../imagenes/botones/nex.png"/></nav>
+				<nav class="prev" style="cursor: pointer" onClick="volver(0)"><img src="../../../imagenes/botones/prev.png"/></nav>
+				<nav class="final"><a href="../../centrofuture.html" ><img src="../../../imagenes/botones/continue.png"/></a></nav>
+				
+				<div id="rep2" class="tossing" onclick="audio()">
+						<img src="../../../imagenes/botones/mini3.png" id="reproducir"/>
+				</div>
+			</nav>
+			
+			
+			<span id="references">Making plans and Predictions: Speaking - Activity 6
+				<nav id="clickOnMe" class="nav-esquina" role="navigation">
+						<i class="fa fa-th fa-2x"></i>
+				</nav>
+			</span>
+			
+			</footer>
+	</section>
+	
+</body>
+	
+<script>
+var seleccionado="";
+var langs =
+[['Afrikaans',       ['af-ZA']],
+ ['Bahasa Indonesia',['id-ID']],
+ ['Bahasa Melayu',   ['ms-MY']],
+ ['Català',          ['ca-ES']],
+ ['Čeština',         ['cs-CZ']],
+ ['Deutsch',         ['de-DE']],
+ ['English',         ['en-AU', 'Australia'],
+                     ['en-CA', 'Canada'],
+                     ['en-IN', 'India'],
+                     ['en-NZ', 'New Zealand'],
+                     ['en-ZA', 'South Africa'],
+                     ['en-GB', 'United Kingdom'],
+                     ['en-US', 'United States']],
+ ['Español',         ['es-AR', 'Argentina'],
+                     ['es-BO', 'Bolivia'],
+                     ['es-CL', 'Chile'],
+                     ['es-CO', 'Colombia'],
+                     ['es-CR', 'Costa Rica'],
+                     ['es-EC', 'Ecuador'],
+                     ['es-SV', 'El Salvador'],
+                     ['es-ES', 'España'],
+                     ['es-US', 'Estados Unidos'],
+                     ['es-GT', 'Guatemala'],
+                     ['es-HN', 'Honduras'],
+                     ['es-MX', 'México'],
+                     ['es-NI', 'Nicaragua'],
+                     ['es-PA', 'Panamá'],
+                     ['es-PY', 'Paraguay'],
+                     ['es-PE', 'Perú'],
+                     ['es-PR', 'Puerto Rico'],
+                     ['es-DO', 'República Dominicana'],
+                     ['es-UY', 'Uruguay'],
+                     ['es-VE', 'Venezuela']],
+ ['Euskara',         ['eu-ES']],
+ ['Français',        ['fr-FR']],
+ ['Galego',          ['gl-ES']],
+ ['Hrvatski',        ['hr_HR']],
+ ['IsiZulu',         ['zu-ZA']],
+ ['Íslenska',        ['is-IS']],
+ ['Italiano',        ['it-IT', 'Italia'],
+                     ['it-CH', 'Svizzera']],
+ ['Magyar',          ['hu-HU']],
+ ['Nederlands',      ['nl-NL']],
+ ['Norsk bokmål',    ['nb-NO']],
+ ['Polski',          ['pl-PL']],
+ ['Português',       ['pt-BR', 'Brasil'],
+                     ['pt-PT', 'Portugal']],
+ ['Română',          ['ro-RO']],
+ ['Slovenčina',      ['sk-SK']],
+ ['Suomi',           ['fi-FI']],
+ ['Svenska',         ['sv-SE']],
+ ['Türkçe',          ['tr-TR']],
+ ['български',       ['bg-BG']],
+ ['Pусский',         ['ru-RU']],
+ ['Српски',          ['sr-RS']],
+ ['한국어',            ['ko-KR']],
+ ['中文',             ['cmn-Hans-CN', '普通话 (中国大陆)'],
+                     ['cmn-Hans-HK', '普通话 (香港)'],
+                     ['cmn-Hant-TW', '中文 (台灣)'],
+                     ['yue-Hant-HK', '粵語 (香港)']],
+ ['日本語',           ['ja-JP']],
+ ['Lingua latīna',   ['la']]];
+for (var i = 0; i < langs.length; i++) {
+  select_language.options[i] = new Option(langs[i][0], i);
+}
+select_language.selectedIndex = 6;
+updateCountry();
+select_dialect.selectedIndex = 6;
+showInfo('info_start');
+function updateCountry() {
+  for (var i = select_dialect.options.length - 1; i >= 0; i--) {
+    select_dialect.remove(i);
+  }
+  var list = langs[select_language.selectedIndex];
+  for (var i = 1; i < list.length; i++) {
+    select_dialect.options.add(new Option(list[i][1], list[i][0]));
+  }
+  select_dialect.style.visibility = list[1].length == 1 ? 'hidden' : 'visible';
+}
+
+	var final_transcript = '';
+	var recognizing = false;
+	var ignore_onend;
+	var start_timestamp;
+	var recept='';
+	var cuentabien=0;
+	var audio1,audio2,audio3,audio4,audio5;
+
+var cad1="sam loves listening to rock music",cad2="sam likes playing music",cad3="sam likes to play the guitar",cad4="sam likes classical music",cad5="sam doesn't like pop music";
+
+
+
+	if (!('webkitSpeechRecognition' in window)) {
+		upgrade();
+		} 
+		else {
+			start_button.style.display = 'inline-block';
+			var recognition = new webkitSpeechRecognition();
+			recognition.continuous = true;
+			recognition.interimResults = true;
+
+			recognition.onstart = function() {
+			recognizing = true;
+			showInfo('info_speak_now');
+			$('.right').css('-webkit-animation','inicia 1.5 infinite');
+			start_img.src = '../../../imagenes/botones/mic11.png'; 
+			};
+
+recognition.onerror = function(event) {
+    if (event.error == 'no-speech') {
+		start_img.src = '../../../imagenes/botones/micTrouble.png';
+		showInfo('info_no_speech');
+		ignore_onend = true;
+		}
+    if (event.error == 'audio-capture') {
+		start_img.src = '../../../imagenes/botones/micTrouble.png';
+		showInfo('info_no_microphone');
+		ignore_onend = true;
+		}
+    if (event.error == 'not-allowed') {
+		if (event.timeStamp - start_timestamp < 100) {
+			showInfo('info_blocked');
+			} 
+			else {
+				showInfo('info_denied');
+				}
+		ignore_onend = true;
+    }
+};
+
+recognition.onend = function() {
+    recognizing = false;
+    if (ignore_onend) {
+      return;
+    }
+    start_img.src = '../../../imagenes/botones/mic12.png';
+    if (!final_transcript) {
+      showInfo('info_start');
+      return;
+    }
+	
+    showInfo('');
+    if (window.getSelection) {
+      window.getSelection().removeAllRanges();
+      var range = document.createRange();
+      range.selectNode(document.getElementById('final_span'));
+      window.getSelection().addRange(range);
+    }
+	
+
+	
+	recept=recept.toLowerCase();
+	
+	alert(recept+" ");
+	
+	
+	
+	if(recept==cad1){cad1="$";audioBien.play();cuentabien++;}
+	if(recept=cad2){cad2="$";audioBien.play();cuentabien++;}
+	if(recept==cad3){cad3="$";audioBien.play();cuentabien++;}
+	if(recept==cad4){cad4="$";audioBien.play();cuentabien++;}
+	if(recept==cad5){cad5="$";audioBien.play();cuentabien++;}
+
+
+	if(cuentabien==5)
+				temp=setTimeout(function (){resul();},4000);
+			
+	showInfo('info_start');
+  };
+ 
+  recognition.onresult = function(event) {
+    var interim_transcript = '';
+
+  for (var i = event.resultIndex; i < event.results.length; ++i) {
+      if (event.results[i].isFinal) {
+        final_transcript += event.results[i][0].transcript;
+      } else {
+        interim_transcript += event.results[i][0].transcript;
+      }
+    }
+    
+	final_transcript = capitalize(final_transcript);
+	recept=final_transcript;
+	
+    final_span.innerHTML = linebreak(final_transcript);
+    interim_span.innerHTML = linebreak(interim_transcript);
+    if (final_transcript || interim_transcript) {
+      showButtons('inline-block');
+    }
+	
+  };
+}
+
+function upgrade() {
+  start_button.style.visibility = 'hidden';
+  showInfo('info_upgrade');
+}
+
+var two_line = /\n\n/g;
+var one_line = /\n/g;
+
+function linebreak(s) {
+  return s.replace(two_line, '<p></p>').replace(one_line, '<br>');
+}
+
+var first_char = /\S/;
+
+function capitalize(s) {
+  return s.replace(first_char, function(m) { return m.toUpperCase(); });
+}
+
+function copyButton() {
+  if (recognizing) {
+    recognizing = false;
+    recognition.stop();
+  }
+  copy_button.style.display = 'none';
+  copy_info.style.display = 'inline-block';
+  showInfo('');
+}
+
+function startButton(event) {
+  if (recognizing) {
+    recognition.stop();
+    return;
+  }
+  final_transcript = '';
+  recognition.lang = select_dialect.value;
+  recognition.start();
+  ignore_onend = false;
+  final_span.innerHTML = 'here the text';
+  interim_span.innerHTML = '';
+  start_img.src = '../../../imagenes/botones/mic12.png';
+  showInfo('info_allow');
+  showButtons('none');
+  start_timestamp = event.timeStamp;
+  
+  auto=setTimeout(function(){ recognition.stop(); },8000);
+  }
+
+
+function showInfo(s) {
+  if (s) {
+    for (var child = information.firstChild; child; child = child.nextSibling) {
+      if (child.style) {
+        child.style.display = child.id == s ? 'inline' : 'none';
+      }
+    }
+    information.style.visibility = 'visible';
+  } else {
+    information.style.visibility = 'hidden';
+  }
+}
+
+var current_style;
+
+
+
+function showButtons(style) {
+  if (style == current_style) {
+    return;
+  }
+  current_style = style;
+
+}
+
+	
+	function resul(){
+		$('#r1').css('display','none');
+		$('.sig').css('display','none');
+		document.getElementById('instruyeme').pause();
+		
+		if(cuentabien<5){
+		
+		audioMal.play();
+		audioMal.onended=function(){resultado(cuentabien,5);};
+		
+		}
+		else
+		resultado(cuentabien,5);
+		
+	}
+	
+var temp;
+
+	function carga(){
+		audio1=document.getElementById("hablame");
+		temp=setTimeout(function(){document.getElementById("rep").style.display="block";},30000);
+		$("section#featured1").css("height","100%");
+		$("section#featured1").css("margin","0 auto");
+		$(".rslides_container").css("display","table");
+		$(".rslides_container").css("height","100%");
+		
+		
+		$("#fragmento").css("display","table-cell");
+		$("#fragmento").css("vertical-align","middle");
+		empezar();
+	}
+
+var audioT,audioBien,audioMal;
+function empezar(){	
+	$('#gallery').css('opacity','1');
+	audioT=document.getElementById('mal0');
+	audioBien=document.getElementById('bien');
+	audioMal=document.getElementById('thecorrect');
+}
+//--------------------------------------------------------------------------------------------------------------
+
+function audio(){
+audio1.currentTime=0;audio1.play();
+}
+
+function next(){
+clearTimeout(temp);
+$("section#featured1").css("display","none");
+$(".rslides_container").css("display","none");
+
+$("#siguiente").css("display","none");
+$("#continuar").css("display","inline-block");
+
+
+$("#information").css("display","block");
+$(".right").css("display","block");
+$(".right").css("vertical-align","middle");
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+</script>
+</html>

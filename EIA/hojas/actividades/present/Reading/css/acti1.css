@@ -1,0 +1,64 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ACTIVIDAD 1 RESPONDER y ACTIVDAD 4 COMPLETAR*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#audio1{visibility:hidden;}
+#uno,#dos,#tres,#cuatro{
+	
+	text-align:center;
+
+}
+
+.negar,#acertar{
+
+}
+#primera,#segunda,#tercera,#reproducir2{display:none;}
+
+
+h1{color:#fc484c;}
+
+
+#q1 div,#q2 div,#q3 div{
+	width:80%;
+	margin:10px auto;
+	}
+b{color:#025059;}
+#review{color:white;}
+
+select:hover{background:#edcf89;}
+
+.sol{display:none;}
+
+
+.bn{
+	color:#44af81;
+	animation: crece 3s linear infinite;
+	-webkit-animation: crece 3s linear infinite;
+}
+
+.malongo{
+	color:#fc484c;
+}
+
+
+@keyframes slideDown {
+	0% {transform: translateY(-100%);}
+	50%{transform: translateY(8%);}
+	65%{transform: translateY(-4%);}
+	80%{transform: translateY(4%);}
+	95%{transform: translateY(-2%);}			
+	100% {transform: translateY(0%);}		
+}
+
+@-webkit-keyframes slideDown {
+	0% {-webkit-transform: translateY(-100%);}
+	50%{-webkit-transform: translateY(8%);}
+	65%{-webkit-transform: translateY(-4%);}
+	80%{-webkit-transform: translateY(4%);}
+	95%{-webkit-transform: translateY(-2%);}			
+	100% {-webkit-transform: translateY(0%);}
+	}
+
+
+

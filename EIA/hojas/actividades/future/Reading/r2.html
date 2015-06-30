@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--[if lte IE 8]><meta http-equiv="X-UA-Compatible" content="chrome=1"/><![endif]-->
+        <title>English In Action!</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=0.5">
+		<meta name="keywords" content="e-learing,ova,learn,english,Jorge García">
+		<meta name="description" content="Making plains and predictions, Activity 2 for study English in future time">
+
+		<!-- Libraries -->
+        <script type="application/javascript" src="../../../js/jquery.min.js"></script>
+        
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		
+		<script type="application/javascript" src="../../acciones.js"></script>
+		<script type="application/javascript" src="js/actividad2.js"></script>
+		<script type="application/javascript" src="js/movertabla.js"></script>
+		
+		<link rel="stylesheet" href="../../tipo.css"/>
+		<link rel="stylesheet" href="../../styleMenu2.css"/>
+		<link rel="stylesheet" href="../../present/Reading/css/acti2.css"/>
+		<link rel="stylesheet" href="css/formatotabla.css"/>
+	<link rel="stylesheet" href="../../responsiveenglish.css"/>
+
+
+  <link rel="stylesheet" type="text/css" href="../../../css/default.css">
+  <link rel="stylesheet" type="text/css" href="../../../css/component.css">
+  <script src="../../../js/modernizr.custom.js"></script>
+		
+		
+	
+	<script type="text/javascript">
+			// IE Evitar seleccion de texto
+			document.onselectstart=function(){
+			if (event.srcElement.type != "text" && event.srcElement.type != "textarea" && event.srcElement.type != "password")
+				return false
+				else return true;
+			};
+			// FIREFOX Evitar seleccion de texto
+				if (window.sidebar){
+					document.onmousedown=function(e){
+					var obj=e.target;
+						if (obj.tagName.toUpperCase() == "INPUT" || obj.tagName.toUpperCase() == "TEXTAREA" || obj.tagName.toUpperCase() == "PASSWORD")
+							return true;	
+						else
+							return false;	
+					}
+				}
+	</script>
+		<script type="text/javascript">
+ function closebuscador(){
+            $("#buscador").hide("slow");
+            $(".modal-window").css('left','45%');
+            $(".modal-window").css('top','45%');
+            $(".modal-window").css('right','45%');
+            $(".modal-window").css('bottom','45%');
+          
+          }
+      $(document).ready(function(){
+         
+              $("#buscador").hide();   
+      $("#bucadorito").click(function(){
+    $("#buscador").show("slow");
+    }); 
+    document.oncontextmenu = function() {
+      return false
+    }
+				$("#menuForAll" ).slideToggle(0);
+					$("#clickOnMe").click(function(){
+						$("#menuForAll" ).slideToggle(1000);
+					});		
+					
+	
+                $('#boxclose').click(function(){
+                    $('#box').animate({'left':'-80%'},500,function(){
+                        $('#overlay').fadeOut('fast');
+                    });
+					audio1.pause();
+					audio2.pause();
+					audio3.pause();
+					
+                });
+
+				
+			});
+		</script>
+	
+
+	
+	
+
+</head>
+    <body onload="readme(20000),cerrar()" >
+        <div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+        	        	
+<div id="buscador">
+  <iframe scrolling='no' id="buscadorsino" src="../../../cosino/" name="buscadorsino" height="100%" width="100%" frameborder="0"  ></iframe>  
+  </div>
+			
+		
+		
+			
+				
+		<div id="act" class="content"> 
+			<a class="activator" id="activator"></a>
+        </div>
+
+        <div class="overlay" id="overlay" style="display:none;"></div>
+        <div class="box" id="box">
+        <a class="boxclose" id="boxclose"></a> 
+		<p id="eatmyshorts"></p>
+		
+        </div>
+
+        <script type="text/javascript" src="../../../jquery-1.3.2.js"></script>
+        
+									
+					<audio controls preload="none" id="instruyeme">
+						<source src="../../audios/instrucciones/reading/afr2.mp3" type="audio/mpeg" />
+					
+					</audio>
+					
+
+		<section id="activities">
+				
+		
+					
+			<nav id="menuForAll">
+			<div id="logoMenu">
+				<a href="../../../../index.html"><img src="../../../imagenes/ingles.png"></a>
+			</div>
+			
+			
+			<ul>
+				<a href="../../../menu/selection/selection.html"><li>Main Menu</li></a>
+				<a href="../../../cont/cont.html"><li>Context Information</li></a>
+				<a href="../../../mmenu/sitemap.html"><li>Site Map</li></a>
+				<a href="../../../biblioteca/biblioteca.html"><li>Library</li></a>
+				<li><a  id="bucadorito" href="#Vocabulary">Vocabulary</a></li>
+                <a href="../../../references/refe.html"><li>References</li></a>
+				<a href="../../../credits/staff.html"><li>Staff</li></a>
+			</ul> 
+		</nav>
+			<header>
+						
+			<div id="logo"><img  src="../../../imagenes/ingles.png" width="80px" height="80px"/></div>
+			<div id="title" class="slideDown"><img src="../../../imagenes/avisos/chile.png"/></div>
+			<div id="udec"> <img src="../../../imagenes/logoudec.png"/></div>
+		
+			
+			<div id="title2" class="slideDown"><img  src="../../../imagenes/avisos/sarah.png"/></div>
+			<div id="title3" class="slideDown"><img src="../../../imagenes/avisos/sam.png"/></div>
+			<div id="title4" class="slideDown"> <img src="../../../imagenes/avisos/FILL.png"/></div>
+			</header>
+			 
+			<div id="informa">
+					<section id="manito">
+							<img id="hand2" class="hand" src="../../../imagenes/avisos/hand.png"/>
+							<img id="hand1" class="hand" src="../../../imagenes/avisos/hand.png"/>
+					</section>
+					
+					<section id="info">
+								<img  style="cursor: pointer" id="alumbraobj" onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob()" src="../../../imagenes/botones/objetivo.png"/>
+								<img  style="cursor: pointer" id="alumbrains" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins()" src="../../../imagenes/botones/instruccion.png"/>
+					</section>
+					
+					<section id="txt">
+						<div id="objetivos"><h5>To strengthen reading ability through different kinds of exercises.</h5></div>
+						<div id="instruccion"><h5>Read three texts about a tour. Classify the activities that will be done each day. Click on each box to type your answers and press "DONE" to check the activity. You should take notes.
+
+						
+						 </h5></div>
+						
+					</section>
+			</div>
+			
+			<div id="georgeRules"></div>
+			<div id="advertisment">
+				<img id="plane" src = "../../../imagenes/avisos/readAirplane.png"/>
+		</div>
+<!--
+	
+	-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~AQUI PONDREMOS EL CONTENIDO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+				<article id="r1">
+				
+					<aside id="textos">
+						<nav class="vertical">
+							<ul>
+								<li>
+									<a href="#" onClick="activa(1,0)"><img id="subt" src="../../../imagenes/botones/text1.png"/></a>
+								</li>
+								<li>
+									<a href="#" onClick="activa(2,0)"><img id="subt" src="../../../imagenes/botones/text2.png"/></a>
+								</li>
+								<li>
+									<a href="#" onClick="activa(3,0)"><img id="subt" src="../../../imagenes/botones/text3.png"/></a>
+								</li>	
+							</ul>
+						</nav>
+					</aside>
+
+					<section id="void">
+						<div id="card1">
+							<div id="fragmento">
+								<h3>Days 1-2: Santiago</h3>
+								<h6><p>
+								
+								The flight arrives in the capital, Santiago in the morning.  
+								After you check in at your hotel, we will visit the main square and then walk to the top of Santa Lucia Hill for a breathtaking view of Santiago.
+								The next day we will travel to Valparaíso and spend the day ay one of its beautiful sandy beaches.
+								</p></h6>
+                                <span id="APA">(Evans & Dooley, 2009, p. 84)</span>
+							</div>
+							<div class="contImage"><img src="../../images/reading/30_imagen.png" /></div>
+						</div>
+	
+						<div id="card2">
+									
+							<div id="fragmento">
+							
+							<h3>Days 3-5: Atacama Tatio</h3>
+							<h6><p>
+							
+							We will fly to Calama at noon. In the afternoon, we will take you on a tour of the Archaeological Museum. 
+							The next morning, we will leave for Toconao. There you will visit the Chaxa Lake and see the pink flamingos of Atacama. 
+							We will also visit the Moon Valley with its amazing sand dunes and salt crystals.
+
+							</p></h6>
+                                <span id="APA">(Evans & Dooley, 2009, p. 84)</span>
+							</div>
+							
+							<div class="contImage"><img  src="../../images/reading/30_imagen.png" /></div>
+						</div>
+					
+						<div id="card3">
+							<div id="fragmento">
+							
+								<h3>Days 6-8: Puerto Varas/Santiago</h3>
+								<h6><p>
+								
+								We will fly to Puerto Varas early in the morning.  In the afternoon, there will be a tour of the National Park. The next day, we will sail to Chiloe Island.  During the crossing, we will see dolphins and sea birds. After our seafood lunch, we will go shopping for souvenirs. The next day we will fly back to Santiago. In the evening, you will head to the airport to fly home.
+
+								</p>	</h6>	
+                                <span id="APA">(Evans & Dooley, 2009, p. 84)</span>
+							</div>
+								<div class="contImage"><img src="../../images/reading/30_imagen.png" /></div>
+						</div>
+					</section>	
+				
+			
+			
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~AQUI PONDREMOS LAS PREGUNTAS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+	
+					<section id="blanco">
+
+						
+						<iframe name="pp" style="position:absolute; top:-1500px;"></iframe> 
+
+
+							
+							<div id="ir">
+								<div class="movertablai" OnClick="roll(-1)">
+									<img src="../../../imagenes/botones/left.png" class=".iconicfill-arrow-left">
+								</div>
+								</div>
+							</div>
+						<div id="showtab">
+							<form id="cuadro" name="formulario1" method="post" target="pp"  autocomplete="off">
+								
+											<label class="tableTitle">DAY 1</label>
+											<label class="tableTitle2"> MORNING</label>
+											<input id="like1" type="text" value="They will arrive to Santiago" disabled="true" maxlength="71"/>
+											<input id="like2" type="text" placeholder="write likes"  maxlength="71"/>
+											<input id="like3" type="text" placeholder="write likes"   maxlength="71"/>
+											
+							</form>			
+							
+							<form id="cuadro2" name="formulario2" method="post" target="pp" autocomplete="off">
+								
+											<label class="tableTitle">DAYS 3-5</label>
+											<label class="tableTitle2">MORNING</label>
+											<input id="like1" type="text" value="They will fly to Calama" disabled="true" size="30" maxlength="70"/>
+											<input id="like2" type="text" placeholder="write likes"  size="30" maxlength="70"/>
+											<input id="like3" type="text" placeholder="write likes"  size="30"  maxlength="70"/>
+											<input id="like4" type="text" placeholder="write likes"  size="30" maxlength="70"/>
+											<label class="tableTitle2">AFTERNOON</label>
+											<input id="dlike1" type="text" placeholder="write dislikes"  size="30"  maxlength="70"/>
+							</form>
+
+							<form id="cuadro3"  name="formulario3" method="post" target="pp" autocomplete="off">
+								
+										<label class="tableTitle">DAYS 6-8</label>
+										<label class="tableTitle2">MORNING</label>
+										<input id="like1" type="text"   size="30" maxlength="42"/>
+										
+										<label class="tableTitle2">AFTERNOON</label>
+										<input id="dlike2" type="text" value="They will take a tour to The National Park" placeholder="write dislikes"  size="30"  maxlength="42"disabled="true"/>
+										<input id="dlike3" type="text" placeholder="write dislikes"  size="30"  maxlength="42"/>
+										
+							</form>
+						
+						
+						</div>
+
+							<div id="ir2">
+								<div class="movertablad" onClick="roll(1)">
+									<img src="../../../imagenes/botones/right.png" class="iconicfill-arrow-right">
+								</div>
+							</div>
+						
+						<div class="buttonContainer">
+							<input class="imagebutton" id="boton1" type="image" onclick="enviar_formulario(0)" src="../../../imagenes/botones/check.png">
+							<input class="imagebutton" id="boton2" type="image" onclick="enviar_formulario(1)" src="../../../imagenes/botones/check.png">
+							<input class="imagebutton" id="boton3" type="image" onclick="enviar_formulario(2)" src="../../../imagenes/botones/check.png">
+							
+							<input class="imagebutton" id="botonRetro1" type="image" onclick="muestraRetro(1)" src="../../../imagenes/botones/answer.png">
+							<input class="imagebutton" id="botonRetro2" type="image" onclick="muestraRetro(2)" src="../../../imagenes/botones/answer.png">
+							<input class="imagebutton" id="botonRetro3" type="image" onclick="muestraRetro(3)" src="../../../imagenes/botones/answer.png">
+							
+							
+						</div>
+						
+					</section>
+				</article>
+
+
+					
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~AQUI PONDREMOS LAS RESPUESTAS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+				<div id="review">
+			
+					<label for="cuatro">		FINAL SCORE	</label>
+					<span>
+						<img  id="right" src="../../../imagenes/right.png" />
+					</span>
+					<span>
+						<img  id="wrong" src="../../../imagenes/wrong.png" />
+					</span>
+										
+										
+										<h5><p id="result"> </p></h5>
+				</div>
+			
+			
+					
+			
+				<audio controls preload="none" id="retrowell">
+						<source src="../../audios/feedback/congratulation.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					<audio controls preload="none" id="retrobad">
+						<source src="../../audios/feedback/can%20do%20b.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					
+					<audio controls preload="none" id="thecorrect">
+						<source src="../../audios/feedback/the%20correct.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					<audio controls preload="none" id="tryA">
+						<source src="../../audios/feedback/try%20again.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					
+					<audio controls preload="none" id="bien">
+						<source src="../../audios/feedback/well done.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					
+					<audio controls preload="none" id="a1">
+						<source src="../../audios/texto/reading/afr2_1.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio><audio controls preload="none" id="a2">
+						<source src="../../audios/texto/reading/afr2_2.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio><audio controls preload="none" id="a3">
+						<source src="../../audios/texto/reading/afr2_3.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+				
+			
+				
+			
+			<footer>
+				<nav id="navegacion">
+				<nav class="sig" id="sig" onClick="cuadro()" style="cursor: pointer"><img src="../../../imagenes/botones/nex.png"/></nav>
+				<nav class="sig2" id="check" onClick="sinnada()" style="cursor: pointer"><img src="../../../imagenes/botones/nex.png"/></nav>
+				<nav class="prev" onClick="volver(1)" style="cursor: pointer"><img src="../../../imagenes/botones/prev.png"/></nav>
+				<nav class="prev2" onClick="sincuadro()" style="cursor: pointer"><img src="../../../imagenes/botones/prev.png"/></nav>
+				<nav class="final"><a href="r3.html"><img src="../../../imagenes/botones/continue.png"/></a></nav>
+				</nav>
+				
+				<span id="references">Making plans and Predictions: Reading - Activity 2
+										
+		<nav id="clickOnMe" class="nav-esquina" role="navigation">
+			<!-- Right Control -->
+			<i class="fa fa-th fa-2x"></i>
+		</nav>
+				</span>
+			</footer>
+			
+		</section>
+		
+		
+    </body>
+</html>

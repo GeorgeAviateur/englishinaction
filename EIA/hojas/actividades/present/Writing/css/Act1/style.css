@@ -1,0 +1,50 @@
+.peso{
+width: auto;
+display: inline-block;
+top: -40px;
+}
+#pesos{
+top: 0px;	
+}
+#listeniando1{
+width:50px;
+display: none;
+}
+#escuchar,#escuchar2{
+width: 100px;
+}
+.velkan,.labeles1{
+display: inline-block;
+}
+.so{
+display: none;
+}
+.velk,.velkan,input,.labeles,h1,.campos,input[value="resultado"],.pq{
+display: none;
+}
+label, h2,h3{ 
+float:center;
+text-align: center;
+margin:0 auto;
+}
+input[value=""] {		
+width: 100px;
+}
+#form2{
+margin-top: 1.5%;
+margin-bottom: 2%;		
+}
+.caifanes{
+display: none;
+margin-top: 0px;
+margin-bottom: 0px;		
+}
+.labeles,.labeles1{
+position:relative;
+}
+table{
+display: inline;
+}
+.sandy{
+margin-bottom: 1.5%;
+}

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+  <head>
+    <title>Test</title>
+    <meta charset="utf-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
+
+
+    <script type="application/javascript" src="../../../acciones.js"></script>
+     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../../../tipo.css" type="text/css"/>
+    <link rel="stylesheet" href="../../../responsiveenglish.css" type="text/css"/>
+		<link rel="stylesheet" href="css/evaluacion.css"/>
+    <link rel="stylesheet" href="css/responsiveevaluacion.css"/>
+		<!--<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>-->
+    <script src="js/evaluacion.js"></script>   
+    <script src="js/listening.js"></script>
+    <script src="js/parrafos.js"></script>
+    <script src="js/activaraudios.js"></script>
+    <!-- ------------------------------------------------------ -->
+    
+
+
+    <script type="text/javascript" src="js/act1/actividad1-presente.js"></script>
+ <script type="application/javascript" src="js/act5/actividad5.js"></script>
+    <link rel="stylesheet" href="css/act1/stylesheet1.css"/>
+    <link rel="stylesheet" href="css/act1/styleperen.css"/>
+    <link rel="stylesheet" href="css/act5/acti5.css"/>
+
+
+    <!-- ------------------------------------------------------ -->
+    <script src="js/jquery.countdown360.js" type="text/javascript" charset="utf-8"></script>
+    <script type="application/javascript" src="functions.js"></script>
+
+    <script>  
+    var cadVariables="";
+    $("document").ready(function(){
+    cadVariables = location.search.substring(1,location.search.length);
+      //alert("write");
+    });
+    function preguntaAle2(certeza){
+    if(certeza==true){
+    if(cadVariables.charAt(0)=="0"){
+    cadVariables=remplaza(0,1,cadVariables);
+    }
+    else{
+    if(cadVariables.charAt(0)=="1"){
+    cadVariables=remplaza(0,2,cadVariables);
+    }
+    }
+    }
+    //window.location="libro.html?"+cadVariables;
+    }
+    </script>
+
+ <script type="text/javascript">
+      function closebuscador(){
+            $("#buscador").hide("slow");
+            $(".modal-window").css('left','45%');
+            $(".modal-window").css('top','45%');
+            $(".modal-window").css('right','45%');
+            $(".modal-window").css('bottom','45%');
+          
+          }
+      $(document).ready(function(){
+         
+              $("#buscador").hide();   
+      $("#bucadorito").click(function(){
+    $("#buscador").show("slow");
+    }); 
+    document.oncontextmenu = function() {
+      return false
+    }
+      $("#menuForAll" ).slideToggle(0);
+      $("#clickOnMe").click(function(){
+      $("#menuForAll" ).slideToggle(1000);
+      });   
+          
+      });
+    </script>
+
+  </head>
+
+  <body onload='readme12(20000);habilidad(),cerrar()'>
+          <div id="buscador">
+  <iframe scrolling='no' id="buscadorsino" src="../../../../cosino/" name="buscadorsino" height="100%" width="100%" frameborder="0"  ></iframe>  
+  </div>
+    <section id="activities">
+    <nav id="menuForAll">
+        <div id="logoMenu">
+          <a href="../../../../../index.html"><img src="../../../../imagenes/ingles.png"></a>
+        </div>
+        
+        
+        <ul>
+          <a href="../../../../menu/selection/selection.html"><li>Main Menu</li></a>
+          <a href="../../../../cont/cont.html"><li>Context Information</li></a>
+          <a href="../../../../mmenu/sitemap.html"><li>Site Map</li></a>
+          <a href="../../../../biblioteca/biblioteca.html"><li>Library</li></a>
+          <li><a  id="bucadorito" href="#Vocabulary">Vocabulary</a></li>
+		  <a href="../../../../references/"><li>References</li></a>
+          <a href="../../../../credits/staff.html"><li>Staff</li></a>
+        </ul> 
+      </nav>
+      <header>
+  	    <div id="logo"><img  src="../../../../imagenes/ingles.png"/></div>
+  	    <div id="title"><img src="images/proceso.png"/></div>
+  	    <div id="udec"> <img src="../../../../imagenes/logoudec.png"/></div>
+      </header>
+  		
+      <div id="informa">
+    	  <section id="manito">
+    		  <img id="hand2" class="hand" src="../../../../imagenes/avisos/hand.png"/>
+    		  <img id="hand1" class="hand" src="../../../../imagenes/avisos/hand.png"/>
+    	  </section>
+
+        <section id="info">
+          <img  style="cursor: pointer" onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob12()"  src="../../../../imagenes/botones/objetivo.png"/>
+          <img style="cursor: pointer" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins12()" src="../../../../imagenes/botones/instruccion.png"/>
+        </section>  
+
+        <section id="txt">
+          <div id="objetivos"><h5 id="obj"></h5></div>
+          <div id="instruccion"><h5 id="ins"></h5></div>
+        </section>
+      </div>
+  		<div id="georgeRules"></div>
+      	
+      <article id="r1">
+      	<section id="blanco">
+
+
+      	  <div id="cuadroPreguntas">
+            <div id='fotocosinos'> 
+              <img id="ima1" src=''/>
+            </div>
+
+            <div id='campi'>
+              <h3 id="parrafiño1" class="parrafiños"></h3>
+  		        <form method="post" action="#" id="formulario">
+   		          <h3 id="label11" class="labeles"></h3>
+                <input type="text" value="" class="signo" id="input1" name="" onkeypress="sololetras(event)" onpaste="return false" oncut="return false" oncopy="return false" placeholder="write here..." /> 
+                <input type="text" value="" class="signo" id="input2" name="" onkeypress="sololetras(event)"  placeholder="write here..." /> 
+                <h3 id="label1" class="labeles"></h3>
+  		        </form>   
+     	        <h3 id="parrafiño2" class="parrafiños"></h3>
+  		          
+
+
+
+                  <div id="cuadroRespuestas1">
+                    <h3>Click on the correct answer</h3>
+                  
+                  
+                    <select name="miSelect"  id="cuadro1" />
+                    <option value="1" selected>No, she isn't.</option>
+                    <option value="2">No, there won’t.  Rivers and lakes will dry in some years.</option>
+                    <option value="3">My family and I are going to travel to Florida.</option>
+                    <option value="4">I am going to stay home.</option>
+                    <option value="5">No, they won’t.</option>
+                    </select>
+                        </div>
+                
+    
+<div id="advertisment">
+        <img id="plane" src = "../../../images/proceso/listen.png"/>
+    </div>
+
+ <div id="q1">
+      
+      <label for="uno">   1.  Who is Nancy going to the bar with?       </label>
+      <div id="esto" class="negar" onClick="erronea(0)" style="cursor: pointer"><h2 class="ans">A.  She was at the market</h2></div>
+      <div id="es" class="acertar" onClick="correcta(0)" style="cursor: pointer"><h2 class="ans">B. She is going to the cinema with Charlie and Thomas</h2></div>
+      <div id="udec1" class="negar" onClick="erronea(0)" style="cursor: pointer"><h2 class="ans">C. She was at home.</h2></div>
+    </div>
+          
+    <div id="q2">
+      <label for="dos">   2.  When are they going to the bar?</label>
+      <div id="esto2" class="negar" onClick="erronea(1)" style="cursor: pointer"><h2 class="ans">A. They are going on Friday night.</h2></div>
+      <div id="es2" class="negar" onClick="erronea(1)" style="cursor: pointer"><h2 class="ans">B. They are going on Thursday night.</h2></div>
+      <div id="udec2" class="acertar" onClick="correcta(1)" style="cursor: pointer"><h2 class="ans">C.  They are going on Saturday night.</h2></div>  
+    </div>
+          
+          
+    <div id="q3">
+      <label for="tres">    3.  What time are they going to meet? </label>
+      <div id="esto3" class="acertar" onClick="correcta(2)" style="cursor: pointer"><h2 class="ans">A.  They are going to meet at 8:30 p.m.</h2></div>
+      <div id="es3" class="negar"  onClick="erronea(2)" style="cursor: pointer"><h2 class="ans">B.  They are going to meet at 7:30 p.m</h2></div>
+      <div id="udec3" class="negar"  onClick="erronea(2)" style="cursor: pointer"><h2 class="ans">C.  They are going to meet at 9:30 p.m.</h2></div>
+    </div>
+      <div id="q4">
+      <label for="cuatro">    4.  What's the bar/s name?  </label>
+      <div id="esto4" class="acertar" onClick="correcta(3)" style="cursor: pointer"><h2 class="ans">A.  Bahia bar.</h2></div>
+      <div id="es4" class="negar"  onClick="erronea(3)" style="cursor: pointer"><h2 class="ans">B.  Toni's</h2></div>
+      <div id="udec4" class="negar"  onClick="erronea(3)" style="cursor: pointer"><h2 class="ans">C.  Charlie/s.</h2></div>
+    </div>
+
+
+                  </div>
+          </div>
+
+
+
+ 
+
+
+
+
+
+          <section id='olas'>
+        
+            <div id="labelito">
+      <h2><label id="resultado1"></label></h2>
+    
+      </div>
+        <audio src="../../../audios/preguntas/listening/actividad1-futuro/3.mp3" id="audio1"></audio>
+        <audio src="../../../audios/preguntas/listening/actividad1-futuro/5.mp3" id="audio2"></audio>
+        <audio src="../../../audios/preguntas/listening/actividad1-futuro/1.mp3" id="audio3"></audio>     
+        <audio src="../../../audios/preguntas/listening/actividad1-futuro/4.mp3" id="audio5"></audio>
+        <audio src="../../../audios/preguntas/listening/actividad1-futuro/2.mp3" id="audio4"></audio>
+        <audio src="../../../audios/preguntas/listening/actividad1-futuro/6.mp3" id="audio6"></audio>
+        <audio src="../../../audios/preguntas/listening/actividad1-futuro/7.mp3" id="audio7"></audio>
+        <audio src="../../../audios/feedback/try%20again.mp3" id="sorry"></audio>
+        <audio src="../../../audios/trompeta.mp3" id="thecorrect"></audio>
+        <audio src="../../../audios/feedback/the%20correct.mp3" id="correct"></audio>
+        <audio src="../../../audios/aplausos.mp3" id="good"></audio>
+            <div   id="paraMostrar">
+      
+          <img src="../../../images/proceso/139 imagen.jpg" width="300" height="165" id="Aimagen7"/>
+          <img src="../../../images/proceso/145 imagen.jpg" width="300" height="165" id="Aimagen5"/>
+          <img src="../../../images/proceso/142 imagen.jpg" width="300" height="165" id="Aimagen1"/>
+          <img src="../../../images/proceso/141 imagen.jpg" width="300" height="165" id="Aimagen6"/>
+          <img src="../../../images/proceso/143 imagen.jpg" width="300" height="165" id="Aimagen2"/>
+          <img src="../../../images/proceso/140 imagen.jpg" width="300" height="165" id="Aimagen3"/>
+          <img src="../../../images/proceso/144 imagen.jpg" width="300" height="165" id="Aimagen4"/>
+          
+      </div>
+      
+       <div class="nav">
+          <a id="previous" href="#"><img src="../../../../imagenes/botones/right.png"/></a>
+        </div>
+      
+      <section id="collage">
+      
+        <div class="slideshow">
+        
+          <img src="../../../images/proceso/139 imagen.jpg" width="300" height="165" id="imagen7"/>
+          <img src="../../../images/proceso/145 imagen.jpg" width="300" height="165" id="imagen5"/>
+          <img src="../../../images/proceso/142 imagen.jpg" width="300" height="165" id="imagen1"/>
+          <img src="../../../images/proceso/141 imagen.jpg"width="300" height="165" id="imagen6"/>
+          <img src="../../../images/proceso/143 imagen.jpg"width="300" height="165" id="imagen2"/>
+          <img src="../../../images/proceso/140 imagen.jpg" width="300" height="165" id="imagen3"/>
+          <img src="../../../images/proceso/144 imagen.jpg" width="300" height="165" id="imagen4"/>
+          
+        </div>
+        
+        
+        
+      </section>
+      
+      
+      
+      
+        <div class="nav">
+          <a id="next" href="#"><img src="../../../../imagenes/botones/right.png"/></a>
+        </div>
+
+
+
+
+
+          </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div id='mirelojito'>
+            <div id="container" >
+              <div id="countdown" ></div>
+                <script type="text/javascript" charset="utf-8">
+                 // setTimeout(function(){ 
+                  $("#countdown").countdown360({
+                     radius      : 60,
+                     seconds     : 90,
+                     fontColor   : '#FFFFFF',
+                     autostart   : false,
+                     onComplete  : function () { console.log('done') }
+                   }).stop()
+                  //},1000);
+                </script>
+            </div>
+          </div>
+
+  	    </section>
+      </article>
+
+      <footer>		
+        <nav id="navegacion">	 
+         
+    	    <nav id="continuar" class="sig"  onclick="listening()"><img src="../../../../imagenes/botones/check.png" class="verificarRespuesta"/></nav>	
+    	    <nav id="continuar1"  style="display:none;" class="sig"  ><img src="../../../../imagenes/botones/nex.png" onclick="redireccionar()"/></nav>		
+  					
+    	    <!--<div id="reloj"><img title="Time Lapse Remain" id="stopWatch" src="../../../imagenes/cronometro/stopwatch.png"/> <h4><figure id="cuenta">READ INSTRUCTIONS</figure></h4> </div>-->
+    			
+    	    <!--<img src="../../../imagenes/botones/mini3.png" /></nav>
+    	    <img src="../../../imagenes/botones/mini31.png" onClick="activaaudio()" />-->
+
+          <section class="fuckencio" id="fuckencio1">
+            <img id="reproducir00" onClick="activaaudio()" src="../../../../imagenes/botones/mini3.png"/>
+    	      <img class="elnav" id="pause" onClick="activaaudio()"  src="../../../../imagenes/botones/mini31.png"/>
+    	      <!-- <nav class="final"><a href="../../centro.html" ><img src="../../../imagenes/botones/continue.png"/></a></nav>-->
+
+            <!--<img id="reproducir1" onClick="activaaudio()" src="../../../imagenes/botones/mini31.png"/ style="cursor:pointer;">
+            <img id="pause1" onClick="activaaudio()"  src="../../../imagenes/botones/mini3.png" style="cursor:pointer;"/>-->
+          </section>
+
+          <section class="fuckencio" id="fuckencio2">
+            <!--<nav id="perendengues">
+              <input id="primero" type="checkbox" name="transporte" value="1"></input>
+            	<input id="segundo" type="checkbox" name="transporte" value="2"></input>
+            	<input id="tercero" type="checkbox" name="transporte" value="3"></input>
+            </nav>-->
+
+            <table id="perendengues">
+              <tr>
+              <input type="checkbox" id="primero" class="css-checkbox" checked="checked"/>
+              <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+              </tr>
+
+              <tr>
+              <input type="checkbox" class="css-checkbox" id="segundo" checked="checked" />
+              <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+              </tr>
+
+              <tr>
+              <input type="checkbox" id="tercero" class="css-checkbox" checked="checked"/>
+              <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+              </tr>
+            </table>   
+          </section>  
+        </nav>
+  		
+        <span id='references'>Making plans and predictions - Listening
+        <nav id="clickOnMe" class="nav-esquina" role="navigation">
+            <!-- Right Control -->
+            <i class="fa fa-th fa-2x"></i>
+          </nav></span>
+      </footer>
+    </section>
+
+
+    <audio controls preload="none" id="aplausos" >
+      <source src="../../../audios/aplausos.mp3" type="audio/mpeg" />
+      <source src="../../../audios/aplausos.wav" type="audio/wav" />
+      <p>Tu navegador no implementa el elemento audio.</p>
+    </audio>
+
+    <audio controls preload="none" id="trompeta" >
+      <source src="../../../audios/trompeta.mp3" type="audio/mpeg" />
+      <source src="../../../audios/trompeta.wav" type="audio/wav" />
+      <p>Tu navegador no implementa el elemento audio.</p>
+    </audio>
+
+    <audio controls preload="none" id="the" >
+      <source src="../../../audios/t1.mp3" type="audio/mpeg" />
+      <source src="../../../audios/t1.wav" type="audio/wav" />
+      <p>Tu navegador no implementa el elemento audio.</p>
+    </audio>
+
+
+
+
+  </body>
+</html>

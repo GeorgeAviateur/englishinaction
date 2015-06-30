@@ -1,0 +1,27 @@
+@media only screen and (max-width: 680px) {
+	h3,.velkan{
+	margin-top:7%;
+	}
+	.velkan{
+	margin-top:6%;
+	}
+	#peso1{
+	top: 0px;	
+	width: 100%;
+	}
+	input[value=""] {
+	width: 80%;
+	}
+}
+@media only screen and (max-width: 549px) {
+	h3,.velk{
+	top: 5px;
+	}
+	input[value=""] {
+	width: 80%;
+	}
+	#peso1{
+	top: 0px;	
+	width: 100%;
+	}
+}

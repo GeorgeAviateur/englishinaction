@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!--[if lte IE 8]><meta http-equiv="X-UA-Compatible" content="chrome=1"/><![endif]-->
+	<title>English In Action!</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=0.5">
+	<meta name="keywords" content="e-learing,ova,learn,english,Jorge García">
+	<meta name="description" content="Likes and dislikes, Activity 1 for study English in present time">
+	<!-- Libraries -->
+	<link rel="stylesheet" href="../../tipo.css" />
+    <script type="application/javascript" src="../../../js/jquery.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="../../../css/default.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../../responsiveenglish.css" />
+	<link rel="stylesheet" type="text/css" href="../../../css/component.css">
+	<script src="../../../js/modernizr.custom.js"></script>
+	<script type="application/javascript" src="js/actividad.js"></script>
+	<script type="application/javascript" src="js/audio.js"></script>
+	<script type="application/javascript" src="../../acciones.js"></script>
+	<link rel="stylesheet" href="css/acti1.css" />
+	<script type="text/javascript">
+	document.onselectstart = function () {
+		if (event.srcElement.type != "text" && event.srcElement.type != "textarea" && event.srcElement.type != "password") return false
+		else return true;
+	};
+	if (window.sidebar) {
+		document.onmousedown = function (e) {
+			var obj = e.target;
+			if (obj.tagName.toUpperCase() == "INPUT" || obj.tagName.toUpperCase() == "TEXTAREA" || obj.tagName.toUpperCase() == "PASSWORD") return true;
+			/*else if (obj.tagName=="BUTTON"){
+			return true;
+			}*/
+			else return false;
+		}
+    }
+	</script>
+	<script type="text/javascript">
+	function closebuscador() {
+		$("#buscador").hide("slow");
+		$(".modal-window").css('left', '45%');
+		$(".modal-window").css('top', '45%');
+		$(".modal-window").css('right', '45%');
+		$(".modal-window").css('bottom', '45%');
+	}
+	$(document).ready(function () {
+		$("#buscador").hide();
+		$("#bucadorito").click(function () {
+			$("#buscador").show("slow");
+		});
+		document.oncontextmenu = function () {
+			return false
+		}
+		$("#menuForAll").slideToggle(0);
+		$("#clickOnMe").click(function () {
+			$("#menuForAll").slideToggle(1000);
+		});
+	});
+
+	</script>
+</head>
+
+<body onload="readme(25000),cerrar()">
+    
+    <div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+<!--Codigo de carga por adan-2994.es.tl--> 
+	<audio controls preload="auto" id="bien">
+		<source src="../../audios/feedback/well done.mp3" type="audio/mpeg" />
+		<p>Tu navegador no implementa el elemento audio.</p>
+	</audio>
+	<audio controls preload="auto" id="mal0">
+		<source src="../../audios/respuestas/reading/aprr1ans1.mp3" type="audio/mpeg" />
+		<p>Tu navegador no implementa el elemento audio.</p>
+	</audio>
+	<audio controls preload="auto" id="mal1">
+		<source src="../../audios/respuestas/reading/aprr1ans2.mp3" type="audio/mpeg" />
+		<p>Tu navegador no implementa el elemento audio.</p>
+	</audio>
+	<audio controls preload="auto" id="mal2">
+		<source src="../../audios/respuestas/reading/aprr1ans3.mp3" type="audio/mpeg" />
+		<p>Tu navegador no implementa el elemento audio.</p>
+	</audio>
+	<audio controls preload="auto" id="mal3">
+		<source src="../../audios/respuestas/reading/aprr1ans4.mp3" type="audio/mpeg" />
+		<p>Tu navegador no implementa el elemento audio.</p>
+	</audio>
+	<audio controls preload="auto" id="mal4">
+		<source src="../../audios/respuestas/reading/aprr1ans5.mp3" type="audio/mpeg" />
+		<p>Tu navegador no implementa el elemento audio.</p>
+	</audio>
+	<audio controls preload="auto" id="instruyeme">
+		<source src="../../audios/instrucciones/reading/instruccion_aprr1.mp3" type="audio/mpeg" /> </audio>
+	<audio controls preload="auto" id="hablame">
+		<source src="../../audios/texto/reading/aprr1.mp3" type="audio/mpeg" /> </audio>
+	<audio controls preload="auto" id="retrowell">
+		<source src="../../audios/feedback/congratulation.mp3" type="audio/mpeg" />
+		<p>Tu navegador no implementa el elemento audio.</p>
+	</audio>
+	<audio controls preload="auto" id="retrobad">
+		<source src="../../audios/feedback/can%20do%20b.mp3" type="audio/mpeg" />
+		<p>Tu navegador no implementa el elemento audio.</p>
+	</audio>
+	<audio controls preload="auto" id="thecorrect">
+		<source src="../../audios/feedback/the%20correct.mp3" type="audio/mpeg" />
+		<p>Tu navegador no implementa el elemento audio.</p>
+	</audio>
+	<audio controls preload="auto" id="ask1">
+		<source src="../../audios/preguntas/reading/aprr1ask1.mp3" type="audio/mpeg" />
+		<p>Tu navegador no implementa el elemento audio.</p>
+	</audio>
+	<audio controls preload="auto" id="ask2">
+		<source src="../../audios/preguntas/reading/aprr1ask2.mp3" type="audio/mpeg" />
+		<p>Tu navegador no implementa el elemento audio.</p>
+	</audio>
+	<audio controls preload="auto" id="ask3">
+		<source src="../../audios/preguntas/reading/aprr1ask3.mp3" type="audio/mpeg" />
+		<p>Tu navegador no implementa el elemento audio.</p>
+	</audio>
+	<audio controls preload="auto" id="ask4">
+		<source src="../../audios/preguntas/reading/aprr1ask4.mp3" type="audio/mpeg" />
+		<p>Tu navegador no implementa el elemento audio.</p>
+	</audio>
+	<audio controls preload="auto" id="ask5">
+		<source src="../../audios/preguntas/reading/aprr1ask5.mp3" type="audio/mpeg" />
+		<p>Tu navegador no implementa el elemento audio.</p>
+	</audio>
+    
+    
+	<div id="buscador">
+		<iframe scrolling='no' id="buscadorsino" src="../../../cosino/" name="buscadorsino" height="100%" width="100%" frameborder="0"></iframe>
+	</div>
+	<section id="activities">
+		<nav id="menuForAll">
+			<div id="logoMenu">
+				<a href="../../../../index.html"><img src="../../../imagenes/ingles.png"></a>
+			</div>
+			<ul>
+				<a href="../../../menu/selection/selection.html">
+					<li>Main Menu</li>
+				</a>
+				<a href="../../../cont/cont.html">
+					<li>Context Information</li>
+				</a>
+				<a href="../../../mmenu/sitemap.html">
+					<li>Site Map</li>
+				</a>
+				<a href="../../../biblioteca/biblioteca.html">
+					<li>Library</li>
+				</a>
+				<li><a id="bucadorito" href="#Vocabulary">Vocabulary</a></li>
+				<a href="../../../references/refe.html">
+					<li>References</li>
+				</a>
+				<a href="../../../credits/staff.html">
+					<li>Staff</li>
+				</a>
+			</ul>
+		</nav>
+		<header>
+			<div id="logo"><img src="../../../imagenes/ingles.png" /></div>
+			<div id="title" class="slideDown"><img src="../../../imagenes/avisos/tonys.png" /></div>
+			<div id="udec"> <img src="../../../imagenes/logoudec.png" /></div>
+		</header>
+		<div id="informa">
+			<section id="manito"> <img id="hand2" class="hand" src="../../../imagenes/avisos/hand.png" /> <img id="hand1" class="hand" src="../../../imagenes/avisos/hand.png" /> </section>
+			<section id="info"> <img class="alumbraobj" id="alumbraobj" style="cursor: pointer" onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob()" src="../../../imagenes/botones/objetivo.png" /> <img class="alumbrains" id="alumbrains" style="cursor: pointer" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins()" src="../../../imagenes/botones/instruccion.png" /> </section>
+			<section id="txt">
+				<div id="objetivos">
+					<h5>To strengthen reading ability through different kinds of exercises.</h5></div>
+				<div id="instruccion">
+					<h5>Read and listen to the text three times. You should take notes. Then, click on a, b, or c to answer each question. You only have one opportunity to answer.
+												</h5> </div>
+			</section>
+		</div>
+		<div id="georgeRules"></div>
+		<div id="advertisment"> <img id="plane" src="../../../imagenes/avisos/readAirplane.png" /> </div>
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~AQUI PONDREMOS EL CONTENIDO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		<article id="r1">
+			<section id="blanco">
+				<div id="fragmento">
+					<h6>
+						<p>Hi my name is Tony and I'm 19 years old. I'm a Laws student of Los Andes University in Bogotá, Colombia.
+						In my free time I like going to the gym to work out, I usually go at night.  I love listening to music; 
+						my favourite music is rock, I don't like pop.  I also enjoy going to the movies with my girlfriend; 
+						I don't like horror movies because I think they are very boring.  My girlfriend loves science fiction films, she thinks they are amazing.
+						</p>
+					</h6> </div>
+				<div class="contImage"><img src="../../images/reading/1_imagen.png" /></div>
+			</section>
+			<section id="void">
+				<div id="q1">
+					<label for="uno"><b>1.</b> What does Tony like to do at night? </label>
+					<div id="esto" class="negar" onClick="erronea(0)" style="cursor: pointer">
+						<h3 class="ans">A.	He likes going to the cinema</h3></div>
+					<div id="es" class="negar" onClick="erronea(0)" style="cursor: pointer">
+						<h3 class="ans">B.	He loves listening to music</h3></div>
+					<div id="udec1" class="acertar" onClick="correcta(0)" style="cursor: pointer">
+						<h3 class="ans">C.	He likes going to the gym</h3></div>
+				</div>
+				<div id="q2">
+					<label for="dos"><b>2.</b> What does he like to do at the gym?</label>
+					<div id="esto2" class="negar" onClick="erronea(1)" style="cursor: pointer">
+						<h3 class="ans">A.	He likes to talk with his friends.</h3></div>
+					<div id="es2" class="negar" onClick="erronea(1)" style="cursor: pointer">
+						<h3 class="ans">B.	He likes to meet new people.</h3></div>
+					<div id="udec2" class="acertar" onClick="correcta(1)" style="cursor: pointer">
+						<h3 class="ans">C.	He likes to work out.</h3></div>
+				</div>
+				<div id="q3">
+					<label for="tres"><b>3.</b> What kind of music does he like?</label>
+					<div id="esto3" class="acertar" onClick="correcta(2)" style="cursor: pointer">
+						<h3 class="ans">A.	He likes rock music</h3></div>
+					<div id="es3" class="negar" onClick="erronea(2)" style="cursor: pointer">
+						<h3 class="ans">B.	He loves pop music</h3></div>
+					<div id="udec3" class="negar" onClick="erronea(2)" style="cursor: pointer">
+						<h3 class="ans">C.	He doesn't like to listen to music</h3></div>
+				</div>
+				<div id="q4">
+					<label for="cuatro"><b>4.</b> What kind of movies does his girlfriend like? </label>
+					<div id="esto4" class="negar" onClick="erronea(3)" style="cursor: pointer">
+						<h3 class="ans">A.	She likes horror movies.</h3></div>
+					<div id="es4" class="acertar" onClick="correcta(3)" style="cursor: pointer">
+						<h3 class="ans">B.	She loves science fiction movies.</h3></div>
+					<div id="udec4" class="negar" onClick="erronea(3)" style="cursor: pointer">
+						<h3 class="ans">C.	She likes action movies.</h3></div>
+				</div>
+				<div id="q5">
+					<label for="cinco"> <b>5.</b> What does Tony's girlfriend think about science fiction movies?</label>
+					<div id="esto5" class="negar" onClick="erronea(4)" style="cursor: pointer">
+						<h3 class="ans">A.	She thinks they are boring.</h3></div>
+					<div id="es5" class="negar" onClick="erronea(4)" style="cursor: pointer">
+						<h3 class="ans">B.	She thinks they are interesting.</h3></div>
+					<div id="udec5" class="acertar" onClick="correcta(4)" style="cursor: pointer">
+						<h3 class="ans">C.	She thinks they are amazing.</h3></div>
+				</div>
+			</section>
+		</article>
+		<div id="review">
+			<label for="cuatro"> FINAL SCORE </label> <span>	<img  id="right" src="../../../imagenes/right.png" />	</span> <span>	<img  id="wrong" src="../../../imagenes/wrong.png" />	</span>
+			<h5><p id="result"> </p></h5> </div>
+		<footer>
+			<nav id="navegacion">
+				<nav class="sig" id="sig" onClick="pregunta()" style="cursor: pointer"><img src="../../../imagenes/botones/nex.png" /></nav>
+				<a href="../../centro.html">
+					<nav class="prev" style="cursor: pointer" onClick="volver(0)"><img src="../../../imagenes/botones/prev.png" /></nav>
+				</a>
+				<nav class="final">
+					<a href="r2.html"><img src="../../../imagenes/botones/continue.png" /></a>
+				</nav>
+			</nav> <span id="references">Likes and Dislikes: Reading - Activity 1
+										
+		<nav id="clickOnMe" class="nav-esquina" role="navigation">
+			<!-- Right Control -->
+			<i class="fa fa-th fa-2x"></i>
+		</nav>
+				</span> </footer>
+	</section>
+	
+</body>
+
+</html>

@@ -1,0 +1,237 @@
+@import url(http://weloveiconfonts.com/api/?family=iconicfill);
+
+/* iconicfill */
+[class*="iconicfill-"]:before {
+  font-family: 'IconicFill', sans-serif;
+}
+
+#showtab{display:inline-block;}
+	table{
+	
+	 border-collapse: collapse; 
+	margin:0 auto;
+	 
+	 
+	}
+
+#cuadro2,#cuadro3{display:none;}
+	
+table tbody{border: black 2px solid;
+padding:5px;}
+
+	
+
+table.table1{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.2em;
+    font-style: normal;
+    border-collapse:separate;
+}
+
+.table1 thead th{
+    padding:5px;
+    color:#fff;
+    text-shadow:1px 1px 1px #568F23;
+    border:1px solid #93CE37;
+    border-bottom:3px solid #9ED929;
+    background-color:#235b43;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.90, rgb(35,91,67)),
+        color-stop(0.62, rgb(30,79,58)),
+        color-stop(0.05, rgb(123,192,67))
+        );
+    background: -moz-linear-gradient(
+        center bottom,
+        rgb(123,192,67) 5%,
+        rgb(30,79,58) 62%,
+        rgb(35,91,67) 90%
+        );
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius:5px 5px 0px 0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+.table1 thead th:empty{
+    background:transparent;
+    border:none;
+}
+
+.table1 tfoot td{
+    color: #9CD009;
+    font-size:32px;
+    text-align:center;
+    padding:10px 0px;
+    text-shadow:1px 1px 1px #444;
+}
+.table1 tfoot th{
+    color:#666;
+	
+	
+}
+
+
+
+.table1 tbody td{
+    padding:3px;
+    text-align:center;
+    background-color:#DEF3CA;
+    border: 2px solid #E7EFE0;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+}
+.table1 tbody th{
+    text-shadow:1px 1px 1px #568F23;
+    border:1px solid #93CE37;
+    border-bottom:3px solid #9ED929;
+    background-color:#9DD929;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.02, rgb(123,192,67)),
+        color-stop(0.51, rgb(139,198,66)),
+        color-stop(0.87, rgb(158,217,41))
+        );
+    background: -moz-linear-gradient(
+        center bottom,
+        rgb(123,192,67) 2%,
+        rgb(139,198,66) 51%,
+        rgb(158,217,41) 87%
+        );
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius:5px 5px 0px 0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+
+.iconicfill-arrow-left{
+
+position:relative;}
+
+.iconicfill-arrow-right{
+
+position:relative;
+
+}
+
+
+
+.movertablai{
+
+border-radius:9px;
+background:rgba(0,0,0,0.1);
+border:2px solid black;
+width:50px;
+padding:0px 0px 0px 2px;
+text-align:right;
+cursor:pointer;
+
+}
+.movertablad{
+cursor:pointer;
+border-radius:9px;
+background:rgba(0,0,0,0.1);
+border:2px solid black;
+width:50px;
+padding:0px 2px 0px 0px;
+text-align:left;
+}
+
+
+.movertablai:hover{
+
+border-radius:9px;
+background:rgba(0,0,0,0.2);
+border:2px solid gray;
+}
+
+.movertablad:hover{
+border-radius:9px;
+background:rgba(0,0,0,0.2);
+border:2px solid gray;
+}
+
+.movertablad:hover >.iconicfill-arrow-right:first-child{
+
+-webkit-animation: run 1s infinite; /* Chrome, Safari, Opera */
+    animation: run 1s infinite;
+	-moz-animation: run 1s infinite;
+	
+	}
+.movertablai:hover >.iconicfill-arrow-left:first-child{
+
+-webkit-animation: run2 1s infinite; /* Chrome, Safari, Opera */
+    animation: run2 1s infinite;
+	-moz-animation: run2 1s infinite;
+	
+	}
+	
+	
+	
+
+#ir2{
+
+
+	float:right;
+	}
+#ir,#ir2{
+position:relative;
+display:inline-block;
+margin-top:12%;
+	height:auto;
+	width:6.5%;
+	padding:2px;
+	
+	}	
+#ir{
+	float:left;
+	}
+	
+
+@-moz-keyframes run{
+from{left:0%;}
+to{left:80%;}
+}
+@-webkit-keyframes run{
+from{left:0%;}
+to{left:80%;}
+}
+@-o-keyframes run{
+from{left:0%;}
+to{left:80%;}
+}
+@keyframes run{
+from{left:0%;}
+to{left:80%;}
+}
+
+
+
+@moz-keyframes run2{
+from{right:0%;}
+to{right:80%;}
+}
+@-webkit-keyframes run2{
+from{right:0%;}
+to{right:80%;}
+}
+@-o-keyframes run2{
+from{right:0%;}
+to{right:80%;}
+}
+@keyframes run2{
+from{right:0%;}
+to{right:80%;}
+}

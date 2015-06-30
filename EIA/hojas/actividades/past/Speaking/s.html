@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8"/>
+	<head>
+		<title>English In Action - Speaking</title>
+		<script type="application/javascript" src="../../../js/jquery.min.js"></script>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<script type="application/javascript" src="../../acciones.js"></script>
+		<link rel="stylesheet" href="../../tipo.css"/>
+		
+		<link rel="stylesheet" href="css/responsive.css">
+		<link rel="stylesheet" href="css/responsiveslides.css" />
+		
+		<script type="text/javascript" src="js/jquery-1.4.2.min.js" ></script>
+		<script type="text/javascript" src="js/roundabout.js"></script>
+		<script type="text/javascript" src="js/gallery_init.js"></script>
+		<link rel="stylesheet" href="../../responsiveenglish.css"/>
+		<script src="js/responsiveslides.js"></script>
+		<script type="text/javascript">
+			
+ 	
+      function closebuscador(){
+            $("#buscador").hide("slow");
+            $(".modal-window").css('left','45%');
+            $(".modal-window").css('top','45%');
+            $(".modal-window").css('right','45%');
+            $(".modal-window").css('bottom','45%');
+          
+          }
+      $(document).ready(function(){
+         
+              $("#buscador").hide();   
+      $("#bucadorito").click(function(){
+    $("#buscador").show("slow");
+    }); 
+    document.oncontextmenu = function() {
+      return false
+    }
+			$("#menuForAll" ).slideToggle(0);
+			$("#clickOnMe").click(function(){
+			$("#menuForAll" ).slideToggle(1000);
+			});			
+			});
+			
+			function c(id){
+				seleccionado=id;
+			}
+		</script>
+		<link rel="stylesheet" href="css/act1.css"/>
+	
+	</head>
+
+<body onload="readme(22000),cerrar()">
+    <div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+<div id="buscador">
+  <iframe scrolling='no' id="buscadorsino" src="../../../cosino/" name="buscadorsino" height="100%" width="100%" frameborder="0"  ></iframe>  
+  </div>
+	<section id="activities">
+		
+		<nav id="menuForAll">
+			<div id="logoMenu">
+				<a href="../../../../index.html"><img src="../../../imagenes/ingles.png"></a>
+			</div>
+			
+			<ul>
+				<a href="../../../menu/selection/selection.html"><li>Main Menu</li></a>
+				<a href="../../../cont/cont.html"><li>Context Information</li></a>
+				<a href="../../../mmenu/sitemap.html"><li>Site Map</li></a>
+				<a href="../../../biblioteca/biblioteca.html"><li>Library</li></a>
+				<li><a  id="bucadorito" href="#Vocabulary">Vocabulary</a></li><a href="../../../references/refe.html"><li>References</li></a>
+				<a href="../../../credits/staff.html"><li>Staff</li></a>
+			</ul> 
+		</nav>
+		<header>
+			<div id="logo"><img  src="../../../imagenes/ingles.png" width="80px" height="80px"/></div>
+			<div id="title" class="slideDown" ><img src="../../../imagenes/avisos/tonys.png"/></div>
+			<div id="udec"> <img src="../../../imagenes/logoudec.png"/></div>
+		</header>
+		
+		<div id="informa">
+					<section id="manito">
+							<img id="hand2" class="hand" src="../../../imagenes/avisos/hand.png"/>
+							<img id="hand1" class="hand" src="../../../imagenes/avisos/hand.png"/>
+					</section>
+					
+					<section id="info">
+								<img class="alumbraobj" id="alumbraobj" style="cursor: pointer"onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob()" src="../../../imagenes/botones/objetivo.png"/>
+								<img class="alumbrains" id="alumbrains" style="cursor: pointer" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins()" src="../../../imagenes/botones/instruccion.png"/>
+					</section>
+					
+					<section id="txt">
+						
+						<div id="objetivos"><h5>To encourage the oral ability by means of communication.</h5></div>
+						<div id="instruccion">	<h5>Listen to the vocabulary carefully and repeat.
+Click on the microphone icon to pronounce the activity that appears in each picture. You have 5 seconds to pronounce it, and two opportunities to do it.  Click on "NEXT" to continue.
+
+												</h5>
+						</div>
+						
+					</section>
+			
+		</div>
+		<div id="georgeRules"></div>
+		
+		
+		
+		
+		
+		<audio controls preload="none" id="instruyeme">
+		<source src="../../audios/instrucciones/speaking/instruccion_aprs1.mp3" type="audio/mpeg" />"
+		
+	</audio>
+
+
+		
+		<article id="r1">
+			<section id="blanco">
+
+			<section id="gallery">
+				<div class="container">
+					
+					<ul id="myRoundabout">        
+							<li><img id="went_to_the_gym" onload="c(id)" onclick="c(id)" src="../../images/speaking/22_imagen.png"></li>
+							<li><img id="went_to_the_cinema" onclick="c(id)" src="../../images/speaking/23_imagen.png"></li>
+							<li><img id="danced" onclick="c(id)" src="../../images/speaking/24_imagen.png"></li>
+							<li><img id="ate_popcorn" onclick="c(id)" src="../../images/speaking/25_imagen.png"></li>
+							<li><img id="watched_horror_movies" onclick="c(id)" src="../../images/speaking/26_imagen.png"></li>
+							<li><img id="talked_to_friends_at_a_bar" onclick="c(id)" src="../../images/speaking/27_imagen.png"></li>
+							<li><img id="ate_hot_dogs" onclick="c(id)" src="../../images/speaking/28_imagen.png"></li>
+							<li><img id="listened_to_music" onclick="c(id)" src="../../images/speaking/29_imagen.png"></li>							
+					</ul>
+				</div>
+			</section>
+			
+		
+		
+		
+		<h2><input id="imagen1" style="border:none" type="text"  size="30" maxlength="28" readonly="readonly"></input></h2>
+				<div id="information">
+					<p id="info_start">Click on the microphone icon and begin speaking.</p>
+					<p id="info_speak_now">Speak now.</p>
+					<p id="info_no_speech">No speech was detected. You may need to adjust your<a href="http://support.google.com/chrome/bin/answer.py?hl=en&amp;answer=1407892">microphone settings</a>.</p>
+					<p id="info_no_microphone" style="display:none">No microphone was found. Ensure that a microphone is installed and that<a href="//support.google.com/chrome/bin/answer.py?hl=en&amp;answer=1407892">microphone settings</a> are configured correctly.</p>
+					<p id="info_allow">Click the "Allow" button above to enable your microphone.</p>
+					<p id="info_denied">Permission to use microphone was denied.</p>
+					<p id="info_blocked">Permission to use microphone is blocked. To change,go to <a href="chrome://settings/contentExceptions#media-stream">chrome://settings/contentExceptions#media-stream</a></p>
+					<p id="info_upgrade">Web Speech API is not supported by this browser.Upgrade to <a href="http://www.google.com/chrome">Chrome</a>version 25 or later.</p>
+				</div>
+				
+		
+		
+		
+				<div id="mic">
+					<button id="start_button" onclick="startButton(event)">
+						<img id="start_img" src="../../../imagenes/botones/mic12.png" alt="Start"/>
+					</button>
+				</div>	
+				
+				
+				
+				<div id="results">
+					<span id="final_span" class="final"></span>
+					<span id="interim_span" class="interim"></span>
+					<p>
+				</div>
+				
+				
+				<div class="center">
+						<div id="div_language">
+							<select id="select_language"></select>
+							&nbsp;&nbsp;
+							<select id="select_dialect"></select>
+						</div>
+				</div>
+
+
+			
+			</section>
+		</article>
+		<div id="review">
+				
+										<label for="cuatro">		FINAL SCORE	</label><br>
+										<span>
+										<img  id="right" src="../../../imagenes/right.png" />
+										
+										</span>
+										<span>
+										<img  id="wrong" src="../../../imagenes/wrong.png" />
+										</span>
+										<h5><p id="result"> </p></h5>
+				</div>
+				
+				
+				
+				
+				
+					<audio controls preload="none" id="bien">
+						<source src="../../audios/feedback/well done.mp3" type="audio/mpeg" />
+					</audio>
+					<audio controls preload="none" id="mal0">
+						<source src="../../audios/feedback/try%20again.mp3" type="audio/mpeg" />
+					</audio>
+					<audio controls preload="none" id="thecorrect">
+						<source src="../../audios/feedback/the%20correct.mp3" type="audio/mpeg" />
+					</audio>
+					
+					
+					
+					<audio controls preload="none" id="rta1">
+						<source src="../../audios/respuestas/speaking/aps1_1.mp3" type="audio/mpeg" />
+					</audio>
+					<audio controls preload="none" id="rta2">
+						<source src="../../audios/respuestas/speaking/aps1_2.mp3" type="audio/mpeg" />
+					</audio>
+					<audio controls preload="none" id="rta3">
+						<source src="../../audios/respuestas/speaking/aps1_3.mp3" type="audio/mpeg" />
+					</audio>
+					<audio controls preload="none" id="rta4">
+						<source src="../../audios/respuestas/speaking/aps1_4.mp3" type="audio/mpeg" />
+					</audio>
+					<audio controls preload="none" id="rta5">
+						<source src="../../audios/respuestas/speaking/aps1_5.mp3" type="audio/mpeg" />
+					</audio>
+					<audio controls preload="none" id="rta6">
+						<source src="../../audios/respuestas/speaking/aps1_6.mp3" type="audio/mpeg" />
+					</audio>
+					<audio controls preload="none" id="rta7">
+						<source src="../../audios/respuestas/speaking/aps1_7.mp3" type="audio/mpeg" />
+					</audio>
+					<audio controls preload="none" id="rta8">
+						<source src="../../audios/respuestas/speaking/aps1_8.mp3" type="audio/mpeg" />
+					</audio>
+					
+					
+		
+					<audio controls preload="none" id="retrowell">
+						<source src="../../audios/feedback/congratulation.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					<audio controls preload="none" id="retrobad">
+						<source src="../../audios/feedback/can%20do%20b.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					
+			<footer>
+				<nav id="navegacion">
+				
+				<nav id="continuar" class="sig"onClick="resul()" style="cursor: pointer"><img src="../../../imagenes/botones/nex.png"/></nav>
+				
+				<nav class="prev" style="cursor: pointer" onClick="volver(0)"><img src="../../../imagenes/botones/prev.png"/></nav>
+			
+				<nav class="final"><a href="s2.html" ><img src="../../../imagenes/botones/continue.png"/></a></nav>
+			</nav>
+			<span id="references">Memories: Speaking - Activity 1
+				<nav id="clickOnMe" class="nav-esquina" role="navigation">
+								<i class="fa fa-th fa-2x"></i>
+				</nav>
+			</span>
+			
+			
+			</footer>
+		</section>
+	</section>
+</body>
+	
+<script>
+var seleccionado="";
+
+var langs =
+[['Afrikaans',       ['af-ZA']],
+ ['Bahasa Indonesia',['id-ID']],
+ ['Bahasa Melayu',   ['ms-MY']],
+ ['Català',          ['ca-ES']],
+ ['Čeština',         ['cs-CZ']],
+ ['Deutsch',         ['de-DE']],
+ ['English',         ['en-AU', 'Australia'],
+                     ['en-CA', 'Canada'],
+                     ['en-IN', 'India'],
+                     ['en-NZ', 'New Zealand'],
+                     ['en-ZA', 'South Africa'],
+                     ['en-GB', 'United Kingdom'],
+                     ['en-US', 'United States']],
+ ['Español',         ['es-AR', 'Argentina'],
+                     ['es-BO', 'Bolivia'],
+                     ['es-CL', 'Chile'],
+                     ['es-CO', 'Colombia'],
+                     ['es-CR', 'Costa Rica'],
+                     ['es-EC', 'Ecuador'],
+                     ['es-SV', 'El Salvador'],
+                     ['es-ES', 'España'],
+                     ['es-US', 'Estados Unidos'],
+                     ['es-GT', 'Guatemala'],
+                     ['es-HN', 'Honduras'],
+                     ['es-MX', 'México'],
+                     ['es-NI', 'Nicaragua'],
+                     ['es-PA', 'Panamá'],
+                     ['es-PY', 'Paraguay'],
+                     ['es-PE', 'Perú'],
+                     ['es-PR', 'Puerto Rico'],
+                     ['es-DO', 'República Dominicana'],
+                     ['es-UY', 'Uruguay'],
+                     ['es-VE', 'Venezuela']],
+ ['Euskara',         ['eu-ES']],
+ ['Français',        ['fr-FR']],
+ ['Galego',          ['gl-ES']],
+ ['IsiZulu',         ['zu-ZA']],
+ ['Íslenska',        ['is-IS']],
+ ['Italiano',        ['it-IT', 'Italia'],
+                     ['it-CH', 'Svizzera']],
+ ['Magyar',          ['hu-HU']],
+ ['Nederlands',      ['nl-NL']],
+ ['Norsk bokmål',    ['nb-NO']],
+ ['Polski',          ['pl-PL']],
+ ['Português',       ['pt-BR', 'Brasil'],
+                     ['pt-PT', 'Portugal']],
+ ['Română',          ['ro-RO']],
+ ['Slovenčina',      ['sk-SK']],
+ ['Suomi',           ['fi-FI']],
+ ['Svenska',         ['sv-SE']],
+ ['Türkçe',          ['tr-TR']],
+ ['български',       ['bg-BG']],
+ ['Pусский',         ['ru-RU']],
+ ['Српски',          ['sr-RS']],
+ ['한국어',            ['ko-KR']],
+ ['中文',             ['cmn-Hans-CN', '普通话 (中国大陆)'],
+                     ['cmn-Hans-HK', '普通话 (香港)'],
+                     ['cmn-Hant-TW', '中文 (台灣)'],
+                     ['yue-Hant-HK', '粵語 (香港)']],
+ ['日本語',           ['ja-JP']],
+ ['Lingua latīna',   ['la']]];
+
+function updateCountry() {
+  for (var i = select_dialect.options.length - 1; i >= 0; i--) {
+    select_dialect.remove(i);
+  }
+  var list = langs[select_language.selectedIndex];
+  for (var i = 1; i < list.length; i++) {
+    select_dialect.options.add(new Option(list[i][1], list[i][0]));
+  }
+  select_dialect.style.visibility = list[1].length == 1 ? 'hidden' : 'visible';
+}
+
+for (var i = 0; i < langs.length; i++) {
+  select_language.options[i] = new Option(langs[i][0], i);
+}
+select_language.selectedIndex = 6;
+updateCountry();
+select_dialect.selectedIndex = 6;
+	showInfo('info_start');
+	var bien=[0,0,0,0,0,0,0,0];
+	var final_transcript = '';
+	var recognizing = false;
+	var ignore_onend;
+	var start_timestamp;
+	var recept='';
+	var cuentabien=0;
+    var auto;
+    var text=[];
+	var contador1=contador2=contador3=contador4=contador5=contador6=contador7=contador8=contador9=0;
+	if (!('webkitSpeechRecognition' in window)) {
+		upgrade();
+		} 
+		else {
+			start_button.style.display = 'inline-block';
+			var recognition = new webkitSpeechRecognition();
+			recognition.continuous = true;
+			recognition.interimResults = true;
+
+			recognition.onstart = function() {
+			recognizing = true;
+			showInfo('info_speak_now');
+			$('#mic').css('-webkit-animation','inicia 1.5 infinite');
+			start_img.src = '../../../imagenes/botones/mic11.png'; 
+			};
+
+recognition.onerror = function(event) {
+    if (event.error == 'no-speech') {
+		start_img.src = '../../../imagenes/botones/micTrouble.png';
+		showInfo('info_no_speech');
+		ignore_onend = true;
+		}
+    if (event.error == 'audio-capture') {
+		start_img.src = '../../../imagenes/botones/micTrouble.png';
+		showInfo('info_no_microphone');
+		ignore_onend = true;
+		}
+    if (event.error == 'not-allowed') {
+		if (event.timeStamp - start_timestamp < 100) {
+			showInfo('info_blocked');
+			} 
+			else {
+				showInfo('info_denied');
+				}
+		ignore_onend = true;
+    }
+};
+
+recognition.onend = function() {
+    recognizing = false;
+    if (ignore_onend) {
+      return;
+    }
+    start_img.src = '../../../imagenes/botones/mic12.png';
+    if (!final_transcript) {
+      showInfo('info_start');
+      return;
+    }
+
+
+	
+    showInfo('');
+    if (window.getSelection) {
+      window.getSelection().removeAllRanges();
+      var range = document.createRange();
+      range.selectNode(document.getElementById('final_span'));
+      window.getSelection().addRange(range);
+    }
+	
+
+	seleccionado=seleccionado.replace(/_/g," ");
+	recept=recept.toLowerCase();
+	
+	
+	if(recept==seleccionado){
+		
+			if(seleccionado=="went to the gym"&&bien[0]==0){
+			bien[0]=1;
+			$("#went_to_the_gym").css('opacity','0.2');
+			document.getElementById('bien').play();
+			cuentabien++;
+			}
+			
+			if(seleccionado=="went to the cinema"&&bien[1]==0){
+			bien[1]=1;
+			$("#went_to_the_cinema").css('opacity','0.2');
+			document.getElementById('bien').play();
+			cuentabien++;
+			}
+			
+			if(seleccionado=="danced"&&bien[2]==0){
+			bien[2]=1;
+			$("#danced").css('opacity','0.2');
+			document.getElementById('bien').play();
+			cuentabien++;
+			}
+	
+			if(seleccionado=="ate popcorn"&&bien[3]==0){
+			bien[3]=1;
+			$("#ate_popcorn").css('opacity','0.2');
+			document.getElementById('bien').play();
+			cuentabien++;
+			}
+			
+			if(seleccionado=="watched horror movies"&&bien[4]==0){
+			bien[4]=1;
+			$("#watched_horror_movies").css('opacity','0.2');
+			document.getElementById('bien').play();
+			cuentabien++;
+			}
+		
+			if(seleccionado=="talked to friends at a bar"&&bien[5]==0){
+			bien[5]=1;
+			$("#talked_to_friends_at_a_bar").css('opacity','0.2');
+			document.getElementById('bien').play();
+			cuentabien++;
+			}
+		
+			if(seleccionado=="ate hot dogs"&&bien[6]==0){
+			bien[6]=1;
+			$("#ate_hot_dogs").css('opacity','0.2');
+			document.getElementById('bien').play();
+			cuentabien++;
+			}
+			if(seleccionado=="listened to music"&&bien[7]==0){
+			bien[7]=1;
+			$("#listened_to_music").css('opacity','0.2');
+			document.getElementById('bien').play();
+			cuentabien++;
+			}
+				
+
+		}
+	else
+				{
+					
+					
+					
+					if(seleccionado=="went to the gym")
+						contador1++;
+						
+					if(seleccionado=="went to the cinema")
+						contador2++;
+		
+					if(seleccionado=="danced")
+						contador3++;
+					
+					if(seleccionado=="ate popcorn")
+						contador4++;
+					
+					if(seleccionado=="watched horror movies")
+						contador5++;
+					
+					if(seleccionado=="talk to friends")
+						contador6++;
+					
+					if(seleccionado=="ate hot dogs")
+						contador7++;
+					if(seleccionado=="listened to music")
+						contador8++;
+					
+					
+					
+					
+					if(contador1==2||contador2==2||contador3==2||contador4==2||contador5==2||contador6==2||contador7==2||contador8==2)
+					document.getElementById('thecorrect').play();
+					else
+					if(contador1<2||contador2<2||contador3<2||contador4<2||contador5<2||contador6<2||contador7<2||contador8<2)
+					document.getElementById('mal0').play();
+					
+					
+					
+					
+					
+					
+					if(contador1==2){
+					$("#went_to_the_gym").css('opacity','0.2');
+					temp=setTimeout(function(){document.getElementById('rta1').play();},2700);
+					contador1++;
+					}
+					if(contador2==2){
+					$("#went_to_the_cinema").css('opacity','0.2');
+					temp=setTimeout(function(){document.getElementById('rta2').play();},2700);
+					contador2++;
+					}
+					if(contador3==2){
+					$("#danced").css('opacity','0.2');
+					temp=setTimeout(function(){document.getElementById('rta3').play();},2700);
+					contador3++;
+					}
+					
+					if(contador4==2){
+					$("#ate_popcorn").css('opacity','0.2');
+					temp=setTimeout(function(){document.getElementById('rta4').play();},2700);
+					contador4++;
+					}
+					if(contador5==2){
+					$("#watched_horror_movies").css('opacity','0.2');
+					temp=setTimeout(function(){document.getElementById('rta5').play();},2700);
+					contador5++;
+					}
+					if(contador6==2){
+					$("#talked_to_friends_at_a_bar").css('opacity','0.2');
+					temp=setTimeout(function(){document.getElementById('rta6').play();},2700);
+					contador6++;
+					}
+					if(contador7==2){
+					$("#ate_hot_dogs").css('opacity','0.2');
+					temp=setTimeout(function(){document.getElementById('rta7').play();},2700);
+					contador7++;
+					}
+					if(contador8==2){
+					$("#listened_to_music").css('opacity','0.2');
+					temp=setTimeout(function(){document.getElementById('rta8').play();},2700);
+					contador8++;
+					}
+					
+					
+				}
+			
+	showInfo('info_start');
+  };
+ 
+  recognition.onresult = function(event) {
+    var interim_transcript = '';
+
+  for (var i = event.resultIndex; i < event.results.length; ++i) {
+      if (event.results[i].isFinal) {
+        final_transcript += event.results[i][0].transcript;
+      } else {
+        interim_transcript += event.results[i][0].transcript;
+      }
+    }
+    
+	final_transcript = capitalize(final_transcript);
+	recept=final_transcript;
+	
+    final_span.innerHTML = linebreak(final_transcript);
+    interim_span.innerHTML = linebreak(interim_transcript);
+    if (final_transcript || interim_transcript) {
+      showButtons('inline-block');
+    }
+	
+  };
+}
+
+function upgrade() {
+  start_button.style.visibility = 'hidden';
+  showInfo('info_upgrade');
+}
+
+var two_line = /\n\n/g;
+var one_line = /\n/g;
+
+function linebreak(s) {
+  return s.replace(two_line, '<p></p>').replace(one_line, '<br>');
+}
+
+var first_char = /\S/;
+
+function capitalize(s) {
+  return s.replace(first_char, function(m) { return m.toUpperCase(); });
+}
+
+function resul(){
+    clearTimeout(auto);
+    var y = 0;
+    for(y=0;y<7;y++)
+    text[y].pause();
+    
+$('#r1').css('display','none');
+$('.sig').css('display','none');
+
+resultado(cuentabien,7);
+
+}
+
+
+
+function copyButton() {
+  if (recognizing) {
+    recognizing = false;
+    recognition.stop();
+  }
+  copy_button.style.display = 'none';
+  copy_info.style.display = 'inline-block';
+  showInfo('');
+}
+
+
+
+function startButton(event) {
+  if (recognizing) {
+    recognition.stop();
+    return;
+  }
+  final_transcript = '';
+  recognition.lang = select_dialect.value;
+  recognition.start();
+  ignore_onend = false;
+  final_span.innerHTML = 'here the text';
+  interim_span.innerHTML = '';
+  start_img.src = '../../../imagenes/botones/mic12.png';
+  showInfo('info_allow');
+  showButtons('none');
+  start_timestamp = event.timeStamp;
+  
+  auto=setTimeout(function(){ recognition.stop(); },8000);
+  }
+
+
+function showInfo(s) {
+  if (s) {
+    for (var child = information.firstChild; child; child = child.nextSibling) {
+      if (child.style) {
+        child.style.display = child.id == s ? 'inline' : 'none';
+      }
+    }
+    information.style.visibility = 'visible';
+  } else {
+    information.style.visibility = 'hidden';
+  }
+}
+
+var current_style;
+
+
+
+function showButtons(style) {
+  if (style == current_style) {
+    return;
+  }
+  current_style = style;
+
+}
+
+
+
+
+function carga(){
+$('#information').css('display','none');
+$('#mic').css('display','none');
+empezar();}
+
+function empezar(){
+	
+	$('#gallery').css('opacity','1');
+		
+		
+		
+		
+		text[0]=document.getElementById("rta1");
+		text[1]=document.getElementById("rta2");
+		text[2]=document.getElementById("rta3");
+		text[3]=document.getElementById("rta4");
+		text[4]=document.getElementById("rta5");
+		text[5]=document.getElementById("rta6");
+		text[6]=document.getElementById("rta7");
+		text[7]=document.getElementById("rta8");
+		
+		
+		
+		
+		
+		var Cadenita="";
+		
+			auto=setTimeout(function(){
+				text[0].play();
+				document.getElementById('went_to_the_gym').click(); 
+				Cadenita=seleccionado.replace(/_/g," ");
+				Cadenita=Cadenita.charAt(0).toUpperCase()+Cadenita.slice(1);
+				
+				document.getElementById('imagen1').value=""+Cadenita;
+
+				
+				},0500);
+			
+    
+        text[0].onended=function(){
+			auto=setTimeout(function(){
+				text[1].play();
+				document.getElementById('went_to_the_cinema').click();
+				Cadenita=seleccionado.replace(/_/g," ");
+				Cadenita=Cadenita.charAt(0).toUpperCase()+Cadenita.slice(1);
+				
+				document.getElementById('imagen1').value=""+Cadenita;
+								
+				},2000);
+			 };
+    
+          text[1].onended=function(){
+			auto=setTimeout(function(){
+				text[2].play();
+				document.getElementById("danced").click();
+				Cadenita=seleccionado.replace(/_/g," ");
+				Cadenita=Cadenita.charAt(0).toUpperCase()+Cadenita.slice(1);
+				
+				document.getElementById('imagen1').value=""+Cadenita;
+				},2000);
+			 };
+    
+        text[2].onended=function(){
+			auto=setTimeout(function(){
+				text[3].play();
+				document.getElementById('ate_popcorn').click(); 
+				Cadenita=seleccionado.replace(/_/g," ");
+				Cadenita=Cadenita.charAt(0).toUpperCase()+Cadenita.slice(1);
+				
+				document.getElementById('imagen1').value=""+Cadenita;
+				},2000);
+             };
+		 text[3].onended=function(){	
+			auto=setTimeout(function(){
+				text[4].play();
+				document.getElementById('watched_horror_movies').click();
+				Cadenita=seleccionado.replace(/_/g," ");
+				Cadenita=Cadenita.charAt(0).toUpperCase()+Cadenita.slice(1);
+				
+				document.getElementById('imagen1').value=""+Cadenita;
+				},2000);
+              };
+		 text[4].onended=function(){	
+			auto=setTimeout(function(){
+				text[5].play();
+				document.getElementById('talked_to_friends_at_a_bar').click();
+				Cadenita=seleccionado.replace(/_/g," ");
+				Cadenita=Cadenita.charAt(0).toUpperCase()+Cadenita.slice(1);
+				
+				document.getElementById('imagen1').value=""+Cadenita;
+				},2000);
+              };
+        text[5].onended=function(){
+			auto=setTimeout(function(){
+				text[6].play();
+				document.getElementById('ate_hot_dogs').click();
+				Cadenita=seleccionado.replace(/_/g," ");
+				Cadenita=Cadenita.charAt(0).toUpperCase()+Cadenita.slice(1);
+				
+				document.getElementById('imagen1').value=""+Cadenita;
+				},2000);
+             };
+		 text[6].onended=function(){		
+			auto=setTimeout(function(){
+				text[7].play();
+				document.getElementById("listened_to_music").click();
+				Cadenita=seleccionado.replace(/_/g," ");
+				Cadenita=Cadenita.charAt(0).toUpperCase()+Cadenita.slice(1);
+				
+				document.getElementById('imagen1').value=""+Cadenita;
+				},2000);
+              };
+				
+			
+			
+        text[7].onended=function(){
+			auto=setTimeout(function(){
+			document.getElementById('went_to_the_gym').click();
+			$('#information').css('display','inline-block');
+$('#mic').css('display','inline-block');
+$('#imagen1').css('display','none');
+			
+			},2000);
+			 };
+			
+
+		
+
+
+}
+
+
+
+
+
+
+
+
+</script>
+</html>

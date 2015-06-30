@@ -1,0 +1,118 @@
+@media only screen and (max-width: 500px) {
+	#cuadroPreguntas,#contenedor,#contenedor2,#contenedor3{
+	width: 90%;
+	}
+	h3{
+	font-size: 1.1em;
+	}
+	h2{
+	font-size: 1.2em;
+	}
+	#manitu{
+	display: none;
+	}
+	#blanco1,#blanco2{
+	/*border:0.2px solid black;
+	box-shadow:0 0 7px rgba(0,0,0,0.5);*/
+	background:#f4eddd;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius:8px;
+	height: auto;
+	margin-bottom: 25px;
+	}
+	#contenedor{
+	height: auto;
+	margin-bottom: 45px;
+	}
+	#cuadroPreguntas{
+	background:transparent;
+	width: 90%;
+	margin-bottom: 15px;
+	}
+	#eme{
+	height: auto;
+	margin-bottom: 15px;
+	background:transparent;
+	}
+}
+@media only screen and (min-width: 500px) and (max-width: 650px) {
+	#cuadroPreguntas,#contenedor{
+	background:#f4eddd;;
+	width: 70%;
+	}
+	#contenedor,#contenedor2,#contenedor3{
+	width: 90%;
+	}
+	#contenedor{
+	height: auto;
+	margin-bottom: 18px;
+	}
+	h3{
+	font-size: 1.1em;
+	}
+	h2{
+	font-size: 1.2em;
+	}
+	#eme,#blanco1,#blanco2{
+	border:0.2px solid black;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius:8px;
+	background:#f4eddd;;
+	height: auto;
+	margin-bottom: 15px;
+	}
+	#eme,#r1{
+	min-height: 35%;
+	}
+	.blu{
+	background: transparent;
+	}
+	#blanco1,#blanco2{
+	margin-bottom:80px;
+	}
+}
+@media only screen and (min-width: 650px) and (max-width: 800px) {
+	#cuadroPreguntas,#contenedor{
+	min-width: 55%;
+	margin-top: -10px;
+	margin-bottom: 25px;
+	}
+	#contenedor{
+	margin-bottom: 45px;
+	}
+	#eme{
+	min-height: 35%;
+	}
+	#blanco1,#blanco2{
+	background-size: 95% 100%;
+	bottom: 10px;
+	}
+}
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+	.blu,#blanco1,#blanco2{
+	background-size: 95% 100%;
+	}
+	#cuadroPreguntas,#contenedor{
+	width: 55%;
+	margin-top: -10px;
+	margin-bottom: 25px;
+	}
+	#contenedor{
+	margin-bottom: 48px;
+	}
+	#blanco1, #blanco2 {
+	bottom: 50px;
+	}
+	}
+	@media only screen and (max-width: 1200px) {
+	#manitu{
+	display: none;
+	}
+}
+	@media only screen and (min-width: 900px) and (max-width: 1200px){
+	#r1 ,#navegacion{
+	margin-bottom: 30px;
+	}
+}

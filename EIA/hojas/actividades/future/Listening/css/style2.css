@@ -1,0 +1,63 @@
+#hojaRespuestas{
+	display:inline-block;
+	width:43%;
+	height:100%;	
+	float:left;
+	}
+
+#hojaRespuestas form{
+	height:100%;
+	}
+
+#hojaRespuestas input{
+	position:absolute;
+	width:70%;
+	height:50%;
+	top:25%;
+	right:0;
+	}
+
+#ingreso1{z-index:1;}
+	
+form{margin:0 auto;}
+
+#imagenes{
+	display:inline-block;
+	width:30%;
+	height:100%;
+	float:right;
+	margin-right:10%;
+	background:#efefef;
+	}
+
+#imagenes img{
+	width:68px;
+	height:68px;
+	cursor:pointer;
+	opacity:0.6;
+	border:2px solid gray;
+	border-radius:3px;
+	margin:1px;
+	z-index:0;
+	}
+	
+#imagenes img:hover{
+opacity:1;
+transform:scale(2.2,1.5);
+z-index:1;
+}
+	
+	
+
+#contenedorFormularios,#botones,#botonAnswers{display:none;}
+#contenedorFormularios{
+padding-bottom:10px;
+}
+#contenedorFormularios input{
+
+width:25%;
+min-width:200px;
+color:black;
+
+
+}

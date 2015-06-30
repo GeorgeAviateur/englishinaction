@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8"/>
+	<head>
+		<title>English In Action - Speaking</title>
+		<script type="application/javascript" src="../../../js/jquery.min.js"></script>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<script type="application/javascript" src="../../acciones.js"></script>
+		<link rel="stylesheet" href="../../tipo.css"/>
+		<link rel="stylesheet" href="../../present/Speaking/css/responsive.css">
+		<link rel="stylesheet" href="../../present/Speaking/css/responsiveslides.css" />
+		<script type="text/javascript" src="js/roundabout.js"></script>
+		<script type="text/javascript" src="js/gallery_init.js"></script>
+		<link rel="stylesheet" href="../../responsiveenglish.css"/>
+		<script src="js/responsiveslides.js"></script>
+		
+		<script type="text/javascript">
+			 function closebuscador(){
+            $("#buscador").hide("slow");
+            $(".modal-window").css('left','45%');
+            $(".modal-window").css('top','45%');
+            $(".modal-window").css('right','45%');
+            $(".modal-window").css('bottom','45%');
+          
+          }
+      $(document).ready(function(){
+         
+              $("#buscador").hide();   
+      $("#bucadorito").click(function(){
+    $("#buscador").show("slow");
+    }); 
+    document.oncontextmenu = function() {
+      return false
+    }
+			$("#menuForAll" ).slideToggle(0);
+			$("#clickOnMe").click(function(){
+			$("#menuForAll" ).slideToggle(1000);
+			});			
+			});
+
+			function c(id){
+				seleccionado=id;
+			}
+		</script>
+		<link rel="stylesheet" href="css/act1.css"/>
+	
+	</head>
+
+<body onload="readme(22000),cerrar()">
+    <div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+<div id="buscador">
+  <iframe scrolling='no' id="buscadorsino" src="../../../cosino/" name="buscadorsino" height="100%" width="100%" frameborder="0"  ></iframe>  
+  </div>
+	
+	<section id="activities">
+		<nav id="menuForAll">
+			<div id="logoMenu">
+				<a href="../../../../index.html"><img src="../../../imagenes/ingles.png"></a>
+			</div>
+			
+			<ul>
+				<a href="../../../menu/selection/selection.html"><li>Main Menu</li></a>
+				<a href="../../../cont/cont.html"><li>Context Information</li></a>
+				<a href="../../../mmenu/sitemap.html"><li>Site Map</li></a>
+				<a href="../../../biblioteca/biblioteca.html"><li>Library</li></a>
+				<li><a  id="bucadorito" href="#Vocabulary">Vocabulary</a></li>
+                <a href="../../../references/refe.html"><li>References</li></a>
+				<a href="../../../credits/staff.html"><li>Staff</li></a>
+			</ul> 
+		</nav>
+		<header>
+			<div id="logo"><img  src="../../../imagenes/ingles.png" width="80px" height="80px"/></div>
+			<div id="title" class="slideDown" ><img src="../../../imagenes/avisos/tonys.png"/></div>
+			<div id="udec"> <img src="../../../imagenes/logoudec.png"/></div>
+		</header>
+		
+		<div id="informa">
+					<section id="manito">
+							<img id="hand2" class="hand" src="../../../imagenes/avisos/hand.png"/>
+							<img id="hand1" class="hand" src="../../../imagenes/avisos/hand.png"/>
+					</section>
+					
+					<section id="info">
+								<img class="alumbraobj" id="alumbraobj" style="cursor: pointer"onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob()" src="../../../imagenes/botones/objetivo.png"/>
+								<img class="alumbrains" id="alumbrains" style="cursor: pointer" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins()" src="../../../imagenes/botones/instruccion.png"/>
+					</section>
+					
+					<section id="txt">
+						
+						<div id="objetivos"><h5>To encourage the oral ability by means of communication.</h5></div>
+						<div id="instruccion">	<h5>Listen to the phrases; then repeat the pronunciation you have heard. You have 5 seconds to record and two opportunities to do it. Press "NEXT" to continue.
+
+												</h5>
+						</div>
+						
+					</section>
+			
+		</div>
+		<div id="georgeRules"></div>
+		
+		
+		
+		
+		
+		<audio controls preload="none" id="instruyeme">
+		<source src="../../audios/instrucciones/speaking/instruccion_afs1.mp3" type="audio/mpeg" />"
+		
+	</audio>
+
+
+		
+		<article id="r1">
+			<section id="blanco">
+
+			<section id="gallery">
+				<div class="container">
+					
+					
+					
+					<ul id="myRoundabout">   
+                        
+							<li><img id="i'm_going_to_the_gym_tomorrow_morning" onload="c(id)" onclick="c(id)" src="../../images/speaking/51_imagen.png"></li>
+							<li><img id="my_friends_and_i_are_going_to_the_movies_on_friday" onclick="c(id)" src="../../images/speaking/52_imagen.png"></li>
+							<li><img id="emily_is_going_to_dance_in_a_salsa_show_next_weekend" onclick="c(id)" src="../../images/speaking/53_imagen.png"></li>
+							<li><img id="at_the_movies_we_will_eat_popcorn_and_hot_dogs" onclick="c(id)" src="../../images/speaking/54_imagen.png"></li>
+							<li><img id="i'm_going_to_meet_my_friends_at_a_bar_on_Saturday_night" onclick="c(id)" src="../../images/speaking/55_imagen.png"></li>
+							<li><img id="at_the_gym_I_will_take_a_yoga_class" onclick="c(id)" src="../../images/speaking/56_imagen.png"></li>
+							<li><img id="george_is_going_to_travel_to_chile_on_his_next_vacations" onclick="c(id)" src="../../images/speaking/57_imagen.png"></li>
+							<li><img id="we_will_watch_a_horror_movie_tonight" onclick="c(id)" src="../../images/speaking/58_imagen.png"></li>  
+					</ul>
+				</div>
+			</section>
+			
+		
+		
+		
+		<h2><input id="imagen1" style="border:none" type="text"  size="58" maxlength="28" readonly="readonly"></input></h2>
+				<div id="information">
+					<p id="info_start">Click on the microphone icon and begin speaking.</p>
+					<p id="info_speak_now">Speak now.</p>
+					<p id="info_no_speech">No speech was detected. You may need to adjust your<a href="http://support.google.com/chrome/bin/answer.py?hl=en&amp;answer=1407892">microphone settings</a>.</p>
+					<p id="info_no_microphone" style="display:none">No microphone was found. Ensure that a microphone is installed and that<a href="//support.google.com/chrome/bin/answer.py?hl=en&amp;answer=1407892">microphone settings</a> are configured correctly.</p>
+					<p id="info_allow">Click the "Allow" button above to enable your microphone.</p>
+					<p id="info_denied">Permission to use microphone was denied.</p>
+					<p id="info_blocked">Permission to use microphone is blocked. To change,go to <a href="chrome://settings/contentExceptions#media-stream">chrome://settings/contentExceptions#media-stream</a></p>
+					<p id="info_upgrade">Web Speech API is not supported by this browser.Upgrade to <a href="http://www.google.com/chrome">Chrome</a>version 25 or later.</p>
+				</div>
+				
+		
+		
+		
+				<div id="mic">
+					<button id="start_button" onclick="startButton(event)">
+						<img id="start_img" src="../../../imagenes/botones/mic12.png" alt="Start"/>
+					</button>
+				</div>	
+				
+				
+				
+				<div id="results">
+					<span id="final_span" class="final"></span>
+					<span id="interim_span" class="interim"></span>
+					<p>
+				</div>
+				
+				
+				<div class="center">
+						<div id="div_language">
+							<select id="select_language"></select>
+							&nbsp;&nbsp;
+							<select id="select_dialect"></select>
+						</div>
+				</div>
+
+
+			
+			</section>
+		</article>
+		<div id="review">
+				
+										<label for="cuatro">		FINAL SCORE	</label><br>
+										<span>
+										<img  id="right" src="../../../imagenes/right.png" />
+										
+										</span>
+										<span>
+										<img  id="wrong" src="../../../imagenes/wrong.png" />
+										</span>
+										<h5><p id="result"> </p></h5>
+				</div>
+				
+				
+				
+				
+				
+					<audio controls preload="none" id="bien">
+						<source src="../../audios/feedback/well done.mp3" type="audio/mpeg" />
+					</audio>
+					<audio controls preload="none" id="mal0">
+						<source src="../../audios/feedback/try%20again.mp3" type="audio/mpeg" />
+					</audio>
+					<audio controls preload="none" id="thecorrect">
+						<source src="../../audios/feedback/the%20correct.mp3" type="audio/mpeg" />
+					</audio>
+					
+					
+					
+					<audio controls preload="none" id="rta1">
+						<source src="../../audios/respuestas/speaking/afs1_1.mp3" type="audio/mpeg" />
+					</audio>
+					<audio controls preload="none" id="rta2">
+						<source src="../../audios/respuestas/speaking/afs1_2.mp3" type="audio/mpeg" />
+					</audio>
+					<audio controls preload="none" id="rta3">
+						<source src="../../audios/respuestas/speaking/afs1_3.mp3" type="audio/mpeg" />
+					</audio>
+					<audio controls preload="none" id="rta4">
+						<source src="../../audios/respuestas/speaking/afs1_4.mp3" type="audio/mpeg" />
+					</audio>
+					<audio controls preload="none" id="rta5">
+						<source src="../../audios/respuestas/speaking/afs1_5.mp3" type="audio/mpeg" />
+					</audio>
+					<audio controls preload="none" id="rta6">
+						<source src="../../audios/respuestas/speaking/afs1_6.mp3" type="audio/mpeg" />
+					</audio>
+					<audio controls preload="none" id="rta7">
+						<source src="../../audios/respuestas/speaking/afs1_7.mp3" type="audio/mpeg" />
+					</audio>
+					<audio controls preload="none" id="rta8">
+						<source src="../../audios/respuestas/speaking/afs1_8.mp3" type="audio/mpeg" />
+					</audio>
+					
+		
+					<audio controls preload="none" id="retrowell">
+						<source src="../../audios/feedback/congratulation.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					<audio controls preload="none" id="retrobad">
+						<source src="../../audios/feedback/can%20do%20b.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					
+			<footer>
+				<nav id="navegacion">
+				
+				<nav id="continuar" class="sig"onClick="resul()" style="cursor: pointer"><img src="../../../imagenes/botones/nex.png"/></nav>
+				
+				<nav class="prev" style="cursor: pointer" onClick="volver(0)"><img src="../../../imagenes/botones/prev.png"/></nav>
+			
+				<nav class="final"><a href="s2.html" ><img src="../../../imagenes/botones/continue.png"/></a></nav>
+			</nav>
+			<span id="references">Making plans and Predictions: Speaking - Activity 1
+				<nav id="clickOnMe" class="nav-esquina" role="navigation">
+						<i class="fa fa-th fa-2x"></i>
+					</nav>
+			</span>
+			
+			
+			</footer>
+		</section>
+	</section>
+</body>
+	
+<script>
+var seleccionado="";
+
+var langs =
+[['Afrikaans',       ['af-ZA']],
+ ['Bahasa Indonesia',['id-ID']],
+ ['Bahasa Melayu',   ['ms-MY']],
+ ['Català',          ['ca-ES']],
+ ['Čeština',         ['cs-CZ']],
+ ['Deutsch',         ['de-DE']],
+ ['English',         ['en-AU', 'Australia'],
+                     ['en-CA', 'Canada'],
+                     ['en-IN', 'India'],
+                     ['en-NZ', 'New Zealand'],
+                     ['en-ZA', 'South Africa'],
+                     ['en-GB', 'United Kingdom'],
+                     ['en-US', 'United States']],
+ ['Español',         ['es-AR', 'Argentina'],
+                     ['es-BO', 'Bolivia'],
+                     ['es-CL', 'Chile'],
+                     ['es-CO', 'Colombia'],
+                     ['es-CR', 'Costa Rica'],
+                     ['es-EC', 'Ecuador'],
+                     ['es-SV', 'El Salvador'],
+                     ['es-ES', 'España'],
+                     ['es-US', 'Estados Unidos'],
+                     ['es-GT', 'Guatemala'],
+                     ['es-HN', 'Honduras'],
+                     ['es-MX', 'México'],
+                     ['es-NI', 'Nicaragua'],
+                     ['es-PA', 'Panamá'],
+                     ['es-PY', 'Paraguay'],
+                     ['es-PE', 'Perú'],
+                     ['es-PR', 'Puerto Rico'],
+                     ['es-DO', 'República Dominicana'],
+                     ['es-UY', 'Uruguay'],
+                     ['es-VE', 'Venezuela']],
+ ['Euskara',         ['eu-ES']],
+ ['Français',        ['fr-FR']],
+ ['Galego',          ['gl-ES']],
+ ['IsiZulu',         ['zu-ZA']],
+ ['Íslenska',        ['is-IS']],
+ ['Italiano',        ['it-IT', 'Italia'],
+                     ['it-CH', 'Svizzera']],
+ ['Magyar',          ['hu-HU']],
+ ['Nederlands',      ['nl-NL']],
+ ['Norsk bokmål',    ['nb-NO']],
+ ['Polski',          ['pl-PL']],
+ ['Português',       ['pt-BR', 'Brasil'],
+                     ['pt-PT', 'Portugal']],
+ ['Română',          ['ro-RO']],
+ ['Slovenčina',      ['sk-SK']],
+ ['Suomi',           ['fi-FI']],
+ ['Svenska',         ['sv-SE']],
+ ['Türkçe',          ['tr-TR']],
+ ['български',       ['bg-BG']],
+ ['Pусский',         ['ru-RU']],
+ ['Српски',          ['sr-RS']],
+ ['한국어',            ['ko-KR']],
+ ['中文',             ['cmn-Hans-CN', '普通话 (中国大陆)'],
+                     ['cmn-Hans-HK', '普通话 (香港)'],
+                     ['cmn-Hant-TW', '中文 (台灣)'],
+                     ['yue-Hant-HK', '粵語 (香港)']],
+ ['日本語',           ['ja-JP']],
+ ['Lingua latīna',   ['la']]];
+
+function updateCountry() {
+  for (var i = select_dialect.options.length - 1; i >= 0; i--) {
+    select_dialect.remove(i);
+  }
+  var list = langs[select_language.selectedIndex];
+  for (var i = 1; i < list.length; i++) {
+    select_dialect.options.add(new Option(list[i][1], list[i][0]));
+  }
+  select_dialect.style.visibility = list[1].length == 1 ? 'hidden' : 'visible';
+}
+
+for (var i = 0; i < langs.length; i++) {
+  select_language.options[i] = new Option(langs[i][0], i);
+}
+select_language.selectedIndex = 6;
+updateCountry();
+select_dialect.selectedIndex = 6;
+	showInfo('info_start');
+	var bien=[0,0,0,0,0,0,0,0,0];
+	var final_transcript = '';
+	var recognizing = false;
+	var ignore_onend;
+	var start_timestamp;
+	var recept='';
+	var cuentabien=0;
+	var contador1=contador2=contador3=contador4=contador5=contador6=contador7=contador8=contador9=0;
+	if (!('webkitSpeechRecognition' in window)) {
+		upgrade();
+		} 
+		else {
+			start_button.style.display = 'inline-block';
+			var recognition = new webkitSpeechRecognition();
+			recognition.continuous = true;
+			recognition.interimResults = true;
+
+			recognition.onstart = function() {
+			recognizing = true;
+			showInfo('info_speak_now');
+			$('#mic').css('-webkit-animation','inicia 1.5 infinite');
+			start_img.src = '../../../imagenes/botones/mic11.png'; 
+			};
+
+recognition.onerror = function(event) {
+    if (event.error == 'no-speech') {
+		start_img.src = '../../../imagenes/botones/micTrouble.png';
+		showInfo('info_no_speech');
+		ignore_onend = true;
+		}
+    if (event.error == 'audio-capture') {
+		start_img.src = '../../../imagenes/botones/micTrouble.png';
+		showInfo('info_no_microphone');
+		ignore_onend = true;
+		}
+    if (event.error == 'not-allowed') {
+		if (event.timeStamp - start_timestamp < 100) {
+			showInfo('info_blocked');
+			} 
+			else {
+				showInfo('info_denied');
+				}
+		ignore_onend = true;
+    }
+};
+
+recognition.onend = function() {
+    recognizing = false;
+    if (ignore_onend) {
+      return;
+    }
+    start_img.src = '../../../imagenes/botones/mic12.png';
+    if (!final_transcript) {
+      showInfo('info_start');
+      return;
+    }
+
+
+	
+    showInfo('');
+    if (window.getSelection) {
+      window.getSelection().removeAllRanges();
+      var range = document.createRange();
+      range.selectNode(document.getElementById('final_span'));
+      window.getSelection().addRange(range);
+    }
+	
+
+	seleccionado=seleccionado.replace(/_/g," ");
+	recept=recept.toLowerCase();
+	
+	
+	if(recept==seleccionado){
+		
+			if(seleccionado=="i'm going to the gym tomorrow morning"&&bien[0]==0){
+			bien[0]=1;
+			$("#i'm_going_to_the_gym_tomorrow_morning").css('opacity','0.2');
+			document.getElementById('bien').play();
+			cuentabien++;
+			}
+			
+			if(seleccionado=="my friends and i are going to the movies on friday"&&bien[1]==0){
+			bien[1]=1;
+			$("#my_friends_and_i_are_going_to_the_movies_on_friday").css('opacity','0.2');
+			document.getElementById('bien').play();
+			cuentabien++;
+			}
+			
+			if(seleccionado=="emily is going to dance in a salsa show next weekend"&&bien[2]==0){
+			bien[2]=1;
+			$("#emily_is_going_to_dance_in_a_salsa_show_next_weekend").css('opacity','0.2');
+			document.getElementById('bien').play();
+			cuentabien++;
+			}
+	
+			if(seleccionado=="at the movies we will eat popcorn and hot dogs"&&bien[3]==0){
+			bien[3]=1;
+			$("#at_the_movies_we_will_eat_popcorn_and_hot_dogs").css('opacity','0.2');
+			document.getElementById('bien').play();
+			cuentabien++;
+			}
+			
+			if(seleccionado=="i'm going to meet my friends at a bar on saturday night"&&bien[4]==0){
+			bien[4]=1;
+			$("#i'm_going_to_meet_my_friends_at_a_bar_on_Saturday_night").css('opacity','0.2');
+			document.getElementById('bien').play();
+			cuentabien++;
+			}
+		
+			if(seleccionado=="at the gym I will take a yoga class"&&bien[5]==0){
+			bien[5]=1;
+			$("#at_the_gym_I_will_take_a_yoga_class").css('opacity','0.2');
+			document.getElementById('bien').play();
+			cuentabien++;
+			}
+		
+			if(seleccionado=="george is going to travel to chile on his next vacations"&&bien[6]==0){
+			bien[6]=1;
+			$("#george_is_going_to_travel_to_chile_on_his_next_vacations").css('opacity','0.2');
+			document.getElementById('bien').play();
+			cuentabien++;
+			}
+							
+			if(seleccionado=="we will watch a horror movie tonight"&&bien[7]==0){
+			bien[7]=1;
+			$("#we_will_watch_a_horror_movie_tonight").css('opacity','0.2');
+			document.getElementById('bien').play();
+			cuentabien++;
+			}
+
+		}
+	else
+				{
+					
+					
+					
+					if(seleccionado=="i'm going to the gym tomorrow morning")
+						contador1++;
+						
+					if(seleccionado=="my friends and i are going to the movies on friday")
+						contador2++;
+		
+					if(seleccionado=="emily is going to dance in a salsa show next weekend")
+						contador3++;
+					
+					if(seleccionado=="at the movies we will eat popcorn and hot dogs")
+						contador4++;
+					
+					if(seleccionado=="i'm going to meet my friends at a bar on saturday night")
+						contador5++;
+					
+					if(seleccionado=="talk to friends")
+						contador6++;
+					
+					if(seleccionado=="george is going to travel to chile on his next vacations")
+						contador7++;
+						
+					if(seleccionado=="we will watch a horror movie tonight")
+						contador8++;
+					
+					
+					
+					
+					if(contador1==2||contador2==2||contador3==2||contador4==2||contador5==2||contador6==2||contador7==2||contador8==2)
+					document.getElementById('thecorrect').play();
+					else
+					if(contador1<2||contador2<2||contador3<2||contador4<2||contador5<2||contador6<2||contador7<2||contador8<2)
+					document.getElementById('mal0').play();
+					
+					
+					
+					
+					
+					
+					if(contador1==2){
+					$("#i'm_going_to_the_gym_tomorrow_morning").css('opacity','0.2');
+					temp=setTimeout(function(){document.getElementById('rta1').play();},2700);
+					contador1++;
+					}
+					if(contador2==2){
+					$("#my_friends_and_i_are_going_to_the_movies_on_friday").css('opacity','0.2');
+					temp=setTimeout(function(){document.getElementById('rta2').play();},2700);
+					contador2++;
+					}
+					if(contador3==2){
+					$("#emily_is_going_to_dance_in_a_salsa_show_next_weekend").css('opacity','0.2');
+					temp=setTimeout(function(){document.getElementById('rta3').play();},2700);
+					contador3++;
+					}
+					
+					if(contador4==2){
+					$("#at_the_movies_we_will_eat_popcorn_and_hot_dogs").css('opacity','0.2');
+					temp=setTimeout(function(){document.getElementById('rta4').play();},2700);
+					contador4++;
+					}
+					if(contador5==2){
+					$("#i'm_going_to_meet_my_friends_at_a_bar_on_Saturday_night").css('opacity','0.2');
+					temp=setTimeout(function(){document.getElementById('rta5').play();},2700);
+					contador5++;
+					}
+					if(contador6==2){
+					$("#at_the_gym_I_will_take_a_yoga_class").css('opacity','0.2');
+					temp=setTimeout(function(){document.getElementById('rta6').play();},2700);
+					contador6++;
+					}
+					if(contador7==2){
+					$("#george_is_going_to_travel_to_chile_on_his_next_vacations").css('opacity','0.2');
+					temp=setTimeout(function(){document.getElementById('rta7').play();},2700);
+					contador7++;
+					}
+					if(contador8==2){
+					$("#we_will_watch_a_horror_movie_tonight").css('opacity','0.2');
+					temp=setTimeout(function(){document.getElementById('rta9').play();},2700);
+					contador9++;
+					}
+					
+					
+				}
+			
+	showInfo('info_start');
+  };
+ 
+  recognition.onresult = function(event) {
+    var interim_transcript = '';
+
+  for (var i = event.resultIndex; i < event.results.length; ++i) {
+      if (event.results[i].isFinal) {
+        final_transcript += event.results[i][0].transcript;
+      } else {
+        interim_transcript += event.results[i][0].transcript;
+      }
+    }
+    
+	final_transcript = capitalize(final_transcript);
+	recept=final_transcript;
+	
+    final_span.innerHTML = linebreak(final_transcript);
+    interim_span.innerHTML = linebreak(interim_transcript);
+    if (final_transcript || interim_transcript) {
+      showButtons('inline-block');
+    }
+	
+  };
+}
+
+function upgrade() {
+  start_button.style.visibility = 'hidden';
+  showInfo('info_upgrade');
+}
+
+var two_line = /\n\n/g;
+var one_line = /\n/g;
+
+function linebreak(s) {
+  return s.replace(two_line, '<p></p>').replace(one_line, '<br>');
+}
+
+var first_char = /\S/;
+
+function capitalize(s) {
+  return s.replace(first_char, function(m) { return m.toUpperCase(); });
+}
+
+function resul(){
+$('#r1').css('display','none');
+$('.sig').css('display','none');
+
+resultado(cuentabien,7);
+
+}
+
+
+
+function copyButton() {
+  if (recognizing) {
+    recognizing = false;
+    recognition.stop();
+  }
+  copy_button.style.display = 'none';
+  copy_info.style.display = 'inline-block';
+  showInfo('');
+}
+
+
+
+function startButton(event) {
+  if (recognizing) {
+    recognition.stop();
+    return;
+  }
+  final_transcript = '';
+  recognition.lang = select_dialect.value;
+  recognition.start();
+  ignore_onend = false;
+  final_span.innerHTML = 'here the text';
+  interim_span.innerHTML = '';
+  start_img.src = '../../../imagenes/botones/mic12.png';
+  showInfo('info_allow');
+  showButtons('none');
+  start_timestamp = event.timeStamp;
+  
+  auto=setTimeout(function(){ recognition.stop(); },8000);
+  }
+
+
+function showInfo(s) {
+  if (s) {
+    for (var child = information.firstChild; child; child = child.nextSibling) {
+      if (child.style) {
+        child.style.display = child.id == s ? 'inline' : 'none';
+      }
+    }
+    information.style.visibility = 'visible';
+  } else {
+    information.style.visibility = 'hidden';
+  }
+}
+
+var current_style;
+
+
+
+function showButtons(style) {
+  if (style == current_style) {
+    return;
+  }
+  current_style = style;
+
+}
+
+
+
+
+function carga(){
+$('#information').css('display','none');
+$('#mic').css('display','none');
+empezar();}
+
+function empezar(){
+	
+	$('#gallery').css('opacity','1');
+		
+		
+		
+		
+		
+		
+		
+		
+		var Cadenita="";
+		
+			auto=setTimeout(function(){
+				
+				document.getElementById("i'm_going_to_the_gym_tomorrow_morning").click(); 
+				Cadenita=seleccionado.replace(/_/g," ");
+				Cadenita=Cadenita.charAt(0).toUpperCase()+Cadenita.slice(1);
+				
+				document.getElementById('imagen1').value=""+Cadenita;
+				
+				
+				
+				document.getElementById('rta1').play();
+				},0500);
+			
+			auto=setTimeout(function(){
+				
+				document.getElementById('my_friends_and_i_are_going_to_the_movies_on_friday').click();
+				Cadenita=seleccionado.replace(/_/g," ");
+				Cadenita=Cadenita.charAt(0).toUpperCase()+Cadenita.slice(1);
+				
+				document.getElementById('imagen1').value=""+Cadenita;
+				
+					document.getElementById('rta2').play();
+								
+				},5000);
+			
+			auto=setTimeout(function(){
+				
+				document.getElementById("emily_is_going_to_dance_in_a_salsa_show_next_weekend").click();
+				Cadenita=seleccionado.replace(/_/g," ");
+				Cadenita=Cadenita.charAt(0).toUpperCase()+Cadenita.slice(1);
+				
+				document.getElementById('imagen1').value=""+Cadenita;
+				
+				document.getElementById('rta3').play();
+				},10000);
+			
+
+			auto=setTimeout(function(){
+				
+				document.getElementById('at_the_movies_we_will_eat_popcorn_and_hot_dogs').click(); 
+				Cadenita=seleccionado.replace(/_/g," ");
+				Cadenita=Cadenita.charAt(0).toUpperCase()+Cadenita.slice(1);
+				
+				document.getElementById('imagen1').value=""+Cadenita;
+				
+				document.getElementById('rta4').play();
+				},16000);
+			
+			auto=setTimeout(function(){
+				
+				document.getElementById("i'm_going_to_meet_my_friends_at_a_bar_on_Saturday_night").click();
+				Cadenita=seleccionado.replace(/_/g," ");
+				Cadenita=Cadenita.charAt(0).toUpperCase()+Cadenita.slice(1);
+				
+				document.getElementById('imagen1').value=""+Cadenita;
+				
+				document.getElementById('rta5').play();
+				},22000);
+			
+			auto=setTimeout(function(){
+				
+				document.getElementById('at_the_gym_I_will_take_a_yoga_class').click();
+				Cadenita=seleccionado.replace(/_/g," ");
+				Cadenita=Cadenita.charAt(0).toUpperCase()+Cadenita.slice(1);
+				
+				document.getElementById('imagen1').value=""+Cadenita;
+				
+				document.getElementById('rta6').play();
+				},27250);
+			
+			auto=setTimeout(function(){
+				
+				document.getElementById('george_is_going_to_travel_to_chile_on_his_next_vacations').click();
+				Cadenita=seleccionado.replace(/_/g," ");
+				Cadenita=Cadenita.charAt(0).toUpperCase()+Cadenita.slice(1);
+				
+				document.getElementById('imagen1').value=""+Cadenita;
+				
+				document.getElementById('rta7').play();
+				},31200);
+				
+			auto=setTimeout(function(){
+				
+				document.getElementById('we_will_watch_a_horror_movie_tonight').click();
+				Cadenita=seleccionado.replace(/_/g," ");
+				Cadenita=Cadenita.charAt(0).toUpperCase()+Cadenita.slice(1);
+				
+				document.getElementById('imagen1').value=""+Cadenita;
+				
+				document.getElementById('rta8').play();
+				},37000);
+				
+
+			auto=setTimeout(function(){
+			document.getElementById("i'm_going_to_the_gym_tomorrow_morning").click();
+			$('#information').css('display','inline-block');
+			$('#mic').css('display','inline-block');
+			$('#imagen1').css('display','none');
+			
+			},40370);
+			
+			
+
+		
+
+
+}
+
+
+
+
+
+
+
+
+</script>
+</html>

@@ -1,0 +1,91 @@
+
+#sig2{display:none;}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ACTIVIDAD 2 COMPLETAR TABLA*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ACTIVIDAD 2 COMPLETAR TABLA~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+	
+ul{font-family:Humnst777 Bt;}
+ul li{display:inline-block;}
+	
+#informa{margin-bottom:25px;}
+label{
+	font-family:Humnst777 BlkCn BT/*, Arial Rounded MT, Humnst777 BT*/;
+	Font-variant: small-caps;
+	}
+	
+#reproducir2{display:none;}
+#cuadro2,#cuadro3,#cuadro{width:80%;}
+#void{
+
+display:inline-block;
+height:70%;
+}
+#blanco{
+
+display:none;
+}
+	
+
+#card1,#card2,#card3{
+	position:relative;
+		display: table;
+	}
+	
+	
+	.contImage img{top:5%;}
+	.sig2{display:none;opacity:.3;}
+	
+	#card2,#card3{display:none;}
+	
+	.prev2{display:none;}
+	
+	#cuadro{
+		
+	}
+	
+	aside{
+		margin:0 auto;
+		text-align:right;
+		height:19%;
+		margin:0 auto;
+		width:100%;
+		
+	}
+	
+	.imagebutton{
+		border:none;
+
+	}
+	.imagebutton:focus{border:none;outline:none;}
+	
+	.buttonContainer{		display:inline-block;
+		width:100%;}
+	
+	
+	#botonRetro1,#botonRetro2,#botonRetro3,#boton2,#boton3{display:none;}
+	
+	
+	
+	nav .vertical {
+		position:relative;
+		z-index:1;
+		border-radius: 4px;
+		overflow: hidden;
+		
+	}
+	
+	#audio1,#audio2,#audio3{display:none;}
+	nav.vertical > ul {list-style-type: none;text-align:right; width:95%;}
+	nav.vertical > ul > li {
+	display: inline-block;
+	}
+	
+
+	
+	
+	

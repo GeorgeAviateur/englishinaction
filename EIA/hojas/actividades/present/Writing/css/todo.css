@@ -1,0 +1,225 @@
+#k{
+width: 80px;
+}
+#resultado,#escuchar1,audio,#muestrame1,#continuar{
+display: none;
+}
+.velk{
+text-align: center;
+}
+.container {
+z-index:1;
+margin: 0 auto;
+position: relative;
+/*font-size:.8125em;*/
+}
+#gallery {
+width: 80%;
+overflow:hidden;
+margin-top: 20px;
+display: inline-block;
+overflow:hidden;
+}
+.gallery1{
+margin-bottom: 1%;
+}
+#myRoundabout{
+height:171px; 
+width: 405px;		
+list-style-type: none;
+}
+.colore{
+background-color:white;
+}
+.roundabout-holder  { 
+width:303px;
+height:171px;
+margin:0 auto;
+}
+.roundabout-moveable-item {
+width: 303px; 
+height: 171px;
+cursor: pointer;
+border:3px solid #ccc;
+border:3px solid rgba(0, 0, 0, 0.08);
+border-radius:4px;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+}
+.roundabout-moveable-item img{
+width:100%;
+}
+.roundabout-in-focus {
+border:3px solid rgba(0, 0, 0, 0.2);
+}
+.social{
+text-align: center;
+}
+.centered-btns_nav{
+visibility:hidden;
+}
+#escuchar,#escuchar2{
+opacity: 0.4;
+pointer-events:none;
+cursor: pointer;
+display: none;
+}
+.sig,.sig2{
+cursor: pointer;
+display: none;
+}
+#pause,#pause1{
+cursor: pointer;
+display: none;
+opacity: 1;
+pointer-events:auto;
+}
+.elnav,.elnav1{
+opacity: 0.3;
+cursor: pointer;
+float:center;
+text-align: center;
+margin:0 auto;
+display: none;
+pointer-events: none;
+}
+.perendengues{
+pointer-events:none;
+display: none;
+}
+.peso1{
+top: 10px;
+position: absolute;
+}
+#listeniando,#listeniando1{
+width:auto;
+margin:auto;
+height:50px;
+display:inline-block;
+}
+.fuckencio{
+width: 80px;
+display: block;
+float: center;
+margin: 0 auto;
+}
+#fuckencio1{
+height: 50px;
+display: block;
+top:-8px;
+}
+#fuckencio2{
+display: block;
+height: auto;
+top:-8px;
+}
+.muestrame1{
+animation: show 30s linear infinite;
+-webkit-animation: show 30s linear infinite;
+}
+input[value=""] {
+height: 21px;	
+display: inline-block; 
+margin: auto; 
+text-align: center;
+background: #FFF;	
+padding: 1px 10px 1px 10px;	
+border: 1px solid #CCCCCC;	
+-webkit-border-radius: 4px 4px 4px 4px;	
+-moz-border-radius: 4px 4px 4px 4px;	
+-khtml-border-radius: 4px 4px 4px 4px;	
+border-radius: 4px 4px 4px 4px;
+}
+.bi , .bi1{	
+width: 20px;
+height: 23px;
+background: #FFF; 
+border: 1px solid #CCCCCC;	
+-webkit-border-radius: 3px 0px 0px 3px;	
+-moz-border-radius: 3px 0px 0px 3px;	
+-khtml-border-radius: 3px 0px 0px 3px;	
+border-radius: 3px 0px 0px 3px;
+text-align: center;
+pointer-events: none;
+font-weight: bold; 
+display: inline-block;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+label {
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+input[type=checkbox].css-checkbox {
+position: absolute; 
+overflow: hidden; 
+clip: rect(0 0 0 0); 
+height:1px; 
+width:1px; 
+margin:-1px; 
+padding:0;
+border:0;
+}
+input[type=checkbox].css-checkbox + label.css-label {
+padding-left:20px;
+height:15px; 
+display:inline-block;
+line-height:15px;
+background-repeat:no-repeat;
+background-position: 0 0;
+font-size:15px;
+vertical-align:middle;	
+}
+input[type=checkbox].css-checkbox:checked + label.css-label {
+background-position: 0 -15px;
+}
+.css-label{
+background-image:url(http://csscheckbox.com/checkboxes/dark-check-green.png);	
+}
+.dark-plus-orange{background-image:url(http://csscheckbox.com/checkboxes/dark-plus-orange.png);}
+.dark-check-orange{background-image:url(http://csscheckbox.com/checkboxes/dark-check-orange.png);}
+input[type=checkbox].css-checkbox.med + label.css-label.med {
+padding-left:22px;
+height:17px; 
+display:inline-block;
+line-height:17px;
+background-repeat:no-repeat;
+background-position: 0 0;
+font-size:15px;
+vertical-align:middle;
+cursor:pointer;
+}
+input[type=checkbox].css-checkbox.med:checked + label.css-label.med {
+background-position: 0 -17px;
+}
+input[type=checkbox].css-checkbox.sme + label.css-label.sme {
+padding-left:22px;
+height:16px; 
+display:inline-block;
+line-height:16px;
+background-repeat:no-repeat;
+background-position: 0 0;
+font-size:15px;
+vertical-align:middle;
+cursor:pointer;
+}
+input[type=checkbox].css-checkbox.sme:checked + label.css-label.sme{
+background-position: 0 -16px;
+}
+input[type=checkbox].css-checkbox.lrg + label.css-label.lrg {
+padding-left:22px;
+height:20px; 
+display:inline-block;
+line-height:20px;
+background-repeat:no-repeat;
+background-position: 0 0;
+font-size:15px;
+vertical-align:middle;
+cursor:pointer;
+}
+input[type=checkbox].css-checkbox.lrg:checked + label.css-label.lrg{
+background-position: 0 -20px;
+}

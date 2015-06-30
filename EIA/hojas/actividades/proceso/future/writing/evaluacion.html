@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+  <head>
+    <title>Test</title>
+    <meta charset="utf-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>-->
+		<script type="application/javascript" src="../../../acciones.js"></script>
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+		<link rel="stylesheet" href="../../../tipo.css" type="text/css"/>
+    <link rel="stylesheet" href="../../../responsiveenglish.css" type="text/css"/>
+		<link rel="stylesheet" href="css/evaluacion.css"/>
+    <link rel="stylesheet" href="css/responsiveevaluacion.css"/>
+		<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script src="js/evaluacion.js"></script>   
+    <script src="js/writing.js"></script>
+    <script src="js/parrafos.js"></script>
+    <script src="js/activaraudios.js"></script>
+    <!-- ------------------------------------------------------ -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="sortable, reorder, list, javascript, html5, drag and drop, dnd, animation, groups, angular, ng-sortable, react, mixin, effects, rubaxa">
+    <meta name="description" content="Sortable - is a minimalist JavaScript library for reorderable drag-and-drop lists on modern browsers and touch devices. No jQuery. Supports Meteor, AngularJS, React and any CSS library, e.g. Bootstrap.">  
+    <link href="./actividad2/ply.css" rel="stylesheet" type="text/css">
+    <link href="./actividad2/css" rel="stylesheet" type="text/css">
+    <link href="./actividad2/app.css" rel="stylesheet" type="text/css">
+    <!-- ------------------------------------------------------ -->
+    <script src="js/jquery.countdown360.js" type="text/javascript" charset="utf-8"></script>
+    <script type="application/javascript" src="functions.js"></script>
+
+    <script type="text/javascript">
+    
+      function closebuscador(){
+            $("#buscador").hide("slow");
+            $(".modal-window").css('left','45%');
+            $(".modal-window").css('top','45%');
+            $(".modal-window").css('right','45%');
+            $(".modal-window").css('bottom','45%');
+          
+          }
+      $(document).ready(function(){
+         
+              $("#buscador").hide();   
+      $("#bucadorito").click(function(){
+    $("#buscador").show("slow");
+    }); 
+    document.oncontextmenu = function() {
+      return false
+    }
+    $("#menuForAll" ).slideToggle(0);
+    $("#clickOnMe").click(function(){
+    $("#menuForAll" ).slideToggle(1000);
+    });     
+    });
+    </script>
+
+    <script>  
+    var cadVariables="";
+    $("document").ready(function(){
+    cadVariables = location.search.substring(1,location.search.length);
+      //alert("write");
+    });
+    function preguntaAle2(certeza){
+    if(certeza==true){
+    if(cadVariables.charAt(5)=="0"){
+    cadVariables=remplaza(5,1,cadVariables);
+    }
+    else{
+    if(cadVariables.charAt(5)=="1"){
+    cadVariables=remplaza(5,2,cadVariables);
+    }
+    }
+    }
+    //window.location="libro.html?"+cadVariables;
+    }
+    </script>
+  </head>
+
+  <body onload='readme12(12000);habilidad(),cerrar()'>
+      <div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+          <div id="buscador">
+  <iframe scrolling='no' id="buscadorsino" src="../../../../cosino/" name="buscadorsino" height="100%" width="100%" frameborder="0"  ></iframe>  
+  </div>
+    <section id="activities">
+        <nav id="menuForAll">
+          <div id="logoMenu">
+            <a href="../../../../../index.html"><img src="../../../../imagenes/ingles.png"></a>
+          </div>
+      
+          <ul>
+            <a href="../../../../menu/selection/selection.html"><li>Main Menu</li></a>
+            <a href="../../../../cont/cont.html"><li>Context Information</li></a>
+            <a href="../../../../mmenu/sitemap.html"><li>Site Map</li></a>
+            <a href="../../../../biblioteca/biblioteca.html"><li>Library</li></a>
+            <li><a  id="bucadorito" href="#Vocabulary">Vocabulary</a></li>
+			<a href="../../../../references/"><li>References</li></a>
+            <a href="../../../../credits/staff.html"><li>Staff</li></a>
+          </ul> 
+        </nav>
+
+      <header>
+  	    <div id="logo"><img  src="../../../../imagenes/ingles.png"/></div>
+  	    <div id="title"><img src="../../../../imagenes/avisos/proceso.png"/></div>
+  	    <div id="udec"> <img src="../../../../imagenes/logoudec.png"/></div>
+      </header>
+  		
+      <div id="informa">
+    	  <section id="manito">
+    		  <img id="hand2" class="hand" src="../../../../imagenes/avisos/hand.png"/>
+    		  <img id="hand1" class="hand" src="../../../../imagenes/avisos/hand.png"/>
+    	  </section>
+
+        <section id="info">
+          <img  style="cursor: pointer" onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob12()"  src="../../../../imagenes/botones/objetivo.png"/>
+          <img style="cursor: pointer" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins12()" src="../../../../imagenes/botones/instruccion.png"/>
+        </section>  
+
+        <section id="txt">
+          <div id="objetivos"><h5 id="obj"></h5></div>
+          <div id="instruccion"><h5 id="ins"></h5></div>
+        </section>
+      </div>
+  		<div id="georgeRules"></div>	
+      <article id="r1">
+      	<section id="blanco">
+      	  <div id="cuadroPreguntas">
+            <div id='fotocosinos'> 
+              <img id="ima1" src=''/>
+            </div>
+
+            <div id='campi'>
+              <h3 id="parrafiño1" class="parrafiños"></h3>
+  		        <form method="post" action="#" id="formulario">
+   		          <h3 id="label11" class="labeles"></h3>
+                <input type="text" value="" class="signo" id="input1" name="" onkeypress="sololetras(event)" onpaste="return false" oncut="return false" oncopy="return false" placeholder="write here..." /> 
+                <input type="text" value="" class="signo" id="input2" name="" onkeypress="sololetras(event)"  placeholder="write here..." /> 
+                <h3 id="label1" class="labeles"></h3>
+  		        </form>   
+     	        <h3 id="parrafiño2" class="parrafiños"></h3>
+  		          
+            </div>
+          </div>
+
+          <section id='olas'>
+            <ul id="foo" class="block__list block__list_words" style='display:none'></ul>
+            <ul id="bar" class="block__list block__list_tags" style='display:none'></ul>
+            <a name="m"></a>
+              <div class="container">
+                <div id="multi" > 
+                  
+                  <section id="connected" class='connected' >
+                   <h2 id="titulito1" class="lostitulitos"><b>People will live on the moon in the future.</b></h2><br>
+                    <div class="layer tile" data-force="25" id="con">
+                      <div class="tile__list" ></div>
+                    </div>
+                    <div class="layer tile" data-force="30" draggable="false">
+                      <div id='myul' class="tile__list">
+                        <div class="emo" id="cero"><span id="zero" class="cent">•</span></div>
+                        <div class="emo" id="uno"><span id="first" class="cent">will</span></div>
+                        <div class="emo" id="dos"><span id="second" class="cent">People</span></div>
+                        <div class="emo" id="tres"><span id="third" class="cent">on</span></div>    
+                        <div class="emo" id="cuatro"><span id="fourth" class="cent">moon</span></div> 
+                        <div class="emo" id="cinco"><span id="fifth" class="cent">the</span></div>
+                        <div class="emo" id="seis"><span id="six" class="cent">live</span></div> 
+                        <div class="emo" id="siete"><span id="seven" class="cent">future</span></div> 
+                        <div class="emo" id="ocho"><span id="eight" class="cent">in</span></div>
+                        <div class="emo" id="nueve"><span id="nine" class="cent">the</span></div>  
+                      </div>
+                    </div>
+                  </section>
+                  
+                  
+                  <section id="connected1" class='connected'>
+                  <h2 id="titulito2" class="lostitulitos"><b>Robots won't replace humans.</b></h2><br>  
+                    <div class="layer tile" data-force="25" id="con1">
+                      <div class="tile__list" ></div>
+                    </div>
+
+                    <div class="layer tile" data-force="30" draggable="false">
+                      <div id='myul1' class="tile__list">
+                        <div class="emo1" id="u1"><span id="first1" class="cent">won't</span></div>
+                        <div class="emo1" id="d1"><span id="second1" class="cent">Robots</span></div>
+                        <div class="emo1" id="t1"><span id="third1" class="cent">humans</span></div>
+                        <div class="emo1" id="cero1"><span id="zero1" class="cent">•</span></div>
+                        <div class="emo1" id="c1"><span id="fourth1" class="cent">replace</span></div>  
+                      </div>
+                    </div>
+                  </section>
+
+                  
+                  <section id="connected2" class='connected'>
+                  <h2 id="titulito3" class="lostitulitos"><b>What are you going to do next weekend?</b></h2> <br> 
+                    <div class="layer tile" data-force="25" id="con2">
+                      <div class="tile__list" ></div>
+                    </div>
+
+                    <div class="layer tile" data-force="30" draggable="false">
+                      <div id='myul2' class="tile__list">
+                        <div class="emo2" id="u2"><span id="first2" class="cent">are</span></div>
+                        <div class="emo2" id="d2"><span id="second2" class="cent">going</span></div>
+                        <div class="emo2" id="t2"><span id="third2" class="cent">you</span></div> 
+                        <div class="emo2" id="c2"><span id="fourth2" class="cent">to</span></div> 
+                        <div class="emo2" id="ci2"><span id="fifth2" class="cent">What</span></div>
+                        <div class="emo2" id="s2"><span id="six2" class="cent">do</span></div> 
+                        <div class="emo2" id="sie2"><span id="seven2" class="cent">weekend</span></div> 
+                        <div class="emo2" id="ocho2"><span id="eight2" class="cent">next</span></div> 
+                        <div class="emo2" id="nue2"><span id="nine2" class="cent">?</span></div> 
+                      </div>
+                    </div>
+                  </section>  
+
+                  
+                  <section id="connected3" class='connected'>
+                  <h2 id="titulito4" class="lostitulitos"><b>Sam is going to buy a car next year.</b></h2><br> 
+                    <div class="layer tile" data-force="25" id="con3">
+                      <div class="tile__list" ></div>
+                    </div>
+
+                    <div class="layer tile" data-force="30" draggable="false">
+                      <div id='myul3' class="tile__list">
+                        <div class="emo3" id="u3"><span id="first3" class="cent">Sam</span></div>
+                        <div class="emo3" id="d3"><span id="second3" class="cent">to</span></div>
+                        <div class="emo3" id="cero2"><span id="zero2" class="cent">•</span></div>
+                        <div class="emo3" id="t3"><span id="third3" class="cent">buy</span></div> 
+                        <div class="emo3" id="c3"><span id="fourth3" class="cent">is</span></div> 
+                        <div class="emo3" id="ci3"><span id="fifth3" class="cent">car</span></div> 
+                        <div class="emo3" id="s3"><span id="six3" class="cent">going</span></div>
+                        <div class="emo3" id="sie3"><span id="seven3" class="cent">a</span></div>  
+                        <div class="emo3" id="ocho3"><span id="eight3" class="cent">year</span></div> 
+                        <div class="emo3" id="nue3"><span id="nine3" class="cent">next</span></div> 
+                      </div>
+                    </div>
+                  </section> 
+
+                  
+                  <section id="connected4" class='connected'>
+                  <h2 id="titulito5" class="lostitulitos"><b>There won't be enough water in fifty years.</b></h2><br>
+                    <div class="layer tile" data-force="25" id="con4">
+                      <div class="tile__list" ></div>
+                    </div>
+
+                    <div class="layer tile" data-force="30" draggable="false">
+                      <div id='myul4' class="tile__list">
+                      <div class="emo4" id="u4"><span id="first4" class="cent">won't</span></div>
+                      <div class="emo4" id="d4"><span id="second4" class="cent">enough</span></div>
+                      <div class="emo4" id="t4"><span id="third4" class="cent">fifty</span></div> 
+                      <div class="emo4" id="cero3"><span id="zero3" class="cent">•</span></div>
+                      <div class="emo4" id="c4"><span id="fourth4" class="cent">in</span></div> 
+                      <div class="emo4" id="ci4"><span id="fifth4" class="cent">years</span></div> 
+                      <div class="emo4" id="s4"><span id="six4" class="cent">There</span></div> 
+                      <div class="emo4" id="sie4"><span id="seven4" class="cent">water</span></div> 
+                      <div class="emo4" id="ocho4"><span id="eight4" class="cent">be</span></div>         
+                      </div>
+                    </div>
+                  </section>
+
+               </div>
+              </div>
+          </section>
+
+          <div id='mirelojito'>
+            <div id="container" >
+              <div id="countdown" ></div>
+                <script type="text/javascript" charset="utf-8">
+                 // setTimeout(function(){ 
+                  $("#countdown").countdown360({
+                     radius      : 60,
+                     seconds     : 90,
+                     fontColor   : '#FFFFFF',
+                     autostart   : false,
+                     onComplete  : function () { console.log('done') }
+                   }).stop()
+                  //},1000);
+                </script>
+            </div>
+          </div>
+
+  	    </section>
+      </article>
+
+      <footer>		
+        <nav id="navegacion">	 
+         <!-- <nav class="prev" style="cursor: pointer" onClick="volver(0)"><img src="../../../../imagenes/botones/prev.png"/></nav>-->
+    	    <span id='mom'><nav id="continuar" class="sig"  onclick="writing()"><img src="../../../../imagenes/botones/check.png" class="verificarRespuesta"/></nav>	</span>
+    	    <span class='bigbang'><nav id="continuar1"  style="display:none;" class="sig"  ><img src="../../../../imagenes/botones/nex.png" onclick="redireccionar()"/></nav>	</span>	
+  					
+    	    <!--<div id="reloj"><img title="Time Lapse Remain" id="stopWatch" src="../../../imagenes/cronometro/stopwatch.png"/> <h4><figure id="cuenta">READ INSTRUCTIONS</figure></h4> </div>-->
+    			
+    	    <!--<img src="../../../imagenes/botones/mini3.png" /></nav>
+    	    <img src="../../../imagenes/botones/mini31.png" onClick="activaaudio()" />-->
+
+          <section class="fuckencio" id="fuckencio1">
+            <img id="reproducir00" onClick="activaaudio()" src="../../../../imagenes/botones/mini3.png"/>
+    	      <img class="elnav" id="pause" onClick="activaaudio()"  src="../../../../imagenes/botones/mini31.png"/>
+    	      <!-- <nav class="final"><a href="../../centro.html" ><img src="../../../imagenes/botones/continue.png"/></a></nav>-->
+
+            <!--<img id="reproducir1" onClick="activaaudio()" src="../../../imagenes/botones/mini31.png"/ style="cursor:pointer;">
+            <img id="pause1" onClick="activaaudio()"  src="../../../imagenes/botones/mini3.png" style="cursor:pointer;"/>-->
+          </section>
+
+          <section class="fuckencio" id="fuckencio2">
+            <!--<nav id="perendengues">
+              <input id="primero" type="checkbox" name="transporte" value="1"></input>
+            	<input id="segundo" type="checkbox" name="transporte" value="2"></input>
+            	<input id="tercero" type="checkbox" name="transporte" value="3"></input>
+            </nav>-->
+
+            <table id="perendengues">
+              <tr>
+              <input type="checkbox" id="primero" class="css-checkbox" checked="checked"/>
+              <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+              </tr>
+
+              <tr>
+              <input type="checkbox" class="css-checkbox" id="segundo" checked="checked" />
+              <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+              </tr>
+
+              <tr>
+              <input type="checkbox" id="tercero" class="css-checkbox" checked="checked"/>
+              <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+              </tr>
+            </table>   
+          </section>  
+        </nav>
+  		
+        <span id='references'>Plans and Predictions - Writing
+          <nav id="clickOnMe" class="nav-esquina" role="navigation">
+            <!-- Right Control -->
+            <i class="fa fa-th fa-2x"></i>
+          </nav>
+        </span>
+      </footer>
+    </section>
+
+
+    <audio controls preload="none" id="aplausos" >
+      <source src="../../../audios/aplausos.mp3" type="audio/mpeg" />
+      <source src="../../../audios/aplausos.wav" type="audio/wav" />
+      <p>Tu navegador no implementa el elemento audio.</p>
+    </audio>
+
+    <audio controls preload="none" id="trompeta" >
+      <source src="../../../audios/trompeta.mp3" type="audio/mpeg" />
+      <source src="../../../audios/trompeta.wav" type="audio/wav" />
+      <p>Tu navegador no implementa el elemento audio.</p>
+    </audio>
+
+    <audio controls preload="none" id="the" >
+      <source src="../../../audios/t1.mp3" type="audio/mpeg" />
+      <source src="../../../audios/t1.wav" type="audio/wav" />
+      <p>Tu navegador no implementa el elemento audio.</p>
+    </audio>
+
+
+
+
+
+
+    <script src="./actividad2/Sortable.js"></script>
+    <script src="./actividad2/Ply.min.js"></script>
+    <script src="./actividad2/ng-sortable.js"></script>
+    <script src="./actividad2/app.js"></script>
+    <script src="./actividad2/highlight.min.js"></script>
+    <script src="./actividad2/No jQuery._files/angular.min.js"></script>
+
+    <iframe name="oauth2relay306747514" id="oauth2relay306747514" src="./actividad2/postmessageRelay.html" tabindex="-1" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe>
+  </body>
+</html>

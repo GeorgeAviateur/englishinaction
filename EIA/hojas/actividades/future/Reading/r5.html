@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--[if lte IE 8]><meta http-equiv="X-UA-Compatible" content="chrome=1"/><![endif]-->
+        <title>English In Action!</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=0.5">
+		<meta name="keywords" content="e-learing,ova,learn,english,Jorge García">
+		<meta name="description" content="Making plains and predictions, Activity 5 for study English in future time">
+
+		<!-- Libraries -->
+        
+        <script type="application/javascript" src="../../../js/jquery.min.js"></script>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/javascript" src="../../acciones.js"></script>
+		<script type="application/javascript" src="js/actividad5.js"></script>
+		<link rel="stylesheet" href="../../tipo.css"/>
+		<link rel="stylesheet" href="../../responsiveenglish.css"/>
+		<link rel="stylesheet" href="css/acti5.css"/>
+		<link rel="stylesheet" href="css/slide.css"/>
+		<script type="text/javascript" src="js/slide/jquery-1.4.2.min.js" ></script>
+		
+		<script type="text/javascript" src="js/slide/roundabout.js"></script>
+		<script type="text/javascript" src="js/slide/gallery_init.js"></script>
+		<script type="text/javascript" src="js/slide/jquery.sortable.min.js"></script>
+
+		<link rel="stylesheet" href="css/slide/reset.css" type="text/css" media="all">
+		<link rel="stylesheet" href="css/slide/responsive.css">
+		
+		<link rel="stylesheet" href="css/slide/responsiveslides.css" />
+			
+
+		<script type="text/javascript">
+
+ function closebuscador(){
+            $("#buscador").hide("slow");
+            $(".modal-window").css('left','45%');
+            $(".modal-window").css('top','45%');
+            $(".modal-window").css('right','45%');
+            $(".modal-window").css('bottom','45%');
+          
+          }
+      $(document).ready(function(){
+         
+              $("#buscador").hide();   
+      $("#bucadorito").click(function(){
+    $("#buscador").show("slow");
+    }); 
+    document.oncontextmenu = function() {
+      return false
+    }
+			$("#menuForAll" ).slideToggle(0);
+				var devuelve=22;
+					$("#clickOnMe").click(function(){
+						$("#menuForAll" ).slideToggle(1000);
+					});
+					
+			});
+		</script>
+	
+	<script type="text/javascript">
+			// IE Evitar seleccion de texto
+			document.onselectstart=function(){
+			if (event.srcElement.type != "text" && event.srcElement.type != "textarea" && event.srcElement.type != "password")
+				return false
+				else return true;
+			};
+			// FIREFOX Evitar seleccion de texto
+				if (window.sidebar){
+					document.onmousedown=function(e){
+					var obj=e.target;
+						if (obj.tagName.toUpperCase() == "INPUT" || obj.tagName.toUpperCase() == "TEXTAREA" || obj.tagName.toUpperCase() == "PASSWORD")
+							return true;	
+						else
+							return false;	
+					}
+				}
+	</script>
+
+	
+
+</head>
+    <body onload="readme(17000),cerrar()" >
+        <div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+        <div id="buscador">
+  <iframe scrolling='no' id="buscadorsino" src="../../../cosino/" name="buscadorsino" height="100%" width="100%" frameborder="0"  ></iframe>  
+  </div>
+	
+			
+		<section id="activities">
+			
+			<nav id="menuForAll">
+			<div id="logoMenu">
+				<a href="../../../../index.html"><img src="../../../imagenes/ingles.png"></a>
+			</div>
+			
+			
+			<ul>
+				<a href="../../../menu/selection/selection.html"><li>Main Menu</li></a>
+				<a href="../../../cont/cont.html"><li>Context Information</li></a>
+				<a href="../../../mmenu/sitemap.html"><li>Site Map</li></a>
+				<a href="../../../biblioteca/biblioteca.html"><li>Library</li></a>
+				<li><a  id="bucadorito" href="#Vocabulary">Vocabulary</a></li>
+                <a href="../../../references/refe.html"><li>References</li></a>
+				<a href="../../../credits/staff.html"><li>Staff</li></a>
+			</ul> 
+		</nav>
+			
+			<header>
+						
+			<div id="logo"><img  src="../../../imagenes/ingles.png" width="80px" height="80px"/></div>
+			<div id="title" class="slideDown"><img src="../../../imagenes/avisos/people.png"/></div>
+			<div id="udec"> <img src="../../../imagenes/logoudec.png"/></div>
+			
+			</header>
+				
+		<div id="informa">
+					<section id="manito">
+							<img id="hand2" class="hand" src="../../../imagenes/avisos/hand.png"/>
+							<img id="hand1" class="hand" src="../../../imagenes/avisos/hand.png"/>
+					</section>
+					
+					<section id="info">
+								<img  style="cursor: pointer" id="alumbraobj" onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob()" src="../../../imagenes/botones/objetivo.png"/>
+								<img  style="cursor: pointer" id="alumbrains" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins()" src="../../../imagenes/botones/instruccion.png"/>
+					</section>
+					
+					<section id="txt">
+						<div id="objetivos"><h5>To strengthen reading ability through different kinds of exercises.</h5></div>
+						<div id="instruccion"><h5>Read the sentence and click on the picture that matches the sentence. You have two opportunities to answer, then click on "NEXT" to continue.
+
+</h5></div>
+						
+					</section>
+			
+		</div>	
+		<div id="georgeRules"></div>
+		<div id="advertisment">
+				<img id="plane" src = "../../../imagenes/avisos/readAirplane.png"/>
+		</div>
+<!--
+	
+	-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~AQUI PONDREMOS EL CONTENIDO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+				<article id="r1">
+					
+					<section class="orden">
+				
+			
+						
+						
+						
+							<section id="gallery">
+								<div class="container">
+									<ul id="myRoundabout">
+										<li><img id="Ana is going to drink a beer"src="../../images/reading/32_imagen.png" width="303" height="181" style="cursor:pointer" OnDblClick="check(this.id)"/></li>
+										<li><img id="Luis is going exercise" src="../../images/reading/33_imagen.png" width="303" height="181" style="cursor:pointer" OnDblClick="check(this.id)"/></li>
+										<li><img id="Susy and pablo are going to dance"src="../../images/reading/34_imagen.png" width="303" height="181" style="cursor:pointer" OnDblClick="check(this.id)"/></li>
+										<li><img id="Dwan is going to watch a movie" src="../../images/reading/35_imagen.png" width="303" height="181" style="cursor:pointer" OnDblClick="check(this.id)"/></li>
+										<li><img id="Martha is going to do some yoga" src="../../images/reading/36_imagen.png" width="303" height="181" style="cursor:pointer" OnDblClick="check(this.id)"/></li>
+										<li><img id="Charles and Andrew are going to eat hamburgers" src="../../images/reading/37_imagen.png" width="303" height="181" style="cursor:pointer" OnDblClick="check(this.id)"/></li>
+										<li><img id="I am going to travel" src="../../images/reading/38_imagen.png" width="303" height="181" style="cursor:pointer" OnDblClick="check(this.id)"/></li>
+										<li><img id="Clara and Nancy are going to visit the doctor" src="../../images/reading/39_imagen.png" width="303" height="181" style="cursor:pointer" OnDblClick="check(this.id)"/></li>
+										<li><img id="Sara is going to listen to music" src="../../images/reading/40_imagen.png" width="303" height="181" style="cursor:pointer" OnDblClick="check(this.id)"/></li>
+										
+										<li><img id="Marcos and I are going to play video games" src="../../images/reading/41_imagen.png" width="303" height="181" style="cursor:pointer" OnDblClick="check(this.id)"/></li>    
+									</ul>
+								</div>
+							</section>
+					</section>
+				
+					<section class="orden">	
+				
+						<label id="label"></label>
+						<input id="imagen1" type="text"  size="30"  maxlength="28"   disabled></input>
+		
+					</section>
+			
+				
+				
+				</article>
+			
+			
+					
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~AQUI PONDREMOS LAS RESPUESTAS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<div id="review">
+			
+										<label for="cuatro">		FINAL SCORE	</label>
+										<span>
+										<img  id="right" src="../../../imagenes/right.png" />
+										
+										</span>
+										<span>
+										<img  id="wrong" src="../../../imagenes/wrong.png" />
+										</span>
+										
+										
+										<h5><p id="result"> </p></h5>
+			</div>
+			
+				<audio controls preload="none" id="instruyeme">
+						<source src="../../audios/instrucciones/reading/afr5.mp3" type="audio/mpeg" />
+						
+				</audio>
+				
+				<audio controls preload="none" id="bien">
+					<source src="../../audios/feedback/well done.mp3" type="audio/mpeg" />
+					
+					<p>Tu navegador no implementa el elemento audio.</p>
+				</audio>
+					
+			
+			
+					<audio controls preload="none" id="retrowell">
+						<source src="../../audios/feedback/congratulation.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					<audio controls preload="none" id="retrobad">
+						<source src="../../audios/feedback/can%20do%20b.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					
+			
+			
+				<audio controls preload="none" id="mal0">
+					<source src="../../audios/feedback/can%20do%20b.mp3" type="audio/mpeg"  type="audio/mpeg" />
+					<p>Tu navegador no implementa el elemento audio.</p>
+				</audio>
+				
+						
+						<audio controls preload="none" id="mal1">
+							<source src="../../audios/feedback/try%20again.mp3" type="audio/mpeg" />
+							
+						</audio>
+						
+						<audio controls preload="none" id="bien1">
+							<source src="../../audios/feedback/well done.mp3" type="audio/mpeg" />
+							
+						</audio>
+			
+			<audio controls preload="none" id="a1">
+					<source src="../../audios/texto/reading/afr5_1.mp3" type="audio/mpeg"  type="audio/mpeg" />
+					<p>Tu navegador no implementa el elemento audio.</p>
+				</audio>
+<audio controls preload="none" id="a2">
+					<source src="../../audios/texto/reading/afr5_2.mp3" type="audio/mpeg"  type="audio/mpeg" />
+					<p>Tu navegador no implementa el elemento audio.</p>
+				</audio>
+				<audio controls preload="none" id="a3">
+					<source src="../../audios/texto/reading/afr5_3.mp3" type="audio/mpeg"  type="audio/mpeg" />
+					<p>Tu navegador no implementa el elemento audio.</p>
+				</audio>
+			
+				<audio controls preload="none" id="a4">
+					<source src="../../audios/texto/reading/afr5_4.mp3" type="audio/mpeg"  type="audio/mpeg" />
+					<p>Tu navegador no implementa el elemento audio.</p>
+				</audio>
+				<audio controls preload="none" id="a5">
+					<source src="../../audios/texto/reading/afr5_5.mp3" type="audio/mpeg"  type="audio/mpeg" />
+					<p>Tu navegador no implementa el elemento audio.</p>
+				</audio>
+<audio controls preload="none" id="a6">
+					<source src="../../audios/texto/reading/afr5_6.mp3" type="audio/mpeg"  type="audio/mpeg" />
+					<p>Tu navegador no implementa el elemento audio.</p>
+				</audio>
+				<audio controls preload="none" id="a7">
+					<source src="../../audios/texto/reading/afr5_7.mp3" type="audio/mpeg"  type="audio/mpeg" />
+					<p>Tu navegador no implementa el elemento audio.</p>
+				</audio>
+			
+				<audio controls preload="none" id="a8">
+					<source src="../../audios/texto/reading/afr5_8.mp3" type="audio/mpeg"  type="audio/mpeg" />
+					<p>Tu navegador no implementa el elemento audio.</p>
+				</audio>
+				<audio controls preload="none" id="a9">
+					<source src="../../audios/texto/reading/afr5_9.mp3" type="audio/mpeg"  type="audio/mpeg" />
+					<p>Tu navegador no implementa el elemento audio.</p>
+				</audio>
+			<audio controls preload="none" id="a10">
+					<source src="../../audios/texto/reading/afr5_10.mp3" type="audio/mpeg"  type="audio/mpeg" />
+					<p>Tu navegador no implementa el elemento audio.</p>
+				</audio>
+			
+			
+			
+			
+			
+			
+			
+			<footer>
+			
+			
+				<nav id="navegacion">
+			
+					<nav class="prev" onClick="volver(4)" style="cursor: pointer"><img src="../../../imagenes/botones/prev.png"/></nav>
+					<nav class="prev2" onClick="sincuadro()" style="cursor: pointer"><img src="../../../imagenes/botones/prev.png"/></nav>
+					<a href="r6.html"><nav class="final"><img src="../../../imagenes/botones/continue.png"/></nav></a>
+				</nav>
+			
+				<span id="references">Making plans and Predictions: Reading - Activity 5
+								
+		<nav id="clickOnMe" class="nav-esquina" role="navigation">
+			<!-- Right Control -->
+			<i class="fa fa-th fa-2x"></i>
+		</nav>
+		
+		</span>
+			
+			
+			
+			
+			</footer>
+
+			
+			
+			
+			</section>
+						
+		
+			
+
+    </body>
+</html>

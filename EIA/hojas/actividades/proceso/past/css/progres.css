@@ -1,0 +1,124 @@
+
+
+/*      PROGRESS BAR    */
+
+body{background: #087590;}
+#blanco{
+	background:none;
+	border:none;
+	box-shadow:none;
+	top:30%;}
+
+#Comentarios{text-align:center;}
+progress::-webkit-progress-bar {  
+border-radius:28px;
+    background-color:#d9364d;
+	
+} 
+.coment{
+	background:white;
+	position:fixed;
+	color:	 #0f0f1f;
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	
+		
+	}
+.coment span{
+	top:43%;
+	
+}
+#comentarioP{
+
+    bottom:10%;
+	left:45%;
+	border:5px solid #44af81;
+	animation-name: bigEntrance;
+	-webkit-animation-name: bigEntrance;	
+
+	animation-duration: 1.6s;	
+	-webkit-animation-duration: 1.6s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;	
+
+	visibility: visible !important;	
+    border-radius: 10px;
+    height:10%;
+    padding:10px;
+}
+#comentario1{
+	top:50%;
+	left:2%;
+	
+	animation-name: bigEntrance;
+	-webkit-animation-name: bigEntrance;	
+
+	animation-duration: 1.6s;	
+	-webkit-animation-duration: 1.6s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;	
+
+	visibility: visible !important;		
+}
+#comentario2{
+	top:50%;
+	right:2%;
+	
+	animation-name: bigEntrance;
+	-webkit-animation-name: bigEntrance;	
+
+	animation-duration: 2s;	
+	-webkit-animation-duration: 2s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;	
+
+	visibility: visible !important;		
+}
+
+#comentario3{
+	bottom:7%;
+	left:20%;
+	animation-name: bigEntrance;
+	-webkit-animation-name: bigEntrance;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;	
+
+	visibility: visible !important;		
+}
+#comentario4{
+	bottom:7%;
+	right:20%;
+	animation-name: bigEntrance;
+	-webkit-animation-name: bigEntrance;	
+
+	animation-duration: 2.6s;	
+	-webkit-animation-duration: 2.6s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;	
+
+	visibility: visible !important;		
+}
+
+
+
+
+
+h3,h5{color:white;}
+progress::-webkit-progress-value {
+border-radius:28px;
+background-color:#44af81;
+box-shadow:1px 1px 1px black;
+
+}
+
+article{height:62%;}
+footer #references{background:#0c5475;}

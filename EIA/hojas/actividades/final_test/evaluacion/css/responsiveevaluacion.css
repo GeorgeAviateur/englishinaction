@@ -1,0 +1,91 @@
+
+@media only screen and (max-width: 680px) {
+form input[type="text"],#input11{
+width: 90%;
+}
+#jorge1{
+height: auto;
+width: auto;
+overflow: hidden;
+}
+#microfonito{
+width: 100px;
+}
+#blanco{
+background: red;
+min-height: 100%;
+margin-top: 14%;
+margin-bottom: 14%;
+}
+#mirelojito{
+top:-110px;
+}
+}
+
+
+
+@media only screen and (max-width: 549px) {
+#blanco{
+background: blue;
+min-height: 100%;
+margin-top: 20%;
+margin-bottom: 20%;
+}
+#mirelojito{
+top:-110px;
+}
+
+}
+
+@media only screen and (min-width: 680px) and (max-width: 900px){
+#blanco{
+background: gray;
+min-height: 100%;
+margin-top: 3%;
+margin-bottom: 3%;
+}
+#mirelojito{
+top:-110px;
+}
+}
+
+
+@media only screen  and (max-width: 375px) and (max-width: 414px){
+#blanco{
+background: violet;
+min-height: 100%;
+margin-top: 21%;
+margin-bottom: 21%;
+}
+#mirelojito{
+top:-115px;
+}
+}
+
+
+
+
+
+
+
+/*@media only screen and (max-width: 549px) {
+	
+}
+*/
+
+/*
+@media only screen and (max-width: 210px) {
+	
+}*/
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------*/

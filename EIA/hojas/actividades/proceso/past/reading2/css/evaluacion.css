@@ -1,0 +1,255 @@
+.connected{
+display: none
+}
+
+
+
+body{
+background: #087590;
+}
+
+#references,.nav-esquina{
+background: #0c5475;	
+}
+
+#continuar,#continuar1{
+cursor: pointer;
+}
+
+#mirelojito{
+display: inline-block;
+/*left:30px;
+bottom:-80px;*/
+right:0px;
+top:-80px;
+position:absolute;
+}
+
+#ijole{
+width: auto;
+}
+
+#reproducir00,#continuar{
+
+cursor: pointer;
+}
+
+#formulario,.labeles,.signo{
+display: inline-block;
+}
+
+#formulario{
+width: 100%;
+}
+
+#fotocosinos{
+top: 0%;
+}
+
+/*input[value=""],h3 {
+top: 10px;
+}*/
+
+#cuadroPreguntas{
+display: none;
+width: 100%;
+margin:20px auto;
+}
+
+#jorge{
+width: 100%	;
+}
+
+#input11{
+font-size: 1.0em;
+height: 25px;
+width: 500px;
+margin:8px auto;
+}
+
+#fer{
+text-align: left;
+}
+
+#caro{
+height: 20px;
+}
+
+input[value=""] {
+display: inline-block; 
+margin: auto; 
+text-align: center;
+/*background: #FFF;	*/
+padding: 1px 10px 1px 10px;	
+width: 10%;/*width: 380px;*//*	width: 458px;*/	
+height: 21px;	
+border: 1px solid #CCCCCC;	
+-webkit-border-radius: 4px 4px 4px 4px;	
+-moz-border-radius: 4px 4px 4px 4px;	
+-khtml-border-radius: 4px 4px 4px 4px;	
+border-radius: 4px 4px 4px 4px;
+}
+
+
+#input2,#cuadroRespuestas1,#olas{
+display: none;
+/*background: yellow;*/
+}
+#input2{
+width: 60%;
+display: none;
+}
+
+.verificarRespuesta{
+position: relative;
+}
+
+#reproducir00{
+/*opacity: 0.4;
+pointer-events:none;*/
+}	
+
+#pause{
+display: none;
+}
+
+.fuckencio{
+width: 60px;
+margin: 0 auto;
+display: none;
+}
+
+#fuckencio1{
+height: 50px;
+display: block;
+}
+
+#fuckencio2{
+height: auto;
+right: -2px;
+/*background: blue;*/
+/*display: inline;*/
+display: none;
+}
+
+.css-label{
+pointer-events:none;
+}
+
+audio{
+display: none;
+}
+
+#imagensina,#imagensina2{
+position: relative;
+width: 50%;
+top: 3%;
+left: 2%;
+display:none;
+}
+
+#input1,#microfonito,#continuar,#continuar11,#continuar22,#continuar33{
+display:none;
+}
+
+
+
+.lostitulitos{
+visibility: hidden;
+/*display:none;*/
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+label {
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+input[type=checkbox].css-checkbox {
+position: absolute; 
+overflow: hidden; 
+clip: rect(0 0 0 0); 
+height:1px; 
+width:1px; 
+margin:-1px; 
+padding:0;
+border:0;
+}
+
+input[type=checkbox].css-checkbox + label.css-label {
+padding-left:20px;
+height:15px; 
+display:inline-block;
+line-height:15px;
+background-repeat:no-repeat;
+background-position: 0 0;
+font-size:15px;
+vertical-align:middle;	
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+background-position: 0 -15px;
+}
+
+.css-label{
+background-image:url(http://csscheckbox.com/checkboxes/dark-check-green.png);	
+}
+
+.dark-plus-orange{background-image:url(http://csscheckbox.com/checkboxes/dark-plus-orange.png);}
+.dark-check-orange{background-image:url(http://csscheckbox.com/checkboxes/dark-check-orange.png);}
+
+input[type=checkbox].css-checkbox.med + label.css-label.med {
+padding-left:22px;
+height:17px; 
+display:inline-block;
+line-height:17px;
+background-repeat:no-repeat;
+background-position: 0 0;
+font-size:15px;
+vertical-align:middle;
+cursor:pointer;
+}
+
+input[type=checkbox].css-checkbox.med:checked + label.css-label.med {
+background-position: 0 -17px;
+}
+input[type=checkbox].css-checkbox.sme + label.css-label.sme {
+padding-left:22px;
+height:16px; 
+display:inline-block;
+line-height:16px;
+background-repeat:no-repeat;
+background-position: 0 0;
+font-size:15px;
+vertical-align:middle;
+cursor:pointer;
+}
+
+input[type=checkbox].css-checkbox.sme:checked + label.css-label.sme{
+background-position: 0 -16px;
+}
+input[type=checkbox].css-checkbox.lrg + label.css-label.lrg {
+padding-left:22px;
+height:20px; 
+display:inline-block;
+line-height:20px;
+background-repeat:no-repeat;
+background-position: 0 0;
+font-size:15px;
+vertical-align:middle;
+cursor:pointer;
+}
+
+input[type=checkbox].css-checkbox.lrg:checked + label.css-label.lrg{
+background-position: 0 -20px;
+}
+
+

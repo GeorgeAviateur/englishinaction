@@ -1,0 +1,38 @@
+
+		
+#cuadro2,#cuadro3,#cuadro4,#cuadro5{display:none;}
+		
+		
+#cuadroPreguntas,#cuadroRespuestas{
+    display: inline-block;
+    width: 100%;
+	margin:10px auto;
+	
+	}
+#cuadroPreguntas{
+    display: inline-block;
+	height:40%;
+	
+	}
+#cuadroRespuestas{
+    position: relative;
+	height:40%;
+	
+	}
+#blanco img{
+	width: 7%;
+	}
+form input[type="text"]{
+    font-size: 1.5em;
+    height: 50px;
+    width: 50%;
+	
+
+    }
+.verificarRespuesta{
+	cursor: pointer;
+	position: relative;
+    }
+
+
+		

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- saved from url=(0033)http://rubaxa.github.io/Sortable/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--[if lte IE 8]><meta http-equiv="X-UA-Compatible" content="chrome=1"/><![endif]-->
+        <title>English In Action!</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=0.5">
+		<meta name="keywords" content="e-learing,ova,learn,english,Jorge García">
+		<meta name="description" content="Making plans and predictions, Activity 6 for study English in future time">
+
+		<!-- Libraries -->
+
+	<script type="application/javascript" src="../../../js/jquery.min.js"></script>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="../../tipo.css"/>
+	<link rel="stylesheet" href="../../responsiveenglish.css"/>
+	<script type="application/javascript" src="../../acciones.js"></script>
+	<script src="js/actividad6.js"></script>
+	
+	
+		<link href="sortable/ply.css" rel="stylesheet" type="text/css">
+	
+	<link href="sortable/app2.css" rel="stylesheet" type="text/css">
+	<link href="css/acti6.css" rel="stylesheet" type="text/css">
+	
+			<script type="text/javascript">
+			
+			 function closebuscador(){
+            $("#buscador").hide("slow");
+            $(".modal-window").css('left','45%');
+            $(".modal-window").css('top','45%');
+            $(".modal-window").css('right','45%');
+            $(".modal-window").css('bottom','45%');
+          
+          }
+      $(document).ready(function(){
+         
+              $("#buscador").hide();   
+      $("#bucadorito").click(function(){
+    $("#buscador").show("slow");
+    }); 
+    document.oncontextmenu = function() {
+      return false
+    }
+
+				$("#menuForAll" ).slideToggle(0);
+					$("#clickOnMe").click(function(){
+						$("#menuForAll" ).slideToggle(1000);
+					});		
+			});
+		</script>
+	
+	
+		<script type="text/javascript">
+			// IE Evitar seleccion de texto
+			document.onselectstart=function(){
+			if (event.srcElement.type != "text" && event.srcElement.type != "textarea" && event.srcElement.type != "password")
+			return false
+			else return true;
+			};
+			// FIREFOX Evitar seleccion de texto
+			if (window.sidebar){
+			document.onmousedown=function(e){
+			var obj=e.target;
+			if (obj.tagName.toUpperCase() == "INPUT" || obj.tagName.toUpperCase() == "TEXTAREA" || obj.tagName.toUpperCase() == "PASSWORD")
+			return true;
+			/*else if (obj.tagName=="BUTTON"){
+			return true;
+			}*/
+			else
+				return false;
+				}
+			}
+		// End 	
+		</script>
+	
+	
+	</head>
+<body onload="readme(16000),inicia(),cerrar()">
+    <div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+
+	<div id="buscador">
+  <iframe scrolling='no' id="buscadorsino" src="../../../cosino/" name="buscadorsino" height="100%" width="100%" frameborder="0"  ></iframe>  
+  </div>
+	
+	<section id="activities">
+			<header>
+			<div id="logo"><img  src="../../../imagenes/ingles.png" /></div>
+			<div id="title" class="slideDown"><img src="../../../imagenes/avisos/goingtogym.png"/></div>
+			<div id="udec"> <img src="../../../imagenes/logoudec.png"/></div>
+	
+			</header>
+			 
+				
+			<nav id="menuForAll">
+			<div id="logoMenu">
+				<a href="../../../../index.html"><img src="../../../imagenes/ingles.png"></a>
+			</div>
+			
+			
+			<ul>
+				<a href="../../../menu/selection/selection.html"><li>Main Menu</li></a>
+				<a href="../../../cont/cont.html"><li>Context Information</li></a>
+				<a href="../../../mmenu/sitemap.html"><li>Site Map</li></a>
+				<a href="../../../biblioteca/biblioteca.html"><li>Library</li></a>
+				<li><a  id="bucadorito" href="#Vocabulary">Vocabulary</a></li>
+                <a href="../../../references/refe.html"><li>References</li></a>
+				<a href="../../../credits/staff.html"><li>Staff</li></a>
+			</ul> 
+		</nav>
+			
+			
+			
+		<div id="informa">
+					<section id="manito">
+							<img id="hand2" class="hand" src="../../../imagenes/avisos/hand.png"/>
+							<img id="hand1" class="hand" src="../../../imagenes/avisos/hand.png"/>
+					</section>
+					
+					<section id="info">
+								<img class="alumbraobj" id="alumbraobj" style="cursor: pointer"onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob()" src="../../../imagenes/botones/objetivo.png"/>
+								<img class="alumbraobj" id="alumbrains" style="cursor: pointer" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins()" src="../../../imagenes/botones/instruccion.png"/>
+					</section>
+					
+					<section id="txt">
+						<div id="objetivos"><h5>To strengthen reading ability through different kinds of exercises.</h5></div>
+						<div id="instruccion"><h5>Read the text and put the paragraphs in the correct order. Click on the box and type the number you consider is correct.</h5></div>
+						
+					</section>
+			
+		</div>
+				
+			<div id="georgeRules"></div>			
+		<div id="advertisment">
+				<img id="plane" src = "../../../imagenes/avisos/readAirplane.png"/>
+				<img id="plane2" src = "../../../imagenes/avisos/listenCarefully.png"/>
+		</div>
+
+	
+	<audio controls preload="none" id="instruyeme">
+		<source src="../../audios/instrucciones/reading/afr6.mp3" type="audio/mpeg" />"
+		
+	</audio>
+
+
+
+	<article id="r1">
+
+
+	<!-- Connected lists -->
+	<div class="container">
+		
+		<form id="cuadro3" class="layer block" name="formulario3" method="post" target="pp" autocomplete="off">
+			<ul id="foo" class="block__list block__list_words">
+				<li id="uno"><input id="first" maxlength="1" type="text" size="2"/><input class="noSeVe" id="firstRta" maxlength="1" type="text" size="2" value="1" disabled="true"/> <p id="rta1">On Saturday morning, we are going to go to 6th Avenue in downtown Manhattan.  I'm going to take a look in Old Navy – they usually have some great bargains! In the afternoon, we’ll probably go uptown to Saks Fifth Avenue.  It’s a bit expensive, but it will be nice to see the latest fashions from the world’s top designers.</p></li>
+				
+				<li id="dos"><input id="second" maxlength="1" type="text" size="2"/><input id="secondRta" class="noSeVe" maxlength="1" type="text" size="2" value="2" disabled="true"/> <p id="rta2">We are going to leave on the 10 o’clock bus to Cedarville the next morning. I hope the weather will be ok. Well, that’s all for now.  Write soon.</p></li>
+				
+				<li id="tres"><input id="third" maxlength="1" type="text" size="2"/><input class="noSeVe" id="thirdRta" maxlength="1" type="text" size="2" value="3" disabled="true"/> <p id="rta3">We are going to stay at the New Yorker. It’s in midtown Manhattan, so it will be easy for us to get to all the main shopping areas.</p></li>
+				
+				<li id="cuatro"><input id="fourth" maxlength="1" type="text" size="2"/><input class="noSeVe" id="fourthRta" maxlength="1" type="text" size="2" value="4" disabled="true"/> <p id="rta4">Hi! How are you? Guess what- I'm going to go to New York this weekend on a shopping trip with my Mom!
+It's a special treat for my birthday, and I can't wait!</p>
+</li>
+				<li id="cinco"><input id="fifth" maxlength="1" type="text" size="2"/><input class="noSeVe" id="fifthRta" maxlength="1" type="text" size="2" value="5" disabled="true"/> <p id="rta5">On Saturday night, Mom is going to take me to Planet Hollywood in Times Square.  It’s a really popular place, with great food and music.  It’ll be a chance to wear my new clothes.</p>
+</li>
+				
+			</ul>Lots of love, 
+Linda
+			
+		</form>
+
+		
+	</div>
+	</article>
+
+	<audio controls preload="none" id="bien">
+					<source src="../../audios/feedback/well done.mp3" type="audio/mpeg" />
+					
+					<p>Tu navegador no implementa el elemento audio.</p>
+				</audio>
+					
+			
+		<!--audio controls preload="none" id="hablame">
+			<source src="../../audios/texto/reading/aprr3_02.mp3" type="audio/mpeg" />
+			
+		</audio-->
+			
+				<audio controls preload="none" id="mal0">
+					<source src="../../audios/feedback/try%20again.mp3" type="audio/mpeg"  type="audio/mpeg" />
+					
+					<p>Tu navegador no implementa el elemento audio.</p>
+				</audio>
+	
+				<audio controls preload="none" id="thecorrect">
+						<source src="../../audios/feedback/the%20correct.mp3" type="audio/mpeg" />
+						<p>Tu navegador no implementa el elemento audio.</p>
+				</audio>
+	
+			<div id="review">
+				<label for="cuatro">		FINAL SCORE	</label>	
+				<span>	<img  id="right" src="../../../imagenes/right.png" />	</span>
+				<span>	<img  id="wrong" src="../../../imagenes/wrong.png" />	</span>
+										<h5><p id="result"> </p></h5>
+		</div>
+
+		<audio controls preload="none" id="retrowell">
+						<source src="../../audios/feedback/congratulation.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					<audio controls preload="none" id="retrobad">
+						<source src="../../audios/feedback/can%20do%20b.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+			
+			
+	
+	
+	
+	
+	
+	<footer>
+			<nav id="navegacion">
+				<nav class="sig" id="sig" onClick="check()" style="cursor: pointer"><img src="../../../imagenes/botones/check.png"/></nav>
+				<nav class="sig" id="sig2" onClick="enviar()" style="cursor: pointer"><img src="../../../imagenes/botones/nex.png"/></nav>
+				
+				<nav class="prev" onClick="volver(2)" style="cursor: pointer"><img src="../../../imagenes/botones/prev.png"/></nav>			
+				<nav class="final"><a href="../../centropast.html"><img src="../../../imagenes/botones/continue.png"/></a></nav>
+			</nav>
+			
+			
+			<span id="references">
+			Making plans and Predictions: Reading - Activity 6
+			<nav id="clickOnMe" class="nav-esquina" role="navigation">
+			<!-- Right Control -->
+			<i class="fa fa-th fa-2x"></i>
+		</nav></span>
+			
+			</span>
+			
+			
+			</footer>
+	
+	
+	
+	
+	
+	
+	
+	</section>
+	
+</body></html>

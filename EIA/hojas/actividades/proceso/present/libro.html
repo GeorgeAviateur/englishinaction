@@ -1,0 +1,505 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+
+   <title>English in Action</title> 
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<script type="application/javascript" src="functions.js"></script>
+	<script type="application/javascript" src="../../acciones.js"></script>
+    <link rel="stylesheet" href="../../tipo.css" type="text/css"/>
+    
+	<style>
+	html{margin:0 auto;
+	padding:0 auto;}
+	body{margin:0 auto;
+	padding:0 auto;
+	background: #087590;
+	}
+	
+	#sig,.final{
+	
+	border:2px solid rgba(255,255,255,.0);
+	border-radius:10px;
+	}
+.final{
+	animation:alumbra 2s infinite;
+	-webkit-animation:alumbra 2s infinite;
+
+
+}
+
+        #snow{
+    width:100%;
+            height:100%;
+	bottom: 0;}
+	#snow div {
+	position: absolute;
+	bottom: 0%;
+	-webkit-animation-name: copos;
+	-webkit-animation-iteration-count: infinite; 
+	-webkit-animation-direction: normal; 
+	-webkit-animation-timing-function: ease-in;
+	cursor:pointer;
+	}
+	#book{
+	margin:0 auto;
+	display:inline-block;
+	
+	position:absolute;
+	bottom:-30px;
+	left:25%;
+	right:25%;
+	width:50%;
+        z-index:33;
+	}
+	.copos {
+        color: #fff;
+        text-shadow:1px 1px 1px #000;
+        font-size: 1em;
+        position: absolute;   
+        cursor:pointer;
+        z-index:32;
+        width:50px;
+        height:50px;
+        top:0;
+	}
+	
+	.copos:hover{
+	   transform:scale(2,2);
+	   color:forestgreen;
+	}
+	.copos.f1 {
+	left: 50%;
+	-webkit-animation-duration: 15s;   
+	}
+	.copos.f2 {
+	font-size: 1.8em;
+	left: 45%;
+	-webkit-animation-duration: 17s;   
+	}
+	.copos.f3 {
+	left: 55%;
+	-webkit-animation-duration: 18s;   
+	}
+	.copos.f4 {
+	font-size: 1.5em;
+	left: 40%;
+	-webkit-animation-duration: 16s;   
+	}
+	
+	
+	.copos.f5 {
+	left: 60%;
+	-webkit-animation-delay:2s;   
+	-webkit-animation-duration: 15s;   
+	}
+	.copos.f6 {
+	font-size: 1.8em;
+	left: 65%;
+	-webkit-animation-delay:4s;   
+	-webkit-animation-duration: 17s;   
+	}
+	.copos.f7 {
+	left: 70%;
+	-webkit-animation-delay:1s;   	
+	-webkit-animation-duration: 18s;   
+	}
+	.copos.f8 {
+	font-size: 1.5em;
+	left: 75%;
+	-webkit-animation-delay:0s;   
+	-webkit-animation-duration: 16s;   
+	}
+		
+	
+	.copos.f9 {
+	left: 35%;
+	-webkit-animation-delay:1s;   
+	-webkit-animation-duration: 15s;   
+	}
+	.copos.f10 {
+	font-size: 1.8em;
+	left: 30%;
+	-webkit-animation-delay:2s;   
+	-webkit-animation-duration: 17s;   
+	}
+	.copos.f11 {
+	left: 25%;
+	-webkit-animation-delay:0s;   
+	-webkit-animation-duration: 18s;   
+	}
+	.copos.f12 {
+	font-size: 1.5em;
+	left: 18%;
+	-webkit-animation-delay:.9s;   	
+	-webkit-animation-duration: 16s;   
+	}
+	
+	.copos.f13 {
+	left: 50%;
+	-webkit-animation-delay:3s;
+	-webkit-animation-duration: 15s;   
+	}
+	.copos.f14 {
+	font-size: 1.8em;
+	left: 45%;
+	-webkit-animation-delay:4s;
+	-webkit-animation-duration: 17s;   
+	}
+	.copos.f15 {
+	left: 55%;
+	-webkit-animation-delay:2s;
+	-webkit-animation-duration: 18s;   
+	}
+	.copos.f16 {
+	font-size: 1.5em;
+	left: 40%;
+	-webkit-animation-delay:5s;
+	-webkit-animation-duration: 16s;   
+	}
+		
+	.copos.f17 {
+	left: 60%;
+	-webkit-animation-delay:4s;   
+	-webkit-animation-duration: 15s;   
+	}
+	.copos.f18 {
+	font-size: 1.8em;
+	left: 65%;
+	-webkit-animation-delay:6s;   
+	-webkit-animation-duration: 17s;   
+	}
+	.copos.f19 {
+	left: 70%;
+	-webkit-animation-delay:3s;   	
+	-webkit-animation-duration: 18s;   
+		}
+	.copos.f20 {
+	font-size: 1.5em;
+	left: 75%;
+	-webkit-animation-delay:2s;   
+	-webkit-animation-duration: 16s;   
+	}
+		
+	.copos.f21 {
+        opacity:1;
+	left: 35%;
+	-webkit-animation-delay:3s;   
+	-webkit-animation-duration: 15s;   
+	}
+	.copos.f22 {
+        opacity:.3;
+	font-size: 1.8em;
+	left: 30%;
+	-webkit-animation-delay:4s;   
+	-webkit-animation-duration: 17s;   
+	}
+	.copos.f23 {
+        opacity:1;
+	left: 25%;
+	-webkit-animation-delay:8s;   
+	-webkit-animation-duration: 18s;   
+	}
+	.copos.f24 {
+	font-size: 1.5em;
+	left: 20%;
+        opacity:.6;
+	-webkit-animation-delay:.5s;   	
+	-webkit-animation-duration: 16s;   
+	}
+		
+	#references{background:#0c5475;}
+        
+    @media only screen and (max-width: 1100px) {
+    #informa,#ver{
+	height:18%;
+	}
+#container{height:41%;}
+}
+@media only screen and (max-width: 740px) {
+    #informa,#ver{
+	height:18%;
+	}
+    #container{height:41%;}
+    }
+
+    
+	@-webkit-keyframes copos{
+		0%,100% { opacity:0;top:100%;}
+		70% { opacity:1;top:0;}
+	}	
+	
+		
+		</style>
+    <link rel="stylesheet" href="../../responsiveenglish.css" type="text/css"/>
+    <script type="text/javascript">
+      
+ 	
+      function closebuscador(){
+            $("#buscador").hide("slow");
+            $(".modal-window").css('left','45%');
+            $(".modal-window").css('top','45%');
+            $(".modal-window").css('right','45%');
+            $(".modal-window").css('bottom','45%');
+          
+          }
+      $(document).ready(function(){
+         $("#snow").css('opacity','0');
+         temp=setTimeout(function(){ $("#snow").css('opacity','1');},4000); 
+          
+              $("#buscador").hide();   
+      $("#bucadorito").click(function(){
+    $("#buscador").show("slow");
+    }); 
+    document.oncontextmenu = function() {
+      return false
+    }
+      $("#menuForAll" ).slideToggle(0);
+      $("#clickOnMe").click(function(){
+      $("#menuForAll" ).slideToggle(1000);
+      });   
+          
+      });
+    </script>
+    <link rel="stylesheet" href="../../responsiveenglish.css" type="text/css"/>
+    <script type="text/javascript">
+			// IE Evitar seleccion de texto
+			document.onselectstart=function(){
+			if (event.srcElement.type != "text" && event.srcElement.type != "textarea" && event.srcElement.type != "password")
+			return false
+			else return true;
+			};
+			// FIREFOX Evitar seleccion de texto
+			if (window.sidebar){
+			document.onmousedown=function(e){
+			var obj=e.target;
+			if (obj.tagName.toUpperCase() == "INPUT" || obj.tagName.toUpperCase() == "TEXTAREA" || obj.tagName.toUpperCase() == "PASSWORD")
+			return true;
+			/*else if (obj.tagName=="BUTTON"){
+			return true;
+			}*/
+			else
+				return false;
+				}
+			}
+		// End 	
+		</script>
+	<script>	
+		var cadVariables="";
+	$("document").ready(function(){
+		cadVariables="00000000";
+		var qHabilidades=4;
+		var busca=0;
+	});
+	
+	
+	function aleatorio(a,b) {
+         return Math.floor((Math.random() * b) + a);
+         }
+
+	
+	
+		function preguntaAle(){
+	
+	cadVariables = location.search.substring(1,location.search.length);
+	if(cadVariables!="00000000"){
+		
+	}
+	
+	
+	busca=aleatorio(1,4);
+	
+	
+	
+	
+	
+	if(cadVariables.charAt(0)=="2"&&cadVariables.charAt(2)=="2"&&cadVariables.charAt(4)=="2"&&cadVariables.charAt(6)=="2"){
+		
+		window.location="progreso.html?"+cadVariables;
+		}
+	else
+	
+	if(busca==1){
+			if(cadVariables.charAt(0)=="0"){
+				cadVariables=remplaza(0,1,cadVariables);
+				window.location="listening/evaluacion.html?"+cadVariables;
+				}
+		else{
+			if(cadVariables.charAt(0)=="1"){
+				cadVariables=remplaza(0,2,cadVariables);
+				window.location="listening/evaluacion.html?"+cadVariables;
+				}
+				else{
+					preguntaAle();
+				}
+			}
+	}
+	else
+	if(busca==2){
+		
+            if(cadVariables.charAt(2)=="0"){
+			cadVariables=remplaza(2,1,cadVariables);
+			window.location="reading/reading.html?"+cadVariables;	
+			}
+            else{
+			if(cadVariables.charAt(2)=="1"){
+				cadVariables=remplaza(2,2,cadVariables);
+				window.location="reading/reading.html?"+cadVariables;	
+				}
+				else{
+					preguntaAle();
+				}
+			}
+            
+
+    }
+			
+	else
+	if(busca==3){
+	
+	
+		if(cadVariables.charAt(4)=="0"){
+			cadVariables=remplaza(4,1,cadVariables);
+			window.location="writing/evaluacion.html?"+cadVariables;	
+			}
+		else{
+			if(cadVariables.charAt(4)=="1"){
+				cadVariables=remplaza(4,2,cadVariables);
+				window.location="writing/evaluacion.html?"+cadVariables;
+				}
+				else{
+					preguntaAle();
+				}
+			}
+			}
+			
+	if(busca==4){
+		
+		if(cadVariables.charAt(6)=="0"){
+
+			cadVariables=remplaza(6,1,cadVariables);
+			window.location="speaking/speaking.html?"+cadVariables;
+			}
+		else{
+			if(cadVariables.charAt(6)=="1"){
+				cadVariables=remplaza(6,2,cadVariables);
+				window.location="speaking/speaking.html?"+cadVariables;
+				}
+				else{
+					preguntaAle();
+				}
+			}
+			}
+		}
+	</script>	
+	
+		
+	
+	</head>
+
+	<body onload="readme(25000),cerrar()">
+        <div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+        <link rel="stylesheet" href="../../styleMenu2.css"/>
+          <div id="buscador">
+  <iframe scrolling='no' id="buscadorsino" src="../../../../cosino/" name="buscadorsino" height="100%" width="100%" frameborder="0"  ></iframe>  
+  </div>
+		<header>
+			<div id="logo"><img  src="../../../imagenes/ingles.png" width="80px" height="80px"/></div>
+			<div id="title" class="slideDown"><img src="../../../imagenes/avisos/proceso.png"/></div>
+			<div id="udec"> <img src="../../../imagenes/logoudec.png"/></div>
+		</header>
+		
+        <div id="informa">
+			<section id="manito">
+				<img id="hand2" class="hand" src="../../../imagenes/avisos/hand.png"/>
+				<img id="hand1" class="hand" src="../../../imagenes/avisos/hand.png"/>
+			</section>
+					
+			<section id="info">
+				<img  style="cursor: pointer" id="alumbraobj" onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob()" src="../../../imagenes/botones/objetivo.png"/>
+				<img  style="cursor: pointer" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins()" src="../../../imagenes/botones/instruccion.png"/>
+			</section>
+					
+			<section id="txt">
+				<div id="objetivos"><h5 style="text-align:center">The porpoise of the evaluation is to assess the learning level reached by the user of the resource, through a series of exercises that the user must complete.</h5></div>
+				<div id="instruccion"><h5 style="text-align:center">Below you will see an opened book and 20 floating objects; you must choose 8 of them. You have only one opportunity to complete each activity. At the end click on "NEXT" to continue. 
+				Go ahead and good luck!</h5></div>
+			</section>
+		</div>
+		<div id="georgeRules"></div>
+		<nav id="menuForAll">
+        <div id="logoMenu">
+          <a href="../../../../index.html"><img src="../../../imagenes/ingles.png"></a>
+        </div>
+        
+        
+        <ul>
+          <a href="../../../menu/selection/selection.html"><li>Main Menu</li></a>
+          <a href="../../../cont/cont.html"><li>Context Information</li></a>
+          <a href="../../../mmenu/sitemap.html"><li>Site Map</li></a>
+          <a href="../../../biblioteca/biblioteca.html"><li>Library</li></a>
+          <li><a  id="bucadorito" href="#Vocabulary">Vocabulary</a></li>
+		  <a href="../../../references/"><li>References</li></a>
+          <a href="../../../credits/staff.html"><li>Staff</li></a>
+        </ul> 
+      </nav>
+        
+        <article id="r1">
+		
+             
+
+		
+		
+		<div id="snow" class="snow">   
+		<div class="copos f1" onClick="preguntaAle()">n</div> 
+		<div class="copos f2" onClick="preguntaAle()">f</div> 
+		<div class="copos f3" onClick="preguntaAle()">l</div> 
+		<div class="copos f4" onClick="preguntaAle()">H</div>
+		<div class="copos f5" onClick="preguntaAle()">V</div> 
+		<div class="copos f6" onClick="preguntaAle()">T</div> 
+		<div class="copos f7" onClick="preguntaAle()">A</div> 
+		<div class="copos f8" onClick="preguntaAle()">R</div> 
+		<div class="copos f9" onClick="preguntaAle()">C</div> 
+		<div class="copos f10" onClick="preguntaAle()">p</div> 
+		<div class="copos f11" onClick="preguntaAle()">i</div> 
+		<div class="copos f12" onClick="preguntaAle()">K</div>  
+
+
+		<div class="copos f13" onClick="preguntaAle()">M</div> 
+		<div class="copos f14" onClick="preguntaAle()">U</div> 
+		<div class="copos f15" onClick="preguntaAle()">e</div> 
+		<div class="copos f16" onClick="preguntaAle()">O</div>
+		<div class="copos f17" onClick="preguntaAle()">j</div> 
+		<div class="copos f18" onClick="preguntaAle()">b</div> 
+		<div class="copos f19" onClick="preguntaAle()">Q</div> 
+		<div class="copos f20" onClick="preguntaAle()">s</div> 
+		<div class="copos f21" onClick="preguntaAle()">X</div> 
+		<div class="copos f22" onClick="preguntaAle()">D</div> 
+		<div class="copos f23" onClick="preguntaAle()">W</div> 
+		<div class="copos f24" onClick="preguntaAle()">g</div>  
+		</div> 
+		<div id="ground"></div> 
+			<img id="book" src="../../../imagenes/book.png"/>
+		
+        
+        <audio controls preload="none" id="instruyeme">
+                <source src="../../audios/instrucciones/Evalua_proceso.mp3" type="audio/mpeg" />
+		</audio>
+        </article>
+	<footer>		
+        <nav id="navegacion">	 
+         
+    	    <nav class="prev"><a href="../../centro.html"><img src="../../../imagenes/botones/prev.png"/></a></nav>
+  </nav>
+  		
+        <span id='references'>Likes and Dislikes
+ <nav id="clickOnMe" class="nav-esquina" role="navigation">
+            <!-- Right Control -->
+            <i class="fa fa-th fa-2x"></i>
+          </nav>
+        </span>
+      </footer></body>
+</html>

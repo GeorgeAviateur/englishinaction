@@ -1,0 +1,120 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+	#contenedorActividad{
+		
+		display: inline-block;
+		min-height: 665px;
+		width:99.8%;
+	}
+	
+	.reproducir{
+		cursor:pointer;
+		margin-left: 48%;
+	}
+
+		#cuadroRosa, #cuadroTim{
+			
+			display: inline-block;
+			margin-left: 1.5%;
+			height:250px;
+			width:48%;
+		}
+			.titulo{
+				text-align: center;
+				font-family: Algerian, Tahoma, Courier New;
+			}
+			.subtitulo1{
+				font-family: Algerian, Tahoma, Courier New;
+				margin-left: 24%;
+			}
+			.subtitulo2{
+				font-family: Algerian, Tahoma, Courier New;
+				margin: -3% 0 0 69%;
+			}
+		#ocultos{
+			display: none;
+		}
+		#cuadroTim{
+			display: inline-block;
+			margin-left: 1%;
+			position: absolute;
+		}
+		.likes,.dislikes{
+			
+			display: inline-block;
+			height: 200px;
+			margin-left: 7%;
+			width: 40%;
+		}
+		.dislikes{
+			margin-left: 6%;
+		}
+		input[type=text]{
+			display: block;
+			height: 25px;
+			width: 258px;
+		}
+		
+	#botonAnswers{
+				height: 50px;
+				position: absolute;
+				top: 46%;
+				left: 45%;
+				width: 180px;
+			}
+				#boton{
+					display: none;
+					margin: 9% 0 0 0;
+					background:#0D98FB; 
+					background-image: -webkit-linear-gradient(top,#0D98FB,#1A5DB3);  
+					border: 1px solid #125CB5;
+					-webkit-border-radius: 5px;
+					border-radius: 5px;
+					-webkit-box-shadow: 0 1px 1px #71C0FD inset;
+					box-shadow: 0 1px 1px #71C0FD inset;
+					padding: .8em 1.8em;
+					color: white;
+					font-weight:normal;
+					position: absolute;
+					text-decoration:none;
+				}
+				#boton:hover {
+					background:#1A5DB3;
+					background-image: -webkit-linear-gradient(bottom,#0D98FB,#1A5DB3);
+					background-image: linear-gradient(to top,#0D98FB,#1A5DB3);
+					cursor: pointer;
+				}
+				
+	#texto{
+		display:none;
+		
+		height: 380px;
+		margin: 4% 0 0 31.5%;
+		width: 40%
+	}
+	 #texto>.reproducir{
+		margin-left: 42%;
+	 }
+	p{
+		text-align: left;
+		color: rgb(180,100,200);
+	}
+	#usuarioRosa, #usuarioTim{
+			
+			display: inline-block;
+			margin-left: 1.5%;
+			margin-top: 1%;
+			height:250px;
+			width:48%;
+		}
+	#correctoRosa, #correctoTim{
+			
+			display: inline-block;
+			margin-left: 1.5%;
+			margin-top: 1%;
+			height:250px;
+			width:48%;
+		}

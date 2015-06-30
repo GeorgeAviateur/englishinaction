@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+  <head>
+    <title>Test</title>
+    <meta charset="utf-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>-->
+		<script type="application/javascript" src="../../acciones.js"></script>
+		<link rel="stylesheet" href="../../tipo.css" type="text/css"/>
+    <link rel="stylesheet" href="../../responsiveenglish.css" type="text/css"/>
+		<link rel="stylesheet" href="css/evaluacion.css"/>
+    <link rel="stylesheet" href="css/responsiveevaluacion.css"/>
+		<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script src="js/evaluacion.js"></script>   
+    <script src="js/writing.js"></script>
+    <script src="js/parrafos.js"></script>
+    <script src="js/activaraudios.js"></script>
+    <!-- ------------------------------------------------------ -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="sortable, reorder, list, javascript, html5, drag and drop, dnd, animation, groups, angular, ng-sortable, react, mixin, effects, rubaxa">
+    <meta name="description" content="Sortable - is a minimalist JavaScript library for reorderable drag-and-drop lists on modern browsers and touch devices. No jQuery. Supports Meteor, AngularJS, React and any CSS library, e.g. Bootstrap.">  
+    <link href="./actividad2/ply.css" rel="stylesheet" type="text/css">
+    <link href="./actividad2/css" rel="stylesheet" type="text/css">
+    <link href="./actividad2/app.css" rel="stylesheet" type="text/css">
+    <!-- ------------------------------------------------------ -->
+    <script src="js/jquery.countdown360.js" type="text/javascript" charset="utf-8"></script>
+    <script type="application/javascript" src="functions.js"></script>
+
+    <script>  
+    var cadVariables="";
+    $("document").ready(function(){
+    cadVariables = location.search.substring(1,location.search.length);
+      //alert("write");
+    });
+    function preguntaAle2(certeza){
+    if(certeza==true){
+    if(cadVariables.charAt(3)=="0"){
+    cadVariables=remplaza(5,1,cadVariables);
+    }
+    else{
+    if(cadVariables.charAt(3)=="1"){
+    cadVariables=remplaza(5,2,cadVariables);
+    }
+    }
+    }
+    window.location="../libro.html?"+cadVariables;
+    }
+    </script>
+  </head>
+
+  <body onload='readme12(1000),habilidad(),cerrar()'>
+          <link rel="stylesheet" href="../../styleMenu2.css"/>
+    <section id="activities">
+      <header>
+  	    <div id="logo"><img  src="../../../imagenes/ingles.png"/></div>
+  	    <div id="title"><img src="../../../imagenes/avisos/final test.png"/></div>
+  	    <div id="udec"> <img src="../../../imagenes/logoudec.png"/></div>
+      </header>
+  		
+      <div id="informa">
+    	  <section id="manito">
+    		  <img id="hand2" class="hand" src="../../../imagenes/avisos/hand.png"/>
+    		  <img id="hand1" class="hand" src="../../../imagenes/avisos/hand.png"/>
+    	  </section>
+
+        <section id="info">
+          <img  style="cursor: pointer" onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob12()"  src="../../../imagenes/botones/objetivo.png"/>
+          <img style="cursor: pointer" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins12()" src="../../../imagenes/botones/instruccion.png"/>
+        </section>  
+
+        <section id="txt">
+          <div id="objetivos"><h5 id="obj"></h5></div>
+          <div id="instruccion"><h5 id="ins"></h5></div>
+        </section>
+      </div>
+  		<div id="georgeRules"></div>	
+      <article id="r1">
+      	
+      	<section id="blanco">
+      	  
+		  <div id="texto"></div>
+			<div id="cuadroPreguntas">
+				<span id="ask"></span>
+				<input id="recibe" maxlength="80"/>
+				<b><span id="rest"></span></b>
+			</div>	
+          
+		  
+
+          <div id='mirelojito'>
+            <div id="container" >
+              <div id="countdown" ></div>
+                <script type="text/javascript" charset="utf-8">
+                 // setTimeout(function(){ 
+                  $("#countdown").countdown360({
+                     radius      : 60,
+                     seconds     : 90,
+                     fontColor   : '#FFFFFF',
+                     autostart   : false,
+                     onComplete  : function () { console.log('done') }
+                   }).stop()
+                  //},1000);
+                </script>
+            </div>
+          </div>
+
+  	    </section>
+      </article>
+      <footer>		
+        <nav id="navegacion">	 
+          <nav class="prev" style="cursor: pointer" onClick="volver(0)"><img src="../../../imagenes/botones/prev.png"/></nav>
+    	    <nav id="continuar" class="sig"  onclick="reading()"><img src="../../../imagenes/botones/next.png" class="verificarRespuesta"/></nav>	
+			
+    	    <nav id="continuar1"  style="display:none;" class="sig"  ><img src="../../../imagenes/botones/check.png" onclick="redireccionar()"/></nav>		
+ 
+        </nav>
+  		
+        <span id='references'>Likes and Dislikes - Reading</span>
+      </footer>
+    </section>
+
+
+    <audio controls preload="none" id="aplausos" >
+      <source src="../../../audios/aplausos.mp3" type="audio/mpeg" />
+      <source src="../../../audios/aplausos.wav" type="audio/wav" />
+      <p>Tu navegador no implementa el elemento audio.</p>
+    </audio>
+
+    <audio controls preload="none" id="trompeta" >
+      <source src="../../../audios/trompeta.mp3" type="audio/mpeg" />
+      <source src="../../../audios/trompeta.wav" type="audio/wav" />
+      <p>Tu navegador no implementa el elemento audio.</p>
+    </audio>
+
+    <audio controls preload="none" id="the" >
+      <source src="../../../audios/t1.mp3" type="audio/mpeg" />
+      <source src="../../../audios/t1.wav" type="audio/wav" />
+      <p>Tu navegador no implementa el elemento audio.</p>
+    </audio>
+
+
+  </body>
+</html>

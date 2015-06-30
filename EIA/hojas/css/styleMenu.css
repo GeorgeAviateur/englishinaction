@@ -1,0 +1,51 @@
+#animation{position:absolute;height:41%;width:100%;bottom:63px;}
+
+#menuPrincipal {
+	margin: 0 auto;
+	position:relative;
+	height:63.2%;
+}
+#menuPrincipal div{
+	position: relative;
+	display:inline-block;
+	height:100%;
+	width:30%;
+	margin:3% 0 0 0;
+	}
+#navegacion{visibility:hidden;}
+#menuPrincipal div img{
+	position: relative;
+	top:0;
+	}
+#menuPrincipal div img:hover{transform:scale(1.05,1.05);}
+#item1 img,#item2 img, #item3 img{top:80%;-webkit-animation:parpadea 1.5s linear 6;}
+
+div h6{
+	position: absolute;
+	visibility:hidden;
+	margin:auto;
+	
+	overflow: auto;
+	height:72%;
+	width:90%;
+	border-radius:10px;
+	padding:10px;
+	color:white;
+	background:rgba(0,0,0,.5);
+	
+	}
+
+		@keyframes parpadea {
+    0%,80%	{transform:scale(1,1);}
+    50% {transform:scale(1.05,1.05);}
+}
+
+@-moz-keyframes parpadea {
+    0%,80%	{transform:scale(1,1);}
+    50% {transform:scale(1.05,1.05);}
+}
+@-webkit-keyframes parpadea {
+  0%,80%	{transform:scale(1,1);}
+    50% {transform:scale(1.05,1.05);}
+}
+

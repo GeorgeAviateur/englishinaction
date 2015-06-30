@@ -1,0 +1,125 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ACTIVIDAD 1 RESPONDER y ACTIVDAD 4 COMPLETAR*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#uno,#dos,#tres,#cuatro{
+	display:none;
+	text-align:center;
+
+}
+#r1{
+	visibility: hidden;
+}
+#blanco b{
+	color:#308c58;
+}
+#primera,#segunda,#tercera,#reproducir2{display:none;}
+
+
+	
+#Incorrect{
+	margin:5%;
+	position:absolute;
+	width:50%;
+	left:20%;
+	top:49%;
+	padding:2%;
+	background:white;
+	display:none;
+	color:#fc484c;
+	border-radius:12px;
+	}
+h1{color:#fc484c;}
+
+#Correct{
+	margin:5%;
+	position:absolute;
+	padding:4%;
+	left:20%;
+	top:49%;
+	width:50%;
+	background:white;
+	border-radius:12px;
+	display:none;
+	color: #2b7052;
+	}
+
+#Correct h1{color: #2b7052;}
+
+#q1 div,#q2 div,#q3 div{
+	height:15%;
+	line-height:4pt; 
+
+	}
+#q4 h5{color:white;}
+h4{margin-bottom:15px;}
+#ans:hover{
+	color:orange;
+	-moz-transform:  scale(1.1,1.1);
+	-moz-transition:-moz-transform 1s;
+	-webkit-transform:  scale(1.1,1.1);
+	-webkit-transition:-webkit-transform 1s;
+	-ms-transform: scale(1.1,1.1);
+	-ms-transition:-webkit-transform 1s;
+	-o-transform: scale(1.1,1.1);
+	-o-transition:-webkit-transform 1s;
+	}
+
+select:hover{background:cyan;}
+
+.sol{display:none;}
+
+#q1,#q2,#q3{height:41%;}
+
+@keyframes excelent {
+    0% {transform:scale(0,0); }
+	20%{ transform:scale(1,1);}
+	100%{ transform:scale(1,1);}
+}
+
+@-moz-keyframes excelent {
+    0% {transform:scale(0,0); }
+	20%{ transform:scale(1,1);}
+	100%{ transform:scale(1,1);}
+}
+
+@-ms-keyframes excelent {
+    0% {transform:scale(0,0); }
+	20%{ transform:scale(1,1);}
+	100%{ transform:scale(1,1);}
+}
+
+@-webkit-keyframes excelent {
+    0% {transform:scale(0,0); }
+	20%{ transform:scale(1,1);}
+	100%{ transform:scale(1,1);}
+}
+@-o-keyframes excelent {
+    0% {transform:scale(0,0); }
+	20%{ transform:scale(1,1);}
+	100%{ transform:scale(1,1);}
+}
+
+
+.sig2{display:none;}
+#corr2{display:none;}
+
+
+
+
+	#correc{
+    
+	font-family:Humnst777 BT;
+	
+	margin:18px 30px 30px 30px;
+	}
+	
+
+
+
+	#liste{
+		display:none;
+	}
+

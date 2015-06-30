@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+	<head>
+		<title>English in Action</title>
+		<script src="Chart.js"></script>
+        <link rel="stylesheet" href="../../tipo.css"/>
+        <script type="text/javascript" src="../evaluacion/js/jquery-1.4.2.min.js"></script>
+        <link rel="stylesheet" href="../../proceso/present/css/progres.css" type="text/css"/>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<style>
+			body{
+				padding: 0;
+				margin: 0;
+			}
+			#canvas-holder{
+				width:30%;
+			}
+		</style>
+          <script type="text/javascript">
+              function cerrar(){
+                  $("#loadMe").animate({"opacity":"0"},1000,function(){$("#loadMe").css("display","none");});
+              }
+              function closebuscador(){
+                  $("#buscador").hide("slow");
+                  $(".modal-window").css('left','45%');
+                  $(".modal-window").css('top','45%');
+                  $(".modal-window").css('right','45%');
+                  $(".modal-window").css('bottom','45%');
+              }
+              $(document).ready(function(){
+                  $("#buscador").hide();   
+                  $("#bucadorito").click(function(){
+                      $("#buscador").show("slow");
+                  }); 
+                  document.oncontextmenu = function() {
+                      return false
+                  }
+                  $("#menuForAll" ).slideToggle(0);
+                  $("#clickOnMe").click(function(){
+                      $("#menuForAll" ).slideToggle(1000);
+                  });
+              });
+              
+    </script>
+</head>
+<body>
+        <div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+          <div id="buscador">
+              <iframe scrolling='no' id="buscadorsino" src="../../../cosino/" name="buscadorsino" height="100%" width="100%" frameborder="0">
+              </iframe>
+        </div>
+		<header>
+			<div id="logo"><img  src="../../../imagenes/ingles.png" width="80px" height="80px"/></div>
+			<div id="title" class="slideDown"><img src="../../../imagenes/avisos/proceso.png"/></div>
+			<div id="udec"> <img src="../../../imagenes/logoudec.png"/></div>
+		</header>
+		
+        
+		
+		<div id="georgeRules"></div>
+		<nav id="menuForAll">
+        <div id="logoMenu">
+          <a href="../../../../index.html"><img src="../../../imagenes/ingles.png"></a>
+        </div>
+            <ul>
+                <a href="../../../menu/selection/selection.html"><li>Main Menu</li></a>
+                <a href="../../../cont/cont.html"><li>Context Information</li></a>
+                <a href="../../../mmenu/sitemap.html"><li>Site Map</li></a>
+                <a href="../../../biblioteca/biblioteca.html"><li>Library</li></a>
+                <li><a  id="bucadorito" href="#Vocabulary">Vocabulary</a></li>
+                <a href="../../../references/refe.html"><li>References</li></a>
+                <a href="../../../credits/staff.html"><li>Staff</li></a>
+            </ul> 
+        </nav><article id="r1">
+		<div style="width: 40%">
+			<canvas id="canvas" height="450" width="600"></canvas>
+		</div>
+            
+            <div id="ralimentame"><h5><p id="Comentarios"></p></h5></div>
+    
+	<script>
+        
+                sessionStorage.getItem('Listening');
+                sessionStorage.getItem('Writing');
+                sessionStorage.getItem('Reading');
+                sessionStorage.getItem('Speaking');
+                sessionStorage.getItem('ListeningFlag');
+                sessionStorage.getItem('ReadingFlag');
+                sessionStorage.getItem('WritingFlag');
+                sessionStorage.getItem('SpeakingFlag');
+      
+        var resulL=0,resulW = 0, resulR=0,resulS=0,totL=0.1,totW=0.1,totR=0.1,totS=0.1;
+
+        resulL=parseInt(sessionStorage.getItem('Listening'));
+        resulW=parseInt(sessionStorage.getItem('Writing'));
+        resulR=parseInt(sessionStorage.getItem('Reading'));
+        resulS=parseInt(sessionStorage.getItem('Speaking'));
+        
+        totL=parseInt(sessionStorage.getItem('ListeningFlag'));
+        totW=parseInt(sessionStorage.getItem('WritingFlag'));
+        totR=parseInt(sessionStorage.getItem('ReadingFlag'));
+        totS=parseInt(sessionStorage.getItem('SpeakingFlag'));
+        
+        
+        if(totL!=0){totL=((resulL/totL)*100);}
+        if(totW!=0){totW=((resulW/totW)*100);}
+        if(totR!=0){totR=((resulR/totR)*100);}
+        if(totS!=0){totS=((resulS/totS)*100);}
+        
+        if(totL==0){totL=0.1;}
+        if(totW==0){totW=0.1;}
+        if(totR==0){totR=0.1;}
+        if(totS==0){totS=0.1;}
+        var Color="";
+        if(totL+totW+totR+totS<50)
+            var Color="rgba(252,72,76,1)";
+        else
+            var Color="rgba(68,175,129,1)";
+        
+	var randomScalingFactor =function(){ return 200};
+	var randomColorFactor = function(){ return Math.round(Math.random()*255)};
+
+	var barChartData = {
+		labels : ["Listening","Reading","Writing","Speaking"],
+		datasets : [
+			{
+				fillColor : Color,
+				strokeColor : "rgba(0,0,0,0.8)",
+				highlightFill: "rgba(2,89,73,0.75)",
+				highlightStroke: "rgba(220,220,220,1)",
+				data : [totL,totW,totR,totS]
+			},			
+		]
+
+	}
+	window.onload = function(){cerrar();
+        
+		var ctx = document.getElementById("canvas").getContext("2d");
+		window.myBar = new Chart(ctx).Bar(barChartData, {
+			responsive : true
+		});
+         var MyCad="";
+                
+                if(totL<50){
+                      MyCad+="<div id='comentario1' class='coment'><span>Remember to study about Listening</span></div>";
+                }
+                if(totW<50){
+                    MyCad+="<div id='comentario2' class='coment'><span>Remember to study about Reading</span></div>";
+                }
+                if(totR<50){
+                    MyCad+="<div id='comentario3' class='coment'><span>Remember to study about Writing</span></div>";
+                }
+                if(totS<50){
+                    MyCad+="<div id='comentario4' class='coment'><span>Remember to study about Speaking</span></div>";
+                }
+                document.getElementById("Comentarios").innerHTML=""+MyCad;
+	}
+
+	$('#randomizeData').click(function(){
+    	barChartData.datasets[0].fillColor = 'rgba(' + randomColorFactor() + ',' + randomColorFactor() + ',' + randomColorFactor() + ',.7)';
+    	barChartData.datasets[0].data = [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()];
+
+    	barChartData.datasets[1].fillColor = 'rgba(' + randomColorFactor() + ',' + randomColorFactor() + ',' + randomColorFactor() + ',.7)';
+    	barChartData.datasets[1].data = [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()];
+
+    	window.myBar.update();
+    });
+ 
+	</script>
+        </article>
+         <footer>		
+            
+        <nav id="navegacion">	 
+         
+    	    <nav class="prev"><a href="progreso.html"><img src="../../../imagenes/botones/prev.png"/></a></nav>
+            <nav id="continuar" class="sig"><a href="../../../ciudadfuture.html"><img src="../../../imagenes/botones/nex.png" class="verificarRespuesta"/></a>
+                  </nav>
+             </nav>
+  		
+        <span id='references'>Memories
+            <nav id="clickOnMe" class="nav-esquina" role="navigation">
+            <!-- Right Control -->
+            <i class="fa fa-th fa-2x"></i>
+            </nav>
+        </span>
+      </footer>
+	</body>
+</html>

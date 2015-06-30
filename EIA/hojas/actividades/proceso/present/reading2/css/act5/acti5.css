@@ -1,0 +1,90 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ACTIVIDAD 1 RESPONDER y ACTIVDAD 4 COMPLETAR*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#audio1{visibility:hidden;}
+#uno,#dos,#tres,#cuatro{
+	
+	text-align:center;
+
+}
+
+
+.negar,#acertar{
+
+}
+
+b{
+	color:orange;
+}
+
+#primera,#segunda,#tercera,#reproducir2{display:none;}
+
+
+	
+
+h1{color:#fc484c;}
+
+#q1,#q2,#q3,#q4,#q5{
+	
+	position:relative;
+	margin-top:4%;
+	display:none;
+	height:38%;
+	
+	}
+
+
+#q1 label,#q2 label,#q3 label, #q4 label, #q5 label{
+	disqlay:inline-block;
+	font-family:Humnst777 Blk BT;
+	font-size:1.8em;
+	
+	color:#025059;
+	
+	}
+#q1 div,#q2 div,#q3 div, #q4 div, #q5 div{
+	width:80%;
+	margin:10px auto;
+	}
+
+#review h5{color:white;}
+
+select:hover{background:#edcf89;}
+
+.sol{display:none;}
+
+
+.bn{
+	color:#44af81;
+	animation: crece 3s linear infinite;
+	-webkit-animation: crece 3s linear infinite;
+}
+
+.malongo{
+	color:#fc484c;
+}
+#review{display:none;}
+.perendengues1{display:none;}
+
+@keyframes slideDown {
+	0% {transform: translateY(-100%);}
+	50%{transform: translateY(8%);}
+	65%{transform: translateY(-4%);}
+	80%{transform: translateY(4%);}
+	95%{transform: translateY(-2%);}			
+	100% {transform: translateY(0%);}		
+}
+
+@-webkit-keyframes slideDown {
+	0% {-webkit-transform: translateY(-100%);}
+	50%{-webkit-transform: translateY(8%);}
+	65%{-webkit-transform: translateY(-4%);}
+	80%{-webkit-transform: translateY(4%);}
+	95%{-webkit-transform: translateY(-2%);}			
+	100% {-webkit-transform: translateY(0%);}
+	}
+
+
+

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <!--[if lte IE 8]><meta http-equiv="X-UA-Compatible" content="chrome=1"/><![endif]-->
+        <title>English In Action!</title>
+        <!-- Llamamos nuestro archivo JavaScript -->
+        
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<script type="application/javascript" src="acciones.js"></script>
+		<link rel="stylesheet" href="tipo.css"/>
+        <script src="../js/jquery.min.js"></script>
+        <link rel="stylesheet" href="centrillo.css"/>
+		<link rel="stylesheet" href="responsiveenglish.css"/>
+    
+
+	<script type="text/javascript">
+		document.oncontextmenu = function(){return false}
+		window.onload = function()
+		// Para internet Explorer
+		{document.onselectstart = function(){return false;} 
+		// Para Firefox
+		document.onmousedown = function(){return false;}}
+	</script>
+	
+	
+	
+	<script type="text/javascript">
+			// IE Evitar seleccion de texto
+			document.onselectstart=function(){
+			if (event.srcElement.type != "text" && event.srcElement.type != "textarea" && event.srcElement.type != "password")
+			return false
+			else return true;
+			};
+			// FIREFOX Evitar seleccion de texto
+			if (window.sidebar){
+			document.onmousedown=function(e){
+			var obj=e.target;
+			if (obj.tagName.toUpperCase() == "INPUT" || obj.tagName.toUpperCase() == "TEXTAREA" || obj.tagName.toUpperCase() == "PASSWORD")
+			return true;
+			/*else if (obj.tagName=="BUTTON"){
+			return true;
+			}*/
+			else
+				return false;
+				}
+			}
+		// End -->		
+		</script>
+
+	<script type="text/javascript">
+
+	
+	
+	
+                function closebuscador(){
+            $("#buscador").hide("slow");
+            $(".modal-window").css('left','45%');
+            $(".modal-window").css('top','45%');
+            $(".modal-window").css('right','45%');
+            $(".modal-window").css('bottom','45%');
+          
+          }
+				    $(document).ready(function(){
+                        $("#buscador").hide();   
+                        $("#bucadorito").click(function(){
+                        $("#buscador").show("slow");
+                    }); 
+                    document.oncontextmenu = function() {
+                        return false
+                    }
+					$("#menuForAll" ).slideToggle(0);
+					$("#clickOnMe").click(function(){
+					$("#menuForAll" ).slideToggle(1000);
+					});			
+					});
+
+				function abre(){
+					
+						$('#overlay').fadeIn('fast',function(){
+							$('#box').animate({'left':'12%'},500);
+						});
+				}
+                
+				
+				function boxclose(){
+                    $('#box').animate({'left':'-80%'},500,function(){
+                        $('#overlay').fadeOut('fast');
+                    });
+                }
+
+				
+			
+		</script>
+	
+	
+	
+</head>
+    <body onload="cerrar()">
+        <div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+<div id="buscador">
+  <iframe scrolling='no' id="buscadorsino" src="../cosino/" name="buscadorsino" height="100%" width="100%" frameborder="0"  ></iframe>  
+  </div>
+	<div id="act" class="content"> 
+			<a class="activator" id="activator"></a>
+        </div>
+
+        <div class="overlay" id="overlay" style="display:none;"></div>
+        <div class="box" id="box">
+        <a class="boxclose" id="boxclose" onclick="boxclose()"></a> 
+		<p id="eatmyshorts">
+			<h4>Practical Classroom Activities</h4>
+			<h3>Making plains and Predictions</h3>
+			<a id="forDown" href="../downloable/taller-plains.pdf" download="taller">
+				Download File
+			</a>
+		</p>
+		
+        </div>
+			<section id="activities2">
+			<nav id="menuForAll">
+			<div id="logoMenu">
+				<a href="../../index.html"><img src="../imagenes/ingles.png"></a>
+			</div>
+			
+			<ul>
+				<li><a href="../menu/selection/selection.html">Main Menu</a></li>
+				<li><a href="../cont/cont.html">Context Information</a></li>
+				<li><a href="../mmenu/sitemap.html">Site Map</a></li>
+				<li><a href="../biblioteca/biblioteca.html">Library</a></li>
+				<li><a  id="bucadorito" href="#Vocabulary">Vocabulary</a></li>
+				<li><a href="../references/refe.html">References</a></li>
+				<li><a href="../credits/staff.html">Staff</a></li>
+			</ul> 
+		</nav>
+			
+<header>
+			<div id="logo"><img  src="../imagenes/ingles.png" width="80px" height="80px"/></div>
+			<div id="title"><img src="../imagenes/avisos/selecciona.png"/></div>
+			<div id="udec"> <img src="../imagenes/logoudec.png"/></div>
+		</header>
+		
+
+				<nav id="menu">
+					
+
+					<ul>
+						<li class="floating"><a href="future/Listening/l.html"><img id="listen" src="../imagenes/botones/listening.png"  /></a></li>
+						<li class="floating"><a href="future/Reading/r.html"><img id="read"  src="../imagenes/botones/reading.png"/></a></li>
+						<li class="floating"><a href="future/Writing/w.html"><img id="write" src="../imagenes/botones/writing.png"  /></a></li>
+						<li class="floating"><a href="future/Speaking/s.html"><img id="speak" src="../imagenes/botones/speaking.png" /></a></li>
+						
+					</ul>
+					
+					
+				</nav>
+				
+				
+				<div id="test" class="floating">
+				<nav id="MyTips"><a href="../tips/teacherTips/teacherTipsfuture.html"><img  class="bigEntrance" src="../imagenes/botones/tips.png" /></a></nav>
+                    <nav  class="bigEntrance" id="pca"><img onclick="abre()" class="bigEntrance" src="../imagenes/botones/pca.png" /><span id="SPCA">Practical Classroom Activities</span></nav>
+                   
+				<nav id="MyTest"><a href="proceso/future/libro.html?00000022"><img class="bigEntrance"  src="../imagenes/botones/test.png" /></a></nav>
+                     <nav id="MyTest2"><a href="https://www.facebook.com/pages/English-in-Action-UdeC/671381732967125?skip_nax_wizard=true&ref_type=bookmark"><img class="bigEntrance"  src="../imagenes/botones/community.png" /></a></nav>
+				
+				</div>
+                
+                
+                
+				<nav class="prevcenter"><a href="../ciudadfuture.html"><img src="../imagenes/botones/prev.png"/></a></nav>
+				<nav id="clickOnMe" class="nav-esquina" role="navigation">
+						<i class="fa fa-th fa-2x"></i>
+				</nav>
+	</section>
+			
+			
+			
+			
+			
+			
+			
+		
+			
+			
+			
+			
+			
+
+    </body>
+</html>

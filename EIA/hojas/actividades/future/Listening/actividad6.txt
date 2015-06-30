@@ -1,0 +1,299 @@
+function revform(num){
+
+if(num==0)
+   check2(document.formR1,0);
+}
+
+
+
+function check2(f,id){
+cont=0;
+
+if(id==0){
+// INSTANCIAS
+
+	var traerose1=new String( f.like1.value ); 
+	var traerose2=new String( f.like2.value ); 
+	var traerose3=new String( f.like3.value ); 
+	var traerose4=new String( f.like4.value ); 
+	var traerose5=new String( f.like5.value );
+	var traerose6=new String( f.like6.value );
+	
+	
+	traerose1=traerose1.toLowerCase();
+	traerose2=traerose2.toLowerCase();
+	traerose3=traerose3.toLowerCase();
+	traerose4=traerose4.toLowerCase();
+	traerose5=traerose5.toLowerCase();
+	traerose6=traerose6.toLowerCase();
+	
+	var traerose=[traerose1,traerose2,traerose3,traerose4,traerose5,traerose6];
+	
+	
+//respuestas	
+	var rtarose = ["was born in","date of birth","started school at age","finished school at age","liked", "didn't like"];
+	
+	
+	
+//validación	
+			for(var i=0 ; i<6;i++){	
+					if(traerose[i]=="")
+						$('#cuadro #like'+(i+1)).css('border','1px solid gray');	
+					if(traerose[i]!="")
+						$('#cuadro #like'+(i+1)).css('border','1px solid red');
+
+					for(var j=0; j<6; j++){
+							if(traerose[i]==rtarose[j]){
+								$('#cuadro #like'+(i+1)).css('border','3px solid #00ff18');
+								rtarose[j]="-No mas-";
+								cont++;
+								}
+							}
+						}
+					
+		}//end if 0
+		
+
+return cont;
+
+}
+
+
+function enviar(){
+var contarbien=0;
+
+contarbien=check2(document.formR1,0);
+
+
+$("#r1").css('display','none');
+$(".sig").css('display','none');
+resultado(contarbien,6);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+_________________________________________________________
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <!--[if lte IE 8]><meta http-equiv="X-UA-Compatible" content="chrome=1"/><![endif]-->
+        <title>English In Action!</title>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		
+		<script type="application/javascript" src="acciones.js"></script>
+		<script type="application/javascript" src="js/movertabla.js"></script>
+		<script type="application/javascript" src="js/actividad6.js"></script>
+		
+		<link rel="stylesheet" href="tipo.css"/>
+		<link rel="stylesheet" href="css/formatotabla.css"/>
+		<link rel="stylesheet" href="css/acti6.css"/>
+	<script type="text/javascript">
+			// IE Evitar seleccion de texto
+			document.onselectstart=function(){
+			if (event.srcElement.type != "text" && event.srcElement.type != "textarea" && event.srcElement.type != "password")
+			return false
+			else return true;
+			};
+			// FIREFOX Evitar seleccion de texto
+			if (window.sidebar){
+			document.onmousedown=function(e){
+			var obj=e.target;
+			if (obj.tagName.toUpperCase() == "INPUT" || obj.tagName.toUpperCase() == "TEXTAREA" || obj.tagName.toUpperCase() == "PASSWORD")
+			return true;
+			/*else if (obj.tagName=="BUTTON"){
+			return true;
+			}*/
+			else
+				return false;
+				}
+			}
+		// End
+		</script>	
+	</head>
+    <body onload="alertSize()" >
+        
+		
+		<section id="activities">
+			
+			 <header>
+			 
+						
+				<div id="logo"><img  src="imagenes/ingles.png" width="80px" height="80px"/></div>
+			
+				<div id="udec"> <img src="imagenes/logoudec.png"/></div>
+		
+				<div id="title"><img src="imagenes/FILL.png"/></div>
+				
+			 </header>
+		
+		<div id="informa">
+					<section id="manito">
+							<img id="hand2" class="hand" src="imagenes/hand.png"/>
+							<img id="hand1" class="hand" src="imagenes/hand.png"/>
+					</section>
+					
+					<section id="info">
+								<img  style="cursor: pointer"onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob()" src="imagenes/objetivo.png"/>
+								<img  style="cursor: pointer" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins()" src="imagenes/instruccion.png"/>
+					</section>
+					
+					<section id="txt">
+						<div id="instruccion"><h5>Read the three profiles and complete each chart with the information needed; click on each of theme. Then, decide who is the most suitable woman for Carlos, according to his description; Click on the box and type her name.</h5></div>
+						<div id="objetivos"><h5>To make students compare and relate different information</h5></div>
+					</section>
+			
+		</div>
+
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~AQUI PONDREMOS EL CONTENIDO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+				
+				<article id="r1">
+			
+					<div id="blanco">
+						
+						
+						
+															<iframe name="pp" style="position:absolute; top:-1500px;"></iframe> 
+
+					
+						<div id="showtab">
+								<form id="cuadro" name="formR1" method="post" target="pp"  autocomplete="off">
+									<table class="table1">	
+										<thead>	
+											<tr>    
+												
+												<th scope="row" abbr="gustos">NAME </th>
+												
+											</tr>
+										</thead>
+
+										<tbody>
+											<tr>
+												
+												<td header="gusto"> <input id="like1" type="text"  size="30" maxlength="28" onkeyup="revform(0)"></td>
+												
+											</tr>
+				
+											<tr>
+											
+												<td header="gusto"><input id="like2" type="text"  size="30" maxlength="28" onkeyup="revform(0)"></input></td>
+												
+											
+											</tr>
+									
+											<tr>
+												<td header="gusto"><input id="like3" type="text"  size="30" maxlength="28" onkeyup="revform(0)"></input></td>
+												
+											</tr>
+				
+											<tr>
+												<td header="gusto"><input id="like4" type="text"  size="30" maxlength="28" onkeyup="revform(0)"></input></td>
+												
+											</tr>
+																					<tr>
+												<td header="gusto"><input id="like5" type="text"  size="30" maxlength="28" onkeyup="revform(0)"></input></td>
+											
+											</tr>
+											<tr>
+												<td header="gusto"><input id="like6" type="text"  size="30" maxlength="28" onkeyup="revform(0)"></input></td>
+											
+											</tr>
+											
+										</tbody>
+									</table>
+								</form>
+								
+									
+							</div>
+							
+							
+					</div><!--cierre de div blanco-->
+					
+
+				</article>
+			
+			
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~AQUI PONDREMOS LAS PREGUNTAS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+		
+					
+					
+		
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~AQUI PONDREMOS LAS RESPUESTAS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			
+			<div id="q4">
+			
+										<label for="cuatro">		FINAL SCORE	</label>
+										<span>
+										<img  id="right" src="imagenes/right.png" />
+										
+										</span>
+										<span>
+										<img  id="wrong" src="imagenes/wrong.png" />
+										</span>
+										
+										
+										<h5><p id="result"> </p></h5>
+			</div>
+			
+			
+			
+			
+			<audio controls preload="none" id="bien">
+					<source src="audios/well done.mp3" type="audio/mpeg" />
+					<source src="audios/well done.wav" type="audio/wav" />
+					<p>Tu navegador no implementa el elemento audio.</p>
+			</audio>
+
+
+			
+						
+						
+			<div id="q4">
+			
+										<label for="cuatro">		FINAL SCORE	</label>
+										<span>
+										<img  id="right" src="imagenes/right.png" />
+										
+										</span>
+										<span>
+										<img  id="wrong" src="imagenes/wrong.png" />
+										</span>
+										
+										
+										<h5><p id="result"> </p></h5>
+			</div>
+			
+			
+			
+					
+			
+			
+			
+			<nav id="navegacion">
+			<nav class="sig" onClick="enviar()" style="cursor: pointer"><img src="imagenes/nex.png"/></nav>
+			<nav class="prev" style="cursor: pointer"><a href="l4.html"><img src="imagenes/prev.png"/></a></nav>
+			<a href="../../centro.html" ><nav class="final"><img src="imagenes/continue.png"/></nav></a>
+			</nav>
+			
+			<footer>Past: Listening - Activity 4</footer>
+	</section>
+    </body>
+</html>

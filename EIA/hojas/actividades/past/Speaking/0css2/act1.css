@@ -1,0 +1,269 @@
+  .button {
+    background: -webkit-linear-gradient(top,#008dfd 0,#0370ea 100%);
+    border: 1px solid #076bd2;
+    border-radius: 3px;
+    color: #fff;
+    display: none;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.3;
+    padding: 8px 25px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #076bd2;
+    letter-spacing: normal;
+  }
+  .center {
+    padding: 10px;
+	display:none;
+    text-align: center;
+	background:blue;
+  }
+  
+  .final {
+    color: black;
+    padding-right: 3px; 
+	
+  }
+  .interim {
+    color: gray;
+	
+  }
+
+ #mic {
+	margin:auto;
+    float: center;
+	
+	border-radius:24px;
+	width:40px;
+	
+	position:relative;
+	display:inline-block;
+	
+  }
+  
+  #blanco{height:80%;}
+  
+  .sidebyside {
+    display: inline-block;
+    width: 45%;
+    min-height: 40px;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  #headline {
+    font-size: 40px;
+    font-weight: 300;
+  }
+  #information {
+  font-family:Humnst777 BT;
+    font-size: 18px;
+    text-align: center;
+    color: #777;
+    visibility: hidden;
+	width:100%;
+	position:relative;
+	height:12%;
+  }
+  
+  #imagen{
+	display:table-cell;
+	width:50%;
+  }
+ #containerLabel{
+	position:absolute;
+	bottom:13%;
+	left:40%;
+	
+	
+ }
+  #fragmento{width:50%;display:none;}
+  #results {
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    height: 10%;
+	width:20%;
+	margin:auto;
+	visibility:hidden;
+	
+  }
+  #start_button {
+    border:0;
+    background-color:transparent;
+    padding: 0;
+	}
+	
+.container {
+	margin: 0 auto;
+	position: relative;
+	
+	}
+#myRoundabout{
+	width:70%;
+	display:inline-block;
+	list-style-type: none;
+	
+	}
+
+#container{
+
+	border:0.2px solid black;
+	box-shadow:0 0 7px rgba(0,0,0,0.5);
+	background:white;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius:8px;
+	height:181px;
+	}
+.usuario{
+	font-family:Humanst521 Lt BT;
+	font-weight:lighter;
+	
+	}
+	
+li{background-color:#245e46;}
+
+#personaje1 ,#personaje2 {
+		
+		pointer-events:none;
+}
+#personaje1 img,#personaje2 img{
+	border-radius:50%;
+	height:170px;
+	width:170px;
+
+	}
+
+/*===== gallery =====*/
+.roundabout-holder  { 
+	padding:0;
+	margin:15px auto;
+	height:150px;
+
+	}
+.roundabout-moveable-item {
+	width:246px; /*346*/
+	cursor:pointer;
+	border:2px solid rgba(0, 0, 0, 0.08);
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	height:140px;
+	
+	}
+.roundabout-moveable-item img{
+	min-width:100%;
+	
+	}
+.roundabout-in-focus {
+	border:3px solid rgba(0, 0, 0, 0.2);
+	}
+#imageart{height:80%;}
+ #imageart div{margin:5px auto;width:50%; cursor:pointer;}
+ #imageart div:hover{transform:scale(1.1,1.1); }
+ #imageart div:hover>img{ border:2px groove #ffff5c;}
+ 
+ #imageart div img{border-radius:50px;}
+ #imageart span{display:none;}
+ 
+#stopWatch{opacity:0.9;} 
+#reloj{
+	position:absolute;
+	top:0;
+	right:-5%;
+	}
+#reloj figure{
+	position:absolute;
+	top:45%;
+	left:32%;
+
+	}
+	
+	.parahablar{display:none;z-index:2;margin-top:20px;}
+	#personaje div{background:red;height:20px;}
+	#fragmento2,#fragmento3{display:none}
+	
+	
+	
+	
+	
+	/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000;
+	position:absolute;
+		position:absolute;
+	top:20px;
+	left:45%;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	height:170px;
+	width:170px;
+	border-radius:50%;
+	
+}
+
+
+
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	
+}
+.back  span{
+	top:50%;
+	color:#fff;
+	
+}
+.back{background:#087590;}
+/* hide back of pane during swap */
+.front, .back {
+
+box-shadow:1px 1px 6px;
+
+
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+	
+	
+	
+	
+	
+	
+	
+  @-webkit-keyframes inicia{
+	0%{
+		border:0px solid red;
+		}
+	100%{
+		border:2px solid red;
+		border-radius:24px;
+		width:100px;
+		
+		}
+	}

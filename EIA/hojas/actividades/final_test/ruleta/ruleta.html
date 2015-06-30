@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Final test</title>
+			<meta charset="utf-8"/>
+			<meta name="keywords" content="comparacion,cadenas"/>            
+			<meta name = "description" content = "comparar dos inputs en html5 y una validacion sencilla"/>
+			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+			<script type="application/javascript" src="../../acciones.js"></script>
+			<script type="application/javascript" src="test.js"></script>
+			<link rel="stylesheet" href="../../tipo.css"/>
+			
+			<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+			
+			<link href="css/reset.css" type="text/css" rel="stylesheet">
+			<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+			<script type="text/javascript" src="js/jquery.tinysort.js"></script>
+			<script src="js/hol.js"></script>
+			<script src="js/hel.js"></script>
+			<script src="js/hal.js"></script>
+			<script src="js/hil.js"></script>
+			<script src="js/hul.js"></script>
+			<script src="js/cloudflare.min.js"></script>
+			
+			<script type="text/javascript">
+                
+      function closebuscador(){
+            $("#buscador").hide("slow");
+            $(".modal-window").css('left','45%');
+            $(".modal-window").css('top','45%');
+            $(".modal-window").css('right','45%');
+            $(".modal-window").css('bottom','45%');
+          
+          }
+			$(document).ready(function(){
+              
+                
+                $("#buscador").hide();   
+      $("#bucadorito").click(function(){
+    $("#buscador").show("slow");
+    }); 
+    document.oncontextmenu = function() {
+      return false
+    }
+			$("#menuForAll" ).slideToggle(0);
+			$("#clickOnMe").click(function(){
+			$("#menuForAll" ).slideToggle(1000);
+			});			
+			});
+        
+            
+              
+			</script>
+
+			<style>
+				#venues{display:none;}
+				#stats{display:none;}
+			</style>
+
+			<script type="text/javascript">
+
+			</script>
+
+		</head>
+		<body onload="cerrar()">
+            <div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+            <div id="buscador">
+  <iframe scrolling='no' id="buscadorsino" src="../../../cosino/" name="buscadorsino" height="100%" width="100%" frameborder="0"  ></iframe>  
+  </div>
+			<section id="activities">
+				<nav id="menuForAll">
+					<div id="logoMenu">
+						<a href="../../../../index.html"><img src="../../../imagenes/ingles.png"></a>
+					</div>
+			
+					<ul>
+						<a href="../../../menu/selection/selection.html"><li>Main Menu</li></a>
+						<a href="../../../cont/cont.html"><li>Context Information</li></a>
+						<a href="../../../mmenu/sitemap.html"><li>Site Map</li></a>
+						<a href="../../../biblioteca/biblioteca.html"><li>Library</li></a>
+						<li><a  id="bucadorito" href="#Vocabulary">Vocabulary</a></li>
+						<a href="../../../credits/staff.html"><li>Staff</li></a>
+					</ul> 
+				</nav>
+
+				<header>		
+					<div id="logo"><img  src="../../../imagenes/ingles.png" width="80px" height="80px"/></div>
+					<div id="title"><img src="../../../imagenes/avisos/final test.png"/></div>
+					<div id="udec"> <img src="../../../imagenes/logoudec.png"/></div>
+				</header>
+					
+				<div id="informa">
+					<section id="manito">
+						<img id="hand2" class="hand" src="../../../imagenes/avisos/hand.png"/>
+						<img id="hand1" class="hand" src="../../../imagenes/avisos/hand.png"/>
+					</section>
+					<section id="info">
+						<img class="alumbraobj" id="alumbraobj" style="cursor: pointer" onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob()" src="../../../imagenes/botones/objetivo.png"/>
+						<img class="alumbraobj" id="alumbrains" style="cursor: pointer" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins()" src="../../../imagenes/botones/instruccion.png"/>
+					</section>
+							
+					<section id="txt">
+						<div id="objetivos"><h5>Through a random arrange of questions establish the user's ability to apply the acquired knowledge.</h5></div>
+						<div id="instruccion"><h5>Click inside the roulette to make it spin. You have to spin it eight times and answer each one of the questions. At the end you will be able to see your result on the lower part of the screen with the correspondent feedback.</h5></div>
+					</section>	
+				</div>
+				<div id="georgeRules"></div>				
+				<article id="r1">
+                    
+                    <section id="lado">
+                        <h5 id="labelT"><span id="falta"></span> questions Remaining</h5>
+                    </section>
+                    
+					<section id="bolita">
+						<script src="js/jquery-1.6.4.js"></script>
+						<script src="js/raphael.js"></script>
+						<script src="js/roulette.js"></script>
+					</section>
+					
+					<div id="venues" style="float: left"><ul /></div>
+					<div id="wheel" >
+						<canvas id="canvas" width="655" height="460"></canvas>
+					</div>
+
+					<div id="stats">
+						<div id="counter"></div>
+					</div>
+				</article>
+
+				<footer>
+					<nav id="navegacion">
+						<nav id="prev" class="prev" style="cursor: pointer"><img src="../../../imagenes/botones/prev.png"/></nav>
+					</nav>
+						<span id='references'>Final Test
+
+
+							<nav id="clickOnMe" class="nav-esquina" role="navigation">
+								<!-- Right Control -->
+								<i class="fa fa-th fa-2x"></i>
+							</nav>
+						</span>
+				</footer>
+			</section>	
+
+
+
+			<audio controls preload="none" id="instruyeme">
+					<source src="../evaluacion/audios/ruleta.mp3" type="audio/mpeg" />				
+				</audio>	
+            <script>  
+                
+                
+                
+                    //sessionStorage.clear();
+                var rev1="",
+                    rev2="",
+                    rev3="",
+                    rev4="";
+                rev1=sessionStorage.getItem('Listening');
+                rev2=sessionStorage.getItem('Reading');
+                rev3=sessionStorage.getItem('Writing');
+                rev4=sessionStorage.getItem('Speaking');
+                
+                if(sessionStorage.length == 0){
+                    sessionStorage.clear();
+                    readme(25000);
+                sessionStorage.setItem('Listening','0');
+                sessionStorage.setItem('Writing','0');
+                sessionStorage.setItem('Reading','0');
+                sessionStorage.setItem('Speaking','0');
+                sessionStorage.setItem('ListeningFlag','0');
+                sessionStorage.setItem('ReadingFlag','0');
+                sessionStorage.setItem('WritingFlag','0');
+                sessionStorage.setItem('SpeakingFlag','0');
+                }
+                else{goAll();}
+                
+                  var numAux=0;
+                cadAux=sessionStorage.getItem('SpeakingFlag');
+                numAux = parseInt(cadAux);
+                cadAux=sessionStorage.getItem('WritingFlag');
+                numAux += parseInt(cadAux);
+                cadAux=sessionStorage.getItem('ListeningFlag');
+                numAux += parseInt(cadAux);
+                cadAux=sessionStorage.getItem('ReadingFlag');
+                numAux += parseInt(cadAux);
+                numAux =8-numAux;
+                
+                document.getElementById("falta").innerHTML=""+numAux;    
+                function carga(){}
+                </script>
+                
+		</body>
+	</html>

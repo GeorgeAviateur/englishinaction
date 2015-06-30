@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <!--[if lte IE 8]><meta http-equiv="X-UA-Compatible" content="chrome=1"/><![endif]-->
+        <title>English In Action!</title>
+        <!-- Llamamos nuestro archivo JavaScript -->
+        <script type="application/javascript" src="../../../js/jquery.min.js"></script>
+		<script type="application/javascript" src="../../acciones.js"></script>
+		<script type="application/javascript" src="js/actividad.js"></script>
+		<script type="application/javascript" src="js/audio.js"></script>
+		<link rel="stylesheet" href="../../tipo.css"/>
+		<link rel="stylesheet" href="css/acti1.css"/>
+
+		<script type="text/javascript">
+			// IE Evitar seleccion de texto
+			document.onselectstart=function(){
+			if (event.srcElement.type != "text" && event.srcElement.type != "textarea" && event.srcElement.type != "password")
+			return false
+			else return true;
+			};
+			// FIREFOX Evitar seleccion de texto
+			if (window.sidebar){
+			document.onmousedown=function(e){
+			var obj=e.target;
+			if (obj.tagName.toUpperCase() == "INPUT" || obj.tagName.toUpperCase() == "TEXTAREA" || obj.tagName.toUpperCase() == "PASSWORD")
+			return true;
+			/*else if (obj.tagName=="BUTTON"){
+			return true;
+			}*/
+			else
+				return false;
+				}
+			}
+		// End 	
+		</script>	
+	</head>
+    <body onload="alertSize()" >
+        
+		
+<h1>TITULO</h1>
+<h2>Subtitulo</h2>
+<h3>subtitulo2</h3>
+<h4>preguntas</h4>
+<h5>Información</h5>
+<h6>texto</h6>
+
+    </body>
+</html>

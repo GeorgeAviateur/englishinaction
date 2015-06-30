@@ -1,0 +1,41 @@
+@media only screen and (min-width:990px)and (max-width: 1200px){
+#cuadroPreguntas{
+margin-top: 20px;
+}
+#textico{
+padding:20px 60px 20px 30px;
+text-align:justify;
+max-height: 210px;
+background: #E8DEC7;
+-webkit-border-radius: 5px 10px; 
+-moz-border-radius: 5px 10px;    
+overflow:scroll;
+overflow-x:hidden;
+}
+}
+@media only screen and (min-width:1200px){
+#textico {
+padding: 40px 10px 40px 10px;
+}
+#cuadroPreguntas{
+margin-top: 20px;
+width: 60%;
+display: inline-block;
+}
+#rita{
+top:-30px;
+display: inline-block;
+margin-bottom: 20px;
+width: 30%;	
+}
+#textico{
+padding:15px 30px 15px 30px;
+text-align:justify;
+max-height: 220px;
+background: #E8DEC7;
+-webkit-border-radius: 5px 10px; 
+-moz-border-radius: 5px 10px;    
+overflow:scroll;
+overflow-x:hidden;
+}
+}

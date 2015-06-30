@@ -1,0 +1,67 @@
+.container {
+	margin: 0 auto;
+	position: relative;
+	
+	}
+#myRoundabout{
+	width:70%;
+	display:inline-block;
+	list-style-type: none;
+	
+	}
+input[value="resultado"] {
+	display: none;
+	}
+h2{margin:0;}
+#container{
+
+	border:0.2px solid black;
+	box-shadow:0 0 7px rgba(0,0,0,0.5);
+	background:white;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius:8px;
+	}
+.usuario{
+	font-family:Humanst521 Lt BT;
+	font-weight:lighter;
+	
+	}
+	
+input[value="Qualify"]{
+	border:3px solid #ec653d;
+	border-radius:3px;
+	font-family:Humnst777 Blk BT;
+	background:#f4eddd;
+	}
+#blanco{
+	height:250px;
+	max-height:100%;
+	}
+	
+li{background-color:#245e46;}
+
+#noeta{visibility:hidden;}
+/*===== gallery =====*/
+.roundabout-holder  { 
+	padding:0;
+	margin:0 auto;
+	height:180px;
+
+	}
+.roundabout-moveable-item {
+	width:246px; /*346*/
+	cursor:pointer;
+	border:2px solid rgba(0, 0, 0, 0.08);
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	height:170px;
+	
+	}
+.roundabout-moveable-item img{
+	min-width:100%;
+	}
+.roundabout-in-focus {
+	border:3px solid rgba(0, 0, 0, 0.2);
+	}

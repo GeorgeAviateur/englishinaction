@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>English in Action</title>
+	<meta name="description" content="mdm for english learning" />
+	<meta name="keywords" content="english,b-learning,resource" />
+	<meta name="author" content="Jorge A. García, Carolina Ramos, Luis Fernando Alomía" />
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="stylesheet" href="css/estilo.css" />
+	<script src="js/musica.js"></script>
+    <script src="hojas/js/jquery.min.js"></script>
+	<script type='text/javascript'>
+        function cerrar(){
+            $("#loadMe").animate({"opacity":"0"},1000,function(){$("#loadMe").css("display","none");}); 
+        }
+        $("#loadMe").click(function(){cerrar();});
+        function startAnimation() {
+            document.getElementById("recorte").style.MsAnimationPlayState = "running";
+            document.getElementById("recorte").style.webkitAnimationPlayState = "running";
+            document.getElementById("recorte").style.MozAnimationPlayState = "running";
+            document.getElementById("recorte").style.OAnimationPlayState = "running";
+            document.getElementById("recorte").style.animationPlayState = "running";
+        }
+        function stopAnimation() {
+            document.getElementById("recorte").style.MsAnimationPlayState = "paused";
+            document.getElementById("recorte").style.webkitAnimationPlayState = "paused";
+            document.getElementById("recorte").style.MozAnimationPlayState = "paused";
+            document.getElementById("recorte").style.OAnimationPlayState = "paused";
+            document.getElementById("recorte").style.animationPlayState = "paused";
+        }
+    </script>
+</head>
+
+<body onload="playing(),cerrar()">
+    <audio controls preload="none" id="intro">
+		<source src="hojas/actividades/audios/flyintro.mp3" type="audio/mpeg" />
+		<source src="hojas/actividades/audios/flyintro.wav" type="audio/wav" />
+		<p>Tu navegador no implementa el elemento audio.</p>
+	</audio>
+    <div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+	<header>
+		<div id="recorte" class="recorte"> </div>
+		<a href="hojas/cont/cont.html" class="classname"> <img src="hojas/imagenes/botones/tit.png"  alt="Start"/></a>
+	</header>
+</body>
+</html>

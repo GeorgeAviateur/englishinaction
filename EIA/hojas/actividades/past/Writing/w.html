@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>English In Action - Writing</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script type="application/javascript" src="../../acciones.js"></script>
+<link rel="stylesheet" href="../../tipo.css"/>
+<link rel="stylesheet" href="../../responsiveenglish.css"/>
+<link rel="stylesheet" href="../../present/Writing/css/todo.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../present/Writing/css/Act1/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="../../present/Writing/css/Act1/responsive.css">
+<link rel="stylesheet" href="../../present/Writing/css/todoresponsiveslides.css" />
+<script type="text/javascript" src="../../present/Writing/js/Act1/jquery-1.4.2.min.js" ></script>
+<script type="text/javascript" src="../../present/Writing/js/Act1/roundabout.js"></script>
+<script type="text/javascript" src="../../present/Writing/js/Act1/gallery_init.js"></script>
+<script src="js/Act1/responsiveslides.js"></script>
+<script src="js/Act1/principal.js"></script>
+	<script type="text/javascript">
+     	function closebuscador(){
+        $("#buscador").hide("slow");
+        $(".modal-window").css('left','45%');
+        $(".modal-window").css('top','45%');
+        $(".modal-window").css('right','45%');
+        $(".modal-window").css('bottom','45%');
+        }
+      	$(document).ready(function(){
+        $("#buscador").hide();   
+      	$("#bucadorito").click(function(){
+    	$("#buscador").show("slow");
+    	}); 
+    	document.oncontextmenu = function() {
+      	return false
+    	}
+		$("#menuForAll" ).slideToggle(0);
+		$("#clickOnMe").click(function(){
+		$("#menuForAll" ).slideToggle(1000);
+		});			
+		});
+	</script>		
+	<script>
+		$(function () {
+		$("#slider").responsiveSlides({
+		auto: true,
+		pager: false,
+		nav: true,
+		speed: 500,
+		maxwidth: 962,
+		namespace: "centered-btns",
+		});
+		});
+	</script>
+</head>
+<!--<body onload="carga()">-->
+<body onload="readme(17000),cerrar()">
+    <div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+    <div id="buscador">
+  		<iframe scrolling='no' id="buscadorsino" src="../../../cosino/" name="buscadorsino" height="100%" width="100%" frameborder="0"  ></iframe>  
+  	</div>
+    <section id="activities">
+		<nav id="menuForAll">
+			<div id="logoMenu">
+				<a href="../../../../index.html"><img src="../../../imagenes/ingles.png"></a>
+			</div>		
+			<ul>
+				<a href="../../../menu/selection/selection.html"><li>Main Menu</li></a>
+				<a href="../../../cont/cont.html"><li>Context Information</li></a>
+				<a href="../../../mmenu/sitemap.html"><li>Site Map</li></a>
+				<a href="../../../biblioteca/biblioteca.html"><li>Library</li></a>
+				<a  id="bucadorito" href="#Vocabulary"><li>Vocabulary</li></a><a href="../../../references/refe.html"><li>References</li></a>
+				<a href="../../../credits/staff.html"><li>Staff</li></a>
+			</ul> 
+		</nav>
+		<header>
+			<div id="logo"><img  src="../../../imagenes/ingles.png" width="80px" height="80px"/></div>
+			<div id="title" class="slideDown" ><img src="../../../imagenes/avisos/leisuretime.png"/></div>
+			<div id="udec"> <img src="../../../imagenes/logoudec.png"/></div>
+		</header>
+		<div id="informa">
+			<section id="manito">
+				<img id="hand2" class="hand" src="../../../imagenes/avisos/hand.png"/>
+				<img id="hand1" class="hand" src="../../../imagenes/avisos/hand.png"/>
+			</section>
+			<section id="info">
+				<img class="alumbraobj" id="alumbraobj" style="cursor: pointer"onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob()" src="../../../imagenes/botones/objetivo.png"/>
+				<img class="alumbraobj" id="alumbrains" style="cursor: pointer" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins()" src="../../../imagenes/botones/instruccion.png"/>
+			</section>
+			<section class="peso1" id="peso1">
+				<img id="muestrame1" src="../../../imagenes/avisos/listen.png">
+			</section>
+			<section id="txt">
+				<div id="objetivos"><h5>To strengthen the writing ability of the student by writing short texts.</h5></div>
+				<div id="instruccion"><h5>Write the correct verb in past on the line. You have two opportunities to answer.Click on "NEXT" to continue.</h5></div>
+			</section>			
+		</div>
+		<div id="georgeRules"></div>
+		<article id="r1">
+			<section id="blanco">
+				<section id="gallery">
+					<div class="container"> 
+						<ul id="myRoundabout">
+							<li class="colore"><img id="listened" onload="c(id)" onclick="c(id)" src="../../images/writing/16.jpg"></li>
+							<li class="colore"><img id="had" onclick="c(id)" src="../../images/writing/25.jpg"></li>
+							<li class="colore"><img id="watched" onclick="c(id)" src="../../images/writing/24.jpg"></li>
+							<li class="colore"><img id="bought" onclick="c(id)" src="../../images/writing/23.jpg"></li>
+							<li class="colore"><img id="did" onclick="c(id)" src="../../images/writing/22.jpg"></li>
+							<li class="colore"><img id="talked" onclick="c(id)" src="../../images/writing/21.jpg"></li>
+							<li class="colore"><img id="went" onclick="c(id)" src="../../images/writing/20.jpg"></li>
+							<li class="colore"><img id="drank" onclick="c(id)" src="../../images/writing/19.jpg"></li>
+							<li class="colore"><img id="ate" onclick="c(id)" src="../../images/writing/18.jpg"></li>
+							<li class="colore"><img id="danced" onclick="c(id)" src="../../images/writing/17.jpg"></li>    
+						</ul>
+					</div>
+				</section>
+				<section class="peso" id="peso">
+					 <nav  class="elnav2" id="escuchar" onClick="automatico1();"><img id="k" src="../../../imagenes/botones/31.png"/></nav>
+				</section>
+				<form class="form2" id="form2" name="form2" >
+					<h3 class='caifanes' id='caifanes1'><label class="pq" id="mostrando11"  type="text" value=" ">1. Ana <b>listened </b>to music.</label></h3>
+					<h3 class='caifanes' id='caifanes2'><label class="pq" id="mostrando22" type="text" value=" ">2. Cristina <b>danced </b>last night.</label></h3>
+					<h3 class='caifanes' id='caifanes3'><label class="pq" id="mostrando33" type="text" value=" ">3. We <b>ate </b>fast food yesterday.</label></h3>
+					<h3 class='caifanes' id='caifanes4'><label class="pq" id="mostrando44" type="text" value=" ">4. Albert <b>drank </b>milk today in the morning.</label></h3>
+					<h3 class='caifanes' id='caifanes5'><label class="pq" id="mostrando55" type="text" value=" ">5. We <b>went </b>to the movies.</label></h3>
+					<h3 class='caifanes' id='caifanes6'><label class="pq" id="mostrando66" type="text" value=" ">6. I <b>talked </b>to some friends.</label></h3>
+					<h3 class='caifanes' id='caifanes7'><label class="pq" id="mostrando77" type="text" value=" ">7. She <b>did </b>exercise yerterday.</label></h3>
+					<h3 class='caifanes' id='caifanes8'><label class="pq" id="mostrando88" type="text" value=" ">8. They <b>bought </b>french fries.</label></h3>
+					<h3 class='caifanes' id='caifanes9'><label class="pq" id="mostrando99" type="text" value=" ">9. We <b>watched </b>a horror movie.</label></h3>
+					<h3 class='caifanes' id='caifanes10'><label class="pq" id="mostrando1010" type="text" value=" ">10. Albert and Tony <b>had</b> some beers.</label></h3>
+
+					<div class="velk" id="velk1"><h3 id="label11" class="labeles">1. Ana </h3><input type="text" value="" class="campos" id="campo1" name="listened" onkeypress="return validarn(event)" placeholder="write here 1 ..." onpaste="return false" oncut="return false" oncopy="return false" /><h3 id="label1" class="labeles"> to music.</h3></div>
+		  
+					<div class="velk" id="velk2"><h3 id="label22" class="labeles">2. Cristina </h3> <input type="text" value="" class="campos" id="campo2" name="danced" onkeypress="return validarn(event)" placeholder="write here 2 ..." onpaste="return false" oncut="return false" oncopy="return false" /> <h3 id="label2" class="labeles">  last night.</h3> </div>
+		  
+					<div class="velk" id="velk3"><h3 id="label33" class="labeles">3. We </h3> <input type="text" value="" class="campos" id="campo3" name="ate" onkeypress="return validarn(event)" placeholder="write here 3 ..." onpaste="return false" oncut="return false" oncopy="return false"/> <h3 id="label3" class="labeles"> fast food yesterday. </h3> </div>
+		  
+					<div class="velk" id="velk4"><h3 id="label44" class="labeles">4. Albert </h3> <input type="text" value="" class="campos" id="campo4" name="drank" onkeypress="return validarn(event)" placeholder="write here 4 ..." onpaste="return false" oncut="return false" oncopy="return false"/> <h3 id="label4" class="labeles"> milk today in the morning.</h3> </div>
+		  
+					<div class="velk" id="velk5"><h3 id="label55" class="labeles">5. We </h3> <input type="text" value="" class="campos" id="campo5" name="went" onkeypress="return validarn(event)" placeholder="write here 5 ..." onpaste="return false" oncut="return false" oncopy="return false"/> <h3 id="label5" class="labeles"> to the movies. </h3> </div>
+		  
+					<div class="velk" id="velk6"><h3 id="label66" class="labeles">6. I </h3> <input type="text" value="" class="campos" id="campo6" name="talked" onkeypress="return validarn(event)" placeholder="write here 6..." onpaste="return false" oncut="return false" oncopy="return false" /> <h3 id="label6" class="labeles"> to some friends. </h3> </div>
+		  
+					<div class="velk" id="velk7"><h3 id="label77" class="labeles">7. She </h3> <input type="text" value="" class="campos" id="campo7" name="did" onkeypress="return validarn(event)" placeholder="write here 7 ..." onpaste="return false" oncut="return false" oncopy="return false" /> <h3 id="label7" class="labeles"> exercise yerterday. </h3> </div>
+
+					<div class="velk" id="velk8"><h3 id="label88" class="labeles">8. They </h3> <input type="text" value="" class="campos" id="campo8" name="bought" onkeypress="return validarn(event)" placeholder="write here 8 ..." onpaste="return false" oncut="return false" oncopy="return false" /> <h3 id="label8" class="labeles"> french fries. </h3> </div>
+
+					<div class="velk" id="velk9"><h3 id="label99" class="labeles">9. We </h3> <input type="text" value="" class="campos" id="campo9" name="watched" onkeypress="return validarn(event)" placeholder="write here 9 ..." onpaste="return false" oncut="return false" oncopy="return false" /> <h3 id="label9" class="labeles"> a horror movie. </h3>  </div>
+
+					<div class="velk" id="velk10"><h3 id="label1010" class="labeles">10. Albert and Tony </h3> <input type="text" value="" class="campos" id="campo10" name="had" onkeypress="return validarn(event)" placeholder="write here 10 ..." onpaste="return false" oncut="return false" oncopy="return false" /> <h3 id="label10" class="labeles"> some beers. </h3> </div>
+			    </form>
+				<form name="form3" id="form3" >
+					<input type="text" value="resultado" name="resultado"  />
+				</form> 
+
+				<section id="res-slider">
+					<div class="slider">
+						<div class="rslides_container">
+							<form name="form4" id="form4" > 
+								<ul class="rslides" id="slider">
+									<li>
+										<img class='ext' id="listened1" src="../../images/writing/16.jpg">
+										<div class="social" >
+										<h3 id="mostra1" class="so">Ana <b>listened</b> to music.</h3>
+										</div>
+											
+										<div class="velkan" id="velkan1"><h3 type="text" class="labeles1">1. Ana </h3> <input type="text" class="campiñitos" value="" name="listened" onkeypress="return validarn(event)" placeholder="write here 1 ..." onpaste="return false" oncut="return false" oncopy="return false"  /> <h3 type="text" class="labeles1"> to music.</h3>
+										</div> 
+									</li>
+									<li>
+										<img class='ext' id="danced1" src="../../images/writing/17.jpg">
+										<div class="social" >
+										<h3 id="mostra2" class="so">Cristina <b>danced</b> last night.</h3>
+										</div> 
+										<div class="velkan" id="velkan2"> <h3 type="text" class="labeles1">2. Cristina </h3> <input type="text" class="campiñitos" value="" name="danced" onkeypress="return validarn(event)" placeholder="write here 2 ..."  onpaste="return false" oncut="return false" oncopy="return false" /> <h3 type="text" class="labeles1"> last night.</h3>
+										</div>   
+									</li>
+									<li>
+										<img class='ext' id="ate1" src="../../images/writing/18.jpg">
+										<div class="social">
+										<h3 id="mostra3" class="so">We <b>ate</b> fast food yesterday.</h3>
+										</div>
+										<div class="velkan" id="velkan3" > <h3 type="text" class="labeles1">3. We </h3> <input type="text" class="campiñitos" value="" name="ate" onkeypress="return validarn(event)" placeholder="write here 3 ..." onpaste="return false" oncut="return false" oncopy="return false"/> <h3 type="text" class="labeles1"> fast food yesterday. </h3>
+										</div>    
+									</li> 
+									<li>
+										<img class='ext' id="drank1" src="../../images/writing/19.jpg">
+										<div class="social" >
+										<h3 id="mostra4" class="so">Albert <b>drank</b> milk today in the morning.</h3>
+										</div>
+										<div class="velkan" id="velkan4"> <h3 type="text" class="labeles1">4. Albert </h3> <input type="text" class="campiñitos" value="" name="drank" onkeypress="return validarn(event)" placeholder="write here 4 ..." onpaste="return false" oncut="return false" oncopy="return false"/> <h3 type="text" class="labeles1"> milk today in the morning.</h3>
+										</div>     
+									</li>
+									<li>
+										<img class='ext' id="went1" src="../../images/writing/20.jpg">
+										<div class="social" >
+										<h3 id="mostra5" class="so">We <b>went</b> to the movies. </h3>
+										</div>
+										<div class="velkan" id="velkan5"> <h3 type="text" class="labeles1">5. We </h3> <input type="text" class="campiñitos" value="" name="went" onkeypress="return validarn(event)" placeholder="write here 5 ..." onpaste="return false" oncut="return false" oncopy="return false" /> <h3 type="text" class="labeles1"> to the movies. </h3>
+										</div>     
+									</li>
+									<li>
+										<img class='ext' id="talked1" src="../../images/writing/21.jpg">
+										<div class="social" >
+										<h3 id="mostra6" class="so">I <b>talked</b> to some friends.</h3>
+										</div> 
+										<div class="velkan" id="velkan6"> <h3 type="text" class="labeles1">6. I </h3> <input type="text" class="campiñitos" value="" name="talked" onkeypress="return validarn(event)" placeholder="write here 6..." onpaste="return false" oncut="return false" oncopy="return false" /> <h3 type="text" class="labeles1"> to some friends. </h3>
+										</div>  
+									</li>      
+									<li>         
+										<img class='ext' id="did1" src="../../images/writing/22.jpg">
+										<div class="social" >
+										<h3 id="mostra7" class="so">She <b>did</b> exercise yerterday.</h3>
+										</div>
+										<div class="velkan" id="velkan7"> <h3 type="text" class="labeles1">7. She </h3> <input type="text" class="campiñitos" value="" name="did" onkeypress="return validarn(event)" placeholder="write here 7 ..." onpaste="return false" oncut="return false" oncopy="return false"/> <h3 type="text" class="labeles1"> exercise yerterday. </h3>
+										</div>          
+									</li>
+									<li>         
+										<img class='ext' id="did1" src="../../images/writing/23.jpg">
+										<div class="social" >
+										<h3 id="mostra8" class="so">They <b>bought</b> french fries.</h3>
+										</div>
+										<div class="velkan" id="velkan8"> <h3 type="text" class="labeles1">8. They </h3> <input type="text" class="campiñitos" value="" name="bought" onkeypress="return validarn(event)" placeholder="write here 8 ..." onpaste="return false" oncut="return false" oncopy="return false"/> <h3 type="text" class="labeles1"> french fries.</h3>
+										</div>          
+									</li>
+									<li>         
+										<img class='ext' id="did1" src="../../images/writing/24.jpg">
+										<div class="social" >
+										<h3 id="mostra9" class="so">We <b>watched</b> a horror movie.</h3>
+										</div>
+										<div class="velkan" id="velkan9"> <h3 type="text" class="labeles1">9. We </h3> <input type="text" class="campiñitos" value="" name="watched" onkeypress="return validarn(event)" placeholder="write here 9 ..." onpaste="return false" oncut="return false" oncopy="return false"/> <h3 type="text" class="labeles1"> a horror movie.</h3>
+										</div>          
+									</li>
+									<li>         
+										<img class='ext' id="did1" src="../../images/writing/25.jpg">
+										<div class="social" >
+										<h3 id="mostra10" class="so">Albert and Tony <b>had</b> some beers.</h3>
+										</div>
+										<div class="velkan" id="velkan10"> <h3 type="text" class="labeles1">10. Albert and Tony </h3> <input type="text" class="campiñitos" value="" name="had" onkeypress="return validarn(event)" placeholder="write here 10 ..." onpaste="return false" oncut="return false" oncopy="return false"/> <h3 type="text" class="labeles1"> some beers.</h3>
+										</div>          
+									</li>
+								</ul>
+							</form>
+						</div>
+					</div>
+				</section>
+				<form id='sandy2' class='sandy'></form>
+				<div id="lisa">
+					<h3><label type="text" value="resultado1" id="resultado1"></label></h3>
+					<form id='sandy1' class='sandy'></form>
+				</div>
+				<section class="peso" id="pesos">
+					<nav  class="elnav2" id="escuchar2" onClick="automatico1();"><img id="k1" src="../../../imagenes/botones/31.png"/></nav>
+				</section>
+
+				<audio controls preload="none" id="instruyeme">
+					<source src="../../audios/instrucciones/writing/instruccionaa.mp3" type="audio/mpeg" />				
+				</audio>
+				<audio controls preload="none" id="sorry" >
+					<source src="../../audios/feedback/try%20again.mp3" type="audio/mpeg" />
+				</audio>
+				<audio controls preload="none" id="t1" >
+					<source src="../../audios/feedback/the%20correct.mp3" type="audio/mpeg" />			
+				</audio>
+				<audio controls preload="none" id="a1" >
+					<source src="../../audios/respuestas/writing/pasado/aa1.mp3" type="audio/mpeg" />
+				</audio>		
+				<audio controls preload="none" id="a2" >
+					<source src="../../audios/respuestas/writing/pasado/aa2.mp3" type="audio/mpeg" />
+				</audio>		
+				<audio controls preload="none" id="a3" >
+					<source src="../../audios/respuestas/writing/pasado/aa3.mp3" type="audio/mpeg" />
+				</audio>		
+				<audio controls preload="none" id="a4" >
+					<source src="../../audios/respuestas/writing/pasado/aa4.mp3" type="audio/mpeg" />
+				</audio>		
+				<audio controls preload="none" id="a5" >
+					<source src="../../audios/respuestas/writing/pasado/aa5.mp3" type="audio/mpeg" />
+				</audio>		
+				<audio controls preload="none" id="a6" >
+					<source src="../../audios/respuestas/writing/pasado/aa6.mp3" type="audio/mpeg" />
+				</audio>		
+				<audio controls preload="none" id="a7" >
+					<source src="../../audios/respuestas/writing/pasado/aa7.mp3" type="audio/mpeg" />
+				</audio>
+				<audio controls preload="none" id="a8" >
+					<source src="../../audios/respuestas/writing/pasado/aa8.mp3" type="audio/mpeg" />
+				</audio>		
+				<audio controls preload="none" id="a9" >
+					<source src="../../audios/respuestas/writing/pasado/aa9.mp3" type="audio/mpeg" />
+				</audio>		
+				<audio controls preload="none" id="a10" >
+					<source src="../../audios/respuestas/writing/pasado/aa10.mp3" type="audio/mpeg" />
+				</audio>
+				<audio controls preload="none" id="L">
+					<source src="../../audios/feedback/feedback.mp3" type="audio/mpeg" />
+				</audio>	
+				<audio controls preload="none" id="bien">
+					<source src="../../audios/feedback/well done.mp3" type="audio/mpeg" />				
+				</audio>
+				<audio controls preload="none" id="mal0">
+					<source src="../../audios/feedback/can%20do%20b.mp3" type="audio/mpeg" />
+				</audio>					
+				<audio controls preload="none" id="mal1">
+					<source src="../../audios/AUDIOS_PESO_BAJO/aprr1-2.mp3" type="audio/mpeg" />
+				</audio>					
+				<audio controls preload="none" id="mal2">
+					<source src="../../audios/AUDIOS_PESO_BAJO/aprr1-3.mp3" type="audio/mpeg" />
+				</audio>	
+				<audio controls preload="none" id="retrowell">
+					<source src="../../audios/feedback/congratulation.mp3" type="audio/mpeg" />
+				</audio>
+				<audio controls preload="none" id="retrobad">
+					<source src="../../audios/feedback/can%20do%20b.mp3" type="audio/mpeg" />
+				</audio>
+			</section>
+		</article>
+
+		<div id="review">
+			<label for="cuatro">		FINAL SCORE	</label><br>
+			<span><img  id="right" src="../../../imagenes/right.png" /></span>
+			<span><img  id="wrong" src="../../../imagenes/wrong.png" /></span>
+		    <h5><p id="result"> </p></h5>
+	    </div>
+	
+		<footer>		
+			<nav id="navegacion">
+				<nav id="continuar" class="sig"  onClick="finalizaw1()" style="cursor: pointer"><img src="../../../imagenes/botones/nex.png"/></nav>
+				<form class="form2">
+					<span id="bigbang11" class="bigbang"><nav id="button1" onclick="capturar()" class="sig"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+					<span id="bigbang22" class="bigbang"><nav id="button2" onclick="capturar()" class="sig"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+					<span id="bigbang33" class="bigbang"><nav id="button3" onclick="capturar()" class="sig"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+					<span id="bigbang44" class="bigbang"><nav id="button4" onclick="capturar()" class="sig"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+					<span id="bigbang55" class="bigbang"><nav id="button5" onclick="capturar()" class="sig"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+					<span id="bigbang66" class="bigbang"><nav id="button6" onclick="capturar()" class="sig"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+					<span id="bigbang77" class="bigbang"><nav id="button7" onclick="capturar()" class="sig"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+					<span id="bigbang88" class="bigbang"><nav id="button8" onclick="capturar()" class="sig"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+					<span id="bigbang99" class="bigbang"><nav id="button9" onclick="capturar()" class="sig"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+					<span id="bigbang1010" class="bigbang"><nav id="button10" onclick="capturar()" class="sig"><img src="../../../imagenes/botones/check.png"/></nav></span>
+				</form>
+				<form class="form5">
+					<span id="bigbang1" class="bigbang"><nav name="e1" id="e1" onclick="capturar1('e1')" class="sig2"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+					<span id="bigbang2" class="bigbang"><nav name="e2" id="e2" onclick="capturar1('e2')" class="sig2"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+					<span id="bigbang3" class="bigbang"><nav name="e3" id="e3" onclick="capturar1('e3')" class="sig2"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+					<span id="bigbang4" class="bigbang"><nav name="e4" id="e4" onclick="capturar1('e4')" class="sig2"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+					<span id="bigbang5" class="bigbang"><nav name="e5" id="e5" onclick="capturar1('e5')" class="sig2"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+					<span id="bigbang6" class="bigbang"><nav name="e6" id="e6" onclick="capturar1('e6')" class="sig2"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+					<span id="bigbang7" class="bigbang"><nav name="e7" id="e7" onclick="capturar1('e7')" class="sig2"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+					<span id="bigbang8" class="bigbang"><nav name="e8" id="e8" onclick="capturar1('e8')" class="sig2"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+					<span id="bigbang9" class="bigbang"><nav name="e9" id="e9" onclick="capturar1('e9')" class="sig2"><img src="../../../imagenes/botones/check.png"/></nav></span>
+
+					<span id="bigbang10" class="bigbang"><nav name="e10" id="e10" onclick="capturar1('e10')" class="sig2"><img src="../../../imagenes/botones/check.png"/></nav></span>
+		        </form>
+				<nav class="prev" style="cursor: pointer" onClick="volver(0)"><img src="../../../imagenes/botones/prev.png"/></nav>
+
+				<nav id="next" class="final"><a href="w2.html" ><img src="../../../imagenes/botones/continue.png"/></a></nav>
+				<section class="fuckencio" id="fuckencio1">
+					<div class="continuar" id="listeniando">	
+						<nav class="elnav" id="reproduce" onClick="activaaudio()"> <img src="../../../imagenes/botones/mini3.png"/></nav>
+						<nav class="elnav" id="reproduce1" onClick="activaaudio()"> <img src="../../../imagenes/botones/mini3.png"/></nav>
+						<nav class="elnav" id="reproduce2" onClick="activaaudio()"> <img src="../../../imagenes/botones/mini3.png"/></nav>
+						<nav class="elnav" id="reproduce3" onClick="activaaudio()"> <img src="../../../imagenes/botones/mini3.png"/></nav>
+						<nav class="elnav" id="reproduce4" onClick="activaaudio()"> <img src="../../../imagenes/botones/mini3.png"/></nav>
+						<nav class="elnav" id="reproduce5" onClick="activaaudio()"> <img src="../../../imagenes/botones/mini3.png"/></nav>
+						<nav class="elnav" id="reproduce6" onClick="activaaudio()"> <img src="../../../imagenes/botones/mini3.png"/></nav>
+						<nav class="elnav" id="reproduce7" onClick="activaaudio()"> <img src="../../../imagenes/botones/mini3.png"/></nav>
+						<nav class="elnav" id="reproduce8" onClick="activaaudio()"> <img src="../../../imagenes/botones/mini3.png"/></nav>
+						<nav class="elnav" id="reproduce9" onClick="activaaudio()"> <img src="../../../imagenes/botones/mini3.png"/></nav>
+
+						<img class="elnav" id="pause" onClick="activaaudio()"  src="../../../imagenes/botones/mini31.png"/>
+				    </div>
+				
+					<div class="continuar1" id="listeniando1">
+						<form class="form5">
+							<nav class="elnav1" id="reproduce00" onClick="activaaudio1()"> <img src="../../../imagenes/botones/mini3.png"/></nav>
+							<nav class="elnav1" id="reproduce11" onClick="activaaudio1()"> <img src="../../../imagenes/botones/mini3.png"/></nav>
+							<nav class="elnav1" id="reproduce22" onClick="activaaudio1()"> <img src="../../../imagenes/botones/mini3.png"/></nav>
+							<nav class="elnav1" id="reproduce33" onClick="activaaudio1()"> <img src="../../../imagenes/botones/mini3.png"/></nav>
+							<nav class="elnav1" id="reproduce44" onClick="activaaudio1()"> <img src="../../../imagenes/botones/mini3.png"/></nav>
+							<nav class="elnav1" id="reproduce55" onClick="activaaudio1()"> <img src="../../../imagenes/botones/mini3.png"/></nav>
+							<nav class="elnav1" id="reproduce66" onClick="activaaudio1()"> <img src="../../../imagenes/botones/mini3.png"/></nav>
+							<nav class="elnav1" id="reproduce77" onClick="activaaudio1()"> <img src="../../../imagenes/botones/mini3.png"/></nav>
+							<nav class="elnav1" id="reproduce88" onClick="activaaudio1()"> <img src="../../../imagenes/botones/mini3.png"/></nav>
+							<nav class="elnav1" id="reproduce99" onClick="activaaudio1()"> <img src="../../../imagenes/botones/mini3.png"/></nav>
+							<img class="elnav1" id="pause1" onClick="activaaudio1()"  src="../../../imagenes/botones/mini31.png"/>
+						</form>
+					</div>
+				</section>
+				    
+				<section class="fuckencio" id="fuckencio2">	
+				 	<nav id="perendengues1" class="perendengues" >
+				        <tr>
+				        <input type="checkbox" id="primero" class="css-checkbox" />
+				        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+				        </tr>
+				        <tr>
+				        <input type="checkbox" class="css-checkbox" id="segundo"  />
+				        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+				        </tr>
+				        <tr>
+				        <input type="checkbox" id="tercero" class="css-checkbox" />
+				        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+				        </tr>
+				    </nav>
+					<nav id="perendengues2" class="perendengues" >
+				        <tr>
+				        <input type="checkbox" id="primero1" class="css-checkbox" />
+				        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+				        </tr>
+				        <tr>
+				        <input type="checkbox" class="css-checkbox" id="segundo1" />
+				        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+				        </tr>
+				        <tr>
+				        <input type="checkbox" id="tercero1" class="css-checkbox" />
+				        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+				        </tr>
+				    </nav>
+
+				    <nav id="perendengues3" class="perendengues" >
+				        <tr>
+				        <input type="checkbox" id="primero2" class="css-checkbox" />
+				        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+				          
+				        </tr>
+				        <tr>
+				        <input type="checkbox" class="css-checkbox" id="segundo2"  />
+				        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+				        </tr>
+				        <tr>
+				        <input type="checkbox" id="tercero2" class="css-checkbox" />
+				        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+				        </tr>
+				    </nav>
+				    <nav id="perendengues4" class="perendengues" >
+				        <tr>
+				        <input type="checkbox" id="primero3" class="css-checkbox" />
+				        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+				        </tr>
+				        <tr>
+				        <input type="checkbox" class="css-checkbox" id="segundo3" />
+				        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+				        </tr>
+				        <tr>
+				        <input type="checkbox" id="tercero3" class="css-checkbox" />
+				        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+				        </tr>
+				    </nav>
+				    <nav id="perendengues5" class="perendengues" >
+				        <tr>
+				        <input type="checkbox" id="primero4" class="css-checkbox" />
+				        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+				        </tr>
+				        <tr>
+				        <input type="checkbox" class="css-checkbox" id="segundo4" />
+				        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+				        </tr>
+				        <tr>
+				        <input type="checkbox" id="tercero4" class="css-checkbox" />
+				        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+				        </tr>
+				    </nav>
+				    <nav id="perendengues6" class="perendengues"  >
+				        <tr>
+				        <input type="checkbox" id="primero5" class="css-checkbox" />
+				        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+				        </tr>
+				        <tr>
+				        <input type="checkbox" class="css-checkbox" id="segundo5"  />
+				        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+				        </tr>
+				        <tr>
+				        <input type="checkbox" id="tercero5" class="css-checkbox" />
+				        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+				        </tr>
+				    </nav>
+				    <nav id="perendengues7" class="perendengues" >
+				        <tr>
+				        <input type="checkbox" id="primero6" class="css-checkbox" />
+				        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+				        </tr>
+				        <tr>
+				        <input type="checkbox" class="css-checkbox" id="segundo6"  />
+				        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+				        </tr>
+				        <tr>
+				        <input type="checkbox" id="tercero6" class="css-checkbox" />
+				        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+				        </tr>
+				    </nav>
+				    <nav id="perendengues8" class="perendengues" >
+				        <tr>
+				        <input type="checkbox" id="primero7" class="css-checkbox" />
+				        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+				        </tr>
+				        <tr>
+				        <input type="checkbox" class="css-checkbox" id="segundo7"  />
+				        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+				        </tr>
+				        <tr>
+				        <input type="checkbox" id="tercero7" class="css-checkbox" />
+				        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+				        </tr>
+				    </nav>
+				    <nav id="perendengues9" class="perendengues" >
+				        <tr>
+				        <input type="checkbox" id="primero8" class="css-checkbox" />
+				        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+				        </tr>
+				        <tr>
+				        <input type="checkbox" class="css-checkbox" id="segundo8"  />
+				        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+				        </tr>
+				        <tr>
+				        <input type="checkbox" id="tercero8" class="css-checkbox" />
+				        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+				        </tr>
+				    </nav>
+				    <nav id="perendengues10" class="perendengues" >
+				        <tr>
+				        <input type="checkbox" id="primero9" class="css-checkbox" />
+				        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+				        </tr>
+				        <tr>
+				        <input type="checkbox" class="css-checkbox" id="segundo9"  />
+				        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+				        </tr>
+				        <tr>
+				        <input type="checkbox" id="tercero9" class="css-checkbox" />
+				        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+				        </tr>
+				    </nav>
+				</section>			
+			</nav>
+			<span id='references'>Memories: Writing - Activity 1
+				<nav id="clickOnMe" class="nav-esquina" role="navigation">
+					<i class="fa fa-th fa-2x"></i>
+				</nav>
+			</span>
+		</footer>	
+	</section>
+</body>
+</html>

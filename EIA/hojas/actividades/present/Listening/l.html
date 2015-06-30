@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>English In Action!</title>
+        <meta charset="utf-8"/>
+		<script type="application/javascript" src="../../../js/jquery.min.js"></script>
+		<script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
+		<link rel="stylesheet" href="../../tipo.css"/>
+		<script type="application/javascript" src="../../acciones.js"></script>
+		<script type="text/javascript" src="js/act1/actividad1-presente.js"></script>
+		<link rel="stylesheet" href="css/act1/stylesheet1.css"/>
+		<link rel="stylesheet" href="css/act1/styleperen.css"/>
+		<link rel="stylesheet" href="../../responsiveenglish.css"/>
+		<script type="text/javascript" src="js/audio.js"></script>
+        
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<script type="text/javascript">
+			$(document).ready(function(){
+			$("#menuForAll" ).slideToggle(0);
+				var devuelve=22;
+					$("#clickOnMe").click(function(){
+						$("#menuForAll" ).slideToggle(1000);
+					});
+            });
+		</script>	
+    </head>
+    <body onload="readme(22000),cerrar()">
+	<div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+	
+	
+	<section id="activities">
+			<nav id="menuForAll">
+			<div id="logoMenu">
+				<a href="../../../../index.html"><img src="../../../imagenes/ingles.png"></a>
+			</div>
+			
+			
+			<ul>
+				<a href="../../../menu/selection/selection.html"><li>Main Menu</li></a>
+				<a href="../../../cont/cont.html"><li>Context Information</li></a>
+				<a href="../../../mmenu/sitemap.html"><li>Site Map</li></a>
+				<a href=""><li>Library</li></a>
+				<a href=""><li>Vocabulary</li></a>
+				<a href="../../../credits/staff.html"><li>Staff</li></a>
+			</ul> 
+		</nav>
+				<header>		
+					<div id="logo"><img  src="../../../imagenes/ingles.png" width="80px" height="80px"/></div>
+					<div id="udec" class="slideDown"> <img src="../../../imagenes/logoudec.png"/></div>
+					<div id="title"><img src="../../../imagenes/avisos/AnaCarol.png"/></div>
+				</header>
+			 
+		
+	
+				<div id="informa">
+					<section id="manito">
+							<img id="hand2" class="hand" src="../../../imagenes/avisos/hand.png"/>
+							<img id="hand1" class="hand" src="../../../imagenes/avisos/hand.png"/>
+					</section>
+					
+					<section id="info">
+								<img class="alumbraobj" id="alumbraobj" style="cursor: pointer"onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob()" src="../../../imagenes/botones/objetivo.png"/>
+								<img class="alumbraobj" id="alumbraobj" style="cursor: pointer" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins()" src="../../../imagenes/botones/instruccion.png"/>
+					</section>
+					
+					<section id="txt">
+						
+						<div id="objetivos"><h5>To help develop listening skills for specific information.</h5></div>
+						<div id="instruccion"><h5>Listen to the pronunciation of some free time activities and match them with the correct picture. Click on the right picture after listening to each pronunciation, then press "NEXT" to continue. You have one opportunity to do the activity.
+											</h5>
+						</div>
+					</section>
+			
+				</div>	
+							
+		<div id="georgeRules"></div>
+		
+		
+		
+      
+	    <audio src="audios/actividad1-presente/a3.mp3" id="audio1"></audio>
+		<audio src="audios/actividad1-presente/a5.mp3" id="audio2"></audio>
+		<audio src="audios/actividad1-presente/a1.mp3" id="audio3"></audio>	    
+		<audio src="audios/actividad1-presente/a4.mp3" id="audio5"></audio>
+		<audio src="audios/actividad1-presente/a2.mp3" id="audio4"></audio>
+        <audio src="audios/actividad1-presente/a6.mp3" id="audio6"></audio>
+        <audio src="audios/actividad1-presente/a7.mp3" id="audio7"></audio>
+        <audio src="../../audios/feedback/try%20again.mp3" id="sorry"></audio>
+        <audio controls preload="none" id="thecorrect">
+						<source src="../../audios/feedback/the%20correct.mp3" type="audio/mpeg" />
+					</audio>
+        
+
+         <article id="r1">
+			<section id="blanco">
+			
+			<div id="labelito">
+			<h2><label id="resultado1"></label></h2>
+		
+			</div>
+						<div   id="paraMostrar">
+			
+					<img src="../../images/list/7.png" width="300" height="169" id="Aimagen7"/>
+					<img src="../../images/list/4.png" width="300" height="169" id="Aimagen5"/>
+					<img src="../../images/list/3.png" width="300" height="169" id="Aimagen1"/>
+					<img src="../../images/list/6.png" width="300" height="169" id="Aimagen6"/>
+					<img src="../../images/list/5.png" width="300" height="169" id="Aimagen2"/>
+					<img src="../../images/list/1.png" width="300" height="169" id="Aimagen3"/>
+					<img src="../../images/list/2.png" width="300" height="169" id="Aimagen4"/>
+					
+			</div>
+			
+				<div class="nav">
+					<a id="previous" href="#"><img src="../../../imagenes/botones/right.png"/></a>
+				</div>
+			
+			<section id="collage">
+			
+				<div class="slideshow">
+				
+					<img src="../../images/list/7.png" width="300" height="169" id="imagen7"/>
+					<img src="../../images/list/4.png" width="300" height="169" id="imagen5"/>
+					<img src="../../images/list/3.png" width="300" height="169" id="imagen1"/>
+					<img src="../../images/list/6.png"width="300" height="169" id="imagen6"/>
+					<img src="../../images/list/5.png"width="300" height="169" id="imagen2"/>
+					<img src="../../images/list/1.png" width="300" height="169" id="imagen3"/>
+					<img src="../../images/list/2.png" width="300" height="169" id="imagen4"/>
+					
+				</div>
+				
+				
+				
+			</section>
+			
+			
+			
+			
+				<div class="nav">
+					<a id="next" href="#"><img src="../../../imagenes/botones/right.png"/></a>
+				</div>
+			</section>
+
+		</article>
+		
+		
+		<div id="review">
+				<label for="cuatro">		FINAL SCORE	</label>	
+				<span>	<img  id="right" src="../../../imagenes/right.png" />	</span>
+				<span>	<img  id="wrong" src="../../../imagenes/wrong.png" />	</span>
+										<h5><p id="result"> </p></h5>
+		</div>
+
+		<audio controls preload="none" id="instruyeme">
+						<source src="audios/actividad1-presente/instruccion1.mp3" type="audio/mpeg" />
+		</audio>
+
+<audio controls preload="none" id="bien">
+						<source src="../../audios/feedback/well done.mp3" type="audio/mpeg" />
+						
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+
+	<audio controls preload="none" id="retrowell">
+						<source src="../../audios/feedback/congratulation.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					<audio controls preload="none" id="retrobad">
+						<source src="../../audios/feedback/can%20do%20b.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+
+					<audio controls preload="none" id="mal0">
+					<source src="../../audios/feedback/can%20do%20b.mp3" type="audio/mpeg" />
+						
+						<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+		<audio src="audios/greatjob.mp3" id="good"></audio>
+        <audio src="audios/tryagain.mp3" id="try"></audio>
+
+
+
+
+			<footer>
+			
+				<nav id="navegacion">
+			<nav id="continuar" class="sig" style="cursor: pointer" ><img src="../../../imagenes/botones/nex.png"/></nav>
+		
+			<img class="bigbang1" src="../../../imagenes/botones/mini3.png" id="reproducir2"/>
+			<nav class="prev"><a href="javascript: history.go(-1)"><img src="../../../imagenes/botones/prev.png"/></a></nav>
+			
+<section id="audiesillos">
+			<div id="rep" class="bigbang1">
+			<img src="../../../imagenes/botones/mini3.png" id="reproducir"/>
+			</div>
+
+						<nav id="perendengues1" class="perendengues" >
+        
+        <input type="checkbox" id="primero" class="css-checkbox" />
+        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+          
+      
+        <input type="checkbox" class="css-checkbox" id="segundo"  />
+        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+          
+      
+        <input type="checkbox" id="tercero" class="css-checkbox" />
+        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+        
+    </nav>
+
+
+	<nav id="perendengues2" class="perendengues" >
+        <tr>
+        <input type="checkbox" id="primero1" class="css-checkbox" />
+        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+          
+        </tr>
+        <tr>
+        <input type="checkbox" class="css-checkbox" id="segundo1" />
+        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+          
+        </tr>
+        <tr>
+        <input type="checkbox" id="tercero1" class="css-checkbox" />
+        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+        </tr>
+    </nav>
+
+    <nav id="perendengues3" class="perendengues" >
+        <tr>
+        <input type="checkbox" id="primero2" class="css-checkbox" />
+        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+          
+        </tr>
+        <tr>
+        <input type="checkbox" class="css-checkbox" id="segundo2"  />
+        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+          
+        </tr>
+        <tr>
+        <input type="checkbox" id="tercero2" class="css-checkbox" />
+        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+        </tr>
+    </nav>
+
+    <nav id="perendengues4" class="perendengues" >
+        <tr>
+        <input type="checkbox" id="primero3" class="css-checkbox" />
+        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+          
+        </tr>
+        <tr>
+        <input type="checkbox" class="css-checkbox" id="segundo3" />
+        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+          
+        </tr>
+        <tr>
+        <input type="checkbox" id="tercero3" class="css-checkbox" />
+        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+        </tr>
+    </nav>
+
+    <nav id="perendengues5" class="perendengues" >
+        <tr>
+        <input type="checkbox" id="primero4" class="css-checkbox" />
+        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+          
+        </tr>
+        <tr>
+        <input type="checkbox" class="css-checkbox" id="segundo4" />
+        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+          
+        </tr>
+        <tr>
+        <input type="checkbox" id="tercero4" class="css-checkbox" />
+        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+        </tr>
+    </nav>
+
+    <nav id="perendengues6" class="perendengues"  >
+        <tr>
+        <input type="checkbox" id="primero5" class="css-checkbox" />
+        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+          
+        </tr>
+        <tr>
+        <input type="checkbox" class="css-checkbox" id="segundo5"  />
+        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+          
+        </tr>
+        <tr>
+        <input type="checkbox" id="tercero5" class="css-checkbox" />
+        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+        </tr>
+    </nav>
+
+
+    <nav id="perendengues7" class="perendengues" >
+        <tr>
+        <input type="checkbox" id="primero6" class="css-checkbox" />
+        <label id="p1" for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+          
+        </tr>
+        <tr>
+        <input type="checkbox" class="css-checkbox" id="segundo6"  />
+        <label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+          
+        </tr>
+        <tr>
+        <input type="checkbox" id="tercero6" class="css-checkbox" />
+        <label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>  
+        </tr>
+    </nav>
+
+
+</section>
+
+
+
+
+			<nav class="final"><a href="l2.html" ><img src="../../../imagenes/botones/continue.png"/></a></nav>
+		</nav>
+			
+			<span id="references">Likes and Dislikes: Listening - Activity 1
+			<nav id="clickOnMe" class="nav-esquina" role="navigation">
+			<!-- Right Control -->
+			<i class="fa fa-th fa-2x"></i>
+		</nav>
+				</span>
+			
+			</footer>
+		</section>
+		
+    </body>
+</html>	
+		</section>
+		
+    </body>
+</html>

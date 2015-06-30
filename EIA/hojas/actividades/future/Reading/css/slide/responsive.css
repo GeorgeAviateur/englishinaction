@@ -1,0 +1,69 @@
+.video embed,
+.video object,
+.video iframe {
+   width: 100%;
+   height: auto;
+}
+.container img{
+	max-width:100%;
+	height: 181px;
+   	width: 303px; /* ie8 */
+}
+
+#res-slider{
+	display: none;
+}
+
+@media only screen and (max-width: 549px) {
+	.container {
+		width: 100%;
+	}
+	header{
+		height: auto;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	header nav{
+		float: none;
+		clear: both;
+		padding-top: 90px;
+	}
+	header nav ul li a.current, header nav ul li a:hover {
+		padding-bottom: 0px;
+	}
+	#gallery{
+		display: none;
+	}
+	#form3{
+		display: none;
+	}
+	#form2{
+		display: none;
+	}
+	
+	#res-slider{
+		display: block;
+		margin-top: 10px;
+	}
+	.col-custom{
+		float: right;
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 330px){
+	.col-custom{
+		float: right;
+		width: 75%;
+	}
+}
+@media only screen and (max-width: 210px) {
+	.col-custom{
+		float: right;
+		width: 100%;
+		display: inline-block;
+	}
+	footer .fright{
+		float: left;
+		padding: 0 0 0 40px;
+	}
+}

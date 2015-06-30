@@ -1,0 +1,235 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+   <title>English in Action</title> 
+
+	<script type="text/javascript" src="../evaluacion/js/jquery-1.4.2.min.js"></script>
+	<script type="application/javascript" src="functions.js"></script>
+	<link rel="stylesheet" href="../../tipo.css" type="text/css"/>
+	<link rel="stylesheet" href="../../responsiveenglish.css" type="text/css"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/progres.css" type="text/css"/>
+	<script src="../../acciones.js"></script>  
+	
+	<script>	
+		var cadVariables="";
+	function closebuscador(){
+            $("#buscador").hide("slow");
+            $(".modal-window").css('left','45%');
+            $(".modal-window").css('top','45%');
+            $(".modal-window").css('right','45%');
+            $(".modal-window").css('bottom','45%');
+          
+          }
+      $(document).ready(function(){
+         
+              $("#buscador").hide();   
+      $("#bucadorito").click(function(){
+    $("#buscador").show("slow");
+    }); 
+    document.oncontextmenu = function() {
+      return false
+    }
+    
+            $("#menuForAll" ).slideToggle(0);
+                $("#clickOnMe").click(function(){
+                    $("#menuForAll" ).slideToggle(1000);
+				    });
+
+		var lis,read,writ,speak;
+		
+		
+		cadVariables = location.search.substring(1,location.search.length);
+		list=sessionStorage.getItem('Listening');
+		read=sessionStorage.getItem('Writing');
+		writ=sessionStorage.getItem('Reading');
+		speak=sessionStorage.getItem('Speaking');
+            
+                
+                 
+                
+                
+                
+                
+		
+		var i=0,j=0,k=0,l=0;
+		var da,bu,tten,folk;
+		
+                da=sessionStorage.getItem('ListeningFlag');
+                bu=sessionStorage.getItem('ReadingFlag');
+                tten=sessionStorage.getItem('WritingFlag');
+                folk=sessionStorage.getItem('SpeakingFlag');
+          
+		
+		document.getElementById("valorL").innerHTML=""+list+"/"+da
+		document.getElementById("valorR").innerHTML=""+read+"/"+bu;
+		document.getElementById("valorW").innerHTML=""+writ+"/"+tten;
+		document.getElementById("valorS").innerHTML=""+speak+"/"+folk;
+		var cont=0;
+		document.getElementById("Comentarios").innerHTML="";
+		if(list<da){
+		document.getElementById("Comentarios").innerHTML+="<div id='comentario1' class='coment'><span>Remember to study about Listening</span></div>";
+        cont++;
+        }
+		if(read<bu){
+		document.getElementById("Comentarios").innerHTML+="<div id='comentario2' class='coment'><span>Remember to study about Reading</span></div>";
+        cont++;}
+		if(writ<tten){
+		document.getElementById("Comentarios").innerHTML+="<div id='comentario3' class='coment'><span>Remember to study about Writing</span></div>";
+        cont++;}
+		if(speak<folk){
+		document.getElementById("Comentarios").innerHTML+="<div id='comentario4' class='coment'><span>Remember to study about Speaking</span></div>";
+        cont++;}
+		
+		var temp2,temp3,temp4;
+		document.getElementById("Listening").setAttribute("max",da);
+		document.getElementById("Reading").setAttribute("max",bu);
+		document.getElementById("Writing").setAttribute("max",tten);
+		document.getElementById("Speaking").setAttribute("max",folk);
+		
+		function cargando(){
+			if(i<list){
+				i+=0.1;
+				temp= setTimeout(function(){
+					document.getElementById("Listening").setAttribute("value",i);
+					
+					
+					
+					cargando();},50);
+				
+			}
+		}
+		
+		
+		function cargando2(){
+			if(j<read){
+				j+=0.1;
+				temp2= setTimeout(function(){
+					document.getElementById("Reading").setAttribute("value",j);
+					cargando2();
+				},50);
+			}
+		}
+			
+		function cargando3(){
+			if(k<writ){
+				k+=0.1;
+				temp3= setTimeout(function(){
+					document.getElementById("Writing").setAttribute("value",k);
+					cargando3();
+				},50);
+			}
+		}
+		function cargando4(){
+			if(l<speak){
+				l+=0.1;
+				temp4= setTimeout(function(){
+					document.getElementById("Speaking").setAttribute("value",l);
+					cargando4();
+					},50);
+			}
+		}	
+			
+			
+			
+		
+		cargando();
+		cargando2();
+		cargando3();
+		cargando4();
+		
+		
+		
+		
+	});
+	
+	</script>	
+	
+		
+	
+	</head>
+
+	<body onload="cerrar()">
+        <div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+	     <div id="buscador">
+  <iframe scrolling='no' id="buscadorsino" src="../../../cosino/" name="buscadorsino" height="100%" width="100%" frameborder="0"  ></iframe>  
+  </div>
+    
+<section id="activities">
+	<nav id="menuForAll">
+			<div id="logoMenu">
+				<a href="../../index.html"><img src="../../../imagenes/ingles.png"></a>
+			</div>
+			
+			
+			<ul>
+				<a href="../../../menu/selection/selection.html"><li>Main Menu</li></a>
+				<a href="../../../cont/cont.html"><li>Context Information</li></a>
+				<a href="../../../mmenu/sitemap.html"><li>Site Map</li></a>
+				<a href="../../../biblioteca/biblioteca.html"><li>Library</li></a>
+				<a id="bucadorito" href="#Vocabulary"><li>Vocabulary</li></a>
+                <a href="../../../references/refe.html"><li>References</li></a>
+				<a href="../../../credits/staff.html"><li>Staff</li></a>
+			</ul> 
+		</nav>
+      <header>
+  	    <div id="logo"><img  src="../../../imagenes/ingles.png"/></div>
+  	    <div id="title"><img src="../../../imagenes/avisos/final test.png"/></div>
+  	    <div id="udec"> <img src="../../../imagenes/logoudec.png"/></div>
+      </header>
+  		
+     
+		
+		<article id="r1">
+			<section id="blanco">
+				<div id="container">
+					<h3>YOUR RESULTS</h3>
+					<ul>
+						<li><h3>Listening: <progress id="Listening" ></progress>&nbsp;&nbsp;&nbsp;(<span id="valorL"></span>)</h3></li>
+						<li><h3>Reading:&nbsp; <progress id="Reading" ></progress>&nbsp;&nbsp;&nbsp;(<span id="valorR"></span>)</h3></li>
+						<li><h3>Writing:&nbsp; <progress id="Writing" ></progress>&nbsp;&nbsp;&nbsp;(<span id="valorW"></span>)</h3></li>
+						<li><h3>Speaking: <progress id="Speaking"></progress>&nbsp;&nbsp;&nbsp;(<span id="valorS"></span>)</h3></li>
+					</ul>
+					<div id="ralimentame"><h5><p id="Comentarios"></p></h5></div>
+				</div>
+			</section>
+		</article>
+		
+		
+			
+		  <footer>
+              <nav id="navegacion">	 
+        <nav id="continuar" class="sig"><a href="Results.html"><img src="../../../imagenes/botones/nex.png" class="verificarRespuesta"/></a>
+                  </nav>
+                  </nav>
+                  
+  		<span id="references">Likes and Dislikes
+			     <nav id="clickOnMe" class="nav-esquina" role="navigation">
+			         <!-- Right Control -->
+			         <i class="fa fa-th fa-2x"></i>
+		          </nav>
+            </span>
+        
+      </footer>
+		
+</section>
+                    <audio controls preload="none" id="Perfect">
+						<source src="../../audios/feedback/Youdidperfect_Perfect.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+         <audio controls preload="none" id="Good">
+						<source src="../../audios/feedback/Youdidgoodcongratulations_Good.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+         <audio controls preload="none" id="Regular">
+						<source src="../../audios/feedback/Youshoulddotheactivityoncemore_Regular.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+         <audio controls preload="none" id="Bad">
+						<source src="../../audios/feedback/Youshouldrepeattheactivitytoimproveyourscore_Bad.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+        		
+	</body>
+</html>

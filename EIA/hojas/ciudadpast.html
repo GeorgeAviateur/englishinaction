@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!--[if lte IE 8]><meta http-equiv="X-UA-Compatible" content="chrome=1"/><![endif]-->
+	<title>English In Action!</title>
+	<!-- Llamamos nuestro archivo JavaScript -->
+	<meta name="description" content="city of English in Action" />
+	<meta name="keywords" content="English in Action, learn english, aprende ingles" />
+	<meta name="author" content="Jorge García, Carolina Ramos, Luis Alomía" />
+	<link rel="shortcut icon" href="../favicon.ico" />
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<script type="application/javascript" src="canvaspast.js"></script>
+	<!--[if lt IE 9]>
+			<script type="application/javascript" src="canvas.js"></script>
+		<![endif]-->
+	<link rel="stylesheet" href="css/canvas.css" />
+	<script src="../js/modernizr.custom.js"></script>
+    <script src="js/jquery.min.js"></script>
+	<link rel="stylesheet" href="actividades/tipo.css" />
+	<link rel="stylesheet" href="actividades/responsiveenglish.css" />
+	<link rel="stylesheet" href="css/estilociudad.css" />
+	<script type="text/javascript">
+    $(document).ready(function () {
+        $("#buscador").hide(); 
+        
+        $("#bucadorito").click(function(){
+		$("#buscador").show("slow");
+        });
+        document.oncontextmenu = function () {
+            return false
+        }
+        $("#menuForAll").slideToggle(0);
+        $("#clickOnMe").click(function () {
+            $("#menuForAll").slideToggle(1000);
+        });
+    });
+
+	</script>
+	
+    <script type="text/javascript">
+			// IE Evitar seleccion de texto
+			document.onselectstart=function(){
+			if (event.srcElement.type != "text" && event.srcElement.type != "textarea" && event.srcElement.type != "password")
+			return false
+			else return true;
+			};
+			// FIREFOX Evitar seleccion de texto
+			if (window.sidebar){
+			document.onmousedown=function(e){
+			var obj=e.target;
+			if (obj.tagName.toUpperCase() == "INPUT" || obj.tagName.toUpperCase() == "TEXTAREA" || obj.tagName.toUpperCase() == "PASSWORD")
+			return true;
+			/*else if (obj.tagName=="BUTTON"){
+			return true;
+			}*/
+			else
+				return false;
+				}
+			}
+		// End
+		</script>
+</head>
+
+<body onkeydown="whichButton(event)" onload="recibe(),cerrar()">
+	<div id="buscador">
+		<iframe id="buscadorsino" src="cosino/" name="buscadorsino"></iframe>
+	</div>
+	<nav id="menuForAll">
+		<div id="logoMenu">
+			<a href="../index.html"><img src="imagenes/ingles.png" alt="logo"></a>
+		</div>
+		<ul>
+			<li><a href="menu/selection/selection.html">Main Menu</a></li>
+			<li><a href="cont/cont.html">Context Information</a></li>
+			<li><a href="mmenu/sitemap.html">Site Map</a></li>
+			<li><a href="biblioteca/biblioteca.html">Library</a></li>
+			<li><a id="bucadorito" href="#Vocabulary">Vocabulary</a></li>
+			<li><a href="references/refe.html">References</a></li>
+			<li><a href="credits/staff.html">Staff</a></li>
+		</ul>
+	</nav>
+	<div id="act" class="content">
+		<a class="activator" id="activator"></a>
+	</div>
+	<div class="overlay" id="overlay" style="display:none;"></div>
+	<div class="box" id="box">
+		<a class="boxclose" id="boxclose"></a>
+		<p id="eatmyshorts">Press the button to move the character</p> <img id="teclita" src="imagenes/avisos/9.png" alt="Press"> </div>
+	<script type="text/javascript" src="jquery-1.3.2.js"></script>
+	<script type="text/javascript">
+$(function () {
+	$('#activator').click(function () {
+		myWidth = document.body.clientWidth;
+		if(myWidth>450){
+		$('#overlay').fadeIn('fast', function () {
+			$('#box').animate({
+				'top': '10%'
+			}, 500);
+		});
+		}
+	});
+	$('#boxclose').click(function () {
+		$('#box').animate({
+			'top': '-120%'
+		}, 500, function () {
+			$('#overlay').fadeOut('fast');
+		});
+        
+	});
+	window.onload = function (e) {
+		$("#activator").click();
+		$("#activator").css('pointer-events', 'none');
+	}
+});
+	</script>
+	<div id="canvasContainer">
+		<header>
+			<div id="logo2"><img src="imagenes/ingles.png" alt="English in action" /></div><div id="udec2"> 
+			<img src="imagenes/logoudec.png" alt="UdeC" /></div>
+		</header>
+		
+		<div id="advertisment"> <img class="muestrame" src="imagenes/airplane.png" alt="Watch videos" /> </div>
+		<div id="buttons" class="floating">
+			<ul>
+				<li>
+					<a href="#" onclick="envia(5)"><img id="inst" class="bigbang" src="imagenes/botones/learn.png" alt="Introduction" /></a>
+				</li>
+				<li>
+					<a href="#" onclick="envia(1)"><img id="noopaco" src="imagenes/botones/cinema.png" alt="Cinema" /></a>
+				</li>
+				<li>
+					<a href="#" onclick="envia(2)"><img id="noopaco2" src="imagenes/botones/bar.png" alt="Bar" /></a>
+				</li>
+				<li>
+					<a href="#" onclick="envia(3)"><img id="noopaco3" src="imagenes/botones/gym.png" alt="Gym" /></a>
+				</li>
+				<li>
+					<a href="#" onclick="envia(4)"><img id="noopaco4" src="imagenes/botones/fastfood.png" alt="Fast food" /></a>
+				</li>
+			</ul>
+		</div>
+		<div id="ciclista"> <img id="uno" src="imagenes/cicla0.png" alt="Ciclaiz" /> <img id="dos" src="imagenes/cicla1.png" alt="Ciclader" /> <img id="tres" src="imagenes/cicla2.png" alt="Ciclainiz" /> <img id="cuatro" src="imagenes/cicla3.png" alt="Ciclainder" /> </div>
+		<div id="Creditoi">
+			<a href="credits/staff.html"><img src="imagenes/informa.png" alt="Staff" /></a>
+		</div>
+		<nav id="clickOnMe" class="nav-esquina" role="navigation"> <i class="fa fa-th fa-2x"></i> </nav>
+        
+        <nav id="izquierdo" onmouseup="right()" onmousedown="right()"><img src="imagenes/botones/moveriz.png"/></nav>
+        <nav id="derecho" onmouseup="left()" onmousedown="left()"><img src="imagenes/botones/moveriz.png"/></nav>
+	</div>
+</body>
+
+</html>

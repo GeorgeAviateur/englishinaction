@@ -1,0 +1,113 @@
+#hojaRespuestas{
+	display:table-cell;
+	height:auto;	
+	width:40%;
+	vertical-align:middle;
+	}
+
+#reproducir{
+	margin-left: 1%;
+}
+#next{
+	display: none;
+}
+
+
+#references{
+	height: 30%;
+}
+
+#hojaRespuestas form{
+	width:100%;
+	height:auto;
+	
+	
+	}
+
+#form1{text-align:center;}
+
+#form1 input:nth-child(n+2){display: none;}
+
+#see1{display:inline-block;}
+
+#hojaRespuestas input{
+
+	position:relative;
+	width:70%;
+	height:30px;
+	display:block;
+	}
+	
+#hojaRespuestas nav{
+	position:relative;
+	width:70%;
+	display:block;
+	margin:2%;
+	
+}
+#Agrupado{display:table-cell;vertical-align:middle;}
+#Container{display:inline-block;width:70%;height:auto;vertical-align:middle;}
+
+#ingreso1{z-index:1;}
+#blanco{padding:3px;height:85%;}
+
+#botones,#botonAnswers{display:none;}
+
+input:focus{
+  	border:1px solid black;
+ 	outline:0;
+  }
+
+#reproduce00, #reproduce11,#reproduce22,#reproduce33,#reproduce44,#reproduce55,#reproduce66,#reproduce77,#reproduce88,#escuchar {
+display:none;
+}
+
+#listeniando{
+	width:30%;
+	margin:auto;
+}
+#listeniando1{
+	width:30%;
+	margin:auto;
+}
+
+#liste{
+	margin:auto;
+	width: 60%;
+}
+#e1,#e2,#e3,#e4,#e5,#e6,#e7,#e8,#e9{
+display: none;
+}
+#perendengues1, #perendengues2, #perendengues3, #perendengues4,#perendengues5,#perendengues6,#perendengues7,#perendengues8,#perendengues9{
+	
+	display: none;
+	top:-6%;
+
+	}
+.perendengues{
+	visibility:hidden;
+
+}
+
+#pause1{
+display: none;
+opacity: 0.9;
+}
+#pause{
+display: none;
+opacity: 0.9;
+}
+
+
+
+@media only screen and (max-width: 649px)
+{
+#Agrupado,#hojaRespuestas{display:block;}
+
+
+}
+
+
+#ti1,#ti2,#ti3,#ti4,#ti5,#ti6,#ti7,#ti8,#ti9{
+	display: none;
+}

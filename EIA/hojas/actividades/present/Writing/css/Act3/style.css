@@ -1,0 +1,44 @@
+.oc,.amore{
+top: 15px;
+}
+.caifanes{
+display: none;
+top: -10px;	
+}
+li,.campos{
+pointer-events:none;
+}
+#form2{
+margin-top: 1%;
+margin-bottom: 2%;	
+display:inline-block;
+height: 20%;
+}
+.peso{	
+top: -40px;
+width: auto;
+display: inline-block;
+}
+#pesos{
+top: 0px;
+}
+#listeniando1{
+width:50px;
+}
+#escuchar,#escuchar2{
+width: 100px;	
+}
+.escritura,h1,.campos,input[value="resultado"],.amore,.so{
+display: none;
+}
+label, h2{
+float:center;
+text-align: center;
+margin:0 auto;
+}
+.oc{
+display: inline;
+}
+input[value=""] {	
+width: 300px;
+}

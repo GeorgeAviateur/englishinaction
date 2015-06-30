@@ -1,0 +1,70 @@
+.centered-btns_nav{
+visibility:visible;
+}
+#cuadroPreguntas{
+display: inline-block;
+height:50%;
+width: 60%;
+margin-top: 20px;
+}
+#rita{
+display: inline-block;
+}
+#next,#continuar1,#prev2,#prev1,#blanco2,.viki{
+display: none;
+}
+#featured1{
+width: 100%;
+display: inline-block;
+}
+.peso{
+width: 90px;
+height: 90px;
+margin: auto;
+display: none;
+}
+#listeniando{
+width:50%;
+display:none;
+}
+input[value=""] {	
+padding: 1px 20px 1px 20px;
+width: 90%;
+-webkit-border-radius: 0px 3px 3px 0px;	
+-moz-border-radius: 0px 3px 3px 0px;		
+-khtml-border-radius: 0px 3px 3px 0px;		
+border-radius: 0px 3px 3px 0px;	
+}
+#textico{
+padding:40px 60px 40px 30px;
+text-align:justify;
+}
+/*.rslides{
+width: 75%;
+}*/
+#slider{
+height:auto;
+width: 80%;
+margin-top: 8%;
+margin-bottom: 8%;
+}
+#form2{
+top: 0px;
+width: 90%;
+display: inline-block;
+}
+img{
+float:center;
+text-align: center;
+margin:0 auto;
+}
+#pause1,#reproduce66{
+pointer-events:auto;
+opacity: 1;
+}
+#visi{
+display: inline;
+}
+p{
+height:auto;
+}

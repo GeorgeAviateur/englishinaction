@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <!--[if lte IE 8]><meta http-equiv="X-UA-Compatible" content="chrome=1"/><![endif]-->
+        <title>English In Action!</title>
+        <!-- Llamamos nuestro archivo JavaScript -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="application/javascript" src="../../../js/jquery.min.js"></script>
+		
+		
+		<script type="application/javascript" src="../../acciones.js"></script>
+		<script type="application/javascript" src="js/act4/actividad4.js"></script>
+		<script type="application/javascript" src="js/act4/movertabla.js"></script>
+		<script type="text/javascript" src="js/act4/audio.js"></script>
+		
+		<link rel="stylesheet" href="../../tipo.css"/>
+		<link rel="stylesheet" href="css/act4/acti2.css"/>
+		<link rel="stylesheet" href="css/act4/formatotabla.css"/>
+		<link rel="stylesheet" href="../../present/Listening/css/styleperen.css"/>
+	   <link rel="stylesheet" href="../../responsiveenglish.css"/>
+        <link rel="stylesheet" href="../../styleMenu2.css"/>
+	
+	
+	
+    
+    
+    <link rel="stylesheet" type="text/css" href="../../../css/default.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/component.css">
+    
+		
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+		<script type="text/javascript">
+
+              $(document).ready(function(){
+         
+                $("#buscador").hide();   
+                $("#bucadorito").click(function(){
+                $("#buscador").show("slow");
+                });
+          
+                document.oncontextmenu = function() {
+                    return false
+                }
+			$("#menuForAll" ).slideToggle(0);
+				var devuelve=22;
+					$("#clickOnMe").click(function(){
+						$("#menuForAll" ).slideToggle(1000);
+					});
+					
+			});
+                
+			$("#menuForAll" ).slideToggle(0);
+				var devuelve=22;
+					$("#clickOnMe").click(function(){
+						$("#menuForAll" ).slideToggle(1000);
+					});
+					
+			
+    
+            
+ function closebuscador(){
+                  $("#buscador").hide("slow");
+                  $(".modal-window").css('left','45%');
+                  $(".modal-window").css('top','45%');
+                  $(".modal-window").css('right','45%');
+                  $(".modal-window").css('bottom','45%');
+              }
+		</script>
+
+		
+	
+	<script type="text/javascript">
+			// IE Evitar seleccion de texto
+			document.onselectstart=function(){
+			if (event.srcElement.type != "text" && event.srcElement.type != "textarea" && event.srcElement.type != "password")
+				return false
+				else return true;
+			};
+			// FIREFOX Evitar seleccion de texto
+				if (window.sidebar){
+					document.onmousedown=function(e){
+					var obj=e.target;
+						if (obj.tagName.toUpperCase() == "INPUT" || obj.tagName.toUpperCase() == "TEXTAREA" || obj.tagName.toUpperCase() == "PASSWORD")
+							return true;	
+						else
+							return false;	
+					}
+				}
+	</script>
+	
+	
+	
+	
+
+</head>
+    <body onload="readme(26000),cerrar()" >
+        <div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+			<div id="buscador">
+              <iframe scrolling='no' id="buscadorsino" src="../../../cosino/" name="buscadorsino" height="100%" width="100%" frameborder="0">
+              </iframe>
+        </div>
+									
+					<audio controls preload="none" id="instruyeme">
+						<source src="audios/a4/instruccion4.mp3" type="audio/mpeg" />
+					
+					</audio>
+				
+
+		<section id="activities">
+				<nav id="menuForAll">
+			<div id="logoMenu">
+				<a href="../../../../index.html"><img src="../../../imagenes/ingles.png"></a>
+			</div>
+			
+			
+			<ul>
+				<a href="../../../menu/selection/selection.html"><li>Main Menu</li></a>
+				<a href="../../../cont/cont.html"><li>Context Information</li></a>
+				<a href="../../../mmenu/sitemap.html"><li>Site Map</li></a>
+				<a href="../../../biblioteca/biblioteca.html"><li>Library</li></a>
+				<li><a  id="bucadorito" href="#Vocabulary">Vocabulary</a></li>
+				<a href="../../../references/refe.html"><li>References</li></a>
+                <a href="../../../credits/staff.html"><li>Staff</li></a>
+			</ul> 
+		</nav>
+				
+		<div id="act" class="content"> 
+			<a class="activator" id="activator"></a>
+        </div>
+
+        <div class="overlay" id="overlay" style="display:none;"></div>
+        <div class="box" id="box">
+        <a class="boxclose" id="boxclose"></a> 
+		<p id="eatmyshorts"></p>
+		
+        </div>
+
+        <script type="text/javascript" src="../../../jquery-1.3.2.js"></script>
+        <script type="text/javascript">
+
+       
+            $(function() {
+                $('#activator').click(function(){
+                    $('#overlay').fadeIn('fast',function(){
+                        $('#box').animate({'left':'10px'},500);
+                    });
+                });
+                $('#boxclose').click(function(){
+                	document.getElementById("rose").pause();
+                	rose.currentTime=0;
+                    document.getElementById("tim").pause();
+                    tim.currentTime = 0;
+                    $('#box').animate({'left':'-80%'},500,function(){
+                    	
+                        $('#overlay').fadeOut('fast');
+                    });
+                });
+
+
+
+            });
+			
+        </script>
+		
+				
+			<header>
+						
+			<div id="logo"><img  src="../../../imagenes/ingles.png" width="80px" height="80px"/></div>
+			<div id="title" class="slideDown"><img src="../../../imagenes/avisos/healthy.png"/></div>
+			<div id="udec"> <img src="../../../imagenes/logoudec.png"/></div>
+		
+			
+			<div id="title2" class="slideDown"><img  src="../../../imagenes/avisos/healthy.png"/></div>
+			<div id="title3" class="slideDown"><img src="../../../imagenes/avisos/healthy.png"/></div>
+			<div id="title4" class="slideDown"> <img src="../../../imagenes/avisos/healthy.png"/></div>
+			</header>
+			 
+			<div id="informa">
+					<section id="manito">
+							<img id="hand2" class="hand" src="../../../imagenes/avisos/hand.png"/>
+							<img id="hand1" class="hand" src="../../../imagenes/avisos/hand.png"/>
+					</section>
+					
+					<section id="info">
+								<img  style="cursor: pointer" id="alumbraobj" onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob()" src="../../../imagenes/botones/objetivo.png"/>
+								<img  style="cursor: pointer" id="alumbrains" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins()" src="../../../imagenes/botones/instruccion.png"/>
+					</section>
+					
+					<section id="txt">
+						<div id="objetivos"><h5>To help develop listening skills for specific
+						information. </h5></div>
+						<div id="instruccion"><h5>Listen to three people talking about their New Year’s resolutions. Complete the chart with the information needed. Click on each box to type the information and press “SHOW ANSWERS” to verify the activity. You should take notes. You have two opportunities to answer.
+
+						
+						 </h5></div>
+						
+					</section>
+			</div>
+			<div id="georgeRules"></div>
+			<div id="advertisment">
+				<img id="plane" src = "../../../imagenes/avisos/listenCarefully.png"/>
+		</div>
+<!--
+	
+	-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~AQUI PONDREMOS EL CONTENIDO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+				<article id="r1">
+				
+					
+
+					<section id="void">
+								<div id="audio1">
+					<img class="tossing" src="../../../imagenes/botones/3.png" id="reproducir"/>
+					<img src="../../../imagenes/botones/31.png" id="reproducir2"/>
+					
+					<audio controls preload="none" id="radio">
+						<source src="audios/a4/dialogo4.mp3" type="audio/mpeg" />
+						<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+                                     <span id="APA">(Evans & Dooley, 2009, p. 79)</span>
+				</div>
+			<div class="cb-styles clearfix">
+	
+			
+			<table class="perendengues">
+				<tr>
+				<input type="checkbox" id="primero" class="css-checkbox" checked="checked"/>
+				<label for="primero" name="checkbox12_lbl" class="css-label dark-plus-orange"></label>
+					
+				</tr>
+				<tr>
+				<input type="checkbox" class="css-checkbox" id="segundo" checked="checked" />
+				<label for="segundo" name="checkbox16_lbl" class="css-label dark-plus-orange"></label>
+					
+				</tr>
+				<tr>
+				<input type="checkbox" id="tercero" class="css-checkbox" checked="checked"/>
+				<label for="tercero" name="checkbox18_lbl" class="css-label dark-plus-orange"></label>	
+				</tr>
+			</table>
+			
+			
+</div>
+					</section>	
+				
+			
+			
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~AQUI PONDREMOS LAS PREGUNTAS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+	
+					<section id="blanco">
+
+						
+						<iframe name="pp" style="position:absolute; top:-1500px;"></iframe> 
+
+
+							
+							<div id="ir">
+								<div class="movertablai" OnClick="roll(-1)">
+									<span class="iconicfill-arrow-left"></span>
+								</div>
+							</div>
+						<div id="showtab">
+							<form id="cuadro" name="formulario1" method="post" target="pp"  autocomplete="off">
+								
+											<label class="tableTitle">CHARLIE</label>
+											<label class="tableTitle2">Resolutions</label>
+											<input id="like1" type="text" value="He's going to spend more time helping others" disabled="true" maxlength="58"/>
+											<input id="like2" type="text" placeholder="write likes"  maxlength="58"/>
+											
+							</form>			
+							
+							<form id="cuadro2" name="formulario2" method="post" target="pp" autocomplete="off">
+								
+											<label class="tableTitle">PETER</label>
+											<label class="tableTitle2">Resolutions</label>
+											<input id="like1" type="text" value="He's going to study law" disabled="true" size="30" maxlength="28"/>
+											<input id="like2" type="text" placeholder="write likes"  size="30" maxlength="60"/>
+											<input id="like3" type="text" placeholder="write likes"  size="30"  maxlength="60"/>
+											
+							</form>
+
+							<form id="cuadro3"  name="formulario3" method="post" target="pp" autocomplete="off">
+								
+										<label class="tableTitle">SUSAN</label>
+										<label class="tableTitle2">Resolutions</label>
+										<input id="dlike1" type="text" placeholder="write dislikes"   maxlength="60"></input>
+										
+							</form>
+						
+						
+						</div>
+
+							<div id="ir2">
+								<div class="movertablad" onClick="roll(1)">
+									<span  class="iconicfill-arrow-right"></span>
+								</div>
+							</div>
+						
+						<div class="buttonContainer">
+							<input class="imagebutton" id="boton1" type="image" onclick="enviar_formulario(0)" src="../../../imagenes/botones/check.png">
+							<input class="imagebutton" id="boton2" type="image" onclick="enviar_formulario(1)" src="../../../imagenes/botones/check.png">
+							<input class="imagebutton" id="boton3" type="image" onclick="enviar_formulario(2)" src="../../../imagenes/botones/check.png">
+							
+							<input class="imagebutton" id="botonRetro1" type="image" onclick="muestraRetro(1)" src="../../../imagenes/botones/answer.png">
+							<input class="imagebutton" id="botonRetro2" type="image" onclick="muestraRetro(2)" src="../../../imagenes/botones/answer.png">
+							<input class="imagebutton" id="botonRetro3" type="image" onclick="muestraRetro(3)" src="../../../imagenes/botones/answer.png">
+							
+							
+						</div>
+						
+					</section>
+				</article>
+
+
+					
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~AQUI PONDREMOS LAS RESPUESTAS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+				<div id="review">
+			
+					<label for="cuatro">		FINAL SCORE	</label>
+					<span>
+						<img  id="right" src="../../../imagenes/right.png" />
+					</span>
+					<span>
+						<img  id="wrong" src="../../../imagenes/wrong.png" />
+					</span>
+										
+										
+										<h5><p id="result"> </p></h5>
+				</div>
+			
+			
+					
+			
+				<audio controls preload="none" id="retrowell">
+						<source src="../../audios/feedback/congratulation.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					<audio controls preload="none" id="retrobad">
+						<source src="../../audios/feedback/can%20do%20b.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					
+					<audio controls preload="none" id="thecorrect">
+						<source src="../../audios/feedback/the%20correct.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					<audio controls preload="none" id="tryA">
+						<source src="../../audios/feedback/try%20again.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					
+					<audio controls preload="none" id="bien">
+						<source src="../../audios/feedback/well done.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+					<audio controls preload="none" id="rose">
+						<source src="audioact4/rose.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+				<audio controls preload="none" id="tim">
+						<source src="audioact4/tim.mp3" type="audio/mpeg" />
+							<p>Tu navegador no implementa el elemento audio.</p>
+					</audio>
+			
+				
+			
+			<footer>
+				<nav id="navegacion">
+				<nav class="sig" id="sig" onClick="cuadro()" style="cursor: pointer"><img src="../../../imagenes/botones/nex.png"/></nav>
+				<nav class="sig2" id="check" onClick="sinnada()" style="cursor: pointer"><img src="../../../imagenes/botones/nex.png"/></nav>
+				<nav class="prev" onClick="volver(1)" style="cursor: pointer"><img src="../../../imagenes/botones/prev.png"/></nav>
+				<nav class="prev2" onClick="sincuadro()" style="cursor: pointer"><img src="../../../imagenes/botones/prev.png"/></nav>
+				<nav class="final"><a href="l5.html"><img src="../../../imagenes/botones/continue.png"/></a></nav>
+				</nav>
+				
+				<span id="references">Making plans and Predictions: Listening - Activity 4
+				<nav id="clickOnMe" class="nav-esquina" role="navigation">
+			<!-- Right Control -->
+			<i class="fa fa-th fa-2x"></i>
+		</nav></span>
+			</footer>
+			
+		</section>
+		
+		
+		
+		
+	
+	
+	
+	
+    </body>
+</html>

@@ -1,0 +1,142 @@
+#blanco1,#blanco2{
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius:8px;
+margin-top: 20px;
+margin-bottom: -20px;
+max-height:auto;
+min-height:25%;
+z-index:1;
+height:100%;
+}
+#done{
+display: inline-block;
+}
+#pause1,#continuar1,#blanco2,#prev2,#continuar3,span,#button1,#prev1,#continuar4{
+display:none;
+}
+.sig2{
+opacity: 1;
+}
+#eme{
+height:100%;
+}
+#blanco1,#blanco2{
+background: url('../../images/Desk.png') center center no-repeat;	
+height: 100%;
+background-size: 65% 100%;
+bottom: 10px;
+}
+#continuar3{
+cursor: pointer;
+}
+h5{
+text-align: left;
+}
+#cuadroPreguntas{
+margin-top:30px;
+width: 32%;
+display:inline-block;
+}
+#listeniando{
+width:50%;
+margin:auto;
+display:none;
+display:inline-block;
+}
+#contenedor,#contenedor2{
+padding: .5em .5em .5em .5em;
+-moz-border-radius: 7px;
+-webkit-border-radius: 8px;
+padding: 10px;
+}
+#manitu{
+top:25%;
+left: 27%;
+z-index: 4;
+position: absolute;
+width: 13%;
+}
+.mal{
+color: red;
+}
+.bien,strong{
+color: green;
+}
+#reproduce66,#pause1{
+cursor: pointer;
+opacity: 1;
+pointer-events:auto;
+}
+#contenedor,#contenedor2,#contenedor3{
+width: 50%;
+height: auto;
+display:inline-block;
+position:relative;
+}
+#contenedor{
+margin-top:0px;
+/*top: 20px;
+left: 1%;*/
+width: 38%;
+}
+.zoe{
+margin-bottom:5%;	
+}
+.correct{
+margin-top:5%;
+margin-bottom:5%;
+}
+p{
+height:10%; 
+text-align: left;
+}
+#contenedor3,#contenedor2{
+display:none;text-align:center;
+}
+h2{
+margin:0;
+visibility:hidden;
+}
+.comas{
+font-size: 20px;
+}
+*{
+font-family:Humnst777 BT;
+}
+#button1,#continuar1{
+cursor: pointer;
+opacity: 1;
+}
+.text{
+border: none;
+text-align: left;
+padding: 1px 1px 1px 1px;
+width: 75%;
+background: none;
+}
+#entrada1{
+width: 40%;	
+}
+#entrada5,#entrada6{
+width: 85%;
+}
+input:focus{
+outline: none;
+border: none;
+}
+@-webkit-keyframes movimiento{
+	0%,100%{top:15px;} 
+	50%{top:5px;}
+	} 
+@-moz-keyframes movimiento{
+	0%,100%{top:15px;} 
+	50%{top:5px;}
+	}
+@keyframes movimiento{
+	0%,100%{top:15px;} 
+	50%{top:5px;}
+	}
+#mira{
+color: #ff8540;
+}

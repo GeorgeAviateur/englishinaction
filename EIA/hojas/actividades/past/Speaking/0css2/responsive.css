@@ -1,0 +1,41 @@
+#res-slider{
+	display: none;
+	
+}
+
+@media only screen and (max-width: 549px) {
+	.container {
+		width: 100%;
+	}
+	
+	#gallery{
+		display: none;
+		
+	}
+
+	#res-slider{
+		display: block;
+		margin-top: 0px;
+	}
+	.col-custom{
+		float: right;
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 330px){
+	.col-custom{
+		float: right;
+		width: 75%;
+	}
+}
+@media only screen and (max-width: 210px) {
+	.col-custom{
+		float: right;
+		width: 100%;
+		display: inline-block;
+	}
+	footer .fright{
+		float: left;
+		padding: 0 0 0 40px;
+	}
+}

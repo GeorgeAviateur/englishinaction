@@ -1,0 +1,119 @@
+@media only screen and (min-width: 268px) and (max-width: 659px) {
+	h2{
+	text-align:center;
+	font-family:Humnst777 Blk BT;
+	font-size:1.25em;
+	}
+	#container {
+	width: 100%;	
+	}
+	#con,#con1,#con2,#con3,#con4{
+	padding: 0px 0px;
+	width: 70%;
+	}	
+	#juju,#juju1,#juju2,#juju3,#juju4{
+	width: 100%;
+	margin: auto;
+	}
+	.coraline{
+  	width: 90%;
+  	}
+  	#escuchar2{
+	width: 80px;
+	}
+}
+@media only screen and (max-width: 667px) {
+	.featured{
+	width:100%;
+	}
+	#featured1{
+	width: 100%;	
+	}
+	#container {
+	width: 100%;	
+	}
+	#con,#con1,#con2,#con3,#con4{
+	padding: 0px 0px;
+	width: 80%;
+	}	
+	#juju,#juju1,#juju2,#juju3,#juju4{
+	width: 100%;
+	margin: auto;
+	}
+	/*#peso,#peso1{
+	width: 50px;
+	}*/
+	/*#peso1{
+	width: 80%;
+	}*/
+	.coraline{
+  	width: 90%;
+  	}	
+    #escuchar2{
+	width: 80px;
+	}
+}
+@media only screen and (min-width: 580px) and (max-width: 867px) {
+	/*#peso1{
+	width: 80%;
+	}*/
+	#container {
+	width: 100%;	
+	}
+	#con,#con1,#con2,#con3,#con4{
+	padding: 0px 0px;
+	width: 85%;
+	}	
+	#juju,#juju1,#juju2,#juju3,#juju4{
+	width: 100%;
+	margin: auto;
+	}
+	#featured1{
+	width: 100%;	
+	}
+	.coraline{
+  	width: 90%;
+  	}
+}
+@media only screen and (max-width: 479px) {
+	/*#peso1{
+	width: 80%;
+	}*/
+	#container {
+	width: 100%;	
+	}
+	#con,#con1,#con2,#con3,#con4{
+	padding: 0px 0px;
+	width: 75%;
+	}	
+	#juju,#juju1,#juju2,#juju3,#juju4{
+	width: 100%;
+	margin: auto;
+	}
+	#featured1{
+	width: 100%;
+	}
+	#blanco{
+	width: 100%;
+	padding: 0px;
+	}
+	.coraline{
+  	width: 90%;
+  	}
+   	#escuchar2{
+	width: 80px;
+	}
+}
+@media only screen and (min-width: 868px) {
+	.coraline{
+  	width: 90%;
+  	}
+   	#escuchar2{
+	width: 80px;
+	}
+}
+@media only screen and (min-width: 1300px) {
+	.coraline{
+	width: 100%;
+	}
+}

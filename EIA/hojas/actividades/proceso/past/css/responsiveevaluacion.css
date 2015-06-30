@@ -1,0 +1,13 @@
+
+@media only screen and (max-width: 680px) {
+form input[type="text"]{
+width: 100px;
+}
+#input2{
+width: 80%;	
+}
+
+}
+
+
+

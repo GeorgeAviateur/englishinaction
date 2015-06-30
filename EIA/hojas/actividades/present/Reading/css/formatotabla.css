@@ -1,0 +1,211 @@
+@import url(http://weloveiconfonts.com/api/?family=iconicfill);
+
+/* iconicfill */
+[class*="iconicfill-"]:before {
+  font-family: 'IconicFill', sans-serif;
+}
+
+
+#showtab{
+	
+	height:90%;
+	width:56%;
+	
+	display:inline-block;
+	
+	}
+	
+	
+	.tableTitle{background:#0c5475;border-radius:6px 6px 0 0;margin-top:13px;height:40px;}
+	.tableTitle2{background:#087590;}
+	#cuadro2,#cuadro3{display:none;}
+	#cuadro{width:100%;}
+	form input{border-radius:0;width:99.9%;margin:0 auto;height:30px;}
+	
+table tbody{
+border: black 2px solid;
+padding:5px;}
+
+table{
+    
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.2em;
+    font-style: normal;
+    border-collapse:separate;
+}
+
+thead th{
+    padding:5px;
+    color:#fff;
+    
+    text-align:center;
+    background:rgb(8,117,144);
+	
+ 
+}
+
+thead th:empty{
+    background:transparent;
+    border:none;
+	
+}
+
+tfoot td{
+    color: #9CD009;
+    font-size:32px;
+    text-align:center;
+    padding:10px 0px;
+    text-shadow:1px 1px 1px #444;
+}
+
+
+tfoot th{
+    color:#666;
+	
+	
+}
+
+
+
+tbody td{
+    
+    text-align:center;
+    background:rgba(8,117,144,.3);
+    border: 2px solid #E7EFE0;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+color:#666;
+    text-shadow:1px 1px 1px #fff;
+}
+tbody th{
+color:#fff;
+    text-shadow:1px 1px 1px #568F23;
+    border:1px solid edcf89;
+    border-bottom:3px solid #025059;
+    background-color:#9DD929;
+    background:rgb(12,84,117);
+   
+}
+
+
+.iconicfill-arrow-left{
+
+position:relative;}
+
+.iconicfill-arrow-right{
+
+position:relative;
+
+}
+
+
+
+.movertablai{
+	cursor:pointer;
+	border-radius:9px;
+	background:rgba(0,0,0,0.1);
+	border:2px solid black;
+	
+	text-align:right;
+	display:inline-block;
+	width:60%;
+	height:50%;
+	
+}
+
+
+
+.movertablad{
+
+	cursor:pointer;
+	border-radius:9px;
+	background:rgba(0,0,0,0.1);
+	border:2px solid black;
+	
+	text-align:left;
+	display:inline-block;
+	width:60%;
+	height:50%;
+}
+
+
+.movertablai:hover{
+
+border-radius:9px;
+background:rgba(0,0,0,0.2);
+border:2px solid gray;
+}
+
+.movertablad:hover{
+border-radius:9px;
+background:rgba(0,0,0,0.2);
+border:2px solid gray;
+}
+
+.movertablad:hover >.iconicfill-arrow-right:first-child{
+
+-webkit-animation: run 1s infinite; /* Chrome, Safari, Opera */
+    animation: run 1s infinite;
+	-moz-animation: run 1s infinite;
+	
+	}
+.movertablai:hover >.iconicfill-arrow-left:first-child{
+
+-webkit-animation: run2 1s infinite; /* Chrome, Safari, Opera */
+    animation: run2 1s infinite;
+	-moz-animation: run2 1s infinite;
+	
+	}
+	
+
+#ir,#ir2{
+	
+	
+	
+	vertical-align:top;
+	top:40%;
+	display:inline-block;
+	
+	height:20%;
+	width:20%;
+	}	
+
+
+
+@-moz-keyframes run{
+from{left:0%;}
+to{left:80%;}
+}
+@-webkit-keyframes run{
+from{left:0%;}
+to{left:80%;}
+}
+@-o-keyframes run{
+from{left:0%;}
+to{left:80%;}
+}
+@keyframes run{
+from{left:0%;}
+to{left:80%;}
+}
+
+
+
+@moz-keyframes run2{
+from{right:0%;}
+to{right:80%;}
+}
+@-webkit-keyframes run2{
+from{right:0%;}
+to{right:80%;}
+}
+@-o-keyframes run2{
+from{right:0%;}
+to{right:80%;}
+}
+@keyframes run2{
+from{right:0%;}
+to{right:80%;}
+}

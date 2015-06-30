@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://rubaxa.github.io/Sortable/ -->
+  <head>
+    <title>Test</title>
+		<meta charset="utf-8"></meta>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		
+		<link rel="stylesheet" href="../../../tipo.css" type="text/css"/>
+		<link rel="stylesheet" href="../../../responsiveenglish.css" type="text/css"/>
+		<link rel="stylesheet" href="css/evaluacion.css"/>
+		<link rel="stylesheet" href="css/responsiveevaluacion.css"/>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<script src="js/evaluacion.js"></script>   
+		<script src="js/reading.js"></script>
+		<script src="js/parrafos.js"></script>
+		
+		<script type="application/javascript" src="../../acciones.js"></script>
+		
+    
+		<link href="../../../past/Reading/sortable/ply.css" rel="stylesheet" type="text/css">
+		<link href="../../../past/Reading/sortable/app.css" rel="stylesheet" type="text/css">	
+   
+		<script src="js/jquery.countdown360.js" type="text/javascript" charset="utf-8"></script>
+		<script type="application/javascript" src="functions.js"></script>
+		<script src="../../../past/Reading/sortable/Sortable.js"></script>
+	<script src="../../../past/Reading/sortable/Ply.min.js"></script>
+	<script src="../../../past/Reading/sortable/ng-sortable.js"></script>
+	<script src="../../../past/Reading/sortable/app.js"></script>
+
+	<!--link rel="stylesheet" href="../../../actividades/past/Reading/css/slide.css"/>
+	<script type="text/javascript" src="../../../actividades/past/Reading/js/slide/jquery-1.4.2.min.js" ></script>
+		
+		<script type="text/javascript" src="../../../actividades/past/Reading/js/slide/roundabout.js"></script>
+		<script type="text/javascript" src="../../../actividades/past/Reading/js/slide/gallery_init.js"></script>
+		<script type="text/javascript" src="../../../actividades/past/Reading/js/slide/jquery.sortable.min.js"></script>
+
+		<link rel="stylesheet" href="../../../actividades/present/Reading/css/slide/reset.css" type="text/css" media="all">
+		<link rel="stylesheet" href="../../../actividades/present/Reading/css/slide/responsive.css">
+		
+		<link rel="stylesheet" href="../../../actividades/present/Reading/css/slide/responsiveslides.css" /-->
+			
+
+	
+	   <script type="text/javascript">
+      
+ 	
+      function closebuscador(){
+            $("#buscador").hide("slow");
+            $(".modal-window").css('left','45%');
+            $(".modal-window").css('top','45%');
+            $(".modal-window").css('right','45%');
+            $(".modal-window").css('bottom','45%');
+          
+          }
+      $(document).ready(function(){
+         
+              $("#buscador").hide();   
+      $("#bucadorito").click(function(){
+    $("#buscador").show("slow");
+    }); 
+    document.oncontextmenu = function() {
+      return false
+    }
+      $("#menuForAll" ).slideToggle(0);
+      $("#clickOnMe").click(function(){
+      $("#menuForAll" ).slideToggle(1000);
+      });   
+          
+      });
+    </script>
+		<script>  
+			var cadVariables="";
+			$("document").ready(function(){
+				cadVariables = location.search.substring(1,	location.search.length);
+			});
+			function preguntaAle2(certeza){
+				if(certeza==true){
+					if(cadVariables.charAt(3)=="0"){
+						cadVariables=remplaza(3,1,cadVariables);
+					}
+				else{
+					if(cadVariables.charAt(3)=="1"){
+						cadVariables=remplaza(3,2,cadVariables);
+						}
+					}
+				}
+		window.location="../libro.html?"+cadVariables;
+		}
+		</script>
+	</head>
+
+  <body onload='readme12(12000),habilidad(),cerrar()'>
+      <link rel="stylesheet" href="../../styleMenu2.css"/>
+          <div id="buscador">
+  <iframe scrolling='no' id="buscadorsino" src="../../../../cosino/" name="buscadorsino" height="100%" width="100%" frameborder="0"  ></iframe>  
+  </div>
+	
+	
+	<section id="activities">
+			<nav id="menuForAll">
+			<div id="logoMenu">
+				<a href="../../../../index.html"><img src="../../../../imagenes/ingles.png"></a>
+			</div>
+			
+			
+			<ul>
+				<a href="../../../menu/selection/selection.html"><li>Main Menu</li></a>
+				<a href="../../../cont/cont.html"><li>Context Information</li></a>
+				<a href="../../../mmenu/sitemap.html"><li>Site Map</li></a>
+				<a href="../../../biblioteca/biblioteca.html"><li>Library</li></a>
+				<li><a  id="bucadorito" href="#Vocabulary">Vocabulary</a></li>
+				<a href="../../../../references/"><li>References</li></a>
+				<a href="../../../credits/staff.html"><li>Staff</li></a>
+			</ul> 
+		</nav>
+      <header>
+  	    <div id="logo"><img  src="../../../../imagenes/ingles.png"/></div>
+  	    <div id="title"><img src="../../../../imagenes/avisos/proceso.png"/></div>
+  	    <div id="udec"> <img src="../../../../imagenes/logoudec.png"/></div>
+      </header>
+  		
+      <div id="informa">
+    	  <section id="manito">
+    		  <img id="hand2" class="hand" src="../../../../imagenes/avisos/hand.png"/>
+    		  <img id="hand1" class="hand" src="../../../../imagenes/avisos/hand.png"/>
+    	  </section>
+
+        <section id="info">
+          <img  style="cursor: pointer" onmouseout="changehand(3)" onmouseover="changehand(1)" onClick="insob12()"  src="../../../../imagenes/botones/objetivo.png"/>
+          <img style="cursor: pointer" onmouseout="changehand(2)" onmouseover="changehand(0)" onClick="ins12()" src="../../../../imagenes/botones/instruccion.png"/>
+        </section>  
+
+        <section id="txt">
+          <div id="objetivos">To evaluate the reading skills acquired during the use of this skills.</div>
+          <div id="instruccion"><h5 id="ins"></h5></div>
+        </section>
+      </div>
+  		<div id="georgeRules"></div>	
+      <article id="r1">
+      	
+      	<section id="blanco">
+      	  
+		  <div id="texto"></div>
+			<div id="cuadroPreguntas">
+				<span id="ask"></span>
+				<input id="recibe" maxlength="80"/>
+				<b><span id="rest"></span></b>
+			</div>	
+          <img src="" id="imageart"/>
+		  
+		  
+		  
+		  <!--section class="orden" style="display:none;">
+						<section id="gallery">
+								<div class="container">
+									<ul id="myRoundabout">
+										<li><img id="She likes listening to music"src="../../images/reading/15_imagen.png" width="303" height="181" style="cursor:pointer" OnDblClick="check(this.id)"/></li>
+										<li><img id="He likes hamburgers" src="../../images/reading/6_imagen.png" width="303" height="181" style="cursor:pointer" OnDblClick="check(this.id)"/></li>
+										<li><img id="They like cocktails"src="../../images/reading/7_imagen.png" width="303" height="181" style="cursor:pointer" OnDblClick="check(this.id)"/></li>
+										<li><img id="He doesn't like whiskey" src="../../images/reading/8_imagen.png" width="303" height="181" style="cursor:pointer" OnDblClick="check(this.id)"/></li>
+										<li><img id="They enjoy dancing" src="../../images/reading/9_imagen.png" width="303" height="181" style="cursor:pointer" OnDblClick="check(this.id)"/></li>
+										<li><img id="They love going to the movies" src="../../images/reading/10_imagen.png" width="303" height="181" style="cursor:pointer" OnDblClick="check(this.id)"/></li>
+										<li><img id="They enjoy doing exercise" src="../../images/reading/11_imagen.png" width="303" height="181" style="cursor:pointer" OnDblClick="check(this.id)"/></li>
+										<li><img id="She loves going to the gym" src="../../images/reading/12_imagen.png" width="303" height="181" style="cursor:pointer" OnDblClick="check(this.id)"/></li>
+										<li><img id="He doesn't like exercising" src="../../images/reading/13_imagen.png" width="303" height="181" style="cursor:pointer" OnDblClick="check(this.id)"/></li>
+										
+										<li><img id="She hates horror movies" src="../../images/reading/14_imagen.png" width="303" height="181" style="cursor:pointer" OnDblClick="check(this.id)"/></li>   
+									</ul>
+								</div>
+							</section>
+							<section class="orden">	
+				
+						<label id="label"></label>
+						<input id="imagen1" type="text"  size="30"  maxlength="28"   disabled></input>
+		
+					</section>
+		  
+					</section-->
+				
+					
+		  
+		  
+
+          <div id='mirelojito'>
+            <div id="container" >
+              <div id="countdown" ></div>
+                <script type="text/javascript" charset="utf-8">
+                 // setTimeout(function(){ 
+                  $("#countdown").countdown360({
+                     radius      : 60,
+                     seconds     : 90,
+                     fontColor   : '#FFFFFF',
+                     autostart   : false,
+                     onComplete  : function () { console.log('done') }
+                   }).stop()
+                  //},1000);
+                </script>
+            </div>
+          </div>
+
+  	    </section>
+		
+		
+		
+		
+      </article>
+      <footer>		
+        <nav id="navegacion">	 
+          
+    	    <nav id="continuar" class="sig"  onclick="reading()"><img src="../../../../imagenes/botones/nex.png" class="verificarRespuesta"/></nav>	
+			
+    	    <nav id="continuar1"  style="display:none;" class="sig"  ><img src="../../../../imagenes/botones/check.png" onclick="redireccionar()"/></nav>		
+ 
+        </nav>
+  		
+        <span id='references'>Likes and Dislikes: Reading
+		<nav id="clickOnMe" class="nav-esquina" role="navigation">
+			<!-- Right Control -->
+			<i class="fa fa-th fa-2x"></i>
+		</nav>
+		</span>
+      </footer>
+    </section>
+
+
+    <audio controls preload="none" id="aplausos" >
+      <source src="../../../../actividades/audios/feedback/aplausos.mp3" type="audio/mpeg" />
+      <p>Tu navegador no implementa el elemento audio.</p>
+    </audio>
+
+    <audio controls preload="none" id="trompeta" >
+      <source src="../../../../actividades/audios/feedback/trompeta.mp3" type="audio/mpeg" />
+      
+      <p>Tu navegador no implementa el elemento audio.</p>
+    </audio>
+	
+
+  </body>
+</html>
+
+
+

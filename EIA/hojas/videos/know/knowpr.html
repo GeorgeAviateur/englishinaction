@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!--[if lte IE 8]><meta http-equiv="X-UA-Compatible" content="chrome=1"/><![endif]-->
+	<title>English In Action!</title>
+	<!-- Llamamos nuestro archivo JavaScript -->
+	<meta name="description" content="city of English in Action" />
+	<meta name="keywords" content="English in Action, learn english, aprende ingles" />
+	<meta name="author" content="Jorge García, Carolina Ramos, Luis Alomía" />
+	<link rel="shortcut icon" href="../favicon.ico" />
+	<script src="../../js/jquery.min.js"></script>
+	<script type="application/javascript" src="../canvas.js"></script>
+	<!--[if lt IE 9]>
+			<script type="application/javascript" src="canvas.js"></script>
+		<![endif]-->
+	<link rel="stylesheet" href="../css/canvas.css" />
+	<link rel="stylesheet" href="../../actividades/tipo.css" />
+	<link rel="stylesheet" href="../css/estilociudad.css" />
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<script src="../../actividades/acciones.js"></script>
+	<script type="text/javascript">
+function closebuscador() {
+	$("#buscador").hide("slow");
+	$(".modal-window").css('left', '45%');
+	$(".modal-window").css('top', '45%');
+	$(".modal-window").css('right', '45%');
+	$(".modal-window").css('bottom', '45%');
+}
+$(document).ready(function () {
+	$("#buscador").hide();
+	$("#bucadorito").click(function () {
+		$("#buscador").show("slow");
+	});
+	document.oncontextmenu = function () {
+		return false
+	}
+	$("#menuForAll").slideToggle(0);
+	$("#clickOnMe").click(function () {
+		$("#menuForAll").slideToggle(1000);
+	});
+});
+
+	</script>
+</head>
+
+<body onload="cerrar()">
+    <div title="Click para Cerrar" id="loadMe"><h1>LOADING...</h1></div>
+	<div id="buscador">
+		<iframe id="buscadorsino" src="../../cosino/" name="buscadorsino"></iframe>
+	</div>
+	<nav id="menuForAll">
+		<div id="logoMenu">
+			<a href="../../../index.html"><img src="../../imagenes/ingles.png"></a>
+		</div>
+		<ul>
+			<li><a href="../../menu/selection/selection.html">Main Menu</a></li>
+			<li><a href="../../cont/cont.html">Context Information</a></li>
+			<li><a href="../../mmenu/sitemap.html">Site Map</a></li>
+			<li><a href="../../biblioteca/biblioteca.html">Library</a></li>
+			<li><a id="bucadorito" href="#Vocabulary">Vocabulary</a></li>
+			<li><a href="../../credits/staff.html">Staff</a></li>
+		</ul>
+	</nav>
+	<section id="activities">
+		<header>
+			<div id="logo"><img src="../../imagenes/ingles.png" width="80px" height="80px" /></div>
+			<div id="udec"> <img src="../../imagenes/logoudec.png" /></div>
+		</header>
+		<div id="videos" class="videos"> <span id="charging">		
+				<i class="fa fa-spinner fa-5x fa-pulse"></i>
+				</span>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/6Muf-CH9840?rel=0&cc_load_policy=1&autoplay=1" frameborder="0" allowfullscreen></iframe>
+			<div id="mira">
+				<ul>
+					<li><img id="back" class="bigbang" src="../../imagenes/botones/goback.png" onclick="envia()" /></a>
+					</li>
+					<li id="toDo" style="opacity:.6;"><img src="../../imagenes/botones/goactivities.png" onclick="go(0)" /></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<nav id="clickOnMe" class="nav-esquina" role="navigation"> <i class="fa fa-th fa-2x"></i> </nav>
+</body>
+
+</html>

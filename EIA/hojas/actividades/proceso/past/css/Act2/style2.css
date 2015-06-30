@@ -1,0 +1,12 @@
+
+/**************************************************/
+
+.featured{
+width:90%; 
+margin:0 auto;
+height:211px;
+}
+
+.emo,.emo1,.emo2,.emo3,.emo4{
+cursor: pointer;
+}
